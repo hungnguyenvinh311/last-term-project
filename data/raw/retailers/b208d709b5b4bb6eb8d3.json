@@ -1,0 +1,35 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-samsung-galaxy-a07-5g",
+  "source_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a07-5g.html",
+  "productName": "Samsung Galaxy A07 5G 4GB 128GB",
+  "brand": "Samsung",
+  "description": "Samsung Galaxy A07 5G 4GB 128GB chính hãng giá rẻ - Thu cũ đổi mới, Quà tặng hấp dẫn, bảo hành 12 tháng, trả góp 0%. Mua Samsung A07 5G tại đây.",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "Android",
+    "Chipset": "MediaTek Dimensity 6300 5G",
+    "Dung lượng RAM": "4 GB",
+    "Bộ nhớ trong": "128 GB",
+    "Loại CPU": "8 nhân, 2.4GHz, 2GHz",
+    "GPU": "Mali-G57",
+    "Kích thước màn hình": "6.7 inches",
+    "Công nghệ màn hình": "PLS LCD",
+    "Độ phân giải màn hình": "720 x 1600 pixel",
+    "Tính năng màn hình": "Tần số quét: 120HzĐộ sâu màu sắc:16M",
+    "Camera sau": "50 MP, F1.8 + 2 MP, F2.4",
+    "Camera trước": "8 MP, F2.0",
+    "Pin": "6000 mAh",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "2 Nano-SIM",
+    "Thời điểm ra mắt": "01/2026"
+  },
+  "price": "5590000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/s/a/samsung-galaxy-a07-5g-2_3.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:05.455598+00:00"
+}

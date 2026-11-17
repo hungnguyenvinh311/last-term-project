@@ -1,0 +1,7 @@
+{
+  "database": "ecommerce_electronics_demo",
+  "products": 100,
+  "categories": 5,
+  "fingerprint": "0e65cd5c10f4151f8a1bc1c916c9b3c4d09b9ce0420386c8127c30bd038744a6",
+  "target_existing_tables": []
+}

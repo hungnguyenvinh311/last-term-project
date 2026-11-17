@@ -1,0 +1,31 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-asus-vivobook-s16-s5608qa-mb354w",
+  "source_url": "https://cellphones.com.vn/laptop-asus-vivobook-s16-s5608qa-mb354w.html",
+  "productName": "Laptop ASUS Vivobook S16 S5608QA-MB354W",
+  "brand": "ASUS",
+  "description": "Mua ngay Laptop ASUS Vivobook S16 S5608QA-MB354W giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Chip AI": "Qualcomm Hexagon NPU up to 45TOPS",
+    "Loại card đồ họa": "Qualcomm Adreno",
+    "Dung lượng RAM": "16GB",
+    "Loại RAM": "LPDDR5X on board",
+    "Ổ cứng": "512GB M.2 NVMe PCIe 4.0 SSD",
+    "Công nghệ màn hình": "Độ sáng 300 nits Độ phủ màu 45% NTSC Màn hình chống chói  Tỷ lệ màn hình so với thân máy: 89%",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home",
+    "Loại CPU": "Snapdragon X  X1 26 101 (30MB Cache, up to 2.97GHz, 8 lõi, 8 luồng)",
+    "Kích thước màn hình": "16 inches",
+    "Độ phân giải màn hình": "1920 x 1200 pixels (WUXGA)",
+    "Pin": "50WHrs, 3S1P, 3-cell Li-ion",
+    "Cổng giao tiếp": "1 x USB-A 3.2 Gen 1 (5Gbps) 2 x USB-C 3.2 Gen 2 (10Gbps, hỗ trợ DisplayPort / Power Delivery) 1 x micro HDMI 2.1 TMDS 1 x Jack tai nghe/mic 3.5 mm"
+  },
+  "price": "22990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/t/e/text_ng_n_18_48.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:42:13.420560+00:00"
+}

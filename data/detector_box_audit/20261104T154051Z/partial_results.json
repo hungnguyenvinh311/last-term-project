@@ -1,0 +1,2001 @@
+{
+  "provider": "owlv2",
+  "padding": true,
+  "device": "cuda",
+  "labelPolicy": "provided_catalogue",
+  "threshold": 0.15,
+  "maxReturnedBoxes": 12,
+  "nmsApplied": false,
+  "source": "Live POST /api/search/detect",
+  "cases": [
+    {
+      "pairID": "phone__laptop",
+      "inputImage": "data\\pairwise_search_tests\\images\\phone__laptop.png",
+      "inputSHA256": "97ba0a5cd32dee7c878d0cd01ae40bc7212f6160269e4222a38a87a880455062",
+      "seconds": 26.839776499997242,
+      "rawResponse": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.3868054449558258,
+            "region": [
+              0.10654723485310873,
+              0.07041112263997396,
+              0.4564361572265625,
+              0.9218983968098958
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ]
+          },
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5600993633270264,
+            "region": [
+              0.5871844991048177,
+              0.12800501505533854,
+              0.9087776692708334,
+              0.7194643147786458
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              21
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "totalBoxes": 2,
+      "targets": [
+        {
+          "articleID": 1,
+          "expectedCategoryID": 1,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.3868054449558258,
+              "region": [
+                0.10654723485310873,
+                0.07041112263997396,
+                0.4564361572265625,
+                0.9218983968098958
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 0,
+              "articleIDs": [
+                1
+              ],
+              "boxIndex": 1
+            }
+          ],
+          "top": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.3868054449558258,
+            "region": [
+              0.10654723485310873,
+              0.07041112263997396,
+              0.4564361572265625,
+              0.9218983968098958
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ],
+            "boxIndex": 1
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.3868054449558258,
+            "region": [
+              0.10654723485310873,
+              0.07041112263997396,
+              0.4564361572265625,
+              0.9218983968098958
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ],
+            "boxIndex": 1
+          },
+          "overlappingBoxPairsIoU50": []
+        },
+        {
+          "articleID": 21,
+          "expectedCategoryID": 2,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a laptop computer",
+              "categoryID": 2,
+              "score": 0.5600993633270264,
+              "region": [
+                0.5871844991048177,
+                0.12800501505533854,
+                0.9087776692708334,
+                0.7194643147786458
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 1,
+              "articleIDs": [
+                21
+              ],
+              "boxIndex": 2
+            }
+          ],
+          "top": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5600993633270264,
+            "region": [
+              0.5871844991048177,
+              0.12800501505533854,
+              0.9087776692708334,
+              0.7194643147786458
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              21
+            ],
+            "boxIndex": 2
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5600993633270264,
+            "region": [
+              0.5871844991048177,
+              0.12800501505533854,
+              0.9087776692708334,
+              0.7194643147786458
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              21
+            ],
+            "boxIndex": 2
+          },
+          "overlappingBoxPairsIoU50": []
+        }
+      ],
+      "unassignedBoxes": [],
+      "highestInImage": {
+        "label": "a laptop computer",
+        "categoryID": 2,
+        "score": 0.5600993633270264,
+        "region": [
+          0.5871844991048177,
+          0.12800501505533854,
+          0.9087776692708334,
+          0.7194643147786458
+        ],
+        "sourceTransform": "original",
+        "labelSource": "provided_catalogue",
+        "targetIndex": 1,
+        "articleIDs": [
+          21
+        ],
+        "boxIndex": 2
+      },
+      "highestInImageCorrect": true,
+      "overlay": "boxes/phone__laptop.png"
+    },
+    {
+      "pairID": "phone__tablet",
+      "inputImage": "data\\pairwise_search_tests\\images\\phone__tablet.png",
+      "inputSHA256": "f9a0e26b7a233764d297959300f3d2a6024b302a25eb49d29d3fe6f514b0511a",
+      "seconds": 3.3861400000023423,
+      "rawResponse": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5280419588088989,
+            "region": [
+              0.10615262349446615,
+              0.071439208984375,
+              0.4547095235188802,
+              0.9206202189127605
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ]
+          },
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.22710838913917542,
+            "region": [
+              0.6882254536946615,
+              0.10175877888997396,
+              0.9528909301757813,
+              0.9034865315755208
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              41
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "totalBoxes": 2,
+      "targets": [
+        {
+          "articleID": 1,
+          "expectedCategoryID": 1,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.5280419588088989,
+              "region": [
+                0.10615262349446615,
+                0.071439208984375,
+                0.4547095235188802,
+                0.9206202189127605
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 0,
+              "articleIDs": [
+                1
+              ],
+              "boxIndex": 1
+            }
+          ],
+          "top": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5280419588088989,
+            "region": [
+              0.10615262349446615,
+              0.071439208984375,
+              0.4547095235188802,
+              0.9206202189127605
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ],
+            "boxIndex": 1
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5280419588088989,
+            "region": [
+              0.10615262349446615,
+              0.071439208984375,
+              0.4547095235188802,
+              0.9206202189127605
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ],
+            "boxIndex": 1
+          },
+          "overlappingBoxPairsIoU50": []
+        },
+        {
+          "articleID": 41,
+          "expectedCategoryID": 3,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.22710838913917542,
+              "region": [
+                0.6882254536946615,
+                0.10175877888997396,
+                0.9528909301757813,
+                0.9034865315755208
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 1,
+              "articleIDs": [
+                41
+              ],
+              "boxIndex": 2
+            }
+          ],
+          "top": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.22710838913917542,
+            "region": [
+              0.6882254536946615,
+              0.10175877888997396,
+              0.9528909301757813,
+              0.9034865315755208
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              41
+            ],
+            "boxIndex": 2
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.22710838913917542,
+            "region": [
+              0.6882254536946615,
+              0.10175877888997396,
+              0.9528909301757813,
+              0.9034865315755208
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              41
+            ],
+            "boxIndex": 2
+          },
+          "overlappingBoxPairsIoU50": []
+        }
+      ],
+      "unassignedBoxes": [],
+      "highestInImage": {
+        "label": "a mobile phone",
+        "categoryID": 1,
+        "score": 0.5280419588088989,
+        "region": [
+          0.10615262349446615,
+          0.071439208984375,
+          0.4547095235188802,
+          0.9206202189127605
+        ],
+        "sourceTransform": "original",
+        "labelSource": "provided_catalogue",
+        "targetIndex": 0,
+        "articleIDs": [
+          1
+        ],
+        "boxIndex": 1
+      },
+      "highestInImageCorrect": true,
+      "overlay": "boxes/phone__tablet.png"
+    },
+    {
+      "pairID": "phone__headphones",
+      "inputImage": "data\\pairwise_search_tests\\images\\phone__headphones.png",
+      "inputSHA256": "517c3bcf738b372ca31449b91fb391db9f1a544dfb53b0a9ddc1e369de93568b",
+      "seconds": 3.1535663999966346,
+      "rawResponse": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4897993803024292,
+            "region": [
+              0.10672602335611979,
+              0.07036753336588542,
+              0.45665817260742186,
+              0.9208540852864583
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ]
+          },
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2556741237640381,
+            "region": [
+              0.5671283976236979,
+              0.17106475830078124,
+              0.6533497619628906,
+              0.4254918416341146
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              61
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "totalBoxes": 2,
+      "targets": [
+        {
+          "articleID": 1,
+          "expectedCategoryID": 1,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4897993803024292,
+              "region": [
+                0.10672602335611979,
+                0.07036753336588542,
+                0.45665817260742186,
+                0.9208540852864583
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 0,
+              "articleIDs": [
+                1
+              ],
+              "boxIndex": 1
+            }
+          ],
+          "top": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4897993803024292,
+            "region": [
+              0.10672602335611979,
+              0.07036753336588542,
+              0.45665817260742186,
+              0.9208540852864583
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ],
+            "boxIndex": 1
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4897993803024292,
+            "region": [
+              0.10672602335611979,
+              0.07036753336588542,
+              0.45665817260742186,
+              0.9208540852864583
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ],
+            "boxIndex": 1
+          },
+          "overlappingBoxPairsIoU50": []
+        },
+        {
+          "articleID": 61,
+          "expectedCategoryID": 4,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "headphones",
+              "categoryID": 4,
+              "score": 0.2556741237640381,
+              "region": [
+                0.5671283976236979,
+                0.17106475830078124,
+                0.6533497619628906,
+                0.4254918416341146
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 1,
+              "articleIDs": [
+                61
+              ],
+              "boxIndex": 2
+            }
+          ],
+          "top": {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2556741237640381,
+            "region": [
+              0.5671283976236979,
+              0.17106475830078124,
+              0.6533497619628906,
+              0.4254918416341146
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              61
+            ],
+            "boxIndex": 2
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2556741237640381,
+            "region": [
+              0.5671283976236979,
+              0.17106475830078124,
+              0.6533497619628906,
+              0.4254918416341146
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              61
+            ],
+            "boxIndex": 2
+          },
+          "overlappingBoxPairsIoU50": []
+        }
+      ],
+      "unassignedBoxes": [],
+      "highestInImage": {
+        "label": "a mobile phone",
+        "categoryID": 1,
+        "score": 0.4897993803024292,
+        "region": [
+          0.10672602335611979,
+          0.07036753336588542,
+          0.45665817260742186,
+          0.9208540852864583
+        ],
+        "sourceTransform": "original",
+        "labelSource": "provided_catalogue",
+        "targetIndex": 0,
+        "articleIDs": [
+          1
+        ],
+        "boxIndex": 1
+      },
+      "highestInImageCorrect": true,
+      "overlay": "boxes/phone__headphones.png"
+    },
+    {
+      "pairID": "phone__watch",
+      "inputImage": "data\\pairwise_search_tests\\images\\phone__watch.png",
+      "inputSHA256": "75f6b35058877df0383c1578c7d9440bcf937c3ac9d9945df41359f3d8a903eb",
+      "seconds": 2.338425500005542,
+      "rawResponse": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4356286823749542,
+            "region": [
+              0.107041867574056,
+              0.06736984252929687,
+              0.4578403727213542,
+              0.9236617024739583
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ]
+          },
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7028645277023315,
+            "region": [
+              0.5545030721028645,
+              0.20991114298502603,
+              0.8401559448242187,
+              0.8793089803059896
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "totalBoxes": 2,
+      "targets": [
+        {
+          "articleID": 1,
+          "expectedCategoryID": 1,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4356286823749542,
+              "region": [
+                0.107041867574056,
+                0.06736984252929687,
+                0.4578403727213542,
+                0.9236617024739583
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 0,
+              "articleIDs": [
+                1
+              ],
+              "boxIndex": 1
+            }
+          ],
+          "top": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4356286823749542,
+            "region": [
+              0.107041867574056,
+              0.06736984252929687,
+              0.4578403727213542,
+              0.9236617024739583
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ],
+            "boxIndex": 1
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4356286823749542,
+            "region": [
+              0.107041867574056,
+              0.06736984252929687,
+              0.4578403727213542,
+              0.9236617024739583
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ],
+            "boxIndex": 1
+          },
+          "overlappingBoxPairsIoU50": []
+        },
+        {
+          "articleID": 81,
+          "expectedCategoryID": 5,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a smartwatch",
+              "categoryID": 5,
+              "score": 0.7028645277023315,
+              "region": [
+                0.5545030721028645,
+                0.20991114298502603,
+                0.8401559448242187,
+                0.8793089803059896
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 1,
+              "articleIDs": [
+                81
+              ],
+              "boxIndex": 2
+            }
+          ],
+          "top": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7028645277023315,
+            "region": [
+              0.5545030721028645,
+              0.20991114298502603,
+              0.8401559448242187,
+              0.8793089803059896
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ],
+            "boxIndex": 2
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7028645277023315,
+            "region": [
+              0.5545030721028645,
+              0.20991114298502603,
+              0.8401559448242187,
+              0.8793089803059896
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ],
+            "boxIndex": 2
+          },
+          "overlappingBoxPairsIoU50": []
+        }
+      ],
+      "unassignedBoxes": [],
+      "highestInImage": {
+        "label": "a smartwatch",
+        "categoryID": 5,
+        "score": 0.7028645277023315,
+        "region": [
+          0.5545030721028645,
+          0.20991114298502603,
+          0.8401559448242187,
+          0.8793089803059896
+        ],
+        "sourceTransform": "original",
+        "labelSource": "provided_catalogue",
+        "targetIndex": 1,
+        "articleIDs": [
+          81
+        ],
+        "boxIndex": 2
+      },
+      "highestInImageCorrect": true,
+      "overlay": "boxes/phone__watch.png"
+    },
+    {
+      "pairID": "laptop__tablet",
+      "inputImage": "data\\pairwise_search_tests\\images\\laptop__tablet.png",
+      "inputSHA256": "8036856e4f38ad0e51ed7eaa63c6c8717ab2e30e62f10e0a85397d6e3fa18a98",
+      "seconds": 2.3296301000009407,
+      "rawResponse": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5473181009292603,
+            "region": [
+              0.08688601811726888,
+              0.12632914225260417,
+              0.4108255513509115,
+              0.7184462483723958
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              21
+            ]
+          },
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.41237056255340576,
+            "region": [
+              0.547628173828125,
+              0.08907511393229167,
+              0.9529649861653646,
+              0.9068899536132813
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              41
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "totalBoxes": 2,
+      "targets": [
+        {
+          "articleID": 21,
+          "expectedCategoryID": 2,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a laptop computer",
+              "categoryID": 2,
+              "score": 0.5473181009292603,
+              "region": [
+                0.08688601811726888,
+                0.12632914225260417,
+                0.4108255513509115,
+                0.7184462483723958
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 0,
+              "articleIDs": [
+                21
+              ],
+              "boxIndex": 1
+            }
+          ],
+          "top": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5473181009292603,
+            "region": [
+              0.08688601811726888,
+              0.12632914225260417,
+              0.4108255513509115,
+              0.7184462483723958
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              21
+            ],
+            "boxIndex": 1
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5473181009292603,
+            "region": [
+              0.08688601811726888,
+              0.12632914225260417,
+              0.4108255513509115,
+              0.7184462483723958
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              21
+            ],
+            "boxIndex": 1
+          },
+          "overlappingBoxPairsIoU50": []
+        },
+        {
+          "articleID": 41,
+          "expectedCategoryID": 3,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.41237056255340576,
+              "region": [
+                0.547628173828125,
+                0.08907511393229167,
+                0.9529649861653646,
+                0.9068899536132813
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 1,
+              "articleIDs": [
+                41
+              ],
+              "boxIndex": 2
+            }
+          ],
+          "top": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.41237056255340576,
+            "region": [
+              0.547628173828125,
+              0.08907511393229167,
+              0.9529649861653646,
+              0.9068899536132813
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              41
+            ],
+            "boxIndex": 2
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.41237056255340576,
+            "region": [
+              0.547628173828125,
+              0.08907511393229167,
+              0.9529649861653646,
+              0.9068899536132813
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              41
+            ],
+            "boxIndex": 2
+          },
+          "overlappingBoxPairsIoU50": []
+        }
+      ],
+      "unassignedBoxes": [],
+      "highestInImage": {
+        "label": "a laptop computer",
+        "categoryID": 2,
+        "score": 0.5473181009292603,
+        "region": [
+          0.08688601811726888,
+          0.12632914225260417,
+          0.4108255513509115,
+          0.7184462483723958
+        ],
+        "sourceTransform": "original",
+        "labelSource": "provided_catalogue",
+        "targetIndex": 0,
+        "articleIDs": [
+          21
+        ],
+        "boxIndex": 1
+      },
+      "highestInImageCorrect": true,
+      "overlay": "boxes/laptop__tablet.png"
+    },
+    {
+      "pairID": "laptop__headphones",
+      "inputImage": "data\\pairwise_search_tests\\images\\laptop__headphones.png",
+      "inputSHA256": "4bd14d95085ed8063169b8863609e1af324185b2f3621ecc67de46c78de932ed",
+      "seconds": 2.3851828999977442,
+      "rawResponse": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5990235805511475,
+            "region": [
+              0.08590379079182943,
+              0.1258574930826823,
+              0.4108576456705729,
+              0.718515625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              21
+            ]
+          },
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.32267123460769653,
+            "region": [
+              0.56641357421875,
+              0.1705342102050781,
+              0.6534607950846354,
+              0.4251567586263021
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              61
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "totalBoxes": 2,
+      "targets": [
+        {
+          "articleID": 21,
+          "expectedCategoryID": 2,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a laptop computer",
+              "categoryID": 2,
+              "score": 0.5990235805511475,
+              "region": [
+                0.08590379079182943,
+                0.1258574930826823,
+                0.4108576456705729,
+                0.718515625
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 0,
+              "articleIDs": [
+                21
+              ],
+              "boxIndex": 1
+            }
+          ],
+          "top": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5990235805511475,
+            "region": [
+              0.08590379079182943,
+              0.1258574930826823,
+              0.4108576456705729,
+              0.718515625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              21
+            ],
+            "boxIndex": 1
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5990235805511475,
+            "region": [
+              0.08590379079182943,
+              0.1258574930826823,
+              0.4108576456705729,
+              0.718515625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              21
+            ],
+            "boxIndex": 1
+          },
+          "overlappingBoxPairsIoU50": []
+        },
+        {
+          "articleID": 61,
+          "expectedCategoryID": 4,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "headphones",
+              "categoryID": 4,
+              "score": 0.32267123460769653,
+              "region": [
+                0.56641357421875,
+                0.1705342102050781,
+                0.6534607950846354,
+                0.4251567586263021
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 1,
+              "articleIDs": [
+                61
+              ],
+              "boxIndex": 2
+            }
+          ],
+          "top": {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.32267123460769653,
+            "region": [
+              0.56641357421875,
+              0.1705342102050781,
+              0.6534607950846354,
+              0.4251567586263021
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              61
+            ],
+            "boxIndex": 2
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.32267123460769653,
+            "region": [
+              0.56641357421875,
+              0.1705342102050781,
+              0.6534607950846354,
+              0.4251567586263021
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              61
+            ],
+            "boxIndex": 2
+          },
+          "overlappingBoxPairsIoU50": []
+        }
+      ],
+      "unassignedBoxes": [],
+      "highestInImage": {
+        "label": "a laptop computer",
+        "categoryID": 2,
+        "score": 0.5990235805511475,
+        "region": [
+          0.08590379079182943,
+          0.1258574930826823,
+          0.4108576456705729,
+          0.718515625
+        ],
+        "sourceTransform": "original",
+        "labelSource": "provided_catalogue",
+        "targetIndex": 0,
+        "articleIDs": [
+          21
+        ],
+        "boxIndex": 1
+      },
+      "highestInImageCorrect": true,
+      "overlay": "boxes/laptop__headphones.png"
+    },
+    {
+      "pairID": "laptop__watch",
+      "inputImage": "data\\pairwise_search_tests\\images\\laptop__watch.png",
+      "inputSHA256": "7438bb7f5ecdee249978d7ab1a64990d230c1bc8a0f09a31020e409a59d4869b",
+      "seconds": 2.454976400003943,
+      "rawResponse": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5951607823371887,
+            "region": [
+              0.08689859390258789,
+              0.12585240681966145,
+              0.41169891357421873,
+              0.7191119384765625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              21
+            ]
+          },
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7213655114173889,
+            "region": [
+              0.5551762390136719,
+              0.20678619384765626,
+              0.8428981526692708,
+              0.8774130249023437
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "totalBoxes": 2,
+      "targets": [
+        {
+          "articleID": 21,
+          "expectedCategoryID": 2,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a laptop computer",
+              "categoryID": 2,
+              "score": 0.5951607823371887,
+              "region": [
+                0.08689859390258789,
+                0.12585240681966145,
+                0.41169891357421873,
+                0.7191119384765625
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 0,
+              "articleIDs": [
+                21
+              ],
+              "boxIndex": 1
+            }
+          ],
+          "top": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5951607823371887,
+            "region": [
+              0.08689859390258789,
+              0.12585240681966145,
+              0.41169891357421873,
+              0.7191119384765625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              21
+            ],
+            "boxIndex": 1
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5951607823371887,
+            "region": [
+              0.08689859390258789,
+              0.12585240681966145,
+              0.41169891357421873,
+              0.7191119384765625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              21
+            ],
+            "boxIndex": 1
+          },
+          "overlappingBoxPairsIoU50": []
+        },
+        {
+          "articleID": 81,
+          "expectedCategoryID": 5,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a smartwatch",
+              "categoryID": 5,
+              "score": 0.7213655114173889,
+              "region": [
+                0.5551762390136719,
+                0.20678619384765626,
+                0.8428981526692708,
+                0.8774130249023437
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 1,
+              "articleIDs": [
+                81
+              ],
+              "boxIndex": 2
+            }
+          ],
+          "top": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7213655114173889,
+            "region": [
+              0.5551762390136719,
+              0.20678619384765626,
+              0.8428981526692708,
+              0.8774130249023437
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ],
+            "boxIndex": 2
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7213655114173889,
+            "region": [
+              0.5551762390136719,
+              0.20678619384765626,
+              0.8428981526692708,
+              0.8774130249023437
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ],
+            "boxIndex": 2
+          },
+          "overlappingBoxPairsIoU50": []
+        }
+      ],
+      "unassignedBoxes": [],
+      "highestInImage": {
+        "label": "a smartwatch",
+        "categoryID": 5,
+        "score": 0.7213655114173889,
+        "region": [
+          0.5551762390136719,
+          0.20678619384765626,
+          0.8428981526692708,
+          0.8774130249023437
+        ],
+        "sourceTransform": "original",
+        "labelSource": "provided_catalogue",
+        "targetIndex": 1,
+        "articleIDs": [
+          81
+        ],
+        "boxIndex": 2
+      },
+      "highestInImageCorrect": true,
+      "overlay": "boxes/laptop__watch.png"
+    },
+    {
+      "pairID": "tablet__headphones",
+      "inputImage": "data\\pairwise_search_tests\\images\\tablet__headphones.png",
+      "inputSHA256": "b5014c3cb5e35df26adc64a647552913a63122cf42f26cc61116f0fe5564ea4f",
+      "seconds": 2.388762399998086,
+      "rawResponse": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.3314566910266876,
+            "region": [
+              0.04727505048116048,
+              0.08822662353515626,
+              0.4593765767415365,
+              0.9060163370768229
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              41
+            ]
+          },
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2536354660987854,
+            "region": [
+              0.5673894246419271,
+              0.17142974853515625,
+              0.6530011494954427,
+              0.42507151285807293
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              61
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "totalBoxes": 2,
+      "targets": [
+        {
+          "articleID": 41,
+          "expectedCategoryID": 3,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.3314566910266876,
+              "region": [
+                0.04727505048116048,
+                0.08822662353515626,
+                0.4593765767415365,
+                0.9060163370768229
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 0,
+              "articleIDs": [
+                41
+              ],
+              "boxIndex": 1
+            }
+          ],
+          "top": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.3314566910266876,
+            "region": [
+              0.04727505048116048,
+              0.08822662353515626,
+              0.4593765767415365,
+              0.9060163370768229
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              41
+            ],
+            "boxIndex": 1
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.3314566910266876,
+            "region": [
+              0.04727505048116048,
+              0.08822662353515626,
+              0.4593765767415365,
+              0.9060163370768229
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              41
+            ],
+            "boxIndex": 1
+          },
+          "overlappingBoxPairsIoU50": []
+        },
+        {
+          "articleID": 61,
+          "expectedCategoryID": 4,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "headphones",
+              "categoryID": 4,
+              "score": 0.2536354660987854,
+              "region": [
+                0.5673894246419271,
+                0.17142974853515625,
+                0.6530011494954427,
+                0.42507151285807293
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 1,
+              "articleIDs": [
+                61
+              ],
+              "boxIndex": 2
+            }
+          ],
+          "top": {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2536354660987854,
+            "region": [
+              0.5673894246419271,
+              0.17142974853515625,
+              0.6530011494954427,
+              0.42507151285807293
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              61
+            ],
+            "boxIndex": 2
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2536354660987854,
+            "region": [
+              0.5673894246419271,
+              0.17142974853515625,
+              0.6530011494954427,
+              0.42507151285807293
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              61
+            ],
+            "boxIndex": 2
+          },
+          "overlappingBoxPairsIoU50": []
+        }
+      ],
+      "unassignedBoxes": [],
+      "highestInImage": {
+        "label": "a tablet computer",
+        "categoryID": 3,
+        "score": 0.3314566910266876,
+        "region": [
+          0.04727505048116048,
+          0.08822662353515626,
+          0.4593765767415365,
+          0.9060163370768229
+        ],
+        "sourceTransform": "original",
+        "labelSource": "provided_catalogue",
+        "targetIndex": 0,
+        "articleIDs": [
+          41
+        ],
+        "boxIndex": 1
+      },
+      "highestInImageCorrect": true,
+      "overlay": "boxes/tablet__headphones.png"
+    },
+    {
+      "pairID": "tablet__watch",
+      "inputImage": "data\\pairwise_search_tests\\images\\tablet__watch.png",
+      "inputSHA256": "98c8c55d77724f49975398b320bd93788173d2de849db64642b6044849bebfc2",
+      "seconds": 9.43618289999722,
+      "rawResponse": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5010937452316284,
+            "region": [
+              0.04333424886067705,
+              0.09126825968424479,
+              0.45736216227213544,
+              0.9087144978841146
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              41
+            ]
+          },
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7074466347694397,
+            "region": [
+              0.5547506713867187,
+              0.2113200887044271,
+              0.8401272074381511,
+              0.8781406656901042
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "totalBoxes": 2,
+      "targets": [
+        {
+          "articleID": 41,
+          "expectedCategoryID": 3,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.5010937452316284,
+              "region": [
+                0.04333424886067705,
+                0.09126825968424479,
+                0.45736216227213544,
+                0.9087144978841146
+              ],
+              "sourceTransform": "rotate270cw",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 0,
+              "articleIDs": [
+                41
+              ],
+              "boxIndex": 1
+            }
+          ],
+          "top": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5010937452316284,
+            "region": [
+              0.04333424886067705,
+              0.09126825968424479,
+              0.45736216227213544,
+              0.9087144978841146
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              41
+            ],
+            "boxIndex": 1
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5010937452316284,
+            "region": [
+              0.04333424886067705,
+              0.09126825968424479,
+              0.45736216227213544,
+              0.9087144978841146
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              41
+            ],
+            "boxIndex": 1
+          },
+          "overlappingBoxPairsIoU50": []
+        },
+        {
+          "articleID": 81,
+          "expectedCategoryID": 5,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a smartwatch",
+              "categoryID": 5,
+              "score": 0.7074466347694397,
+              "region": [
+                0.5547506713867187,
+                0.2113200887044271,
+                0.8401272074381511,
+                0.8781406656901042
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 1,
+              "articleIDs": [
+                81
+              ],
+              "boxIndex": 2
+            }
+          ],
+          "top": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7074466347694397,
+            "region": [
+              0.5547506713867187,
+              0.2113200887044271,
+              0.8401272074381511,
+              0.8781406656901042
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ],
+            "boxIndex": 2
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7074466347694397,
+            "region": [
+              0.5547506713867187,
+              0.2113200887044271,
+              0.8401272074381511,
+              0.8781406656901042
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ],
+            "boxIndex": 2
+          },
+          "overlappingBoxPairsIoU50": []
+        }
+      ],
+      "unassignedBoxes": [],
+      "highestInImage": {
+        "label": "a smartwatch",
+        "categoryID": 5,
+        "score": 0.7074466347694397,
+        "region": [
+          0.5547506713867187,
+          0.2113200887044271,
+          0.8401272074381511,
+          0.8781406656901042
+        ],
+        "sourceTransform": "original",
+        "labelSource": "provided_catalogue",
+        "targetIndex": 1,
+        "articleIDs": [
+          81
+        ],
+        "boxIndex": 2
+      },
+      "highestInImageCorrect": true,
+      "overlay": "boxes/tablet__watch.png"
+    },
+    {
+      "pairID": "headphones__watch",
+      "inputImage": "data\\pairwise_search_tests\\images\\headphones__watch.png",
+      "inputSHA256": "1ed442b18982e6a3f802abab2feb69ab5aa4d4c1acff6ffe708cfebb17f4a202",
+      "seconds": 3.540701199999603,
+      "rawResponse": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2591957449913025,
+            "region": [
+              0.16402740478515626,
+              0.2774674987792969,
+              0.25158358256022134,
+              0.5388252766927083
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              61
+            ]
+          },
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7405536770820618,
+            "region": [
+              0.5535875447591145,
+              0.2107256571451823,
+              0.8400784810384114,
+              0.8789966837565104
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "totalBoxes": 2,
+      "targets": [
+        {
+          "articleID": 61,
+          "expectedCategoryID": 4,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "headphones",
+              "categoryID": 4,
+              "score": 0.2591957449913025,
+              "region": [
+                0.16402740478515626,
+                0.2774674987792969,
+                0.25158358256022134,
+                0.5388252766927083
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 0,
+              "articleIDs": [
+                61
+              ],
+              "boxIndex": 1
+            }
+          ],
+          "top": {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2591957449913025,
+            "region": [
+              0.16402740478515626,
+              0.2774674987792969,
+              0.25158358256022134,
+              0.5388252766927083
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              61
+            ],
+            "boxIndex": 1
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2591957449913025,
+            "region": [
+              0.16402740478515626,
+              0.2774674987792969,
+              0.25158358256022134,
+              0.5388252766927083
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              61
+            ],
+            "boxIndex": 1
+          },
+          "overlappingBoxPairsIoU50": []
+        },
+        {
+          "articleID": 81,
+          "expectedCategoryID": 5,
+          "boxCount": 1,
+          "boxes": [
+            {
+              "label": "a smartwatch",
+              "categoryID": 5,
+              "score": 0.7405536770820618,
+              "region": [
+                0.5535875447591145,
+                0.2107256571451823,
+                0.8400784810384114,
+                0.8789966837565104
+              ],
+              "sourceTransform": "original",
+              "labelSource": "provided_catalogue",
+              "targetIndex": 1,
+              "articleIDs": [
+                81
+              ],
+              "boxIndex": 2
+            }
+          ],
+          "top": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7405536770820618,
+            "region": [
+              0.5535875447591145,
+              0.2107256571451823,
+              0.8400784810384114,
+              0.8789966837565104
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ],
+            "boxIndex": 2
+          },
+          "topCorrect": true,
+          "correctBoxCount": 1,
+          "bestCorrect": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7405536770820618,
+            "region": [
+              0.5535875447591145,
+              0.2107256571451823,
+              0.8400784810384114,
+              0.8789966837565104
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 1,
+            "articleIDs": [
+              81
+            ],
+            "boxIndex": 2
+          },
+          "overlappingBoxPairsIoU50": []
+        }
+      ],
+      "unassignedBoxes": [],
+      "highestInImage": {
+        "label": "a smartwatch",
+        "categoryID": 5,
+        "score": 0.7405536770820618,
+        "region": [
+          0.5535875447591145,
+          0.2107256571451823,
+          0.8400784810384114,
+          0.8789966837565104
+        ],
+        "sourceTransform": "original",
+        "labelSource": "provided_catalogue",
+        "targetIndex": 1,
+        "articleIDs": [
+          81
+        ],
+        "boxIndex": 2
+      },
+      "highestInImageCorrect": true,
+      "overlay": "boxes/headphones__watch.png"
+    }
+  ],
+  "limits": [
+    "Counts refer to boxes returned by the active API: confidence > 0.15 and at most 12 per image, before any NMS.",
+    "Each expected product is identified using its panel: box center inside panel and at least 80% of box area inside panel.",
+    "Correct means correct category for that panel, not precise IoU against a manually labelled object box.",
+    "Ten pairs reuse five source products; 20 target occurrences are not 20 distinct products.",
+    "An overlapping pair with IoU >= 0.5 is a duplicate candidate, not proof: headphones may contain separate earbuds/case.",
+    "Scores are uncalibrated detector confidence, not probabilities of being correct. No detector settings or ranking changes.",
+    "If labelPolicy=provided_catalogue, counts refer to label-guided retained boxes with transform recovery, not unfiltered detector output."
+  ]
+}

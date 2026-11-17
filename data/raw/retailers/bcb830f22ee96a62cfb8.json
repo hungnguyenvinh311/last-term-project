@@ -1,0 +1,35 @@
+{
+  "provider": "cellphones",
+  "source_id": "iphone-17-256gb",
+  "source_url": "https://cellphones.com.vn/iphone-17-256gb.html",
+  "productName": "iPhone 17 256GB | Chính hãng",
+  "brand": "Apple",
+  "description": "Giá bán iPhone 17 thường 256GB chính hãng tại Việt Nam là 24.990.000đ, đủ màu trắng, xanh. tím - mua online ip17 thường giảm 5% tại CellphoneS",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "iOS 26",
+    "Chipset": "Apple A19",
+    "Bộ nhớ trong": "256 GB",
+    "Loại CPU": "6 lõi (2 hiệu năng + 4 tiết kiệm điện)",
+    "GPU": "GPU 5 lõi với Neural Accelerator",
+    "Kích thước màn hình": "6.3 inches",
+    "Công nghệ màn hình": "Super Retina XDR OLED",
+    "Độ phân giải màn hình": "2622 x 1206  pixels",
+    "Tính năng màn hình": "Dynamic IslandMàn hình luôn bậtHDR460 ppiTrue ToneDải màu rộng (P3)Haptic TouchTỷ lệ tương phản 2.000.000:1Độ sáng 1000 nit (typ)Đỉnh 1600 nit (HDR)Đỉnh 3000 nit (ngoài trời)Lớp phủ chống vân tay, chống phản chi",
+    "Camera sau": "48MP Fusion Main f/1.6 OIS12MP Tele 2x f/1.6 OIS48MP Ultra Wide f/2.2 120°",
+    "Camera trước": "18MP Center Stage, f/1.9, PDAF",
+    "Pin": "Xem video: 30 giờXem video trực tuyến: 27 giờ",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "Sim kép (nano-Sim và e-Sim) - Hỗ trợ 2 e-Sim",
+    "Công nghệ NFC": "Có",
+    "Thời điểm ra mắt": "09/2025"
+  },
+  "price": "28990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/i/p/iphone_17_256gb-3_2.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:56.842047+00:00"
+}

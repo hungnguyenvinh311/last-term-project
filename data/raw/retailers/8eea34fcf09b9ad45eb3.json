@@ -1,0 +1,24 @@
+{
+  "provider": "fptshop",
+  "source_id": "00932556",
+  "source_url": "https://fptshop.com.vn/smartwatch/huawei-watch-gt-7-41mm-silicone",
+  "productName": "Huawei Watch GT 7 41mm Silicone",
+  "brand": "Huawei",
+  "description": "\"Huawei Watch GT 7 41mm Silicone nhẹ 36,5 g, màn AMOLED 1,32 inch, pin 14 ngày, GPS băng tần kép, theo dõi giấc ngủ và chu kỳ. Mua chính hãng tại FPT Shop.\"",
+  "technicalSpecs": {
+    "Thời lượng pin": "",
+    "GPS": "GPS",
+    "Kích thước mặt đồng hồ": "",
+    "Tính năng": "Phân tích rối loạn nhịp tim",
+    "Công nghệ màn hình": "AMOLED"
+  },
+  "price": "5490000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.fptshop.com.vn/unsafe/huawei_watch_gt_7_41mm_silicone_hong_53b1f0c7a4.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:52:16.452939+00:00"
+}

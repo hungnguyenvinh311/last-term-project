@@ -1,0 +1,24 @@
+{
+  "provider": "fptshop",
+  "source_id": "00919676",
+  "source_url": "https://fptshop.com.vn/dien-thoai/nubia-a76",
+  "productName": "Nubia A76 4GB (NFC)",
+  "brand": "Nubia",
+  "description": "\"Mua online điện thoại Nubia A76 4GB 128GB (NFC) độc quyền, chính hãng, giá rẻ, quà tặng hấp dẫn. Bảo hành lên đến 18 tháng, giao hàng toàn quốc. Mua ngay!\"",
+  "technicalSpecs": {
+    "Kích thước màn hình": "6.75 inch",
+    "Camera": "50.0 MP",
+    "RAM": "4 GB",
+    "Kết nối NFC": "NFC"
+  },
+  "price": "2990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.fptshop.com.vn/unsafe/nubia_a76_xam_5_87aade2a96.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:29:39.622697+00:00",
+  "local_images": []
+}

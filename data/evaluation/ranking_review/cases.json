@@ -1,0 +1,968 @@
+[
+  {
+    "caseID": "text-6",
+    "kind": "text",
+    "split": "validation",
+    "groupID": "product-group-3773d5417541",
+    "text": "điện thoại HONOR 600S 5G 6GB 128GB",
+    "image": null,
+    "sourceArticleID": 6,
+    "relevantArticleIDs": [
+      6
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-6",
+    "kind": "image",
+    "split": "validation",
+    "groupID": "product-group-3773d5417541",
+    "text": "",
+    "image": "data/retailer_catalog/images/0e7c1c0d952fce940253be73197a0e51bc83714ce44f04c653f993984d034b86.webp",
+    "sourceArticleID": 6,
+    "relevantArticleIDs": [
+      6
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-6",
+    "kind": "image_text",
+    "split": "validation",
+    "groupID": "product-group-3773d5417541",
+    "text": "điện thoại HONOR",
+    "image": "data/retailer_catalog/images/0e7c1c0d952fce940253be73197a0e51bc83714ce44f04c653f993984d034b86.webp",
+    "sourceArticleID": 6,
+    "relevantArticleIDs": [
+      6
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-5",
+    "kind": "text",
+    "split": "validation",
+    "groupID": "product-group-35ed1977c4f5",
+    "text": "điện thoại Samsung Galaxy A17 5G 8GB 128GB",
+    "image": null,
+    "sourceArticleID": 5,
+    "relevantArticleIDs": [
+      5
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-5",
+    "kind": "image",
+    "split": "validation",
+    "groupID": "product-group-35ed1977c4f5",
+    "text": "",
+    "image": "data/retailer_catalog/images/38885b5c081f13999f48b2fe3594415b9dd01fe8660b11ac83f0929e4324fc87.jpg",
+    "sourceArticleID": 5,
+    "relevantArticleIDs": [
+      5
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-5",
+    "kind": "image_text",
+    "split": "validation",
+    "groupID": "product-group-35ed1977c4f5",
+    "text": "điện thoại Samsung",
+    "image": "data/retailer_catalog/images/38885b5c081f13999f48b2fe3594415b9dd01fe8660b11ac83f0929e4324fc87.jpg",
+    "sourceArticleID": 5,
+    "relevantArticleIDs": [
+      5
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-3",
+    "kind": "text",
+    "split": "test",
+    "groupID": "product-group-162821b915f3",
+    "text": "điện thoại Xiaomi POCO F8 Pro 5G 12GB 256GB",
+    "image": null,
+    "sourceArticleID": 3,
+    "relevantArticleIDs": [
+      3
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-3",
+    "kind": "image",
+    "split": "test",
+    "groupID": "product-group-162821b915f3",
+    "text": "",
+    "image": "data/retailer_catalog/images/6714087bd4d977a13ec5eefcfa6023af175fe567006d6d15be22d1c128351dca.jpg",
+    "sourceArticleID": 3,
+    "relevantArticleIDs": [
+      3
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-3",
+    "kind": "image_text",
+    "split": "test",
+    "groupID": "product-group-162821b915f3",
+    "text": "điện thoại Xiaomi",
+    "image": "data/retailer_catalog/images/6714087bd4d977a13ec5eefcfa6023af175fe567006d6d15be22d1c128351dca.jpg",
+    "sourceArticleID": 3,
+    "relevantArticleIDs": [
+      3
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-15",
+    "kind": "text",
+    "split": "test",
+    "groupID": "product-group-2fcd3c76983b",
+    "text": "điện thoại iPhone 18 Pro Max 256GB",
+    "image": null,
+    "sourceArticleID": 15,
+    "relevantArticleIDs": [
+      15,
+      18
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-15",
+    "kind": "image",
+    "split": "test",
+    "groupID": "product-group-2fcd3c76983b",
+    "text": "",
+    "image": "data/retailer_catalog/images/072b3991a2a9c6ee9cd594ac031779d7a65d6df2150151eb4851c95dd2f275c2.jpg",
+    "sourceArticleID": 15,
+    "relevantArticleIDs": [
+      15,
+      18
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-15",
+    "kind": "image_text",
+    "split": "test",
+    "groupID": "product-group-2fcd3c76983b",
+    "text": "điện thoại Apple",
+    "image": "data/retailer_catalog/images/072b3991a2a9c6ee9cd594ac031779d7a65d6df2150151eb4851c95dd2f275c2.jpg",
+    "sourceArticleID": 15,
+    "relevantArticleIDs": [
+      15,
+      18
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-32",
+    "kind": "text",
+    "split": "validation",
+    "groupID": "product-group-65758609b2e5",
+    "text": "laptop Laptop MSI Cyborg 15 A13UC-2082VN",
+    "image": null,
+    "sourceArticleID": 32,
+    "relevantArticleIDs": [
+      32
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-32",
+    "kind": "image",
+    "split": "validation",
+    "groupID": "product-group-65758609b2e5",
+    "text": "",
+    "image": "data/retailer_catalog/images/2b0ed17f20df00247bfdef3c8bc016b1a49d51c1f263908bc8129afd8ff98ef6.png",
+    "sourceArticleID": 32,
+    "relevantArticleIDs": [
+      32
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-32",
+    "kind": "image_text",
+    "split": "validation",
+    "groupID": "product-group-65758609b2e5",
+    "text": "laptop MSI",
+    "image": "data/retailer_catalog/images/2b0ed17f20df00247bfdef3c8bc016b1a49d51c1f263908bc8129afd8ff98ef6.png",
+    "sourceArticleID": 32,
+    "relevantArticleIDs": [
+      32
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-35",
+    "kind": "text",
+    "split": "validation",
+    "groupID": "product-group-30eec743c9e6",
+    "text": "laptop Laptop Lenovo IdeaPad Slim 3 14AHP10 83K9004RVN",
+    "image": null,
+    "sourceArticleID": 35,
+    "relevantArticleIDs": [
+      35
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-35",
+    "kind": "image",
+    "split": "validation",
+    "groupID": "product-group-30eec743c9e6",
+    "text": "",
+    "image": "data/retailer_catalog/images/43e7c3a1159f4bb29563f2cceb5a4257906de7dc667fe4c6fb42bbffee816cd3.png",
+    "sourceArticleID": 35,
+    "relevantArticleIDs": [
+      35
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-35",
+    "kind": "image_text",
+    "split": "validation",
+    "groupID": "product-group-30eec743c9e6",
+    "text": "laptop Lenovo",
+    "image": "data/retailer_catalog/images/43e7c3a1159f4bb29563f2cceb5a4257906de7dc667fe4c6fb42bbffee816cd3.png",
+    "sourceArticleID": 35,
+    "relevantArticleIDs": [
+      35
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-21",
+    "kind": "text",
+    "split": "test",
+    "groupID": "product-group-f04776f02421",
+    "text": "laptop Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+    "image": null,
+    "sourceArticleID": 21,
+    "relevantArticleIDs": [
+      21
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-21",
+    "kind": "image",
+    "split": "test",
+    "groupID": "product-group-f04776f02421",
+    "text": "",
+    "image": "data/retailer_catalog/images/c76875c710c1e2017ac431091ddc68310cf987a095fa6a3519f6c29af631cc4e.png",
+    "sourceArticleID": 21,
+    "relevantArticleIDs": [
+      21
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-21",
+    "kind": "image_text",
+    "split": "test",
+    "groupID": "product-group-f04776f02421",
+    "text": "laptop Lenovo",
+    "image": "data/retailer_catalog/images/c76875c710c1e2017ac431091ddc68310cf987a095fa6a3519f6c29af631cc4e.png",
+    "sourceArticleID": 21,
+    "relevantArticleIDs": [
+      21
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-23",
+    "kind": "text",
+    "split": "test",
+    "groupID": "product-group-c2e05d8dc05c",
+    "text": "laptop Laptop Acer Swift Air 14 SFA14-I31-55NR",
+    "image": null,
+    "sourceArticleID": 23,
+    "relevantArticleIDs": [
+      23
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-23",
+    "kind": "image",
+    "split": "test",
+    "groupID": "product-group-c2e05d8dc05c",
+    "text": "",
+    "image": "data/retailer_catalog/images/55c10817543ae3fb34b01269b1d73a6f701935cd5358b5bf59447ee38244fb13.webp",
+    "sourceArticleID": 23,
+    "relevantArticleIDs": [
+      23
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-23",
+    "kind": "image_text",
+    "split": "test",
+    "groupID": "product-group-c2e05d8dc05c",
+    "text": "laptop Acer",
+    "image": "data/retailer_catalog/images/55c10817543ae3fb34b01269b1d73a6f701935cd5358b5bf59447ee38244fb13.webp",
+    "sourceArticleID": 23,
+    "relevantArticleIDs": [
+      23
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-53",
+    "kind": "text",
+    "split": "validation",
+    "groupID": "product-group-6eafd488144f",
+    "text": "máy tính bảng Lenovo Yoga Tab Wifi 12GB 256GB TB710 ZAG60105VN - Kèm bút, bàn phím",
+    "image": null,
+    "sourceArticleID": 53,
+    "relevantArticleIDs": [
+      53
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-53",
+    "kind": "image",
+    "split": "validation",
+    "groupID": "product-group-6eafd488144f",
+    "text": "",
+    "image": "data/retailer_catalog/images/5596784e4b0eeac0908834a28cfea2f92d403ec3063334df62d73b2caf5c1322.jpg",
+    "sourceArticleID": 53,
+    "relevantArticleIDs": [
+      53
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-53",
+    "kind": "image_text",
+    "split": "validation",
+    "groupID": "product-group-6eafd488144f",
+    "text": "máy tính bảng Lenovo",
+    "image": "data/retailer_catalog/images/5596784e4b0eeac0908834a28cfea2f92d403ec3063334df62d73b2caf5c1322.jpg",
+    "sourceArticleID": 53,
+    "relevantArticleIDs": [
+      53
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-56",
+    "kind": "text",
+    "split": "validation",
+    "groupID": "product-group-f172a7a75af7",
+    "text": "máy tính bảng iPad Air 11 inch M4 Wifi 128GB 2026 | Chính hãng",
+    "image": null,
+    "sourceArticleID": 56,
+    "relevantArticleIDs": [
+      56,
+      60
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-56",
+    "kind": "image",
+    "split": "validation",
+    "groupID": "product-group-f172a7a75af7",
+    "text": "",
+    "image": "data/retailer_catalog/images/9aede35a03614d431fdce4d967c1787703d87ed452a8f0d9416686c1d2884f10.png",
+    "sourceArticleID": 56,
+    "relevantArticleIDs": [
+      56,
+      60
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-56",
+    "kind": "image_text",
+    "split": "validation",
+    "groupID": "product-group-f172a7a75af7",
+    "text": "máy tính bảng Apple",
+    "image": "data/retailer_catalog/images/9aede35a03614d431fdce4d967c1787703d87ed452a8f0d9416686c1d2884f10.png",
+    "sourceArticleID": 56,
+    "relevantArticleIDs": [
+      56,
+      60
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-42",
+    "kind": "text",
+    "split": "test",
+    "groupID": "product-group-1eb8b20a6cb3",
+    "text": "máy tính bảng Xiaomi Poco Pad X1 8GB 512GB",
+    "image": null,
+    "sourceArticleID": 42,
+    "relevantArticleIDs": [
+      42
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-42",
+    "kind": "image",
+    "split": "test",
+    "groupID": "product-group-1eb8b20a6cb3",
+    "text": "",
+    "image": "data/retailer_catalog/images/8baa2115c050d1b555a681879cc3d85ce2e5759c58ae9a508e2f180e25d2231c.jpg",
+    "sourceArticleID": 42,
+    "relevantArticleIDs": [
+      42
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-42",
+    "kind": "image_text",
+    "split": "test",
+    "groupID": "product-group-1eb8b20a6cb3",
+    "text": "máy tính bảng Xiaomi",
+    "image": "data/retailer_catalog/images/8baa2115c050d1b555a681879cc3d85ce2e5759c58ae9a508e2f180e25d2231c.jpg",
+    "sourceArticleID": 42,
+    "relevantArticleIDs": [
+      42
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-55",
+    "kind": "text",
+    "split": "test",
+    "groupID": "product-group-b54f4368c6fe",
+    "text": "máy tính bảng HONOR Pad 10 Wifi 8GB 256GB",
+    "image": null,
+    "sourceArticleID": 55,
+    "relevantArticleIDs": [
+      55
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-55",
+    "kind": "image",
+    "split": "test",
+    "groupID": "product-group-b54f4368c6fe",
+    "text": "",
+    "image": "data/retailer_catalog/images/7ab7785539d8bbec770fbf85b4473d7611082fcc5b81046e296af8ebebae004c.jpg",
+    "sourceArticleID": 55,
+    "relevantArticleIDs": [
+      55
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-55",
+    "kind": "image_text",
+    "split": "test",
+    "groupID": "product-group-b54f4368c6fe",
+    "text": "máy tính bảng HONOR",
+    "image": "data/retailer_catalog/images/7ab7785539d8bbec770fbf85b4473d7611082fcc5b81046e296af8ebebae004c.jpg",
+    "sourceArticleID": 55,
+    "relevantArticleIDs": [
+      55
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-79",
+    "kind": "text",
+    "split": "validation",
+    "groupID": "product-group-7a3ab019db23",
+    "text": "tai nghe Tai nghe Bluetooth True Wireless Beats Solo Buds",
+    "image": null,
+    "sourceArticleID": 79,
+    "relevantArticleIDs": [
+      79
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-79",
+    "kind": "image",
+    "split": "validation",
+    "groupID": "product-group-7a3ab019db23",
+    "text": "",
+    "image": "data/retailer_catalog/images/b5827fff0296deac73041fd6c3516e3dabc24127e65d7e2b7dfb5a3c16855c3f.png",
+    "sourceArticleID": 79,
+    "relevantArticleIDs": [
+      79
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-79",
+    "kind": "image_text",
+    "split": "validation",
+    "groupID": "product-group-7a3ab019db23",
+    "text": "tai nghe Beats",
+    "image": "data/retailer_catalog/images/b5827fff0296deac73041fd6c3516e3dabc24127e65d7e2b7dfb5a3c16855c3f.png",
+    "sourceArticleID": 79,
+    "relevantArticleIDs": [
+      79
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-70",
+    "kind": "text",
+    "split": "validation",
+    "groupID": "product-group-92ee7ad421f4",
+    "text": "tai nghe Tai nghe Samsung Galaxy Buds 4 Pro",
+    "image": null,
+    "sourceArticleID": 70,
+    "relevantArticleIDs": [
+      70
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-70",
+    "kind": "image",
+    "split": "validation",
+    "groupID": "product-group-92ee7ad421f4",
+    "text": "",
+    "image": "data/retailer_catalog/images/1daeb4f6ce3e0e23faca31f4f48972cbcc5e4f651c5c14acfa7144661e4b6dfe.webp",
+    "sourceArticleID": 70,
+    "relevantArticleIDs": [
+      70
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-70",
+    "kind": "image_text",
+    "split": "validation",
+    "groupID": "product-group-92ee7ad421f4",
+    "text": "tai nghe Samsung",
+    "image": "data/retailer_catalog/images/1daeb4f6ce3e0e23faca31f4f48972cbcc5e4f651c5c14acfa7144661e4b6dfe.webp",
+    "sourceArticleID": 70,
+    "relevantArticleIDs": [
+      70
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-66",
+    "kind": "text",
+    "split": "test",
+    "groupID": "product-group-1474edc854a8",
+    "text": "tai nghe Tai nghe Bluetooth không dây Xiaomi Buds 6 (ANC)",
+    "image": null,
+    "sourceArticleID": 66,
+    "relevantArticleIDs": [
+      66
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-66",
+    "kind": "image",
+    "split": "test",
+    "groupID": "product-group-1474edc854a8",
+    "text": "",
+    "image": "data/retailer_catalog/images/cab32ed65d7707a4bc6c59d0352c8f56cd3d1ea187c6517c5726f758ecab310b.png",
+    "sourceArticleID": 66,
+    "relevantArticleIDs": [
+      66
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-66",
+    "kind": "image_text",
+    "split": "test",
+    "groupID": "product-group-1474edc854a8",
+    "text": "tai nghe Xiaomi",
+    "image": "data/retailer_catalog/images/cab32ed65d7707a4bc6c59d0352c8f56cd3d1ea187c6517c5726f758ecab310b.png",
+    "sourceArticleID": 66,
+    "relevantArticleIDs": [
+      66
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-74",
+    "kind": "text",
+    "split": "test",
+    "groupID": "product-group-e47e2b101754",
+    "text": "tai nghe Tai nghe Bluetooth Apple AirPods Pro 3 2025 Type-C | Chính hãng (MFHP4ZP/A)",
+    "image": null,
+    "sourceArticleID": 74,
+    "relevantArticleIDs": [
+      74
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-74",
+    "kind": "image",
+    "split": "test",
+    "groupID": "product-group-e47e2b101754",
+    "text": "",
+    "image": "data/retailer_catalog/images/1a330909209fed0fc823141b224b580e33ae06ca614fa77bb435613184c81602.png",
+    "sourceArticleID": 74,
+    "relevantArticleIDs": [
+      74
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-74",
+    "kind": "image_text",
+    "split": "test",
+    "groupID": "product-group-e47e2b101754",
+    "text": "tai nghe Apple",
+    "image": "data/retailer_catalog/images/1a330909209fed0fc823141b224b580e33ae06ca614fa77bb435613184c81602.png",
+    "sourceArticleID": 74,
+    "relevantArticleIDs": [
+      74
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-97",
+    "kind": "text",
+    "split": "validation",
+    "groupID": "product-group-330205990f05",
+    "text": "đồng hồ Huawei Watch GT 7 41mm Silicone",
+    "image": null,
+    "sourceArticleID": 97,
+    "relevantArticleIDs": [
+      97
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-97",
+    "kind": "image",
+    "split": "validation",
+    "groupID": "product-group-330205990f05",
+    "text": "",
+    "image": "data/retailer_catalog/images/bd5c5d4bf69ea7307c40a37f548f3576a17eea8c09c884b94ab42f199f03aad8.jpg",
+    "sourceArticleID": 97,
+    "relevantArticleIDs": [
+      97
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-97",
+    "kind": "image_text",
+    "split": "validation",
+    "groupID": "product-group-330205990f05",
+    "text": "đồng hồ Huawei",
+    "image": "data/retailer_catalog/images/bd5c5d4bf69ea7307c40a37f548f3576a17eea8c09c884b94ab42f199f03aad8.jpg",
+    "sourceArticleID": 97,
+    "relevantArticleIDs": [
+      97
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-94",
+    "kind": "text",
+    "split": "validation",
+    "groupID": "product-group-4fece7e154fe",
+    "text": "đồng hồ Đồng hồ thông minh Amazfit Balance 3",
+    "image": null,
+    "sourceArticleID": 94,
+    "relevantArticleIDs": [
+      94
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-94",
+    "kind": "image",
+    "split": "validation",
+    "groupID": "product-group-4fece7e154fe",
+    "text": "",
+    "image": "data/retailer_catalog/images/c33678467d0595018eb5efd3fe1db6d1ad52ce8c51217fb9043c0db1e369d112.webp",
+    "sourceArticleID": 94,
+    "relevantArticleIDs": [
+      94
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-94",
+    "kind": "image_text",
+    "split": "validation",
+    "groupID": "product-group-4fece7e154fe",
+    "text": "đồng hồ Amazfit",
+    "image": "data/retailer_catalog/images/c33678467d0595018eb5efd3fe1db6d1ad52ce8c51217fb9043c0db1e369d112.webp",
+    "sourceArticleID": 94,
+    "relevantArticleIDs": [
+      94
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-107",
+    "kind": "text",
+    "split": "test",
+    "groupID": "product-group-df86f74d851a",
+    "text": "đồng hồ Honor Choice Infowear Watch 2 Pro",
+    "image": null,
+    "sourceArticleID": 107,
+    "relevantArticleIDs": [
+      107
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-107",
+    "kind": "image",
+    "split": "test",
+    "groupID": "product-group-df86f74d851a",
+    "text": "",
+    "image": "data/retailer_catalog/images/34892d6193c51aed4d484af5841b52cf867aa3ffa986a039f0df1b77247bb10e.png",
+    "sourceArticleID": 107,
+    "relevantArticleIDs": [
+      107
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-107",
+    "kind": "image_text",
+    "split": "test",
+    "groupID": "product-group-df86f74d851a",
+    "text": "đồng hồ HONOR",
+    "image": "data/retailer_catalog/images/34892d6193c51aed4d484af5841b52cf867aa3ffa986a039f0df1b77247bb10e.png",
+    "sourceArticleID": 107,
+    "relevantArticleIDs": [
+      107
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "text-103",
+    "kind": "text",
+    "split": "test",
+    "groupID": "product-group-c72a8c547188",
+    "text": "đồng hồ Apple Watch Ultra 3 GPS + Cellular 49mm Viền titan Dây Ocean",
+    "image": null,
+    "sourceArticleID": 103,
+    "relevantArticleIDs": [
+      103
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue title",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image-103",
+    "kind": "image",
+    "split": "test",
+    "groupID": "product-group-c72a8c547188",
+    "text": "",
+    "image": "data/retailer_catalog/images/a5d44be95f440d632dcaf9a4d051408436443681ddc71538ed30b35d0e7288f7.png",
+    "sourceArticleID": 103,
+    "relevantArticleIDs": [
+      103
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  },
+  {
+    "caseID": "image_text-103",
+    "kind": "image_text",
+    "split": "test",
+    "groupID": "product-group-c72a8c547188",
+    "text": "đồng hồ Apple",
+    "image": "data/retailer_catalog/images/a5d44be95f440d632dcaf9a4d051408436443681ddc71538ed30b35d0e7288f7.png",
+    "sourceArticleID": 103,
+    "relevantArticleIDs": [
+      103
+    ],
+    "reviewed": true,
+    "labelOrigin": "user-confirmed catalogue query relevance, 2026-11-04",
+    "queryOrigin": "catalogue image already indexed; optimistic self-retrieval diagnostic",
+    "reviewNotes": "User confirmed remaining labels on 2026-11-04; product 79 corrected to Beats; promotional brand suffixes canonicalized. Catalogue-derived query limits remain."
+  }
+]

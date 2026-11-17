@@ -1,0 +1,32 @@
+{
+  "provider": "cellphones",
+  "source_id": "may-tinh-bang-xiaomi-redmi-pad-2-9-7-inch",
+  "source_url": "https://cellphones.com.vn/may-tinh-bang-xiaomi-redmi-pad-2-9-7-inch.html",
+  "productName": "Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB",
+  "brand": "Xiaomi",
+  "description": "Xiaomi Redmi Pad 2 9.7 inch 2K 120Hz mượt mà, chip Snapdragon 6s Gen 2, pin trâu 7600mAh. CellphoneS trợ giá thu cũ 1tr8, bảo hành VIP, quà hấp dẫn",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "Xiaomi HyperOS 3",
+    "Chipset": "Snapdragon 6s Gen 2",
+    "Dung lượng RAM": "4 GB",
+    "Bộ nhớ trong": "64 GB",
+    "Loại CPU": "8 nhân",
+    "GPU": "Adreno 610",
+    "Kích thước màn hình": "9.7 inches",
+    "Độ phân giải màn hình": "2048 x 1280 pixels",
+    "Tính năng màn hình": "Tần số quét 120 HzĐộ sáng tối đa 600 nits250 PPITốc độ lấy mẫu cảm ứng lên đến 180Hz",
+    "Camera sau": "8 MP, f/2.0",
+    "Camera trước": "5 MP, f/2.2",
+    "Pin": "7600 mAh",
+    "Thời điểm ra mắt": "04/2026"
+  },
+  "price": "4090000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/r/e/redmi-pad-2-9-7-inch.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:44:51.315581+00:00"
+}

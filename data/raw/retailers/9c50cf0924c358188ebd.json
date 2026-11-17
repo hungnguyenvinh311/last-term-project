@@ -1,0 +1,25 @@
+{
+  "provider": "cellphones",
+  "source_id": "tai-nghe-chup-tai-xiaomi-redmi-neo",
+  "source_url": "https://cellphones.com.vn/tai-nghe-chup-tai-xiaomi-redmi-neo.html",
+  "productName": "Tai nghe chụp tai không dây chống ồn Xiaomi Redmi Neo",
+  "brand": "Xiaomi",
+  "description": "Mua Tai nghe Xiaomi Redmi Neo chính hãng - Giá tốt, bảo hành uy tín, giao hàng tận nơi toàn quốc. Mua ngay Xiaomi Redmi Neo tại đây. \r\n",
+  "technicalSpecs": {
+    "Kích thước ": "202 × 183 × 47 mm",
+    "Trọng lượng ": "263 g",
+    "Công nghệ âm thanh ": "Hi-Res Audio",
+    "Micro": "Có (3 mic)",
+    "Thời lượng sử dụng Pin": "72 giờ (khi tắt ANC)",
+    "Hãng sản xuất": "Xiaomi"
+  },
+  "price": "1630000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/t/a/tai-nghe-chup-tai-xiaomi-redmi-neo_8_.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:45:56.572649+00:00"
+}

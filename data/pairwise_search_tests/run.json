@@ -1,0 +1,67 @@
+{
+  "database": "ecommerce_test_pair_24d3e1833d",
+  "encoder": "open_clip:ViT-B-32:laion2b_s34b_b79k",
+  "detectorModel": "google/owlvit-base-patch32",
+  "weights": {
+    "text": [
+      0.55,
+      0.0,
+      0.45
+    ],
+    "image": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "image_text": [
+      0.6,
+      0.25,
+      0.15
+    ]
+  },
+  "representatives": [
+    {
+      "articleID": 1,
+      "categoryID": 1,
+      "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+      "imagePath": "data/retailer_catalog/images/c75beab7677be9f70da06b66104e9a181d2361913ee644138e9c0a595d1edf68.jpg"
+    },
+    {
+      "articleID": 21,
+      "categoryID": 2,
+      "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+      "imagePath": "data/retailer_catalog/images/c76875c710c1e2017ac431091ddc68310cf987a095fa6a3519f6c29af631cc4e.png"
+    },
+    {
+      "articleID": 41,
+      "categoryID": 3,
+      "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+      "imagePath": "data/retailer_catalog/images/1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544.jpg"
+    },
+    {
+      "articleID": 61,
+      "categoryID": 4,
+      "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+      "imagePath": "data/retailer_catalog/images/3ab54c494ceb445c646f176910870ad3ce659c87a9010e19e7c2579838243c70.jpg"
+    },
+    {
+      "articleID": 81,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+      "imagePath": "data/retailer_catalog/images/7b6aafaba63a36c3886f0bbd5d77af60f3e8523bb562bbf1442adcf621bbbd99.png"
+    }
+  ],
+  "pairPolicy": "All 10 unordered category pairs; each category appears four times. One catalogue representative per category.",
+  "localizationPolicy": "Detection centre inside expected panel and >=80% detection area inside panel. This is panel localization, not exact object-box IoU.",
+  "selectionPolicy": "Highest-confidence localized detection, retaining its actual label even when wrong; no ground-truth label substitution.",
+  "limits": [
+    "One product per category, one left/right layout; no claim of exhaustive product/angle/background coverage.",
+    "Indexed catalogue images are reused; top-five source recovery is a consistency check, not independent retrieval accuracy.",
+    "Panels and pasted-image rectangles are known; exact physical-object boxes are not manually annotated.",
+    "Correct-label availability is separate from strongest-label correctness; duplicates/extra detections are retained.",
+    "Known-region controls use the expected category explicitly and are reported separately from end-to-end detection.",
+    "No Gemini API calls, live ranking changes, catalogue modifications or demo search-history writes. Test database is retained."
+  ],
+  "detectorClass": "ObjectDetectorService",
+  "detectorThreshold": 0.15
+}

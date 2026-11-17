@@ -1,0 +1,36 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-honor-x9d",
+  "source_url": "https://cellphones.com.vn/dien-thoai-honor-x9d.html",
+  "productName": "HONOR X9d 5G 12GB 512GB",
+  "brand": "HONOR",
+  "description": "HONOR X9d 5G 12GB 512GB giá tốt giảm 500k, thu cũ giảm 3tr, giảm thêm HSSV 500k, đổi mới 100 ngày, BH 24 tháng. Mua ngay tại CellphoneS!",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "MagicOS 9.0 (Dựa trên Android 15）",
+    "Chipset": "Snapdragon 6 Gen 4",
+    "Dung lượng RAM": "12 GB",
+    "Bộ nhớ trong": "512 GB",
+    "Loại CPU": "8 nhân (1× A720 2.3GHz + 3× A720 2.2GHz + 4× A520 1.8GHz)",
+    "GPU": "Adreno A810",
+    "Kích thước màn hình": " 6.79 inches",
+    "Công nghệ màn hình": "AMOLED",
+    "Độ phân giải màn hình": "1200 x 2640 pixels",
+    "Tính năng màn hình": "100% DCI-P3, 1,07 tỷ màu800 nits (điển hình), 1800 nits (chế độ HBM), 6000 nits (chế độ APL)Bảo vệ mắtMàn hình ban đêm sinh họcGiảm độ sáng độngKhử nháy sáng PWM 3840Hz",
+    "Camera sau": "Camera chính 108MP (F1.75) + Camera góc rộng 5MP (F2.2)",
+    "Camera trước": "16MP (F2.45)",
+    "Pin": "8300 mAh",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "2 Nano-SIM",
+    "Công nghệ NFC": "Có",
+    "Thời điểm ra mắt": "12/2025"
+  },
+  "price": "12990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/d/i/dien-thoai-honor-x9d-3_1.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:19.604048+00:00"
+}

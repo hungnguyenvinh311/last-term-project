@@ -1,0 +1,9 @@
+{
+  "products": 100,
+  "withColourSpecification": 0,
+  "colourSpecificationIDs": [],
+  "caseCount": 60,
+  "splitSeed": 20261104,
+  "reviewedCases": 60,
+  "warning": "Image appearance is not a verified colour attribute. Missing metadata cannot be fixed by ranking weights."
+}

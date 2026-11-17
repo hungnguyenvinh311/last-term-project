@@ -1,0 +1,23 @@
+{
+  "provider": "cellphones",
+  "source_id": "apple-airpods-pro-2023",
+  "source_url": "https://cellphones.com.vn/apple-airpods-pro-2-usb-c.html",
+  "productName": "Tai nghe Bluetooth Apple AirPods Pro 2 2023 USB-C | Chính hãng Apple Việt Nam",
+  "brand": "Apple Chính hãng",
+  "description": "Mua Apple Airpod Pro 2023 USB-C chính hãng, giá rẻ 11/2026 - Góp 0%, Không phụ phí - trả trước, giao nhanh 2h. Mua Airpod Pro 2 USB-C tại đây. ",
+  "technicalSpecs": {
+    "Công nghệ âm thanh ": "Active Noise CancellationChip Apple H2Adaptive EQ",
+    "Micro": "Có",
+    "Phương thức điều khiển": "Cảm ứng chạm",
+    "Hãng sản xuất": "Apple Chính hãng"
+  },
+  "price": "4990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/a/p/apple-airpods-pro-2-usb-c_1_.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:46:38.184192+00:00"
+}

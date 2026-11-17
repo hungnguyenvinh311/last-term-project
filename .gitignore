@@ -1,0 +1,16 @@
+.env
+.venv/
+.venv-ai/
+.env.app
+View/node_modules/
+View/dist/
+data/model_cache/
+data/query_media/
+data/test_runs/
+.pytest_application*/
+__pycache__/
+.pytest_cache/
+*.pyc
+tests/artifacts/
+data/raw/products.json.gz
+database/backups/

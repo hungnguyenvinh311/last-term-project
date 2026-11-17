@@ -1,0 +1,28 @@
+{
+  "provider": "cellphones",
+  "source_id": "apple-airpods-5",
+  "source_url": "https://cellphones.com.vn/apple-airpods-5.html",
+  "productName": "Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4)",
+  "brand": "Apple Chính hãng",
+  "description": "Tai nghe Apple AirPod 5 ra mắt với thiết kế Open-Ear, ANC, chip H2, âm thanh kiến trúc đa cổng, chống nước IP57, pin 20h. Mua ngay tại CellphoneS.",
+  "technicalSpecs": {
+    "Kích thước ": "Tai nghe: 30.2 x 18.3 x 18.1 mmHộp sạc: 46.2 x 50.1 x 21.2 mm",
+    "Trọng lượng ": "Tai nghe: 4.3gHộp sạc: 34.7g",
+    "Công nghệ âm thanh ": "Trình điều khiển &amp; bộ khuếch đại Apple tùy chỉnhChủ Động Khử Tiếng ỒnÂm thanh thích ứng &amp; xuyên âmNhận biết cuộc hội thoại &amp; tách lời nóiCá nhân hóa âm thanhEQ Thích ỨngGhi âm chuẩn studioHệ thống thông hơi cân bằng áp suất",
+    "Micro": "Có",
+    "Thời lượng sử dụng Pin": "Thời lượng pin tai nghe: thời gian lên đến 4 giờ với một lần sạc khi bật Chủ Động Khử Tiếng ỒnThời lượng pin với hộp sạc: thời gian đàm thoại lên đến 20 giờ khi bật Chủ Động Khử Tiếng Ồn",
+    "Phương thức điều khiển": "Cảm biến lực",
+    "Chipset": "Chip tai nghe H2",
+    "Hãng sản xuất": "Apple Chính hãng",
+    "Tiện ích": "Hỗ trợ Siri AIDịch Trực Tiếp (Live Translation)"
+  },
+  "price": "3790000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/a/p/apple-airpods-5-sac-co-day.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:46:13.320653+00:00"
+}

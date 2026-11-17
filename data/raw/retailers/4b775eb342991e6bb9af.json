@@ -1,0 +1,28 @@
+{
+  "provider": "cellphones",
+  "source_id": "dong-ho-thong-minh-xiaomi-watch-5",
+  "source_url": "https://cellphones.com.vn/dong-ho-thong-minh-xiaomi-watch-5.html",
+  "productName": "Đồng hồ thông minh Xiaomi Watch 5",
+  "brand": "Xiaomi",
+  "description": "Xiaomi Watch 5 màn hình 1.54 inch 1500 nits, pin 18 ngày. Giảm 2tr, trả góp 0%, thu cũ giảm 2tr, tặng bảo hiểm rơi vỡ. Mua ngay tại CellphoneS!",
+  "technicalSpecs": {
+    "Công nghệ màn hình": "AMOLED",
+    "Kích thước màn hình": "1.54 inch",
+    "Kích thước cổ tay phù hợp": "Từ 13.5 – 20.5 cm",
+    "Nghe,gọi ": "Nghe gọi qua Bluetooth",
+    "Tiện ích sức khoẻ ": "Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Phát hiện té ngã, Cảnh báo nhịp tim bất thường, Đo điện tâm đồ, Theo dõi chu kỳ, Bài tập thở, Bài tập thư giãn",
+    "GPS tích hợp": "GPS tích hợp sẵn trên đồng hồ",
+    "Tương thích ": "Android 8.0 trở lên",
+    "Thời lượng pin ": "Chế độ hiệu năng Sử dụng thông thường: 6 ngày Sử dụng thông thường: 4 ngày Có AOD: 4 ngày Chế độ tiết kiệm pin Thời gian sử dụng dài: 18 ngày Sử dụng thông thường: 12 ngày Có AOD: 7 ngày",
+    "Hãng sản xuất": "Xiaomi"
+  },
+  "price": "8990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/g/r/group_574_2_4.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:47:42.926952+00:00"
+}

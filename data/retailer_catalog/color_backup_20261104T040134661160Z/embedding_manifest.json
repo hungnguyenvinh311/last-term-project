@@ -1,0 +1,509 @@
+{
+  "identity": "open_clip:ViT-B-32:laion2b_s34b_b79k",
+  "products": {
+    "1": {
+      "source_hash": "dc1ee3c0fca4b0b2087cd6acf4ba2a86bc07e9bd3dcaf803b9b25c0641c3512b",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:07.863416+00:00"
+    },
+    "2": {
+      "source_hash": "7bf8e475a3ab236abb24cf69dbfbde32ba6f46008b3489f0d149fcbba1314a96",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:09.534428+00:00"
+    },
+    "3": {
+      "source_hash": "cbb20434e4f4a8397c59e7404e5e319e99fca51657209613bb0e4e615d164cee",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:11.154127+00:00"
+    },
+    "4": {
+      "source_hash": "6e0cf82247ac85049813e081c187ebb46cbe82cbbef946e227e25fa2eb3c0f09",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:12.745783+00:00"
+    },
+    "5": {
+      "source_hash": "8b2fad89e70d4daca294a3a12a16c6db49fdf06af292a0287d430c42214ff59f",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:14.182124+00:00"
+    },
+    "6": {
+      "source_hash": "a4eac446c54080e180c10df1561d56337c8eae5f5fec1beef0135a75f79b5893",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:15.958751+00:00"
+    },
+    "7": {
+      "source_hash": "8e02549a766058a52deda812a86d3e76384f21b2aed811223ac2264d107f2376",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:17.440610+00:00"
+    },
+    "8": {
+      "source_hash": "64990efa962d1d33e49c9a63cf624dedf720be2b6a908f043f0f29d46c41fc1c",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:18.984307+00:00"
+    },
+    "9": {
+      "source_hash": "0e98ab795bb1cc4d91b3681b855ad74c3071278f67053f42696584053be64ce9",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:20.621192+00:00"
+    },
+    "10": {
+      "source_hash": "3c5330ee06c575962d4e5acca5723154ab52787afc40e14abc4913f25511de46",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:22.063080+00:00"
+    },
+    "11": {
+      "source_hash": "abc23e548f3b2274844161307da5688881225ddbdc226686060d7a0c5533ad53",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:23.696501+00:00"
+    },
+    "12": {
+      "source_hash": "d025cdaafb349b6a30e079d3348076057ea5c9dcaa1262de462a45c5ec152394",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:25.159991+00:00"
+    },
+    "13": {
+      "source_hash": "8f3555032390c39da598c0e0cfddbaef4f78a0efaf9b97141dee27c1f86cd6c1",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:26.945190+00:00"
+    },
+    "14": {
+      "source_hash": "88cb7b40de2c310ba239d46efa089fd149e2a3dbf2bc4c193bca2fbe3554a726",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:28.455444+00:00"
+    },
+    "15": {
+      "source_hash": "d6573747bbab12eda82abe5131a37b1cedccaea4b9415a5b17fe04b0a214c31d",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:30.032546+00:00"
+    },
+    "16": {
+      "source_hash": "450e51eb96c0a0c22cef2dda3998b784974a4386d39c235c4e34e34fee327a5e",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:32.118158+00:00"
+    },
+    "17": {
+      "source_hash": "f167b7bb1967f5bdb298beb55f11551eb84f565f575b4e9d1fb97b39fa280984",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:33.831975+00:00"
+    },
+    "18": {
+      "source_hash": "e083dcecf5772f0b8d1e5b90ced3c08f3c33a9c128bd140c7d7fa8225b01ecbe",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:35.858112+00:00"
+    },
+    "19": {
+      "source_hash": "68bda65602a3c71f6629f6cbc78c1d3ce60fb0c7ec4f79d7262b37382b1ad864",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:37.854870+00:00"
+    },
+    "20": {
+      "source_hash": "eb6db8b69a053241d6e7498973b62c13fa33f5d241c205a9e348c2369eaf06fd",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:39.756516+00:00"
+    },
+    "21": {
+      "source_hash": "08edaf9097dbad7f0c55122bd3d271140b6d551214b29e2ff8cf862c7db8f71f",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:41.492206+00:00"
+    },
+    "22": {
+      "source_hash": "acabc745d1bcbcef9a412cad90feeab04c97a5a3ce58a48cef1fc612e4686939",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:43.294114+00:00"
+    },
+    "23": {
+      "source_hash": "7b2847c39aaac0133ca8bf1a237b0674ec98c756c1c88ef80316cbc2fa1eba2c",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:45.889298+00:00"
+    },
+    "24": {
+      "source_hash": "8534335351bb52869c5cfe7209f71bef2434e43229328f43c8a6b285c7c483e1",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:47.750514+00:00"
+    },
+    "25": {
+      "source_hash": "3d28d89aad41d1bf7eb328cbc540436b6b4533b9f339c8b03cd1816ecfd5a4f5",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:49.465718+00:00"
+    },
+    "26": {
+      "source_hash": "01f0334a5e8d57abb3445af4f8fb4eee38b13231419c799a253d169a18b6c03c",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:51.237276+00:00"
+    },
+    "27": {
+      "source_hash": "6ac10b35a59826b8f1a9289d512e88c28aac91a1affdb53e77f56aa9938fa08e",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:52.860077+00:00"
+    },
+    "28": {
+      "source_hash": "3d33d3e9e516abd37a98ef66998ee95f5f549f751cdeaadd3cfdc09e9592d812",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:54.605339+00:00"
+    },
+    "29": {
+      "source_hash": "fca777f3b3e0287bce2f744fab76784d90a5c3cb8cae13c160807941f1b91b19",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:56.440384+00:00"
+    },
+    "30": {
+      "source_hash": "cfe0412ea5e09837ec06c972ade08319f9df2d364ce3e1c3f14be5a5bde02bb4",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:23:58.294772+00:00"
+    },
+    "31": {
+      "source_hash": "ea4f8f280427d6154ece22889a3ad81279af49102d2fbe4105d4d9a4e1dd0bc5",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:00.106797+00:00"
+    },
+    "32": {
+      "source_hash": "577d0df9e2d38cc73c7faa972e9899f11edb73a08601df79001f237e2eee68fa",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:01.927282+00:00"
+    },
+    "33": {
+      "source_hash": "c078c7ce3f0ac30c6ea1b29fed0182c03cdcb881c36b2ed6e5b36db2451ba0b1",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:03.792833+00:00"
+    },
+    "34": {
+      "source_hash": "a0e9aa8eeacd72e34868af171ef103272d29efa5bc0bdc1eafbb76897832f0ed",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:05.589807+00:00"
+    },
+    "35": {
+      "source_hash": "6c6c0bd5c4280fcf3c2a00619fdbd6ccb922169dd6b1e2a43e7481cc85a7be1e",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:08.067894+00:00"
+    },
+    "36": {
+      "source_hash": "07ea7c3e6a1c3f4fcda0c4b428393628867f5cef3f93de09b7b23a0cbe01416d",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:09.956825+00:00"
+    },
+    "37": {
+      "source_hash": "405be7ec2bb665ebf5305f3a403bc03bdb2b7d6684b4cfbbd9f64095985ca518",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:11.570688+00:00"
+    },
+    "38": {
+      "source_hash": "7555af1b8120faf6404923b82f52388a41cb561464d43c041be490ddd07d4c7b",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:13.076464+00:00"
+    },
+    "39": {
+      "source_hash": "15d695c5df928839acb1bda6f067b755f2a4b14970cb479516c3cfaf50c80b1f",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:14.628950+00:00"
+    },
+    "40": {
+      "source_hash": "008024630ca0fe43c8b0a44f86fe808207c21d5aa6735f552b5c46051fd8bb91",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:16.186445+00:00"
+    },
+    "41": {
+      "source_hash": "bc29944d3799181683cd711951e51eb5b4f48d799aad43c4ad8a073714adff9a",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:17.713930+00:00"
+    },
+    "42": {
+      "source_hash": "4c1f31449a7bbd1c0189ad3af7ef59addf4eb484dc41974b012cb611d76c2f69",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:19.704016+00:00"
+    },
+    "43": {
+      "source_hash": "b21f49c3fb40278e643f121cff9747131df047a60b750b6db441116fdcf3e34f",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:22.460744+00:00"
+    },
+    "44": {
+      "source_hash": "edd57876b1266d5afbf32dc34301c0b18b340899f7861631a437646d2b39b0d0",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:25.100947+00:00"
+    },
+    "45": {
+      "source_hash": "9cc9001c2658dd6dc156baac6ffc8f8cfed6c7933257af43a670b449b17b1e02",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:27.215371+00:00"
+    },
+    "46": {
+      "source_hash": "4534933bfaedb56f57ef4a60ec498238b2196eb0c13b507df6e25f1df177e9db",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:29.020492+00:00"
+    },
+    "47": {
+      "source_hash": "d57164706fd31e1e4744682fb64a0f41f33a71d27853909177f1d1f2fe6c02b0",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:30.891179+00:00"
+    },
+    "48": {
+      "source_hash": "0befc7dae40cdeb3948ff57b1449fc69d02f83438c661bf5099af0b98f0d1417",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:32.652229+00:00"
+    },
+    "49": {
+      "source_hash": "a7c4fa6ebb742dc8cb98aa2e9d3c14c5063c5533621c894b6e0416e40bbd87fa",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:34.287156+00:00"
+    },
+    "50": {
+      "source_hash": "a64d5cf277d6ad6016634b716508fbd8e0ed48972e2f166f0a8a4465f7e047ae",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:36.094084+00:00"
+    },
+    "51": {
+      "source_hash": "2141afc483dd34ab58a329706179e808b44bd52ee489715cf29c30c79016fbf4",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:37.641660+00:00"
+    },
+    "52": {
+      "source_hash": "f054ac7d165054720ff0fca442c1f5e5dd8aa857d72bbb248e20d3800ef1f70f",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:39.544747+00:00"
+    },
+    "53": {
+      "source_hash": "eccf938ecbbbf7044901b9e7392ee7286216d696a4497584abc05aaac3c49add",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:41.793010+00:00"
+    },
+    "54": {
+      "source_hash": "c4f77cc3701c8a1fe342931c6e6c75f5078009c59997f728273445593ad3ebce",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:43.450681+00:00"
+    },
+    "55": {
+      "source_hash": "ffd6c21516b6df7223245dc3d38abc548a811b49235397335af63d498df4548d",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:45.493788+00:00"
+    },
+    "56": {
+      "source_hash": "06aa8612f046253722dadb59250891e4bd7b24d70616e0e54a11c24a4ad87861",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:47.630362+00:00"
+    },
+    "57": {
+      "source_hash": "32fcee358218a531a25fba327e074152343204cb223638b5574bb8ed1ad6dad8",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:49.586681+00:00"
+    },
+    "58": {
+      "source_hash": "dcea00e51fd30aed6ba710588dff02bc594ecd7e43966392e235120c0bd480c1",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:53.248172+00:00"
+    },
+    "59": {
+      "source_hash": "60433c77c4570f2b4caf049bac9e9872fe86f104851065c219b1b28d45e32f4f",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:24:59.427276+00:00"
+    },
+    "60": {
+      "source_hash": "e62817befb20ae0b56ff0aba28c60cef530207cfe202046e51864c22a2568cc2",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:04.069121+00:00"
+    },
+    "61": {
+      "source_hash": "568cc87f2240341c233e0d9763cf42017fd4265e81d13eded53c7a7667363bbd",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:07.357609+00:00"
+    },
+    "62": {
+      "source_hash": "f1f1b2ff91c8e565aa3e7c9e07b57dcc9da1c9325a729b4b0837c2007b9881b7",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:10.737317+00:00"
+    },
+    "63": {
+      "source_hash": "f274b89e23c9fbbbefe95c8cc4dfef86482e1db3317c11b979a139ef56d768f7",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:13.599205+00:00"
+    },
+    "64": {
+      "source_hash": "5e05023123822e08af60152162a82bbcf99519a9b12ad8c7b94a6fbcaf22e38c",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:55.071035+00:00"
+    },
+    "65": {
+      "source_hash": "7c7860e8806bcd0127f9ebe323947b6c50b79641697f393b5c607c8f1a27f9d7",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:17.980101+00:00"
+    },
+    "66": {
+      "source_hash": "39696c1dfe2a978c3d40db197252459c9219ccb8c156a98949d66baf2ae93aa0",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:20.803821+00:00"
+    },
+    "67": {
+      "source_hash": "685795d33387ee57fd5484b7d4d32e9da105726520b8b4e49c9e5af44419b61c",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:22.761099+00:00"
+    },
+    "68": {
+      "source_hash": "9652f51bfb7486338abf5e0f9eef495fcb85ee0f060cfaada4aaf8637cf2fbd3",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:24.590395+00:00"
+    },
+    "69": {
+      "source_hash": "3b3716bbfa03a2245a113e01b881647683a482ba85ecd8ffb88d56c225bd22b9",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:55.382942+00:00"
+    },
+    "70": {
+      "source_hash": "8fd77381971b34571e67a1cda1b88e11473428c4f5ac8651da3041f4e0f6127b",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:55.653249+00:00"
+    },
+    "71": {
+      "source_hash": "dd6ce56ab3b0839be7e6f957120c0f275df08d1dcb55e696e99de3db0ade063f",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:55.918153+00:00"
+    },
+    "72": {
+      "source_hash": "f305d712da1cd8a788205fe921ae16cab9f89387cf5a7df2e426fac2b796f242",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:56.245993+00:00"
+    },
+    "73": {
+      "source_hash": "2b1a650655670361fa6af9fe3c59fae02cdb843663a6605d8a936c1480e7d755",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:56.538750+00:00"
+    },
+    "74": {
+      "source_hash": "6a0cbf5b5feff066a54e74cac3eec7b2a5e6b92f5e0f0906603054f41109c338",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:56.789374+00:00"
+    },
+    "75": {
+      "source_hash": "47d0d636a1f84e955c2df6aadc39f88584eb721901aa528c45b6dca1f0b7a8d5",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:57.055920+00:00"
+    },
+    "76": {
+      "source_hash": "09ec23f4d4820f8727803c66dcba5204d6bda211ddc6f16e6859188adad2948c",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:57.306946+00:00"
+    },
+    "77": {
+      "source_hash": "9f8db597d17df6c2449b1bd45e13a1dfd02b088fba480e5936bdd68044da2feb",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:57.561263+00:00"
+    },
+    "78": {
+      "source_hash": "4328cf42fca7915a815e76a1a1301c20a963912f697164f30d651a9494d107f7",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:57.832331+00:00"
+    },
+    "79": {
+      "source_hash": "1dac5b6664ab4ccef40ff7c8c2d9c6cc32563d29ea28d384f701fb6713ace364",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:58.141705+00:00"
+    },
+    "80": {
+      "source_hash": "46f67fe39fda974ae2110c83665d8cffcd0982669c54563c2ac0b1ea32fb45ab",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:58.405297+00:00"
+    },
+    "81": {
+      "source_hash": "60ffd3d65f4dddb7c7d6ddc5a3b7c76c1b805c275b02023d50c5017bd28da79e",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:47.935007+00:00"
+    },
+    "82": {
+      "source_hash": "9c518e966bdde678cf13dba7b193d504bb7ddab84460e2efaad40f134ce7ac9c",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:50.337003+00:00"
+    },
+    "83": {
+      "source_hash": "55f1d401eed6eb7de09ecd33d19686f345de300fe9f0ac1c5f8fe92d27a4d1f9",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:58.683265+00:00"
+    },
+    "84": {
+      "source_hash": "2320bc60887c7cc168a96df86beaf9c9bf326027bb5a4e11d30acd061057f499",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:56.519468+00:00"
+    },
+    "86": {
+      "source_hash": "5bbec57d6b73ee839f2dfa10b31507fb0d43a8f480b710ccaddde9b05bcbd03f",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:25:59.551354+00:00"
+    },
+    "88": {
+      "source_hash": "4ffc290d70d8cfd1a565ad0debea9a60e1a3c32f1cad691ce539199e77f181db",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:03.442595+00:00"
+    },
+    "89": {
+      "source_hash": "3c0c1095ddb5113ddc5301456ba88fa6943e0a424c7110b524fa7479b6a4f411",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:06.566401+00:00"
+    },
+    "91": {
+      "source_hash": "8fdc72014b8ae77edf3457eb4cdbcfef665a7f61790a1026e1e01f874ce23f7a",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:09.700508+00:00"
+    },
+    "92": {
+      "source_hash": "1c971ae7ad5d357cee388ae024baa912b33f6a2760aae774c59567dd29ed108f",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:12.845638+00:00"
+    },
+    "93": {
+      "source_hash": "1eada4b4a536756ccd0424245dda00d25bf598be2a51c9f41c60f022159e3e9c",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:15.423919+00:00"
+    },
+    "94": {
+      "source_hash": "9c8550a9ab39915ad7cdbd10bf87aaa8d0ac01bc9fc03ac2bd107b3a0da1a19e",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:18.439008+00:00"
+    },
+    "95": {
+      "source_hash": "4f9b08fe3ebe62dc0169069d46915ba3c12d1f53246cd700aca09e7d538ae025",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:21.122664+00:00"
+    },
+    "97": {
+      "source_hash": "feaa30f4497d2d17c95c9a035843ea5c0381eb7d11f7d9c37a3e44fb89e82f91",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:23.869642+00:00"
+    },
+    "99": {
+      "source_hash": "d9084b7e08e9d1c94e1d0677d89127ab0e37daaaff9febf7f8e8752087ba1672",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:25.745764+00:00"
+    },
+    "101": {
+      "source_hash": "d4038c122d35bbe6d15018aac0cdf2ae82e03cc08446800be34182d88c6e29fa",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:28.126541+00:00"
+    },
+    "102": {
+      "source_hash": "dbfe68d58b79db23e95b8e5a1ecf2878c7a51e209d4a1439f190770ac559a77d",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:31.043240+00:00"
+    },
+    "103": {
+      "source_hash": "bd20d4d2768f3adcac09def5f0baeb16444a753510fd7ff92918c244b8a429e0",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:32.884713+00:00"
+    },
+    "106": {
+      "source_hash": "cac4a726a36605e14cc67ec9a3c176030daf324561f9bcb105a13822c0bd0d9f",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:59.007269+00:00"
+    },
+    "107": {
+      "source_hash": "8baeb9b73b5b7e0a460537620c91dadacb68020c51e17d968553820f592dcf41",
+      "dimension": 512,
+      "updatedAt": "2026-11-04T03:52:59.327026+00:00"
+    },
+    "108": {
+      "source_hash": "b798d639202f78accfd4c84fe9e242dfacd4ec892cf8fc867159639f7ef48ecf",
+      "dimension": 512,
+      "updatedAt": "2026-11-03T15:26:37.854812+00:00"
+    }
+  },
+  "weights_sha256": "d60938be132a2adb49cbc2fa24076f60dfbf09f0666df5ee94cbaf08f44062c8",
+  "preprocessing": "Compose(\n    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeConvertMode()\n    MaybeToTensor()\n    Normalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711))\n)",
+  "normalization": "L2",
+  "failures": []
+}

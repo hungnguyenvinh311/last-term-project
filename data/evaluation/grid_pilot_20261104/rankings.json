@@ -1,0 +1,2029 @@
+[
+  {
+    "caseID": "text-6",
+    "kind": "text",
+    "split": "validation",
+    "criteria": {
+      "text": "điện thoại HONOR 600S 5G 6GB 128GB",
+      "categoryID": 1,
+      "brand": "honor",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [
+        "5g"
+      ],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      6
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      6,
+      2,
+      11
+    ]
+  },
+  {
+    "caseID": "image-6",
+    "kind": "image",
+    "split": "validation",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      6
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      6,
+      12,
+      2,
+      4,
+      19
+    ]
+  },
+  {
+    "caseID": "image_text-6",
+    "kind": "image_text",
+    "split": "validation",
+    "criteria": {
+      "text": "điện thoại HONOR",
+      "categoryID": 1,
+      "brand": "honor",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      6
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      6,
+      12,
+      11,
+      2
+    ]
+  },
+  {
+    "caseID": "text-5",
+    "kind": "text",
+    "split": "validation",
+    "criteria": {
+      "text": "điện thoại Samsung Galaxy A17 5G 8GB 128GB",
+      "categoryID": 1,
+      "brand": "samsung",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [
+        "5g",
+        "galaxy a17"
+      ],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      5
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      5
+    ]
+  },
+  {
+    "caseID": "image-5",
+    "kind": "image",
+    "split": "validation",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      5
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      5,
+      7,
+      8,
+      1,
+      10
+    ]
+  },
+  {
+    "caseID": "image_text-5",
+    "kind": "image_text",
+    "split": "validation",
+    "criteria": {
+      "text": "điện thoại Samsung",
+      "categoryID": 1,
+      "brand": "samsung",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      5
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      5,
+      7,
+      8,
+      1
+    ]
+  },
+  {
+    "caseID": "text-3",
+    "kind": "text",
+    "split": "test",
+    "criteria": {
+      "text": "điện thoại Xiaomi POCO F8 Pro 5G 12GB 256GB",
+      "categoryID": 1,
+      "brand": "xiaomi",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [
+        "5g"
+      ],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      3
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      3,
+      10,
+      19,
+      4
+    ]
+  },
+  {
+    "caseID": "image-3",
+    "kind": "image",
+    "split": "test",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      3
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      3,
+      19,
+      12,
+      4,
+      2
+    ]
+  },
+  {
+    "caseID": "image_text-3",
+    "kind": "image_text",
+    "split": "test",
+    "criteria": {
+      "text": "điện thoại Xiaomi",
+      "categoryID": 1,
+      "brand": "xiaomi",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      3
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      3,
+      10,
+      19,
+      4
+    ]
+  },
+  {
+    "caseID": "text-15",
+    "kind": "text",
+    "split": "test",
+    "criteria": {
+      "text": "điện thoại iPhone 18 Pro Max 256GB",
+      "categoryID": 1,
+      "brand": "apple",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [
+        "iphone 18 pro max"
+      ],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      15,
+      18
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.4,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      15,
+      18
+    ]
+  },
+  {
+    "caseID": "image-15",
+    "kind": "image",
+    "split": "test",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      15,
+      18
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.4,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      15,
+      18,
+      13,
+      16,
+      14
+    ]
+  },
+  {
+    "caseID": "image_text-15",
+    "kind": "image_text",
+    "split": "test",
+    "criteria": {
+      "text": "điện thoại Apple",
+      "categoryID": 1,
+      "brand": "apple",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      15,
+      18
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.4,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      18,
+      15,
+      13,
+      16,
+      20
+    ]
+  },
+  {
+    "caseID": "text-32",
+    "kind": "text",
+    "split": "validation",
+    "criteria": {
+      "text": "laptop Laptop MSI Cyborg 15 A13UC-2082VN",
+      "categoryID": 2,
+      "brand": "msi",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      32
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      32,
+      33,
+      26
+    ]
+  },
+  {
+    "caseID": "image-32",
+    "kind": "image",
+    "split": "validation",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      32
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      32,
+      39,
+      34,
+      21,
+      26
+    ]
+  },
+  {
+    "caseID": "image_text-32",
+    "kind": "image_text",
+    "split": "validation",
+    "criteria": {
+      "text": "laptop MSI",
+      "categoryID": 2,
+      "brand": "msi",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      32
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      32,
+      26,
+      33
+    ]
+  },
+  {
+    "caseID": "text-35",
+    "kind": "text",
+    "split": "validation",
+    "criteria": {
+      "text": "laptop Laptop Lenovo IdeaPad Slim 3 14AHP10 83K9004RVN",
+      "categoryID": 2,
+      "brand": "lenovo",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      35
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      35,
+      22,
+      21,
+      38
+    ]
+  },
+  {
+    "caseID": "image-35",
+    "kind": "image",
+    "split": "validation",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      35
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      35,
+      38,
+      22,
+      29,
+      23
+    ]
+  },
+  {
+    "caseID": "image_text-35",
+    "kind": "image_text",
+    "split": "validation",
+    "criteria": {
+      "text": "laptop Lenovo",
+      "categoryID": 2,
+      "brand": "lenovo",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      35
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      35,
+      22,
+      38,
+      21
+    ]
+  },
+  {
+    "caseID": "text-21",
+    "kind": "text",
+    "split": "test",
+    "criteria": {
+      "text": "laptop Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+      "categoryID": 2,
+      "brand": "lenovo",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      21
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      21,
+      22,
+      35,
+      38
+    ]
+  },
+  {
+    "caseID": "image-21",
+    "kind": "image",
+    "split": "test",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      21
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      21,
+      32,
+      30,
+      23,
+      39
+    ]
+  },
+  {
+    "caseID": "image_text-21",
+    "kind": "image_text",
+    "split": "test",
+    "criteria": {
+      "text": "laptop Lenovo",
+      "categoryID": 2,
+      "brand": "lenovo",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      21
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      21,
+      22,
+      38,
+      35
+    ]
+  },
+  {
+    "caseID": "text-23",
+    "kind": "text",
+    "split": "test",
+    "criteria": {
+      "text": "laptop Laptop Acer Swift Air 14 SFA14-I31-55NR",
+      "categoryID": 2,
+      "brand": "acer",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      23
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      23,
+      30,
+      39,
+      34
+    ]
+  },
+  {
+    "caseID": "image-23",
+    "kind": "image",
+    "split": "test",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      23
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      23,
+      22,
+      30,
+      38,
+      27
+    ]
+  },
+  {
+    "caseID": "image_text-23",
+    "kind": "image_text",
+    "split": "test",
+    "criteria": {
+      "text": "laptop Acer",
+      "categoryID": 2,
+      "brand": "acer",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      23
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      23,
+      30,
+      34,
+      39
+    ]
+  },
+  {
+    "caseID": "text-53",
+    "kind": "text",
+    "split": "validation",
+    "criteria": {
+      "text": "máy tính bảng Lenovo Yoga Tab Wifi 12GB 256GB TB710 ZAG60105VN - Kèm bút, bàn phím",
+      "categoryID": 3,
+      "brand": "lenovo",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      53
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      53,
+      47,
+      50
+    ]
+  },
+  {
+    "caseID": "image-53",
+    "kind": "image",
+    "split": "validation",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      53
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      53,
+      47,
+      52,
+      51,
+      41
+    ]
+  },
+  {
+    "caseID": "image_text-53",
+    "kind": "image_text",
+    "split": "validation",
+    "criteria": {
+      "text": "máy tính bảng Lenovo",
+      "categoryID": 3,
+      "brand": "lenovo",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      53
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      53,
+      47,
+      50
+    ]
+  },
+  {
+    "caseID": "text-56",
+    "kind": "text",
+    "split": "validation",
+    "criteria": {
+      "text": "máy tính bảng iPad Air 11 inch M4 Wifi 128GB 2026 | Chính hãng",
+      "categoryID": 3,
+      "brand": "apple",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      56,
+      60
+    ],
+    "ndcgAtK": 0.9197207891481876,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.4,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      56,
+      45,
+      60,
+      49,
+      57
+    ]
+  },
+  {
+    "caseID": "image-56",
+    "kind": "image",
+    "split": "validation",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      56,
+      60
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.4,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      56,
+      60,
+      45,
+      54,
+      41
+    ]
+  },
+  {
+    "caseID": "image_text-56",
+    "kind": "image_text",
+    "split": "validation",
+    "criteria": {
+      "text": "máy tính bảng Apple",
+      "categoryID": 3,
+      "brand": "apple",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      56,
+      60
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.4,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      56,
+      60,
+      45,
+      54,
+      49
+    ]
+  },
+  {
+    "caseID": "text-42",
+    "kind": "text",
+    "split": "test",
+    "criteria": {
+      "text": "máy tính bảng Xiaomi Poco Pad X1 8GB 512GB",
+      "categoryID": 3,
+      "brand": "xiaomi",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      42
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      42,
+      43,
+      44,
+      58
+    ]
+  },
+  {
+    "caseID": "image-42",
+    "kind": "image",
+    "split": "test",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      42
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      42,
+      44,
+      41,
+      58,
+      43
+    ]
+  },
+  {
+    "caseID": "image_text-42",
+    "kind": "image_text",
+    "split": "test",
+    "criteria": {
+      "text": "máy tính bảng Xiaomi",
+      "categoryID": 3,
+      "brand": "xiaomi",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      42
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      42,
+      44,
+      43,
+      58
+    ]
+  },
+  {
+    "caseID": "text-55",
+    "kind": "text",
+    "split": "test",
+    "criteria": {
+      "text": "máy tính bảng HONOR Pad 10 Wifi 8GB 256GB",
+      "categoryID": 3,
+      "brand": "honor",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      55
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      55,
+      41
+    ]
+  },
+  {
+    "caseID": "image-55",
+    "kind": "image",
+    "split": "test",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      55
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      55,
+      48,
+      59,
+      52,
+      51
+    ]
+  },
+  {
+    "caseID": "image_text-55",
+    "kind": "image_text",
+    "split": "test",
+    "criteria": {
+      "text": "máy tính bảng HONOR",
+      "categoryID": 3,
+      "brand": "honor",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      55
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      55,
+      41
+    ]
+  },
+  {
+    "caseID": "text-79",
+    "kind": "text",
+    "split": "validation",
+    "criteria": {
+      "text": "tai nghe Tai nghe Bluetooth True Wireless Beats Solo Buds",
+      "categoryID": 4,
+      "brand": "beats",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [
+        "bluetooth"
+      ],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      79
+    ],
+    "ndcgAtK": 0.0,
+    "recallAtK": 0.0,
+    "precisionAtK": 0.0,
+    "mrrAtK": 0.0,
+    "hitAt1": 0.0,
+    "candidateRecall": 0.0,
+    "noAnswerCorrect": null,
+    "returned": []
+  },
+  {
+    "caseID": "image-79",
+    "kind": "image",
+    "split": "validation",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      79
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      79,
+      74,
+      77,
+      73,
+      78
+    ]
+  },
+  {
+    "caseID": "image_text-79",
+    "kind": "image_text",
+    "split": "validation",
+    "criteria": {
+      "text": "tai nghe Apple Chính hãng",
+      "categoryID": 4,
+      "brand": "apple",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      79
+    ],
+    "ndcgAtK": 0.0,
+    "recallAtK": 0.0,
+    "precisionAtK": 0.0,
+    "mrrAtK": 0.0,
+    "hitAt1": 0.0,
+    "candidateRecall": 0.0,
+    "noAnswerCorrect": null,
+    "returned": []
+  },
+  {
+    "caseID": "text-70",
+    "kind": "text",
+    "split": "validation",
+    "criteria": {
+      "text": "tai nghe Tai nghe Samsung Galaxy Buds 4 Pro",
+      "categoryID": 4,
+      "brand": "samsung",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      70
+    ],
+    "ndcgAtK": 0.0,
+    "recallAtK": 0.0,
+    "precisionAtK": 0.0,
+    "mrrAtK": 0.0,
+    "hitAt1": 0.0,
+    "candidateRecall": 0.0,
+    "noAnswerCorrect": null,
+    "returned": []
+  },
+  {
+    "caseID": "image-70",
+    "kind": "image",
+    "split": "validation",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      70
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      70,
+      71,
+      64,
+      69,
+      66
+    ]
+  },
+  {
+    "caseID": "image_text-70",
+    "kind": "image_text",
+    "split": "validation",
+    "criteria": {
+      "text": "tai nghe Samsung Chính hãng",
+      "categoryID": 4,
+      "brand": "samsung",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      70
+    ],
+    "ndcgAtK": 0.0,
+    "recallAtK": 0.0,
+    "precisionAtK": 0.0,
+    "mrrAtK": 0.0,
+    "hitAt1": 0.0,
+    "candidateRecall": 0.0,
+    "noAnswerCorrect": null,
+    "returned": []
+  },
+  {
+    "caseID": "text-66",
+    "kind": "text",
+    "split": "test",
+    "criteria": {
+      "text": "tai nghe Tai nghe Bluetooth không dây Xiaomi Buds 6 (ANC)",
+      "categoryID": 4,
+      "brand": "xiaomi",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [
+        "bluetooth"
+      ],
+      "excludedTerms": [
+        "day"
+      ],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      66
+    ],
+    "ndcgAtK": 0.0,
+    "recallAtK": 0.0,
+    "precisionAtK": 0.0,
+    "mrrAtK": 0.0,
+    "hitAt1": 0.0,
+    "candidateRecall": 0.0,
+    "noAnswerCorrect": null,
+    "returned": []
+  },
+  {
+    "caseID": "image-66",
+    "kind": "image",
+    "split": "test",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      66
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      66,
+      63,
+      68,
+      69,
+      73
+    ]
+  },
+  {
+    "caseID": "image_text-66",
+    "kind": "image_text",
+    "split": "test",
+    "criteria": {
+      "text": "tai nghe Xiaomi",
+      "categoryID": 4,
+      "brand": "xiaomi",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      66
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      66,
+      68
+    ]
+  },
+  {
+    "caseID": "text-74",
+    "kind": "text",
+    "split": "test",
+    "criteria": {
+      "text": "tai nghe Tai nghe Bluetooth Apple AirPods Pro 3 2025 Type-C | Chính hãng (MFHP4ZP/A)",
+      "categoryID": 4,
+      "brand": "apple",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [
+        "bluetooth"
+      ],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      74
+    ],
+    "ndcgAtK": 0.0,
+    "recallAtK": 0.0,
+    "precisionAtK": 0.0,
+    "mrrAtK": 0.0,
+    "hitAt1": 0.0,
+    "candidateRecall": 0.0,
+    "noAnswerCorrect": null,
+    "returned": []
+  },
+  {
+    "caseID": "image-74",
+    "kind": "image",
+    "split": "test",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      74
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      74,
+      78,
+      77,
+      73,
+      71
+    ]
+  },
+  {
+    "caseID": "image_text-74",
+    "kind": "image_text",
+    "split": "test",
+    "criteria": {
+      "text": "tai nghe Apple Chính hãng",
+      "categoryID": 4,
+      "brand": "apple",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      74
+    ],
+    "ndcgAtK": 0.0,
+    "recallAtK": 0.0,
+    "precisionAtK": 0.0,
+    "mrrAtK": 0.0,
+    "hitAt1": 0.0,
+    "candidateRecall": 0.0,
+    "noAnswerCorrect": null,
+    "returned": []
+  },
+  {
+    "caseID": "text-97",
+    "kind": "text",
+    "split": "validation",
+    "criteria": {
+      "text": "đồng hồ Huawei Watch GT 7 41mm Silicone",
+      "categoryID": 5,
+      "brand": "huawei",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      97
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      97,
+      82,
+      81
+    ]
+  },
+  {
+    "caseID": "image-97",
+    "kind": "image",
+    "split": "validation",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      97
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      97,
+      102,
+      82,
+      108,
+      83
+    ]
+  },
+  {
+    "caseID": "image_text-97",
+    "kind": "image_text",
+    "split": "validation",
+    "criteria": {
+      "text": "đồng hồ Huawei",
+      "categoryID": 5,
+      "brand": "huawei",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      97
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      97,
+      82,
+      81
+    ]
+  },
+  {
+    "caseID": "text-94",
+    "kind": "text",
+    "split": "validation",
+    "criteria": {
+      "text": "đồng hồ Đồng hồ thông minh Amazfit Balance 3",
+      "categoryID": 5,
+      "brand": "amazfit",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      94
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      94,
+      92,
+      91,
+      93
+    ]
+  },
+  {
+    "caseID": "image-94",
+    "kind": "image",
+    "split": "validation",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      94
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      94,
+      92,
+      91,
+      93,
+      82
+    ]
+  },
+  {
+    "caseID": "image_text-94",
+    "kind": "image_text",
+    "split": "validation",
+    "criteria": {
+      "text": "đồng hồ Amazfit",
+      "categoryID": 5,
+      "brand": "amazfit",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      94
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      94,
+      92,
+      91,
+      93
+    ]
+  },
+  {
+    "caseID": "text-107",
+    "kind": "text",
+    "split": "test",
+    "criteria": {
+      "text": "đồng hồ Honor Choice Infowear Watch 2 Pro",
+      "categoryID": 5,
+      "brand": "honor",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      107
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      107,
+      106
+    ]
+  },
+  {
+    "caseID": "image-107",
+    "kind": "image",
+    "split": "test",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      107
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      107,
+      106,
+      95,
+      103,
+      89
+    ]
+  },
+  {
+    "caseID": "image_text-107",
+    "kind": "image_text",
+    "split": "test",
+    "criteria": {
+      "text": "đồng hồ Honor",
+      "categoryID": 5,
+      "brand": "honor",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      107
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      107,
+      106
+    ]
+  },
+  {
+    "caseID": "text-103",
+    "kind": "text",
+    "split": "test",
+    "criteria": {
+      "text": "đồng hồ Apple Watch Ultra 3 GPS + Cellular 49mm Viền titan Dây Ocean",
+      "categoryID": 5,
+      "brand": "apple",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      103
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      103,
+      99,
+      95
+    ]
+  },
+  {
+    "caseID": "image-103",
+    "kind": "image",
+    "split": "test",
+    "criteria": {
+      "text": "Image search",
+      "categoryID": null,
+      "brand": null,
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      103
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      103,
+      95,
+      107,
+      106,
+      99
+    ]
+  },
+  {
+    "caseID": "image_text-103",
+    "kind": "image_text",
+    "split": "test",
+    "criteria": {
+      "text": "đồng hồ Apple",
+      "categoryID": 5,
+      "brand": "apple",
+      "minPrice": null,
+      "maxPrice": null,
+      "requiredTerms": [],
+      "excludedTerms": [],
+      "preferredTerms": [],
+      "specs": {},
+      "intentProvider": "rules",
+      "intentWarning": null
+    },
+    "relevantArticleIDs": [
+      103
+    ],
+    "ndcgAtK": 1.0,
+    "recallAtK": 1.0,
+    "precisionAtK": 0.2,
+    "mrrAtK": 1.0,
+    "hitAt1": 1.0,
+    "candidateRecall": 1.0,
+    "noAnswerCorrect": null,
+    "returned": [
+      103,
+      95,
+      99
+    ]
+  }
+]

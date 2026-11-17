@@ -1,0 +1,1902 @@
+[
+  {
+    "articleID": 1,
+    "categoryID": 4,
+    "productName": "American Audio - Headphones - Black/Silver",
+    "brand": "American Audio",
+    "description": "From our expanded online assortment; 44mm driver; 32 ohms impedance; 20Hz - 20kHz frequency response; 3.5mm stereo plug",
+    "technicalSpecs": {
+      "model": "HP-200",
+      "upc": "640282021890"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "19.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 2,
+    "categoryID": 4,
+    "productName": "Stanton - DJ PRO 60 Over-the-Ear Stereo Headphones - White",
+    "brand": "Stanton",
+    "description": "From our expanded online assortment; sound-isolating design; 40mm drivers; neodymium magnets; carrying pouch",
+    "technicalSpecs": {
+      "model": "Djpro60w",
+      "upc": "049292484907"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "39.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 3,
+    "categoryID": 4,
+    "productName": "Blue Microphones - Mo-Fi Over-the-Ear Headphones - Gray",
+    "brand": "Blue Microphones",
+    "description": "Sound isolation; 50mm titanium-reinforced dynamic drivers; neodymium magnets; high-power audiophile amplifier; user-adjustable tension and suspension; multijointed headband",
+    "technicalSpecs": {
+      "model": "7020",
+      "upc": "836213007020"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "349.98",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 4,
+    "categoryID": 3,
+    "productName": "LG - G Pad 7.0 - 7\" - 8GB - Wi-Fi + 4G LTE AT&T - Black",
+    "brand": "LG",
+    "description": "Android 4.4 KitKat operating system7\" LCD touch screen with WXGA (1280 x 800) resolution8GB storage capacityQuad-core processorWi-Fi + 4G LTEKnock Code",
+    "technicalSpecs": {
+      "model": "LGV400.AUSABK",
+      "upc": "652810101547"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "249.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 8,
+    "categoryID": 1,
+    "productName": "BLU - Dash Jr W D141w Cell Phone (Unlocked) - Black",
+    "brand": "BLU",
+    "description": "Android 2.3 Gingerbread operating system2G speedWi-Fi3.5\" TFT capacitive touch screenOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "D141W BLACK",
+      "upc": "848958012757"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "34.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 5,
+    "categoryID": 4,
+    "productName": "Klipsch - Reference R6m Earbud Headphones - Black",
+    "brand": "Klipsch",
+    "description": "KLIPSCH Reference R6m Earbud Headphones: Noise isolation; 6.5mm dynamic, moving-coil micro drivers with dual magnets; single-button remote and microphone; oval silicone ear tips; flat, tangle-resistant cable",
+    "technicalSpecs": {
+      "model": "R6M",
+      "upc": "743878027471"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "79.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 10,
+    "categoryID": 4,
+    "productName": "Klipsch - X4i Earbud Headphones - Black",
+    "brand": "Klipsch",
+    "description": "KLIPSCH X4i Earbud Headphones: Noise isolation; KG 417 full-range, balanced-armature drivers; 3-button remote with microphone; die-cast zinc construction; soft, flexible oval ear tips; flat, tangle-resistant cable",
+    "technicalSpecs": {
+      "model": "X4I",
+      "upc": "743878025248"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "129.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 11,
+    "categoryID": 4,
+    "productName": "Life N Soul - Bluetooth Over-the-Ear Headphones - White",
+    "brand": "Life N Soul",
+    "description": "LIFE N SOUL Bluetooth Over-the-Ear Headphones: Bluetooth 4.0 technology; up to 30' wireless range; sound isolating; 2 woofers and 6 drivers; 3 equalizers; 6V lithium-polymer battery; foldable, adjustable headband",
+    "technicalSpecs": {
+      "model": "BE501-W",
+      "upc": "851340005220"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "179.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 12,
+    "categoryID": 4,
+    "productName": "Life N Soul - Bluetooth Designer Over-the-Ear Headphones - White",
+    "brand": "Life N Soul",
+    "description": "LIFE N SOUL Bluetooth Designer Over-the-Ear Headphones: Bluetooth technology; up to 30' wireless range; sound isolating; omnidirectional microphone; 6V lithium-polymer battery; foldable, adjustable headband",
+    "technicalSpecs": {
+      "model": "BN350-W-SP",
+      "upc": "851340005367"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "99.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 13,
+    "categoryID": 4,
+    "productName": "Life N Soul - Bluetooth Over-the-Ear Headphones - Pink/Black",
+    "brand": "Life N Soul",
+    "description": "LIFE N SOUL Bluetooth Over-the-Ear Headphones: Bluetooth 4.0 interface; up to 30' wireless range; sound isolation; on-ear controls; voice prompt",
+    "technicalSpecs": {
+      "model": "BN301-PKB",
+      "upc": "851340005275"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "79.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 14,
+    "categoryID": 4,
+    "productName": "Life N Soul - Bluetooth Sports Earbud Headphones - Orange",
+    "brand": "Life N Soul",
+    "description": "LIFE N SOUL Bluetooth Sports Earbud Headphones: Bluetooth 4.0 interface; up to 30' wireless range; noise-blocking ear pieces; sweatproof coating",
+    "technicalSpecs": {
+      "model": "B106-O",
+      "upc": "851340005121"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "49.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 15,
+    "categoryID": 4,
+    "productName": "Life N Soul - Earbud Headphones with Bluetooth Adapter - Black",
+    "brand": "Life N Soul",
+    "description": "LIFE N SOUL Earbud Headphones with Bluetooth Adapter: Bluetooth 3.0 technology; noise canceling; included clip-on Bluetooth adapter; 3.7V lithium-polymer battery; thick 1.4' cord",
+    "technicalSpecs": {
+      "model": "MT103",
+      "upc": "851340005176"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "69.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 16,
+    "categoryID": 4,
+    "productName": "Life N Soul - Wireless Bluetooth Over-the-Ear Headphones - Blue/Red",
+    "brand": "Life N Soul",
+    "description": "LIFE N SOUL Wireless Bluetooth Over-the-Ear Headphones: Bluetooth 4.0 technology; up to 30' wireless range; sound isolating; on-ear controls; voice prompt; adjustable headband; 6V lithium-polymer battery",
+    "technicalSpecs": {
+      "model": "BN301-BUR",
+      "upc": "851340005268"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "79.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 17,
+    "categoryID": 4,
+    "productName": "Life N Soul - Bluetooth Designer Over-the-Ear Headphones - Purple",
+    "brand": "Life N Soul",
+    "description": "LIFE N SOUL Bluetooth Designer Over-the-Ear Headphones: Bluetooth technology; up to 30' wireless range; sound isolating; omnidirectional microphone; 6V lithium-polymer battery; foldable, adjustable headband",
+    "technicalSpecs": {
+      "model": "BN350-BU-WAVE",
+      "upc": "851340005350"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "99.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 18,
+    "categoryID": 4,
+    "productName": "Life N Soul - Bluetooth Sports Earbud Headphones - Green",
+    "brand": "Life N Soul",
+    "description": "LIFE N SOUL Bluetooth Sports Earbud Headphones: Bluetooth 4.0 interface; up to 30' wireless range; noise-blocking ear pieces; sweatproof coating",
+    "technicalSpecs": {
+      "model": "B106-G",
+      "upc": "851340005138"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "49.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 19,
+    "categoryID": 4,
+    "productName": "Life N Soul - Bluetooth Over-the-Ear Headphones - Chrome Black",
+    "brand": "Life N Soul",
+    "description": "LIFE N SOUL Bluetooth Over-the-Ear Headphones: Bluetooth 4.0 technology; up to 30' wireless range; sound isolating; 2 woofers and 6 drivers; 3 equalizers; 6V lithium-polymer battery; foldable, adjustable headband",
+    "technicalSpecs": {
+      "model": "BE501-CO",
+      "upc": "851340005213"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "179.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 20,
+    "categoryID": 4,
+    "productName": "Life N Soul - Bluetooth Over-the-Ear Headphones - White/Red",
+    "brand": "Life N Soul",
+    "description": "LIFE N SOUL Bluetooth Over-the-Ear Headphones: Bluetooth 4.0 interface; up to 30' wireless range; sound isolation; on-ear controls; voice prompt",
+    "technicalSpecs": {
+      "model": "BN301-WR",
+      "upc": "851340005251"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "79.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 9,
+    "categoryID": 5,
+    "productName": "ConnectedDevice - Cogito Pop 3.0 Smartwatch 42mm Polycarbonate - Blue Electric Silicone",
+    "brand": "ConnectedDevice",
+    "description": "Compatible with select Android and Apple&#174; iOS devices; Bluetooth technology; call, message and event notification; music and camera control; 1.3\" display",
+    "technicalSpecs": {
+      "model": "CW3.0-005-01",
+      "upc": "810984013749"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "99.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 21,
+    "categoryID": 5,
+    "productName": "ConnectedDevice - Cookoo 2.0 Smart Watch for Select Android and Apple® iOS Devices - Purple",
+    "brand": "ConnectedDevice",
+    "description": "Compatible with select Android and Apple iOS devices; Bluetooth 4.0 technology; call, text and Facebook message and e-mail alerts; water-resistant; 1.4\" display",
+    "technicalSpecs": {
+      "model": "CK2.0-005-01",
+      "upc": "810984014357"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "149.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 22,
+    "categoryID": 4,
+    "productName": "Sennheiser - Earbud Headphones - Black",
+    "brand": "Sennheiser",
+    "description": "Dynamic linear-phase driver with XWB transducer system; attenuated dual-chamber absorber (D2CA); ceramic housing; ergonomic ear adapters",
+    "technicalSpecs": {
+      "model": "IE 800",
+      "upc": "615104224643"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "799.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 23,
+    "categoryID": 3,
+    "productName": "Toshiba - Excite Write - 10.1\" - 32GB - Silver",
+    "brand": "Toshiba",
+    "description": "Android 4.2.1 Jelly Bean operating system10.1\" capacitive 10-finger multitouch screen with 2560 x 1600 resolution32GB storage capacityQuad-core processorWi-Fi",
+    "technicalSpecs": {
+      "model": "AT15PE-A32",
+      "upc": "022265527436"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "599.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 24,
+    "categoryID": 1,
+    "productName": "Kyocera - DuraForce 4G Cell Phone - Black (AT&T)",
+    "brand": "Kyocera",
+    "description": "Qualcomm Snapdragon 400 1.4GHz processorAndroid 4.4 KitKat operating system4G LTE speed4.5\" TFT-LCD touch screen",
+    "technicalSpecs": {
+      "model": "KYOCERA CHARGER",
+      "upc": "067215024108"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "499.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 25,
+    "categoryID": 1,
+    "productName": "Motorola - Moto X Cell Phone - Black (Sprint)",
+    "brand": "Motorola",
+    "description": "Android operating system4G speedGoogle NowColor touch screen10.0MP rear-facing and 2.0MP front-facing cameras",
+    "technicalSpecs": {
+      "model": "Sprint - XT1056",
+      "upc": "723755003088"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "149.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 26,
+    "categoryID": 1,
+    "productName": "Boost Mobile - Apple® iPhone® 6 16GB No-Contract Cell Phone - Space Gray",
+    "brand": "Boost Mobile",
+    "description": "4.7-inch Retina HD displayA8 chip with 64-bit desktop-class architectureNew 8MP iSight camera with Focus PixelsTouch ID fingerprint identity sensoriOS and iCloud6.9mm thin, seamless design",
+    "technicalSpecs": {
+      "model": "BOOST APPLE IPHONE 6 GRAY",
+      "upc": "885909950249"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "549.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 27,
+    "categoryID": 4,
+    "productName": "Sennheiser - Over-the-Ear Headphones - Black",
+    "brand": "Sennheiser",
+    "description": "Smart remote with microphone; insulates against noise; powerful neodymium magnets",
+    "technicalSpecs": {
+      "model": "Px-200lli",
+      "upc": "615104186309"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "109.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 28,
+    "categoryID": 4,
+    "productName": "Urbanears - Plattan On-Ear Headphones - True White",
+    "brand": "Urbanears",
+    "description": "URBANEARS Plattan On-Ear Headphones: ZoundPlug technology; sound isolating; built-in microphone and remote; folding design; adjustable headband; 3.9' tangle-resistant cord; 3.5mm connector",
+    "technicalSpecs": {
+      "model": "4091008",
+      "upc": "7340055310086"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "49.95",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 29,
+    "categoryID": 4,
+    "productName": "Urbanears - Plattan On-Ear Headphones - Moss",
+    "brand": "Urbanears",
+    "description": "URBANEARS Plattan On-Ear Headphones: ZoundPlug technology; sound isolating; built-in microphone and remote; folding design; adjustable headband; 3.9' tangle-resistant cord; 3.5mm connector",
+    "technicalSpecs": {
+      "model": "4090849",
+      "upc": "7340055308496"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "49.95",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 30,
+    "categoryID": 4,
+    "productName": "Urbanears - Plattan On-Ear Headphones - Dark Gray",
+    "brand": "Urbanears",
+    "description": "URBANEARS Plattan On-Ear Headphones: ZoundPlug technology; sound isolating; built-in microphone and remote; folding design; adjustable headband; 3.9' tangle-resistant cord; 3.5mm connector",
+    "technicalSpecs": {
+      "model": "4091010",
+      "upc": "7340055310109"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "49.95",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 31,
+    "categoryID": 1,
+    "productName": "ZTE - Nubia Z5S Mini 4G Cell Phone (Unlocked) - White/Black",
+    "brand": "ZTE",
+    "description": "Qualcomm Snapdragon 400 Cortex-A7 1.2GHz quad-core processorAndroid 4.3 Jelly Bean operating system4G LTE speedWi-Fi4.7\" IGZO capacitive touch screen",
+    "technicalSpecs": {
+      "model": "NX405H 16GB WHITE/BLK",
+      "upc": "700064135457"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "179.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 32,
+    "categoryID": 1,
+    "productName": "Microsoft - Lumia 920 Cell Phone (Unlocked) - Red",
+    "brand": "Microsoft",
+    "description": "Windows Phone 8 operating system3G speedWi-FiSocial network integrationBluetooth enabledIPS LCD capacitive touch screenOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "920 RED",
+      "upc": "899794011251"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "159.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 33,
+    "categoryID": 1,
+    "productName": "Microsoft - Lumia 920 Cell Phone (Unlocked) - White",
+    "brand": "Microsoft",
+    "description": "Windows Phone 8 operating system3G speedWi-FiSocial network integrationBluetooth enabledIPS LCD capacitive touch screenOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "920 WHITE",
+      "upc": "899794011237"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "159.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 6,
+    "categoryID": 2,
+    "productName": "Asus - 13.3\" Chromebook - Intel Celeron - 4GB Memory - 16GB eMMC Flash Memory - Black",
+    "brand": "Asus",
+    "description": "Chrome OSTechnical details: Intel&#174; Celeron&#174; processor; 13.3\" display; 4GB memory; 16GB eMMC flash memorySpecial features: Bluetooth; HDMI outputNote: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "C300MADH02",
+      "upc": "886227904297"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "279.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 7,
+    "categoryID": 1,
+    "productName": "Samsung - Galaxy Express 4G Cell Phone (Unlocked) - Black",
+    "brand": "Samsung",
+    "description": "Qualcomm Snapdragon MSM8960 1.5GHz dual-core processorAndroid 4.0 Ice Cream Sandwich operating system4G LTE speedWi-FiSuper AMOLED Plus capacitive touch screenBluetooth 4.0 technologyOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "SAM I437 BLK",
+      "upc": "899794013033"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "119.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 34,
+    "categoryID": 5,
+    "productName": "Gameband - Minecraft Wearable (Small) - Black TPU",
+    "brand": "Gameband",
+    "description": "Fits wrists of approximately 6.7\"Compatible with PC, Mac and LinuxTPU bandIPX-4 splash-resistant",
+    "technicalSpecs": {
+      "model": "MC0801S",
+      "upc": "861590000104"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "79.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 35,
+    "categoryID": 5,
+    "productName": "Gameband - Minecraft Wearable (Large) - Black TPU",
+    "brand": "Gameband",
+    "description": "Fits wrists of approximately 7.2\"Compatible with PC, Mac and LinuxTPU bandIPX-4 splash-resistant",
+    "technicalSpecs": {
+      "model": "MC0801L",
+      "upc": "861590000111"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "79.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 36,
+    "categoryID": 1,
+    "productName": "Apple - iPhone® 5s 16GB - Space Gray (AT&T)",
+    "brand": "Apple",
+    "description": "4-inch Retina displayA7 chip with 64-bit desktop-class architectureiSight\n\ncamera with True Tone flash and slo-mo video at 120 fpsLTE wirelessTouch ID fingerprint sensor",
+    "technicalSpecs": {
+      "model": "ME305LL/A",
+      "upc": "885909727445"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "499.98",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 37,
+    "categoryID": 1,
+    "productName": "BlackBerry - Passport 4G Cell Phone (Unlocked) - Black",
+    "brand": "BlackBerry",
+    "description": "Qualcomm Snapdragon 801 2.26GHz quad-core processorBlackBerry 10.3 operating system4G LTE speedWi-FiOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "PASSPORT BLK",
+      "upc": "715660703771"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "549.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 38,
+    "categoryID": 1,
+    "productName": "Samsung - Galaxy S 5 4G Cell Phone (Unlocked) - Shimmery White",
+    "brand": "Samsung",
+    "description": "Qualcomm Snapdragon 801 quad-core processorAndroid 4.4.2 KitKat operating system4G LTE mobile hotspot capabilityOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "G900A WHITE",
+      "upc": "701748197846"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "399.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 39,
+    "categoryID": 1,
+    "productName": "Samsung - Galaxy S 5 4G Cell Phone (Unlocked) - Charcoal Black",
+    "brand": "Samsung",
+    "description": "Qualcomm Snapdragon 801 quad-core processorAndroid 4.4.2 KitKat operating system4G LTE mobile hotspot capabilityOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "G900A BLK",
+      "upc": "701748197839"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "399.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 40,
+    "categoryID": 1,
+    "productName": "Samsung - Galaxy S 5 4G Cell Phone (Unlocked) - Copper Gold",
+    "brand": "Samsung",
+    "description": "Qualcomm Snapdragon 801 quad-core processorAndroid 4.4.2 KitKat operating system4G LTE mobile hotspot capabilityOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "G900A GOLD",
+      "upc": "715660704259"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "399.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 41,
+    "categoryID": 1,
+    "productName": "Motorola - Moto X 4G Cell Phone (Unlocked) - Bamboo",
+    "brand": "Motorola",
+    "description": "Qualcomm Snapdragon 801 2.5GHz quad-core processorAndroid 4.4.4 KitKat operating system4G LTE speedWi-FiOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "00500NAECOM",
+      "upc": "400017890654"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "329.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 42,
+    "categoryID": 2,
+    "productName": "Toshiba - Satellite 15.6\" Laptop - Intel Core i3 - 4GB Memory - 500GB Hard Drive - Jet Black",
+    "brand": "Toshiba",
+    "description": "Windows 8.1 64-bitTechnical details: 4th Gen Intel&#174; Core&#8482; i3 processor; 15.6\" display; 4GB memory; 500GB hard driveSpecial features: Bluetooth; HDMI output",
+    "technicalSpecs": {
+      "model": "C55-B5355",
+      "upc": "022265879719"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "459.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 43,
+    "categoryID": 1,
+    "productName": "Boost Mobile - ZTE Speed 4G No-Contract Cell Phone - Black",
+    "brand": "Boost Mobile",
+    "description": "Android 4.4.4 KitKat operating system4G LTE speed4.5\" TN-TFT touch screenBluetooth interface5.0MP rear-facing and 2.0MP front-facing cameras",
+    "technicalSpecs": {
+      "model": "ZTE9130ABB",
+      "upc": "885913102511"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "19.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 44,
+    "categoryID": 1,
+    "productName": "Samsung - Galaxy Note 3 4G with 32GB Memory Cell Phone (Unlocked) - White",
+    "brand": "Samsung",
+    "description": "Android 4.3 Jelly Bean4G LTE speedWi-Fi connectivity5.7\" touch screenBluetoothS-VoiceOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "N900A WHITE",
+      "upc": "701748196542"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "379.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 45,
+    "categoryID": 1,
+    "productName": "Boost Mobile - Samsung Galaxy Prevail LTE with 8GB Memory No-Contract Cell Phone - White",
+    "brand": "Boost Mobile",
+    "description": "Qualcomm 1.2GHz quad-core processorAndroid 4.4 KitKat operating systemLTE speedWi-Fi4.5\" capacitive touch screenBluetooth enabled",
+    "technicalSpecs": {
+      "model": "SPHG360ABB",
+      "upc": "887276072968"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "79.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 46,
+    "categoryID": 1,
+    "productName": "Verizon Wireless Prepaid - HTC Desire 612 4G LTE with 8GB Memory No-Contract Cell Phone - Black/Red",
+    "brand": "Verizon Wireless Prepaid",
+    "description": "Qualcomm Snapdragon 1.2GHz quad-core processorAndroid 4.4.3 KitKat with HTC Sense 64G LTE speedWi-Fi4.7\" Super-LCD touch-screen display",
+    "technicalSpecs": {
+      "model": "HTC331ZLVWPP",
+      "upc": "821793043766"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "169.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 47,
+    "categoryID": 1,
+    "productName": "Samsung - Galaxy S 4 Mini Cell Phone (Unlocked) - Black",
+    "brand": "Samsung",
+    "description": "Qualcomm Snapdragon 400 processorAndroid 4.2 Jelly Bean operating system3G speedWi-FiSuper AMOLED capacitive touch screen8.0MP cameraOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "SAM I9190",
+      "upc": "712475392855"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "329.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 48,
+    "categoryID": 2,
+    "productName": "Acer - TravelMate 15.6\" Laptop - Intel Core i5 - 4GB Memory - 500GB Hard Drive - Black",
+    "brand": "Acer",
+    "description": "Windows 7, upgrade to Windows 10 for freeTechnical details: 4th Gen Intel&#174; Core&#8482; i5 processor; 15.6\" display; 4GB memory; 500GB hard driveSpecial features: Bluetooth; HDMI output",
+    "technicalSpecs": {
+      "model": "TMP256M51Q1",
+      "upc": "887899819452"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "649.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 49,
+    "categoryID": 2,
+    "productName": "Asus - ZENBOOK 13.3\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 128GB SSD + 128GB SSD - Dark Blue",
+    "brand": "Asus",
+    "description": "Windows 8 64-bitTechnical details: 4th Gen Intel&#174; Core&#8482; i5 processor; 13.3\" display; 8GB memory; two 128GB solid state drivesSpecial features: Bluetooth; touch screen; backlit keyboard; mini HDMI outputNote: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "UX301LA-DH51T",
+      "upc": "886227589869"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "1799.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 50,
+    "categoryID": 1,
+    "productName": "Boost Mobile - Motorola Moto E 4G with 8GB Memory No-Contract Cell Phone - White",
+    "brand": "Boost Mobile",
+    "description": "Qualcomm 1.2GHz quad-core processorAndroid 5.0 Lollipop operating system4G LTE speedWi-Fi4.5\" TFT touch screenBluetoothHD VoiceNext Radio",
+    "technicalSpecs": {
+      "model": "MOT1526BBB",
+      "upc": "723755006461"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "39.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 51,
+    "categoryID": 3,
+    "productName": "Samsung - Galaxy Tab 3 - 7\" - 16GB - Wi-Fi + 4G LTE Sprint - White",
+    "brand": "Samsung",
+    "description": "Android 4.2.2 Jelly Bean operating system7\" touch screen with 1024 x 600 resolution16GB storage capacityDual-core processorWi-Fi + 4G LTEGoogle Play, Google+",
+    "technicalSpecs": {
+      "model": "SM-T217SZWASPR",
+      "upc": "887276850658"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "299.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 52,
+    "categoryID": 2,
+    "productName": "HP - ENVY 2-in-1 15.6\" Touch-Screen Laptop - Intel Core M - 8GB Memory - 500GB Hard Drive - Natural Silver",
+    "brand": "HP",
+    "description": "Windows 8.1, upgrade to Windows 10 for freeTechnical details: Intel&#174; Core&#8482; M processor; 15.6\" display; 8GB memory; hybrid hard drive (500GB hard drive with 16GB NAND flash memory)Special features: Bluetooth; touch screen; backlit keyboard",
+    "technicalSpecs": {
+      "model": "15-c101dx",
+      "upc": "889296138983"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "899.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 53,
+    "categoryID": 2,
+    "productName": "Toshiba - Satellite 14\" Laptop - Intel Core i5 - 8GB Memory - 750GB Hard Drive - Satin Gold",
+    "brand": "Toshiba",
+    "description": "Only at Best BuyWindows 8.1, upgrade to Windows 10 for freeTechnical details: 5th Gen Intel&#174; Core&#8482; i5 processor; 14\" display; 8GB memory; 750GB hard driveSpecial features: Bluetooth; backlit keyboard; HDMI output",
+    "technicalSpecs": {
+      "model": "E45-B4100",
+      "upc": "022265930588"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "549.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 54,
+    "categoryID": 2,
+    "productName": "Samsung - 11.6\" Chromebook 2 - Intel Celeron - 4GB Memory - 16GB eMMC flash memory - Metallic Silver",
+    "brand": "Samsung",
+    "description": "Google ChromeTechnical details: Intel&#174; Celeron&#174; processor; 11.6\" display; 4GB memory; 16GB eMMC flash memorySpecial features: Bluetooth; HDMI output; Note: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "XE500C12-K02US",
+      "upc": "887276095554"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "229.00",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 55,
+    "categoryID": 3,
+    "productName": "Acer - Iconia Tab 8 - 8\" - Intel Atom - 16GB - Silver",
+    "brand": "Acer",
+    "description": "Android 4.4 KitKat operating system8\" LED-backlit 10-finger touch screen with 1280 x 800 resolution16GB storage capacityQuad-core processorWi-Fi",
+    "technicalSpecs": {
+      "model": "A1-850-13FQ",
+      "upc": "887899994357"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "99.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 56,
+    "categoryID": 5,
+    "productName": "Garmin - vívoactive Smartwatch 28.6mm Plastic - Black Silicone",
+    "brand": "Garmin",
+    "description": "Fits most wrist sizesCompatible with most Bluetooth-enabled iOS and Android smartphones22.86mm silicone bandBuilt-in GPSWater-resistant designReminds you to stay active",
+    "technicalSpecs": {
+      "model": "010-01297-00",
+      "upc": "753759128418"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "219.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 57,
+    "categoryID": 2,
+    "productName": "HP - EliteBook 850 G1 15.6\" Laptop - Intel Core i5 - 4GB Memory - 500GB Hard Drive - Black",
+    "brand": "HP",
+    "description": "Windows 7 Professional 64-bitTechnical details: 4th Gen Intel&#174; Core&#8482; i5 processor; 15.6\" display; 4GB memoryNote: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "e3w18ut",
+      "upc": "888182064320"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "1154.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 58,
+    "categoryID": 3,
+    "productName": "Samsung - Galaxy Tab 3 Lite - 7\" - 8GB - Dark Gray",
+    "brand": "Samsung",
+    "description": "Android 4.2 Jelly Bean operating system7\" touch screen with 1024 x 600 resolution8GB storage capacityDual-core processorWi-FiBluetooth 4.0 LE",
+    "technicalSpecs": {
+      "model": "SM-T110NYKAXAR",
+      "upc": "887276672410"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "139.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 59,
+    "categoryID": 3,
+    "productName": "Surface - Refurbished Pro 3 - 12\" - Intel Core i5 - 128GB - Silver",
+    "brand": "Surface",
+    "description": "Refurbished12\" touch-screen display with 2160 x 1440 resolutionWindows 8.1 Pro128GB storage capacityWi-Fi",
+    "technicalSpecs": {
+      "model": "PY2-00001",
+      "upc": "885370877953"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "999.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 60,
+    "categoryID": 2,
+    "productName": "Toshiba - 15.6\" Touch-Screen Laptop - AMD A8-Series - 6GB Memory - 750GB Hard Drive - Jet Black",
+    "brand": "Toshiba",
+    "description": "Windows 8.1 64-bitTechnical details: AMD A8-Series processor; 15.6\" display; 6GB memory; 750GB hard driveSpecial features: Bluetooth; Touch screen; HDMI output",
+    "technicalSpecs": {
+      "model": "C55DTB5153",
+      "upc": "022265947944"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "469.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 61,
+    "categoryID": 2,
+    "productName": "Acer - 11.6\" Chromebook - Intel Celeron - 4GB Memory - 16GB Solid State Drive - Gray",
+    "brand": "Acer",
+    "description": "Chrome OSTechnical details: Intel&#174; Celeron&#174; processor; 11.6\" display; 4GB memory; 16GB solid state driveSpecial features: Bluetooth; HDMI outputNote: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "C740C4PE",
+      "upc": "887899773891"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "249.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 62,
+    "categoryID": 3,
+    "productName": "Acer - Iconia - 8\" - Intel Atom - 32GB - Slate",
+    "brand": "Acer",
+    "description": "8\" multitouch display with 1280 x 800 resolutionAndroid 4.4 KitKat operating system32GB storage capacityQuad-core processorWi-FiBluetooth 4.0 interface",
+    "technicalSpecs": {
+      "model": "B18101193",
+      "upc": "888863026524"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "99.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 63,
+    "categoryID": 2,
+    "productName": "Asus - 2-in-1 13.3\" Touch-Screen Laptop - Intel Core i3 - 6GB Memory - 500GB Hard Drive - Black Hairline",
+    "brand": "Asus",
+    "description": "Only at Best Buy\nBlue Label&#8482;Windows 10Technical details: 5th Gen Intel&#174; Core&#8482; i3 processor; 13.3\" display; 6GB memory; 500GB hard driveSpecial features: Bluetooth; touch screen; HDMI output; voice recognitionNote: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "Q302LA-BHI3T11",
+      "upc": "889349112427"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "509.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 64,
+    "categoryID": 2,
+    "productName": "Toshiba - Satellite Radius 2-in-1 14\" Touch-Screen Laptop - AMD FX-Series - 8GB Memory - 750GB Hard Drive - Brushed Black/Brushed Metal",
+    "brand": "Toshiba",
+    "description": "Only at Best Buy\nBlue Label&#8482;Windows 10 Home 64-bitTechnical details: AMD FX-Series processor; 14\" display; 8GB memory; 750GB hard driveSpecial features: Bluetooth; touch screen; backlit keyboard; HDMI output",
+    "technicalSpecs": {
+      "model": "E45DW-C4210",
+      "upc": "889661015727"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "559.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 65,
+    "categoryID": 2,
+    "productName": "Toshiba - Satellite Radius 2-in-1 15.6\" Touch-Screen Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive - Brushed Metal",
+    "brand": "Toshiba",
+    "description": "Only at Best Buy\n\nBlue Label&#8482;Windows 10 Home 64-bitTechnical details: 5th Gen Intel&#174; Core&#8482; i7 processor; 15.6\" display; 8GB memory; 1TB hard driveSpecial features: Bluetooth; touch screen; backlit keyboard; HDMI outputNote: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "P55W-C5204",
+      "upc": "889661009733"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "879.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 66,
+    "categoryID": 2,
+    "productName": "Toshiba - Satellite Radius 15.6\" 4K Ultra HD Touch-Screen Laptop - Intel Core i7 - 8GB Memory - 256GB Solid State Drive - Carbon Gray",
+    "brand": "Toshiba",
+    "description": "Windows 10 Home 64-bitTechnical details: 5th Gen Intel&#174; Core&#8482; i7 processor; 15.6\" display; 8GB memory; 256GB solid state driveSpecial features: Bluetooth; touch screen; backlit keyboard; HDMI outputNote: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "P55W-C5210-4K",
+      "upc": "889661016076"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "1199.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 67,
+    "categoryID": 2,
+    "productName": "Toshiba - Satellite Radius 2-in-1 15.6\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 750GB Hard Drive - Brushed Metal",
+    "brand": "Toshiba",
+    "description": "Only at Best Buy\nBlue Label&#8482;Windows 10 Home 64-bitTechnical details: 5th Gen Intel&#174; Core&#8482; i5 processor; 15.6\" display; 8GB memory; 750GB hard driveSpecial features: Bluetooth; touch screen; backlit keyboard; HDMI outputNote: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "P55W-C5200X",
+      "upc": "889661030928"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "749.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 68,
+    "categoryID": 2,
+    "productName": "Toshiba - Satellite Radius 14\" Touch-Screen Laptop - Intel Core i3 - 6GB Memory - 500GB Hard Drive - Brushed Black/Brushed Metal",
+    "brand": "Toshiba",
+    "description": "Windows 10 Home 64-bitTechnical details: 5th Gen Intel&#191; Core i3 processor; 14\" display; 6GB memory; 500GB hard driveSpecial features: Bluetooth; touch screen; HDMI outputNote: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "E45W-C4200X",
+      "upc": "889661028345"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "499.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 69,
+    "categoryID": 3,
+    "productName": "Microsoft - Surface Pro 3 - 12\" - Intel Core i7 - 512GB - Silver",
+    "brand": "Microsoft",
+    "description": "Windows 1012\" touch screen with 2160 x 1440 resolution512GB storage capacityWi-Fi5.0MP front and rear camerasmicroSD slotUSB 3.0 port and Mini DisplayPort",
+    "technicalSpecs": {
+      "model": "PU2-00017",
+      "upc": "889842012552"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "1949.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 70,
+    "categoryID": 3,
+    "productName": "Microsoft - Surface 3 - 10.8\" - Intel Atom - 128GB - Silver",
+    "brand": "Microsoft",
+    "description": "Windows 1010.8\" touch-screen display with 1920 x 1280 resolution128GB storage capacityQuad-core processorWi-FiIntegrated kickstand",
+    "technicalSpecs": {
+      "model": "7G6-00014",
+      "upc": "889842009026"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "599.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 71,
+    "categoryID": 3,
+    "productName": "Microsoft - Surface 3 - 10.8\" - Intel Atom - 64GB - Silver",
+    "brand": "Microsoft",
+    "description": "Windows 10 operating system10.8\" LCD touch screen with 1920 x 1280 resolution64GB storage capacityQuad-core processorWi-FiDual camerasUSB 3.0 port",
+    "technicalSpecs": {
+      "model": "7G5-00015",
+      "upc": "889842008852"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "499.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 72,
+    "categoryID": 2,
+    "productName": "HP - 15.6\" Touch-Screen Laptop - Intel Core i3 - 6GB Memory - 1TB Hard Drive - Black",
+    "brand": "HP",
+    "description": "Windows 10 Home 64-bitTechnical details: 5th Gen Intel&#174; Core&#8482; i3 processor; 15.6\" display; 6GB memory; 1TB hard driveSpecial features: Touch screen; HDMI output",
+    "technicalSpecs": {
+      "model": "15-ac121dx",
+      "upc": "889894011916"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "399.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 73,
+    "categoryID": 2,
+    "productName": "Acer - TravelMate 14\" Laptop - Intel Pentium - 4GB Memory - 500GB Hard Drive - Black",
+    "brand": "Acer",
+    "description": "Windows 7, upgrade to Windows 10 for freeTechnical details: Intel&#174; Pentium&#174; processor; 14\" display; 4GB memory; 500GB hard driveSpecial features: Bluetooth",
+    "technicalSpecs": {
+      "model": "TMP246MP4DP",
+      "upc": "887899959424"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "429.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 74,
+    "categoryID": 2,
+    "productName": "Acer - TravelMate 15.6\" Laptop - Intel Pentium - 4GB Memory - 500GB Hard Drive - Black",
+    "brand": "Acer",
+    "description": "Windows 7, upgrade to Windows 10 for freeTechnical details: Intel&#174; Pentium&#174; processor; 15.6\" display; 4GB memory; 500GB hard driveSpecial features: Bluetooth; HDMI output",
+    "technicalSpecs": {
+      "model": "TMP256MP8YQ",
+      "upc": "887899959417"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "499.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 75,
+    "categoryID": 2,
+    "productName": "Acer - TravelMate 14\" Laptop - Intel Core i3 - 4GB Memory - 500GB Hard Drive - Black",
+    "brand": "Acer",
+    "description": "Windows 7, upgrade to Windows 10 for freeTechnical details: 4th Gen Intel&#174; Core&#8482; i3 processor; 14\" display; 4GB memory; 500GB hard driveSpecial features: Bluetooth; HDMI output",
+    "technicalSpecs": {
+      "model": "TMP245M3890",
+      "upc": "887899645051"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "499.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 76,
+    "categoryID": 3,
+    "productName": "Samsung - Geek Squad Certified Refurbished Galaxy Tab A - 8\" - 16GB - Smoky Titanium",
+    "brand": "Samsung",
+    "description": "8\" TFT touch screen with XGA (1024 x 768) resolutionAndroid 5.0 Lollipop operating system16GB storage capacityQuad-core processorWi-FiBluetooth 4.1",
+    "technicalSpecs": {
+      "model": "GSRF-SM-T350NZAAXAR",
+      "upc": "400042308001"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "229.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 77,
+    "categoryID": 3,
+    "productName": "Samsung - Geek Squad Certified Refurbished Galaxy Tab A - 9.7\" - 16GB - Smoky Titanium",
+    "brand": "Samsung",
+    "description": "9.7\" TFT touch screen with XGA (1024 x 768) resolutionAndroid 5.0 Lollipop operating system16GB storage capacityQuad-core processorWi-FiBluetooth 4.1",
+    "technicalSpecs": {
+      "model": "GSRF-SM-T550NZAAXAR",
+      "upc": "400042318000"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "299.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 78,
+    "categoryID": 3,
+    "productName": "Samsung - Geek Squad Certified Refurbished Galaxy Tab A - 8\" - 16GB - White",
+    "brand": "Samsung",
+    "description": "8\" TFT touch screen with XGA (1024 x 768) resolutionAndroid 5.0 Lollipop operating system16GB storage capacityQuad-core processorWi-FiBluetooth 4.1",
+    "technicalSpecs": {
+      "model": "GSRF-SM-T350NZWAXAR",
+      "upc": "400042322007"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "229.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 79,
+    "categoryID": 3,
+    "productName": "Samsung - Geek Squad Certified Refurbished Galaxy Tab A - 9.7\" - 16GB - Smoky Titanium",
+    "brand": "Samsung",
+    "description": "Only at Best Buy\n9.7\" TFT touch screen with XGA (1024 x 768) resolutionAndroid 5.0 Lollipop operating system16GB storage capacityQuad-core processorWi-FiBluetooth 4.1",
+    "technicalSpecs": {
+      "model": "GSRF-SM-P550NZAAXAR",
+      "upc": "400042323004"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "409.49",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 80,
+    "categoryID": 3,
+    "productName": "Samsung - Geek Squad Certified Refurbished Galaxy Tab A - 9.7\" - 16GB - White",
+    "brand": "Samsung",
+    "description": "9.7\" TFT touch screen with XGA (1024 x 768) resolutionAndroid 5.0 Lollipop operating system16GB storage capacityQuad-core processorWi-FiBluetooth 4.1",
+    "technicalSpecs": {
+      "model": "GSRF-SM-T550NZWAXAR",
+      "upc": "400042324025"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "299.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 81,
+    "categoryID": 3,
+    "productName": "Samsung - Galaxy Tab S2 8.0 - 8\" - 32GB - White",
+    "brand": "Samsung",
+    "description": "Android 5.0 Lollipop operating system8.0\" Super AMOLED touch-screen display with 2048 x 1536 resolution32GB storage capacityDual quad-core processorsWi-FiQuick Connect and SideSync technologies",
+    "technicalSpecs": {
+      "model": "SM-T710NZWEXAR",
+      "upc": "887276069692"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "399.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 82,
+    "categoryID": 3,
+    "productName": "Samsung - Galaxy Tab S2 8.0 - 8\" - 32GB - Gold",
+    "brand": "Samsung",
+    "description": "Android 5.0 Lollipop operating system8.0\" Super AMOLED touch-screen display with 2048 x 1536 resolution32GB storage capacityDual quad-core processorsWi-FiQuick Connect and SideSync technologies",
+    "technicalSpecs": {
+      "model": "SM-T710NZDEXAR",
+      "upc": "887276140001"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "399.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 83,
+    "categoryID": 3,
+    "productName": "Samsung - Galaxy Tab S2 9.7 - 9.7\" - 32GB - Gold",
+    "brand": "Samsung",
+    "description": "Android 5.0 Lollipop operating system9.7\" Super AMOLED touch-screen display with 2048 x 1536 resolution32GB storage capacityDual quad-core processorsWi-FiQuick Connect and SideSync technologies",
+    "technicalSpecs": {
+      "model": "SM-T810NZDEXAR",
+      "upc": "887276069890"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "499.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 84,
+    "categoryID": 3,
+    "productName": "Samsung - Galaxy Tab S2 9.7 - 9.7\" - 32GB - Black",
+    "brand": "Samsung",
+    "description": "Android 5.0 Lollipop operating system9.7\" Super AMOLED touch-screen display with 2048 x 1536 resolution32GB storage capacityDual quad-core processorsWi-FiQuick Connect and SideSync technologies",
+    "technicalSpecs": {
+      "model": "SM-T810NZKEXAR",
+      "upc": "887276069852"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "499.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 85,
+    "categoryID": 3,
+    "productName": "Samsung - Galaxy Tab S2 9.7 - 9.7\" - 32GB - White",
+    "brand": "Samsung",
+    "description": "Android 5.0 Lollipop operating system9.7\" Super AMOLED touch-screen display with 2048 x 1536 resolution32GB storage capacityDual quad-core processorsWi-FiQuick Connect and SideSync technologies",
+    "technicalSpecs": {
+      "model": "SM-T810NZWEXAR",
+      "upc": "887276069821"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "499.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 86,
+    "categoryID": 5,
+    "productName": "Apple - Apple Watch™ Sport 38mm Silver Aluminum Case - White Sports Band",
+    "brand": "Apple",
+    "description": "Compatible with iPhone 5, 5c, 5s, 6 and 6 Plus with iOS 8.2 or later; Wi-Fi; Bluetooth 4.0; Digital Crown; Taptic Engine; Force Touch; Retina display",
+    "technicalSpecs": {
+      "model": "MJ2T2LL/A",
+      "upc": "888462079488"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "299.00",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 87,
+    "categoryID": 5,
+    "productName": "Apple - Apple Watch™ Sport 38mm Space Gray Aluminum Case - Space Gray Sports Band",
+    "brand": "Apple",
+    "description": "Compatible with iPhone 5, 5c, 5s, 6 and 6 Plus with iOS 8.2 or later; Wi-Fi; Bluetooth 4.0; Digital Crown; Taptic Engine; Force Touch; Retina display",
+    "technicalSpecs": {
+      "model": "MJ2X2LL/A",
+      "upc": "888462079525"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "299.00",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 88,
+    "categoryID": 5,
+    "productName": "Apple - Apple Watch Sport 42mm Silver Aluminum Case - White Sports Band",
+    "brand": "Apple",
+    "description": "Compatible with iPhone 5, 5c, 5s, 6 and 6 Plus with iOS 8.2 or later; Wi-Fi; Bluetooth 4.0; Digital Crown; Taptic Engine; Force Touch; Retina display",
+    "technicalSpecs": {
+      "model": "MJ3N2LL/A",
+      "upc": "888462079945"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "349.00",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 89,
+    "categoryID": 5,
+    "productName": "Apple - Apple Watch Sport 42mm Space Gray Aluminum Case - Space Gray Sports Band",
+    "brand": "Apple",
+    "description": "Compatible with iPhone 5, 5c, 5s, 6 and 6 Plus with iOS 8.2 or later; Wi-Fi; Bluetooth 4.0; Digital Crown; Taptic Engine; Force Touch; Retina display",
+    "technicalSpecs": {
+      "model": "MJ3T2LL/A",
+      "upc": "888462079983"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "349.00",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 90,
+    "categoryID": 5,
+    "productName": "Apple - Apple Watch 38mm Stainless Steel Case - Black Sports Band",
+    "brand": "Apple",
+    "description": "Compatible with iPhone 5, 5c, 5s, 6 and 6 Plus with iOS 8.2 or later; Wi-Fi; Bluetooth 4.0; Digital Crown; Taptic Engine; Force Touch; Retina display",
+    "technicalSpecs": {
+      "model": "MJ2Y2LL/A",
+      "upc": "888462079532"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "549.00",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 91,
+    "categoryID": 5,
+    "productName": "Apple - Apple Watch 38mm Stainless Steel Case - White Sports Band",
+    "brand": "Apple",
+    "description": "Compatible with iPhone 5, 5c, 5s, 6 and 6 Plus with iOS 8.2 or later; Wi-Fi; Bluetooth 4.0; Digital Crown; Taptic Engine; Force Touch; Retina display",
+    "technicalSpecs": {
+      "model": "MJ302LL/A",
+      "upc": "888462079549"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "549.00",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 92,
+    "categoryID": 5,
+    "productName": "Apple - Apple Watch 38mm Stainless Steel Case - Milanese Loop",
+    "brand": "Apple",
+    "description": "Compatible with iPhone 5, 5c, 5s, 6 and 6 Plus with iOS 8.2 or later; Wi-Fi; Bluetooth 4.0; Digital Crown; Taptic Engine; Force Touch; Retina display",
+    "technicalSpecs": {
+      "model": "MJ322LL/A",
+      "upc": "888462079563"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "649.00",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 93,
+    "categoryID": 5,
+    "productName": "Apple - Apple Watch 42mm Stainless Steel Case - White Sports Band",
+    "brand": "Apple",
+    "description": "Compatible with iPhone 5, 5c, 5s, 6 and 6 Plus with iOS 8.2 or later; Wi-Fi; Bluetooth 4.0; Digital Crown; Taptic Engine; Force Touch; Retina display",
+    "technicalSpecs": {
+      "model": "MJ3V2LL/A",
+      "upc": "888462080002"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "599.00",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 94,
+    "categoryID": 5,
+    "productName": "Apple - Apple Watch 42mm Stainless Steel Case - Milanese Loop",
+    "brand": "Apple",
+    "description": "Compatible with iPhone 5, 5c, 5s, 6 and 6 Plus with iOS 8.2 or later; Wi-Fi; Bluetooth 4.0; Digital Crown; Taptic Engine; Force Touch; Retina display",
+    "technicalSpecs": {
+      "model": "MJ3Y2LL/A",
+      "upc": "888462080026"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "699.00",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 95,
+    "categoryID": 5,
+    "productName": "Asus - ZenWatch 2 Smartwatch 49mm Stainless Steel - Silver/Taupe Rubber",
+    "brand": "Asus",
+    "description": "Fits most wrist sizesCompatible with most Apple&#174; iOS and Android devicesRubber strapWater-resistant design",
+    "technicalSpecs": {
+      "model": "WI501Q-1B-GB1",
+      "upc": "889349148624"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "129.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 96,
+    "categoryID": 5,
+    "productName": "Asus - ZenWatch 2 Smartwatch 45mm Stainless Steel - Silver/Khaki Leather",
+    "brand": "Asus",
+    "description": "Fits most wrist sizesCompatible with most Apple&#174; iOS and Android devicesLeather bandWater-resistant design",
+    "technicalSpecs": {
+      "model": "WI502Q-1A-GB1",
+      "upc": "889349148648"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "149.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 97,
+    "categoryID": 5,
+    "productName": "Asus - ZenWatch 2 Smartwatch 49mm Stainless Steel - Gunmetal/Brown Leather",
+    "brand": "Asus",
+    "description": "Fits most wrist sizesCompatible with most Apple&#174; iOS and Android devicesLeather bandWater-resistant design",
+    "technicalSpecs": {
+      "model": "WI501Q-2J-GB1",
+      "upc": "889349149089"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "149.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 98,
+    "categoryID": 5,
+    "productName": "Motorola - Moto 360 2nd Generation Men's Smartwatch 42mm Stainless Steel - Silver Stainless Steel",
+    "brand": "Motorola",
+    "description": "Fits most wrist sizesCompatible with most Apple&#174; iOS and Android cell phones22mm stainless steel bandWater-resistant designAt-a-glance notifications",
+    "technicalSpecs": {
+      "model": "00823NARTL",
+      "upc": "723755008236"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "349.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 99,
+    "categoryID": 5,
+    "productName": "Motorola - Moto 360 2nd Generation Women's Smartwatch 42mm Stainless Steel - Gold Stainless Steel",
+    "brand": "Motorola",
+    "description": "Fits most wrist sizesCompatible with most Apple&#174; iOS and Android cell phones16mm stainless steel bandWater-resistant designAt-a-glance notifications",
+    "technicalSpecs": {
+      "model": "00825NARTL",
+      "upc": "723755008250"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "379.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 100,
+    "categoryID": 5,
+    "productName": "Motorola - Moto 360 2nd Generation Women's Smartwatch 42mm Stainless Steel - Rose Gold/Blush Leather",
+    "brand": "Motorola",
+    "description": "Fits most wrist sizesCompatible with most Apple&#174; iOS and Android cell phones16mm Horween leather bandWater-resistant designAt-a-glance notifications",
+    "technicalSpecs": {
+      "model": "00902NARTL",
+      "upc": "723755009028"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "329.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  }
+]

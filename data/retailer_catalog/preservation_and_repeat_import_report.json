@@ -1,0 +1,16 @@
+{
+  "original_database": {
+    "database": "ecommerce_electronics_demo",
+    "products": 100,
+    "categories": 5,
+    "fingerprint": "0e65cd5c10f4151f8a1bc1c916c9b3c4d09b9ce0420386c8127c30bd038744a6"
+  },
+  "original_unchanged": true,
+  "new_database": {
+    "database": "ecommerce_vn_retailer_demo",
+    "products": 100,
+    "categories": 5,
+    "fingerprint": "dd4656654a4ed5aea58f5fb81b320154abc607b141d1c2520bde477184bdbf6e"
+  },
+  "repeat_import_unchanged": true
+}

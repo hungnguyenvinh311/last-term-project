@@ -1,0 +1,35 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-nothing-phone-2a-plus",
+  "source_url": "https://cellphones.com.vn/dien-thoai-nothing-phone-2a-plus.html",
+  "productName": "Nothing Phone 2A Plus 5G 12GB 256GB",
+  "brand": "Nothing",
+  "description": "Điện thoại Nothing Phone 2A Plus chính hãng, BH 12 tháng, lỗi 1 đổi 1 trong 3 tháng, trả góp 0%. Mua ngay Nothing Phone 2A Plus giao hàng nhanh.",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "Android 14",
+    "Chipset": "MediaTek Dimensity 7350 Pro 5G",
+    "Dung lượng RAM": "12 GB",
+    "Bộ nhớ trong": "256 GB",
+    "Loại CPU": "Up to 3.0 GHz",
+    "GPU": "ARM Mali G610 MC4",
+    "Kích thước màn hình": "6.7 inches",
+    "Công nghệ màn hình": "Flexible AMOLED On-cell",
+    "Độ phân giải màn hình": "1080 x 2412 pixels",
+    "Tính năng màn hình": "1300 nits120 Hz, 1,07 tỷ màu",
+    "Camera sau": "Camera chính: 50 MP, f/1.88, 1/1.57&quot;Camera góc siêu rộng: 50 MP, f/2.2, 1/2.76&quot;",
+    "Camera trước": "50 MP, f/2.2, 1/2.76&quot;",
+    "Pin": "5000 mAh",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "2 SIM (Nano-SIM)",
+    "Công nghệ NFC": "Có"
+  },
+  "price": "7990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/d/i/dien-thoai-nothing-phone-2a-plus_1_.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:09.587211+00:00"
+}

@@ -1,0 +1,43 @@
+﻿ID,Product,Variant,Status,AnyCorrectROI,BestCorrectScore,TopLabel,TopCorrect,BoxCount
+42,Xiaomi Poco Pad X1 8GB 512GB,original,completed,False,,Phone,False,1
+42,Xiaomi Poco Pad X1 8GB 512GB,rotate90cw,completed,True,0.38188794255256653,Tablet,True,1
+42,Xiaomi Poco Pad X1 8GB 512GB,rotate180,completed,False,,Phone,False,1
+42,Xiaomi Poco Pad X1 8GB 512GB,rotate270cw,completed,True,0.4612029194831848,Tablet,True,1
+42,Xiaomi Poco Pad X1 8GB 512GB,flip_horizontal,completed,False,,Phone,False,1
+42,Xiaomi Poco Pad X1 8GB 512GB,flip_vertical,completed,False,,Phone,False,1
+43,Xiaomi Pad 8 Pro 8GB 128GB,original,completed,False,,Phone,False,1
+43,Xiaomi Pad 8 Pro 8GB 128GB,rotate90cw,completed,False,,Phone,False,1
+43,Xiaomi Pad 8 Pro 8GB 128GB,rotate180,completed,False,,Phone,False,1
+43,Xiaomi Pad 8 Pro 8GB 128GB,rotate270cw,completed,True,0.43932634592056274,Tablet,True,1
+43,Xiaomi Pad 8 Pro 8GB 128GB,flip_horizontal,completed,False,,Phone,False,1
+43,Xiaomi Pad 8 Pro 8GB 128GB,flip_vertical,completed,False,,Phone,False,1
+49,iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam,original,completed,False,,Phone,False,1
+49,iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam,rotate90cw,completed,False,,Phone,False,1
+49,iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam,rotate180,completed,False,,Phone,False,1
+49,iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam,rotate270cw,completed,False,,Phone,False,1
+49,iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam,flip_horizontal,completed,False,,Phone,False,1
+49,iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam,flip_vertical,completed,False,,Phone,False,1
+50,Lenovo Legion Tab Gen 5 12GB 256GB,original,completed,False,,Phone,False,1
+50,Lenovo Legion Tab Gen 5 12GB 256GB,rotate90cw,completed,True,0.2791880667209625,Tablet,True,1
+50,Lenovo Legion Tab Gen 5 12GB 256GB,rotate180,completed,False,,Phone,False,1
+50,Lenovo Legion Tab Gen 5 12GB 256GB,rotate270cw,completed,True,0.3809947669506073,Tablet,True,1
+50,Lenovo Legion Tab Gen 5 12GB 256GB,flip_horizontal,completed,False,,Phone,False,1
+50,Lenovo Legion Tab Gen 5 12GB 256GB,flip_vertical,completed,False,,Phone,False,1
+57,iPad Pro chip M5 11 inch Wifi 256GB | Chính hãng Apple Việt Nam,original,completed,False,,Phone,False,1
+57,iPad Pro chip M5 11 inch Wifi 256GB | Chính hãng Apple Việt Nam,rotate90cw,completed,False,,Phone,False,1
+57,iPad Pro chip M5 11 inch Wifi 256GB | Chính hãng Apple Việt Nam,rotate180,completed,False,,Phone,False,1
+57,iPad Pro chip M5 11 inch Wifi 256GB | Chính hãng Apple Việt Nam,rotate270cw,completed,True,0.32450371980667114,Tablet,True,1
+57,iPad Pro chip M5 11 inch Wifi 256GB | Chính hãng Apple Việt Nam,flip_horizontal,completed,False,,Phone,False,1
+57,iPad Pro chip M5 11 inch Wifi 256GB | Chính hãng Apple Việt Nam,flip_vertical,completed,False,,Phone,False,1
+58,Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB,original,completed,False,,Phone,False,1
+58,Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB,rotate90cw,completed,False,,Phone,False,1
+58,Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB,rotate180,completed,False,,Phone,False,1
+58,Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB,rotate270cw,completed,True,0.39507028460502625,Tablet,True,1
+58,Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB,flip_horizontal,completed,False,,Phone,False,1
+58,Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB,flip_vertical,completed,False,,Phone,False,1
+95,Apple Watch SE 3 GPS 40mm Viền nhôm dây cao su,original,completed,False,,Headphones,False,2
+95,Apple Watch SE 3 GPS 40mm Viền nhôm dây cao su,rotate90cw,completed,True,0.22257375717163086,Phone,False,2
+95,Apple Watch SE 3 GPS 40mm Viền nhôm dây cao su,rotate180,completed,False,,Phone,False,2
+95,Apple Watch SE 3 GPS 40mm Viền nhôm dây cao su,rotate270cw,completed,True,0.36761459708213806,Watch,True,2
+95,Apple Watch SE 3 GPS 40mm Viền nhôm dây cao su,flip_horizontal,completed,False,,Headphones,False,2
+95,Apple Watch SE 3 GPS 40mm Viền nhôm dây cao su,flip_vertical,completed,True,0.3179432451725006,Phone,False,2

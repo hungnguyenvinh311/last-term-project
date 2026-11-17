@@ -1,0 +1,6 @@
+from typing import Protocol
+
+
+class CategoryDAO(Protocol):
+    def findAll(self): ...
+    def update(self, categoryID:int, values:dict): ...

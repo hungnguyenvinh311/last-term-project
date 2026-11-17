@@ -1,0 +1,23 @@
+{
+  "provider": "cellphones",
+  "source_id": "T.AP.12",
+  "source_url": "https://cellphones.com.vn/apple-earpods-lightning.html",
+  "productName": "Tai nghe Apple EarPods Lightning MWTY3ZA/A | Chính hãng Apple Việt Nam",
+  "brand": "Apple Chính hãng",
+  "description": "Mua tai nghe Lightning chính hãng Apple - Giá tốt, bảo hành 12 tháng, giao hàng toàn quốc. Mua ngay Apple EarPods Lightning tại đây.",
+  "technicalSpecs": {
+    "Micro": "Có",
+    "Cổng kết nối ": "Lightning",
+    "Phương thức điều khiển": "Nút bấm vật lý",
+    "Hãng sản xuất": "Apple Chính hãng"
+  },
+  "price": "510000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/f/r/frame_3_3.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:46:17.472396+00:00"
+}

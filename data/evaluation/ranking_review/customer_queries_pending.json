@@ -1,0 +1,14 @@
+[
+  {"caseID":"customer-text-orange","kind":"text","text":"điện thoại màu cam","relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Inspect images and confirm the photographed variant's colour; do not assume missing colour metadata means no orange products exist."},
+  {"caseID":"customer-text-black","kind":"text","text":"điện thoại Samsung màu đen dưới 20 triệu","relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Verify exact colour, brand and price for every relevant product."},
+  {"caseID":"customer-text-blue","kind":"text","text":"tai nghe không dây màu xanh dương","relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Verify wireless capability and exact photographed colour."},
+  {"caseID":"customer-text-budget","kind":"text","text":"điện thoại dưới 10 triệu RAM ít nhất 8 GB","relevantArticleIDs":null,"reviewed":false,"reviewNotes":"List all products satisfying the numeric constraints; unknown RAM is not evidence of a match."},
+  {"caseID":"customer-text-laptop","kind":"text","text":"laptop ASUS RAM 16 GB dưới 25 triệu","relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Check brand, exact RAM and price, including canonical brand naming."},
+  {"caseID":"customer-text-exclusion","kind":"text","text":"điện thoại dưới 15 triệu không Samsung","relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Verify every returned product meets the exclusion and budget."},
+  {"caseID":"customer-text-anc","kind":"text","text":"tai nghe chống ồn dưới 3 triệu","relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Require affirmative ANC/noise-cancelling evidence, not a specification key with a negative value."},
+  {"caseID":"customer-image-external-phone","kind":"image","image":null,"relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Provide a new photograph not already indexed, then label every genuinely matching product."},
+  {"caseID":"customer-image-multiple-objects","kind":"image","image":null,"region":null,"relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Provide a photo containing multiple objects and select the intended target region."},
+  {"caseID":"customer-mixed-orange","kind":"image_text","text":"cùng loại điện thoại nhưng màu cam","image":null,"relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Choose a non-orange reference photo and label orange alternatives of the intended type; model identity vs product type must be clarified."},
+  {"caseID":"customer-mixed-white","kind":"image_text","text":"tai nghe tương tự nhưng màu trắng, dưới 2 triệu","image":null,"relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Choose a reference headphone image, then verify colour, price and similarity."},
+  {"caseID":"customer-mixed-brand","kind":"image_text","text":"tìm điện thoại Samsung tương tự, dưới 15 triệu","image":null,"relevantArticleIDs":null,"reviewed":false,"reviewNotes":"Choose a reference photo and label all relevant Samsung alternatives, not just the source model."}
+]

@@ -1,0 +1,36 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-poco-f8-pro-5g",
+  "source_url": "https://cellphones.com.vn/dien-thoai-poco-f8-pro-5g.html",
+  "productName": "Xiaomi POCO F8 Pro 5G 12GB 256GB",
+  "brand": "Xiaomi",
+  "description": "Poco F8 Pro 5G có màn 6.59inch, pin 6.210mAh, camera sau 50MP. Mua ngay điện thoại Xiaomi Poco F8 Pro ưu đãi 11/2026 tại CellphoneS.",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "Xiaomi HyperOS 3",
+    "Chipset": "Snapdragon® 8 Elite",
+    "Dung lượng RAM": "12 GB",
+    "Bộ nhớ trong": "256 GB",
+    "Loại CPU": "8 nhân",
+    "GPU": "Adreno™",
+    "Kích thước màn hình": "6.59 inches",
+    "Công nghệ màn hình": "AMOLED",
+    "Độ phân giải màn hình": "2510 x 1156 pixels",
+    "Tính năng màn hình": "Độ sáng tối đa 3500 nitsTỷ lệ tương phản 5.000.000:1Độ sáng HBM 2000 nits68 tỷ màu | Dải màu rộng DCI-P3Cảm ứng kháng nước 2.0Chứng nhận TUV (ánh sáng xanh thấp, chống nhấp nháy, nhịp sinh học)",
+    "Camera sau": "50MP chính (Light Fusion 800, 1/1.55&quot;, f/1.88, OIS, 6P) + 50MP tele 60mm (f/2.2) + 8MP góc siêu rộng (f/2.2)",
+    "Camera trước": "20MP",
+    "Pin": "6210mAh",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "2 Nano SIM hoặc 2 eSIM hoặc 1 Nano SIM + 1 eSIM",
+    "Công nghệ NFC": "Có",
+    "Thời điểm ra mắt": "10/2025"
+  },
+  "price": "16490000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/p/o/poco-f8-pro.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:40:41.859472+00:00"
+}

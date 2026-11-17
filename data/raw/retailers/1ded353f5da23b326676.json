@@ -1,0 +1,35 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-honor-x8d",
+  "source_url": "https://cellphones.com.vn/dien-thoai-honor-x8d.html",
+  "productName": "HONOR X8d 8GB 128GB",
+  "brand": "HONOR",
+  "description": "HONOR X8d 8GB 128GB giá tốt giảm thẳng 900k, thu cũ giảm 3tr, trả góp 0%, lỗi 1 đổi 1 trong 100 ngày, BH 24 tháng. Mua ngay tại CellphoneS!",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "MagicOS 10 (Dựa trên Android 16)",
+    "Chipset": "Snapdragon 6s 4G thế hệ 2",
+    "Dung lượng RAM": "8 GB",
+    "Bộ nhớ trong": "128 GB",
+    "Loại CPU": "Octa-core, 4 * A73 2,9 GHz + 4 * A53 1,9 GHz",
+    "GPU": "Adreno 610",
+    "Kích thước màn hình": " 6.77 inches",
+    "Công nghệ màn hình": "AMOLED",
+    "Độ phân giải màn hình": "1080 x 2392 pixels",
+    "Tính năng màn hình": "Màu sắc: 1,07 tỷ màuCông nghệ Eye Comfort800 nit (điển hình) 1300 nit (loại HBM) 3000 nit (loại APL)Chất liệu kính Thủy tinh Aluminosilicate",
+    "Camera sau": "Camera chính 108MP (f/1.75) + Camera rộng 5MP (f/2.2)",
+    "Camera trước": "16MP (f/2.45)",
+    "Pin": "6800mAh (giá trị định mức), 7000 mAh (giá trị điển hình)",
+    "Hỗ trợ mạng": "4G",
+    "Thẻ SIM": "2 Nano-SIM",
+    "Công nghệ NFC": "Có"
+  },
+  "price": "7490000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/h/o/honor-x8d-2.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:23.701369+00:00"
+}

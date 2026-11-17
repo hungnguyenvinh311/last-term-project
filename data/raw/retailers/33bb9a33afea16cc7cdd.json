@@ -1,0 +1,36 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-samsung-galaxy-a17-5g",
+  "source_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a17-5g.html",
+  "productName": "Samsung Galaxy A17 5G 8GB 128GB",
+  "brand": "Samsung",
+  "description": "Mua Samsung Galaxy A17 5G 8GB/128GB chính hãng, giá tốt - Giảm 50% khi mua kèm sạc 25W, trợ giá đến 1.5Tr, giảm thêm Smember, HSSV, Mua A17 5G tại đây",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "Android 15",
+    "Chipset": "Exynos 1330",
+    "Dung lượng RAM": "8 GB",
+    "Bộ nhớ trong": "128 GB",
+    "Loại CPU": "8 nhân (2 nhân 2.4 GHz &amp; 6 nhân 2.0 GHz)",
+    "GPU": "Mali-G68",
+    "Kích thước màn hình": "6.7 inches",
+    "Công nghệ màn hình": "Super AMOLED",
+    "Độ phân giải màn hình": "1080 x 2340 pixels (FullHD+)",
+    "Tính năng màn hình": "Độ sáng tối đa 800 nitsKính cường lực Corning Gorilla Glass 7",
+    "Camera sau": "Chính 50 MPPhụ 5 MP, 2 MP",
+    "Camera trước": "13 MP",
+    "Pin": "Li-Ion 5000 mAh",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "2 Nano SIM (Sim 2 chung khe với thẻ nhớ)",
+    "Công nghệ NFC": "Có",
+    "Thời điểm ra mắt": "08/2025"
+  },
+  "price": "7890000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/s/a/samsung-galaxy-a17-5g-back.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:40:50.161947+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "provider": "cellphones",
+  "source_id": "may-tinh-bang-lenovo-legion-tab-gen-5-12gb-256gb-zah20030vn",
+  "source_url": "https://cellphones.com.vn/may-tinh-bang-lenovo-legion-tab-gen-5-12gb-256gb-zah20030vn.html",
+  "productName": "Lenovo Legion Tab Gen 5 12GB 256GB",
+  "brand": "Lenovo",
+  "description": "Mua máy tính bảng Lenovo Legion Tab Gen 5 12GB 256GB ZAH20030VN chính hãng giá rẻ - Thu cũ đổi mới, bảo hành 12 tháng, đổi mới 30 ngày, trả góp 0%. Mua ngay máy tính bảng Lenovo Legion Tab Gen 5 tại đây.",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "Android 16",
+    "Chipset": "Snapdragon 8 Elite Gen 5",
+    "Dung lượng RAM": "12 GB",
+    "Bộ nhớ trong": "256 GB",
+    "Loại CPU": "8 nhân, 2 nhân Prime tối đa 4.6GHz + 6 nhân Performance tối đa 3.62GHz",
+    "GPU": "Qualcomm Adreno A840 GPU",
+    "Kích thước màn hình": "8.8 inches",
+    "Công nghệ màn hình": "IPS LCD",
+    "Độ phân giải màn hình": "3040 x 1904 pixels",
+    "Tính năng màn hình": "Tần số quét 165 HzĐộ sáng tối đa 800 nitsĐộ sáng 600 nits thông thườngTốc độ lấy mẫu cảm ứng lên đến 480Hz99% DCI-P310 điểm chạmĐộ phân giải cảm ứng 10x",
+    "Camera sau": "50MP",
+    "Camera trước": "8 MP",
+    "Pin": "9000 mAh",
+    "Thời điểm ra mắt": "01/2026"
+  },
+  "price": "22380000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/l/e/lenovo-legion-tab-gen-5_1.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:44:12.152341+00:00"
+}

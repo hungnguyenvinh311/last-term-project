@@ -1,0 +1,31 @@
+{
+  "provider": "cellphones",
+  "source_id": "ipad-a16-11-inch-256gb",
+  "source_url": "https://cellphones.com.vn/ipad-a16-11-inch-256gb.html",
+  "productName": "iPad A16 Wifi 256GB 2025 | Chính hãng Apple Việt Nam",
+  "brand": "Apple",
+  "description": "Apple iPad 11 A16 Wifi 256GB 2025 Chính Hãng",
+  "technicalSpecs": {
+    "Kích thước màn hình": "11 inches",
+    "Công nghệ màn hình": "Liquid Retina",
+    "Camera sau": "Camera góc rộng: 12MP, ƒ/1.8, Độ thu phóng kỹ thuật số lên đến 5xChụp ảnh toàn cảnh Panorama: 63MP",
+    "Camera trước": "Camera 12MP, ƒ/2.4",
+    "Chipset": "Chip A16",
+    "Bộ nhớ trong": "256 GB",
+    "Pin": "Tích hợp pin sạc Li-Po 28,93 watt‑giờ",
+    "Hệ điều hành": "iPadOS 18",
+    "Độ phân giải màn hình": "2360 x 1640  pixel",
+    "Tính năng màn hình": "Màn hình Multi-Touch với công nghệ LED nền và IPSTrue Tone Độ sáng 500 nit Lớp phủ kháng dầu chống in dấu vân tay",
+    "Loại CPU": "CPU 5 lõi",
+    "Tương thích": "Hỗ trợ Apple Pencil (USB‑C)Hỗ trợ Apple Pencil (thế hệ thứ 1)"
+  },
+  "price": "14890000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/i/p/ipad-a16-11-inch_10__1.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:44:32.230083+00:00"
+}

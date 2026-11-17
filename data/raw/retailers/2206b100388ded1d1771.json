@@ -1,0 +1,33 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-honor-600s",
+  "source_url": "https://cellphones.com.vn/dien-thoai-honor-600s.html",
+  "productName": "HONOR 600S 5G 6GB 128GB",
+  "brand": "HONOR",
+  "description": "HONOR 600S 5G 6GB 128GB màn hình lớn 120Hz, pin 8.100mAh, chip Snapdragon 4 Gen 4. Giảm 1tr, thu cũ giảm 4tr, đổi mới 30 ngày. Mua ngay!",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "MagicOS 10 (Dựa trên Android 16)",
+    "Chipset": "Qualcomm Snapdragon 4 Gen4",
+    "Dung lượng RAM": "6 GB",
+    "Bộ nhớ trong": "128 GB",
+    "Loại CPU": "Adreno 613",
+    "Công nghệ màn hình": "TFT LCD",
+    "Tính năng màn hình": "Tần số quét 120 HzĐộ sáng điển hình 860 nitsĐộ sáng tối đa HBM 1020 nits",
+    "Camera sau": "50 MP, f/1.8Ống kính phụ, f/3.0",
+    "Camera trước": "5 MP, f/2.2",
+    "Pin": "8100 mAh",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "2 Nano-SIM",
+    "Công nghệ NFC": "Có",
+    "Thời điểm ra mắt": "10/2026"
+  },
+  "price": "9490000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/h/o/honor-600s-gold.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:40:57.247458+00:00"
+}

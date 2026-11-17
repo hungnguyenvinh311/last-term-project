@@ -1,0 +1,8 @@
+{
+  "version": "reviewed-catalogue-2026-11-04",
+  "sourceReport": "data/evaluation/grid_reviewed_20261104/report.json",
+  "text": [0.55, 0.0, 0.45],
+  "image": [1.0, 0.0, 0.0],
+  "image_text": [0.6, 0.25, 0.15],
+  "scope": "Catalogue-query calibration; independent photos and colour-change quality require separate evaluation."
+}

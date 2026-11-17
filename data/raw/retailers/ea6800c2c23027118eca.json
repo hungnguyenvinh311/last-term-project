@@ -1,0 +1,29 @@
+{
+  "provider": "cellphones",
+  "source_id": "macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb",
+  "source_url": "https://cellphones.com.vn/macbook-neo-13-a18-pro-6-cpu-5-gpu-8gb-256gb.html",
+  "productName": "MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB | Chính hãng Apple Việt Nam",
+  "brand": "Apple",
+  "description": "Mua ngay MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Loại card đồ họa": "GPU 5 lõi Công nghệ dò tia tốc độ cao bằng phần cứng Neural Engine 16 lõi Băng thông bộ nhớ 60GB/s",
+    "Dung lượng RAM": "8GB",
+    "Ổ cứng": "256GB",
+    "Công nghệ màn hình": "Màn hình Liquid Retina Màn hình có đèn nền LED  Mật độ 219 pixel mỗi inch Độ sáng 500 nit Hỗ trợ 1 tỷ màu Màu sRGBHỗ trợ một màn hình ngoài có độ phân giải gốc lên đến 4K ở tần số 60Hz",
+    "Hệ điều hành khi ra mắt": "macOS",
+    "Loại CPU": "Chip Apple A18 Pro CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+    "Kích thước màn hình": "13 inches",
+    "Độ phân giải màn hình": "2408 x 1506 pixels",
+    "Pin": "Thời gian xem video trực tuyến lên đến 16 giờ Thời gian duyệt web trên mạng không dây lên đến 11 giờ Pin lithium-ion 36.5 watt‑giờ tích hợp",
+    "Cổng giao tiếp": "Một cổng USB 3 (USB-C) hỗ trợ: Sạc / DisplayPort / USB 3 (lên đến 10Gb/s) Một cổng USB 2 (USB-C) hỗ trợ: Sạc / USB 2 (lên đến 480Mb/s) Jack cắm tai nghe 3,5 mm"
+  },
+  "price": "18790000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/m/a/macbook_13_19.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:43:13.012636+00:00"
+}

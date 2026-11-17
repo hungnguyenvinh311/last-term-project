@@ -1,0 +1,30 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-asus-vivobook-go-14-e1404fa-eb1941w",
+  "source_url": "https://cellphones.com.vn/laptop-asus-vivobook-go-14-e1404fa-eb1941w.html",
+  "productName": "Laptop ASUS Vivobook Go 14 E1404FA-EB1941W",
+  "brand": "ASUS",
+  "description": "Mua ngay Laptop ASUS Vivobook Go 14 E1404FA-EB1941W giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Loại card đồ họa": "AMD Radeon Graphics",
+    "Dung lượng RAM": "8GB",
+    "Loại RAM": "8GB LPDDR5 on board",
+    "Ổ cứng": "512GB M.2 NVMe PCIe 3.0 SSD",
+    "Công nghệ màn hình": "Độ sáng 250 nits Độ phủ màu 45% NTSC Màn hình chống chói",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home",
+    "Loại CPU": "AMD Ryzen 5 40 2.8GHz (6MB Cache, up to 4.3GHz, 4 lõi, 8 luồng)",
+    "Kích thước màn hình": "14 inches",
+    "Độ phân giải màn hình": "1920 x 1080 pixels (FullHD)",
+    "Pin": "42WHrs, 3S1P, 3-cell Li-ion",
+    "Cổng giao tiếp": "1 x USB-A 2.0 (tốc độ dữ liệu tối đa 480Mbps) 1 x USB-A 3.2 Gen 1 (tốc độ dữ liệu tối đa 5Gbps) 1 x USB-C 3.2 Gen 1 (tốc độ dữ liệu tối đa 5Gbps) 1 x HDMI 1.4 1 x Jack âm thanh 3.5 mm 1 x Cổng nguồn DC-in"
+  },
+  "price": "19890000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/g/r/group_1091_1.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:42:38.403771+00:00"
+}

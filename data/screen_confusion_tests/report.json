@@ -1,0 +1,5833 @@
+{
+  "model": "google/owlvit-base-patch32",
+  "threshold": 0.15,
+  "prompts": [
+    "a mobile phone",
+    "a laptop computer",
+    "a tablet computer",
+    "headphones",
+    "a smartwatch"
+  ],
+  "detectorCodeSHA256": "01d886a2aa980bda09f3f2d15d988ac8a7ae19b502a8919db70d030f4be372a1",
+  "roiPolicy": "Coarse product ROI from visual inspection before inference. Candidate centre inside ROI, >=70% detection area inside ROI, detection area >=5% ROI. Raw predictions retained.",
+  "limits": [
+    "All 40 catalogue records are included; repeated image bytes are counted separately and also reported deduplicated.",
+    "Shapes/screen appearance/coarse ROIs are assistant visual observations, not manufacturer ground truth or precise object boxes.",
+    "Phone top1 means the highest-confidence retained product-region box is phone. Any-phone-box rate is a different, separately reported measure.",
+    "Boxes outside the coarse ROI or below 5% ROI area are excluded only from the product assessment, not deleted from raw predictions.",
+    "Grayscale is an input ablation on the same image, not a production fix. Differences do not isolate screen colour from every other coloured region.",
+    "Original images retain advertising, accessories and scene layout. Association with shape/colour does not prove which internal features the model uses.",
+    "No API provider calls, catalogue/database changes, retrieval reweighting, detector prompt/threshold tuning or model downloads were requested."
+  ],
+  "cases": [
+    {
+      "articleID": 41,
+      "categoryID": 3,
+      "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+      "imagePath": "data/retailer_catalog/images/1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544.jpg",
+      "sourceSHA256": "1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/41.png",
+        "overlay": "boxes/original/41.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6505296230316162,
+            "region": [
+              0.04560537815093994,
+              0.06424769878387451,
+              0.39234100341796874,
+              0.9486571502685547
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.532252848148346,
+            "region": [
+              0.3550490951538086,
+              0.04640042781829834,
+              0.9578912353515625,
+              0.9328863525390625
+            ]
+          },
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.526006817817688,
+            "region": [
+              0.041774721145629884,
+              0.04933232307434082,
+              0.9633833312988281,
+              0.9515758514404297
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2883695662021637,
+            "region": [
+              0.37463951110839844,
+              0.29055387496948243,
+              0.735963134765625,
+              0.9369298553466797
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6505296230316162,
+            "region": [
+              0.04560537815093994,
+              0.06424769878387451,
+              0.39234100341796874,
+              0.9486571502685547
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6505296230316162,
+            "region": [
+              0.04560537815093994,
+              0.06424769878387451,
+              0.39234100341796874,
+              0.9486571502685547
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 4
+        },
+        "error": null,
+        "seconds": 22.397322600001644
+      },
+      "grayscale": {
+        "image": "images/grayscale/41.png",
+        "overlay": "boxes/grayscale/41.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.7103910446166992,
+            "region": [
+              0.04821506023406982,
+              0.05978679656982422,
+              0.3921358871459961,
+              0.9480283355712891
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.42659202218055725,
+            "region": [
+              0.36501216888427734,
+              0.05602863311767578,
+              0.9594253540039063,
+              0.9427040863037109
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.3704967200756073,
+            "region": [
+              0.3717398834228516,
+              0.2959093475341797,
+              0.7702784729003906,
+              0.9406954956054687
+            ]
+          },
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.27699118852615356,
+            "region": [
+              0.042393150329589846,
+              0.04995724678039551,
+              0.9566433715820313,
+              0.9541899108886719
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.19548770785331726,
+            "region": [
+              0.35787521362304686,
+              0.0806410026550293,
+              0.7765752410888672,
+              0.9471981811523438
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.7103910446166992,
+            "region": [
+              0.04821506023406982,
+              0.05978679656982422,
+              0.3921358871459961,
+              0.9480283355712891
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.7103910446166992,
+            "region": [
+              0.04821506023406982,
+              0.05978679656982422,
+              0.3921358871459961,
+              0.9480283355712891
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 5
+        },
+        "error": null,
+        "seconds": 0.8466388000015286
+      }
+    },
+    {
+      "articleID": 42,
+      "categoryID": 3,
+      "productName": "Xiaomi Poco Pad X1 8GB 512GB",
+      "imagePath": "data/retailer_catalog/images/8baa2115c050d1b555a681879cc3d85ce2e5759c58ae9a508e2f180e25d2231c.jpg",
+      "sourceSHA256": "8baa2115c050d1b555a681879cc3d85ce2e5759c58ae9a508e2f180e25d2231c",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/42.png",
+        "overlay": "boxes/original/42.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.8401087522506714,
+            "region": [
+              0.10997530937194824,
+              0.04504212856292725,
+              0.8797868347167969,
+              0.9501303100585937
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2140856683254242,
+            "region": [
+              0.7232837677001953,
+              0.05895442008972168,
+              0.8747469329833985,
+              0.9334857940673829
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.8401087522506714,
+            "region": [
+              0.10997530937194824,
+              0.04504212856292725,
+              0.8797868347167969,
+              0.9501303100585937
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.8401087522506714,
+            "region": [
+              0.10997530937194824,
+              0.04504212856292725,
+              0.8797868347167969,
+              0.9501303100585937
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.038377600001695
+      },
+      "grayscale": {
+        "image": "images/grayscale/42.png",
+        "overlay": "boxes/grayscale/42.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.7552602291107178,
+            "region": [
+              0.11259865760803223,
+              0.0419754695892334,
+              0.8784072875976563,
+              0.9410960388183593
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.1685778796672821,
+            "region": [
+              0.7256255340576172,
+              0.05863052368164062,
+              0.8736898040771485,
+              0.9311077880859375
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.7552602291107178,
+            "region": [
+              0.11259865760803223,
+              0.0419754695892334,
+              0.8784072875976563,
+              0.9410960388183593
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.7552602291107178,
+            "region": [
+              0.11259865760803223,
+              0.0419754695892334,
+              0.8784072875976563,
+              0.9410960388183593
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 0.8481781000009505
+      }
+    },
+    {
+      "articleID": 43,
+      "categoryID": 3,
+      "productName": "Xiaomi Pad 8 Pro 8GB 128GB",
+      "imagePath": "data/retailer_catalog/images/d76decef03a790c3f92b7abb68b134dd9bd158b303216307e2306647edb33ff9.jpg",
+      "sourceSHA256": "d76decef03a790c3f92b7abb68b134dd9bd158b303216307e2306647edb33ff9",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/43.png",
+        "overlay": "boxes/original/43.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5062400102615356,
+            "region": [
+              0.10002213478088379,
+              0.03705322742462158,
+              0.910772705078125,
+              0.9565097045898437
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.3489292860031128,
+            "region": [
+              0.10696688652038575,
+              0.04504749298095703,
+              0.2980483818054199,
+              0.9499230194091797
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5062400102615356,
+            "region": [
+              0.10002213478088379,
+              0.03705322742462158,
+              0.910772705078125,
+              0.9565097045898437
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5062400102615356,
+            "region": [
+              0.10002213478088379,
+              0.03705322742462158,
+              0.910772705078125,
+              0.9565097045898437
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 0.970022000001336
+      },
+      "grayscale": {
+        "image": "images/grayscale/43.png",
+        "overlay": "boxes/grayscale/43.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.43658140301704407,
+            "region": [
+              0.09698766708374024,
+              0.043227553367614746,
+              0.9049791717529296,
+              0.9592692565917968
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2514531910419464,
+            "region": [
+              0.10216529846191406,
+              0.05523255348205566,
+              0.2911616516113281,
+              0.9596826171875
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.19838431477546692,
+            "region": [
+              0.3091914367675781,
+              0.0578923225402832,
+              0.8884851837158203,
+              0.9524880981445313
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.43658140301704407,
+            "region": [
+              0.09698766708374024,
+              0.043227553367614746,
+              0.9049791717529296,
+              0.9592692565917968
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.43658140301704407,
+            "region": [
+              0.09698766708374024,
+              0.043227553367614746,
+              0.9049791717529296,
+              0.9592692565917968
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 3
+        },
+        "error": null,
+        "seconds": 1.1124519000004511
+      }
+    },
+    {
+      "articleID": 44,
+      "categoryID": 3,
+      "productName": "Xiaomi Poco Pad M1 Wifi 8GB 256GB",
+      "imagePath": "data/retailer_catalog/images/17c2beba51eb239a9138f70e602137c715f41978b67630818d9fcf4b5910b2d0.jpg",
+      "sourceSHA256": "17c2beba51eb239a9138f70e602137c715f41978b67630818d9fcf4b5910b2d0",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/44.png",
+        "overlay": "boxes/original/44.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6747533679008484,
+            "region": [
+              0.06396652698516846,
+              0.0605928897857666,
+              0.42429893493652343,
+              0.9208557891845703
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5396631956100464,
+            "region": [
+              0.06043803691864014,
+              0.06457695484161377,
+              0.9682630157470703,
+              0.9335625457763672
+            ]
+          },
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.4278566837310791,
+            "region": [
+              0.40070018768310545,
+              0.07060715675354004,
+              0.9678340911865234,
+              0.9197559356689453
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6747533679008484,
+            "region": [
+              0.06396652698516846,
+              0.0605928897857666,
+              0.42429893493652343,
+              0.9208557891845703
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6747533679008484,
+            "region": [
+              0.06396652698516846,
+              0.0605928897857666,
+              0.42429893493652343,
+              0.9208557891845703
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 3
+        },
+        "error": null,
+        "seconds": 0.9370312999999442
+      },
+      "grayscale": {
+        "image": "images/grayscale/44.png",
+        "overlay": "boxes/grayscale/44.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5992719531059265,
+            "region": [
+              0.06363719940185547,
+              0.058547077178955076,
+              0.9702915191650391,
+              0.9240882110595703
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.44715023040771484,
+            "region": [
+              0.0660063648223877,
+              0.06284508228302002,
+              0.42825443267822266,
+              0.9228011322021484
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2472628504037857,
+            "region": [
+              0.42370269775390623,
+              0.08317768096923828,
+              0.9673923492431641,
+              0.9215418243408203
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5992719531059265,
+            "region": [
+              0.06363719940185547,
+              0.058547077178955076,
+              0.9702915191650391,
+              0.9240882110595703
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5992719531059265,
+            "region": [
+              0.06363719940185547,
+              0.058547077178955076,
+              0.9702915191650391,
+              0.9240882110595703
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 3
+        },
+        "error": null,
+        "seconds": 1.0612078000012843
+      }
+    },
+    {
+      "articleID": 45,
+      "categoryID": 3,
+      "productName": "iPad A16 Wifi 128GB 2025 | Chính hãng Apple Việt Nam",
+      "imagePath": "data/retailer_catalog/images/e6ee5f2e03f3a5b5db9738a4f0da06ea99eafa5cb869a2fb0a3b9aec72f695f1.jpg",
+      "sourceSHA256": "e6ee5f2e03f3a5b5db9738a4f0da06ea99eafa5cb869a2fb0a3b9aec72f695f1",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/45.png",
+        "overlay": "boxes/original/45.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5825245976448059,
+            "region": [
+              0.07290342330932617,
+              0.033146440982818604,
+              0.9047702789306641,
+              0.9646860504150391
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5825245976448059,
+            "region": [
+              0.07290342330932617,
+              0.033146440982818604,
+              0.9047702789306641,
+              0.9646860504150391
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5825245976448059,
+            "region": [
+              0.07290342330932617,
+              0.033146440982818604,
+              0.9047702789306641,
+              0.9646860504150391
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.0555389000001014
+      },
+      "grayscale": {
+        "image": "images/grayscale/45.png",
+        "overlay": "boxes/grayscale/45.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.4440770447254181,
+            "region": [
+              0.07269146919250488,
+              0.03430089473724365,
+              0.9081307983398438,
+              0.9670660400390625
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.4440770447254181,
+            "region": [
+              0.07269146919250488,
+              0.03430089473724365,
+              0.9081307983398438,
+              0.9670660400390625
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.4440770447254181,
+            "region": [
+              0.07269146919250488,
+              0.03430089473724365,
+              0.9081307983398438,
+              0.9670660400390625
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.921382900000026
+      }
+    },
+    {
+      "articleID": 46,
+      "categoryID": 3,
+      "productName": "Samsung Galaxy Tab S11 Wifi 12GB 128GB",
+      "imagePath": "data/retailer_catalog/images/acfdca2b533fade53284b166b9fbc2759648bbd652a773145b7585ea6e600eed.jpg",
+      "sourceSHA256": "acfdca2b533fade53284b166b9fbc2759648bbd652a773145b7585ea6e600eed",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/46.png",
+        "overlay": "boxes/original/46.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2914147973060608,
+            "region": [
+              0.23924625396728516,
+              0.13009008407592773,
+              0.8780916595458984,
+              0.8903688049316406
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.1671759933233261,
+            "region": [
+              0.2621098709106445,
+              0.1463017463684082,
+              0.8025315856933594,
+              0.8829840087890625
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2914147973060608,
+            "region": [
+              0.23924625396728516,
+              0.13009008407592773,
+              0.8780916595458984,
+              0.8903688049316406
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2914147973060608,
+            "region": [
+              0.23924625396728516,
+              0.13009008407592773,
+              0.8780916595458984,
+              0.8903688049316406
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 0.7947812999991584
+      },
+      "grayscale": {
+        "image": "images/grayscale/46.png",
+        "overlay": "boxes/grayscale/46.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.7371171116828918,
+            "region": [
+              0.2422235870361328,
+              0.13136982917785645,
+              0.7985960388183594,
+              0.8834554290771485
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.7371171116828918,
+            "region": [
+              0.2422235870361328,
+              0.13136982917785645,
+              0.7985960388183594,
+              0.8834554290771485
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.7371171116828918,
+            "region": [
+              0.2422235870361328,
+              0.13136982917785645,
+              0.7985960388183594,
+              0.8834554290771485
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.8638987000013003
+      }
+    },
+    {
+      "articleID": 47,
+      "categoryID": 3,
+      "productName": "Lenovo Idea Tab Pro Gen 2 Matte Edition 8GB 256GB ZAHD0452VN - Kèm bút, bàn phím",
+      "imagePath": "data/retailer_catalog/images/061ac08d7147cf3c1915c161fac16a1a80620dbdf4c25bf79e65f90ecc91c272.jpg",
+      "sourceSHA256": "061ac08d7147cf3c1915c161fac16a1a80620dbdf4c25bf79e65f90ecc91c272",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/47.png",
+        "overlay": "boxes/original/47.png",
+        "detections": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7126449346542358,
+            "region": [
+              0.01787632703781128,
+              0.2488581657409668,
+              0.9474327850341797,
+              0.7453475189208985
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.21082061529159546,
+            "region": [
+              0.5316311264038086,
+              0.6798123931884765,
+              0.8123614501953125,
+              0.7617894744873047
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7126449346542358,
+            "region": [
+              0.01787632703781128,
+              0.2488581657409668,
+              0.9474327850341797,
+              0.7453475189208985
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7126449346542358,
+            "region": [
+              0.01787632703781128,
+              0.2488581657409668,
+              0.9474327850341797,
+              0.7453475189208985
+            ]
+          },
+          "predictedCategoryID": 2,
+          "isPhone": false,
+          "isCorrect": false,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.8947226999989653
+      },
+      "grayscale": {
+        "image": "images/grayscale/47.png",
+        "overlay": "boxes/grayscale/47.png",
+        "detections": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6030663251876831,
+            "region": [
+              0.013102710247039795,
+              0.25953542709350585,
+              0.9402240753173828,
+              0.7545927429199218
+            ]
+          },
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.32440921664237976,
+            "region": [
+              0.4252725982666016,
+              0.2575606155395508,
+              0.9465545654296875,
+              0.656414794921875
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.21900628507137299,
+            "region": [
+              0.528834114074707,
+              0.6788520812988281,
+              0.8109432220458984,
+              0.7614902496337891
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6030663251876831,
+            "region": [
+              0.013102710247039795,
+              0.25953542709350585,
+              0.9402240753173828,
+              0.7545927429199218
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6030663251876831,
+            "region": [
+              0.013102710247039795,
+              0.25953542709350585,
+              0.9402240753173828,
+              0.7545927429199218
+            ]
+          },
+          "predictedCategoryID": 2,
+          "isPhone": false,
+          "isCorrect": false,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 0.7721189000003505
+      }
+    },
+    {
+      "articleID": 48,
+      "categoryID": 3,
+      "productName": "Samsung Galaxy Tab S10 FE Wifi 12GB 256GB",
+      "imagePath": "data/retailer_catalog/images/2acdc00575e7ad07eecae202e7a564f4ea80fb4922ea2732b629cdfb6625e43f.png",
+      "sourceSHA256": "2acdc00575e7ad07eecae202e7a564f4ea80fb4922ea2732b629cdfb6625e43f",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/48.png",
+        "overlay": "boxes/original/48.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.6385756731033325,
+            "region": [
+              0.03332239389419556,
+              0.24029218673706054,
+              0.9330421447753906,
+              0.8557620239257813
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.6385756731033325,
+            "region": [
+              0.03332239389419556,
+              0.24029218673706054,
+              0.9330421447753906,
+              0.8557620239257813
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.6385756731033325,
+            "region": [
+              0.03332239389419556,
+              0.24029218673706054,
+              0.9330421447753906,
+              0.8557620239257813
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.8259103999989748
+      },
+      "grayscale": {
+        "image": "images/grayscale/48.png",
+        "overlay": "boxes/grayscale/48.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.7220852971076965,
+            "region": [
+              0.03518640995025635,
+              0.24471961975097656,
+              0.9384107971191407,
+              0.8542700958251953
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.7220852971076965,
+            "region": [
+              0.03518640995025635,
+              0.24471961975097656,
+              0.9384107971191407,
+              0.8542700958251953
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.7220852971076965,
+            "region": [
+              0.03518640995025635,
+              0.24471961975097656,
+              0.9384107971191407,
+              0.8542700958251953
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.868971199997759
+      }
+    },
+    {
+      "articleID": 49,
+      "categoryID": 3,
+      "productName": "iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam",
+      "imagePath": "data/retailer_catalog/images/f10f4d78330915607da6e886d76979cc4bc11d56220427d937c698d5093a6e6b.png",
+      "sourceSHA256": "f10f4d78330915607da6e886d76979cc4bc11d56220427d937c698d5093a6e6b",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/49.png",
+        "overlay": "boxes/original/49.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6391851305961609,
+            "region": [
+              0.20605091094970704,
+              0.05165091037750244,
+              0.8118996429443359,
+              0.9418122863769531
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6391851305961609,
+            "region": [
+              0.20605091094970704,
+              0.05165091037750244,
+              0.8118996429443359,
+              0.9418122863769531
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6391851305961609,
+            "region": [
+              0.20605091094970704,
+              0.05165091037750244,
+              0.8118996429443359,
+              0.9418122863769531
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.8688285999996879
+      },
+      "grayscale": {
+        "image": "images/grayscale/49.png",
+        "overlay": "boxes/grayscale/49.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.28904789686203003,
+            "region": [
+              0.199086971282959,
+              0.05142331123352051,
+              0.8103524780273438,
+              0.9440763854980468
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.28904789686203003,
+            "region": [
+              0.199086971282959,
+              0.05142331123352051,
+              0.8103524780273438,
+              0.9440763854980468
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.28904789686203003,
+            "region": [
+              0.199086971282959,
+              0.05142331123352051,
+              0.8103524780273438,
+              0.9440763854980468
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.9473876999982167
+      }
+    },
+    {
+      "articleID": 50,
+      "categoryID": 3,
+      "productName": "Lenovo Legion Tab Gen 5 12GB 256GB",
+      "imagePath": "data/retailer_catalog/images/589c40b6c5909750100c61019b5dc1795eab721fa24b84b24db83f2fc64f0ea8.jpg",
+      "sourceSHA256": "589c40b6c5909750100c61019b5dc1795eab721fa24b84b24db83f2fc64f0ea8",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/50.png",
+        "overlay": "boxes/original/50.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.733414351940155,
+            "region": [
+              0.13294276237487793,
+              0.028190791606903076,
+              0.8842436218261719,
+              0.9723777008056641
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.42629992961883545,
+            "region": [
+              0.13205328941345215,
+              0.025375099182128907,
+              0.28883651733398436,
+              0.957797622680664
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.733414351940155,
+            "region": [
+              0.13294276237487793,
+              0.028190791606903076,
+              0.8842436218261719,
+              0.9723777008056641
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.733414351940155,
+            "region": [
+              0.13294276237487793,
+              0.028190791606903076,
+              0.8842436218261719,
+              0.9723777008056641
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.0266537999996217
+      },
+      "grayscale": {
+        "image": "images/grayscale/50.png",
+        "overlay": "boxes/grayscale/50.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.60741126537323,
+            "region": [
+              0.13512009620666504,
+              0.025054244995117186,
+              0.8772068786621093,
+              0.9643363952636719
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.3639810383319855,
+            "region": [
+              0.12497093200683594,
+              0.02940967559814453,
+              0.29728946685791013,
+              0.9691950225830078
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.60741126537323,
+            "region": [
+              0.13512009620666504,
+              0.025054244995117186,
+              0.8772068786621093,
+              0.9643363952636719
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.60741126537323,
+            "region": [
+              0.13512009620666504,
+              0.025054244995117186,
+              0.8772068786621093,
+              0.9643363952636719
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.1309354000004532
+      }
+    },
+    {
+      "articleID": 51,
+      "categoryID": 3,
+      "productName": "Samsung Galaxy Tab S10 Lite Wifi 6GB 128GB",
+      "imagePath": "data/retailer_catalog/images/dbc3b822c8cc839a13b116a01050e22842f2ecf9ae8ac816ce6dae13b270641d.jpg",
+      "sourceSHA256": "dbc3b822c8cc839a13b116a01050e22842f2ecf9ae8ac816ce6dae13b270641d",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/51.png",
+        "overlay": "boxes/original/51.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.415107786655426,
+            "region": [
+              0.2281757926940918,
+              0.13281670570373535,
+              0.7644630432128906,
+              0.8822589874267578
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.415107786655426,
+            "region": [
+              0.2281757926940918,
+              0.13281670570373535,
+              0.7644630432128906,
+              0.8822589874267578
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.415107786655426,
+            "region": [
+              0.2281757926940918,
+              0.13281670570373535,
+              0.7644630432128906,
+              0.8822589874267578
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.220176500002708
+      },
+      "grayscale": {
+        "image": "images/grayscale/51.png",
+        "overlay": "boxes/grayscale/51.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4949173629283905,
+            "region": [
+              0.22728971481323243,
+              0.13383495330810546,
+              0.7750215148925781,
+              0.883194580078125
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4949173629283905,
+            "region": [
+              0.22728971481323243,
+              0.13383495330810546,
+              0.7750215148925781,
+              0.883194580078125
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4949173629283905,
+            "region": [
+              0.22728971481323243,
+              0.13383495330810546,
+              0.7750215148925781,
+              0.883194580078125
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.1850726000011491
+      }
+    },
+    {
+      "articleID": 52,
+      "categoryID": 3,
+      "productName": "Huawei MatePad 11.5 S 2026 12GB 256GB - Kèm bàn phím",
+      "imagePath": "data/retailer_catalog/images/e5a405d1ea2bc6bef6f45fceac4722921fb890696e8d7a9168308e5692e360f4.webp",
+      "sourceSHA256": "e5a405d1ea2bc6bef6f45fceac4722921fb890696e8d7a9168308e5692e360f4",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/52.png",
+        "overlay": "boxes/original/52.png",
+        "detections": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7472555637359619,
+            "region": [
+              0.014908134937286377,
+              0.16956445693969727,
+              0.9932764434814453,
+              0.8179137420654297
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7472555637359619,
+            "region": [
+              0.014908134937286377,
+              0.16956445693969727,
+              0.9932764434814453,
+              0.8179137420654297
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7472555637359619,
+            "region": [
+              0.014908134937286377,
+              0.16956445693969727,
+              0.9932764434814453,
+              0.8179137420654297
+            ]
+          },
+          "predictedCategoryID": 2,
+          "isPhone": false,
+          "isCorrect": false,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.3318483000002743
+      },
+      "grayscale": {
+        "image": "images/grayscale/52.png",
+        "overlay": "boxes/grayscale/52.png",
+        "detections": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7473786473274231,
+            "region": [
+              0.013456404209136963,
+              0.1711391258239746,
+              0.9966836547851563,
+              0.8171910095214844
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7473786473274231,
+            "region": [
+              0.013456404209136963,
+              0.1711391258239746,
+              0.9966836547851563,
+              0.8171910095214844
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7473786473274231,
+            "region": [
+              0.013456404209136963,
+              0.1711391258239746,
+              0.9966836547851563,
+              0.8171910095214844
+            ]
+          },
+          "predictedCategoryID": 2,
+          "isPhone": false,
+          "isCorrect": false,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.4204161999987264
+      }
+    },
+    {
+      "articleID": 53,
+      "categoryID": 3,
+      "productName": "Lenovo Yoga Tab Wifi 12GB 256GB TB710 ZAG60105VN - Kèm bút, bàn phím",
+      "imagePath": "data/retailer_catalog/images/5596784e4b0eeac0908834a28cfea2f92d403ec3063334df62d73b2caf5c1322.jpg",
+      "sourceSHA256": "5596784e4b0eeac0908834a28cfea2f92d403ec3063334df62d73b2caf5c1322",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/53.png",
+        "overlay": "boxes/original/53.png",
+        "detections": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5167388916015625,
+            "region": [
+              0.4080431365966797,
+              0.2425715446472168,
+              0.9817312622070312,
+              0.6635124969482422
+            ]
+          },
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.4273257255554199,
+            "region": [
+              0.004798293113708496,
+              0.23791807174682617,
+              0.9821372985839844,
+              0.7727715301513672
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.15140052139759064,
+            "region": [
+              0.4964731979370117,
+              0.6777708435058594,
+              0.8427223205566406,
+              0.7666628265380859
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5167388916015625,
+            "region": [
+              0.4080431365966797,
+              0.2425715446472168,
+              0.9817312622070312,
+              0.6635124969482422
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5167388916015625,
+            "region": [
+              0.4080431365966797,
+              0.2425715446472168,
+              0.9817312622070312,
+              0.6635124969482422
+            ]
+          },
+          "predictedCategoryID": 2,
+          "isPhone": false,
+          "isCorrect": false,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.8097502999989956
+      },
+      "grayscale": {
+        "image": "images/grayscale/53.png",
+        "overlay": "boxes/grayscale/53.png",
+        "detections": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.47538357973098755,
+            "region": [
+              0.02167829990386963,
+              0.23484500885009765,
+              0.9944364929199219,
+              0.764027099609375
+            ]
+          },
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.3554666042327881,
+            "region": [
+              0.41515388488769533,
+              0.24507608413696289,
+              0.983207015991211,
+              0.6680221557617188
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.1540343016386032,
+            "region": [
+              0.4939236068725586,
+              0.6731368255615234,
+              0.8459323883056641,
+              0.766964340209961
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.47538357973098755,
+            "region": [
+              0.02167829990386963,
+              0.23484500885009765,
+              0.9944364929199219,
+              0.764027099609375
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.47538357973098755,
+            "region": [
+              0.02167829990386963,
+              0.23484500885009765,
+              0.9944364929199219,
+              0.764027099609375
+            ]
+          },
+          "predictedCategoryID": 2,
+          "isPhone": false,
+          "isCorrect": false,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.3008755999981076
+      }
+    },
+    {
+      "articleID": 54,
+      "categoryID": 3,
+      "productName": "iPad A16 Wifi 256GB 2025 | Chính hãng Apple Việt Nam",
+      "imagePath": "data/retailer_catalog/images/e6ee5f2e03f3a5b5db9738a4f0da06ea99eafa5cb869a2fb0a3b9aec72f695f1.jpg",
+      "sourceSHA256": "e6ee5f2e03f3a5b5db9738a4f0da06ea99eafa5cb869a2fb0a3b9aec72f695f1",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/54.png",
+        "overlay": "boxes/original/54.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5825245976448059,
+            "region": [
+              0.07290342330932617,
+              0.033146440982818604,
+              0.9047702789306641,
+              0.9646860504150391
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5825245976448059,
+            "region": [
+              0.07290342330932617,
+              0.033146440982818604,
+              0.9047702789306641,
+              0.9646860504150391
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5825245976448059,
+            "region": [
+              0.07290342330932617,
+              0.033146440982818604,
+              0.9047702789306641,
+              0.9646860504150391
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.09121970000342117
+      },
+      "grayscale": {
+        "image": "images/grayscale/54.png",
+        "overlay": "boxes/grayscale/54.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.4440770447254181,
+            "region": [
+              0.07269146919250488,
+              0.03430089473724365,
+              0.9081307983398438,
+              0.9670660400390625
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.4440770447254181,
+            "region": [
+              0.07269146919250488,
+              0.03430089473724365,
+              0.9081307983398438,
+              0.9670660400390625
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.4440770447254181,
+            "region": [
+              0.07269146919250488,
+              0.03430089473724365,
+              0.9081307983398438,
+              0.9670660400390625
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.05216339999969932
+      }
+    },
+    {
+      "articleID": 55,
+      "categoryID": 3,
+      "productName": "HONOR Pad 10 Wifi 8GB 256GB",
+      "imagePath": "data/retailer_catalog/images/7ab7785539d8bbec770fbf85b4473d7611082fcc5b81046e296af8ebebae004c.jpg",
+      "sourceSHA256": "7ab7785539d8bbec770fbf85b4473d7611082fcc5b81046e296af8ebebae004c",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/55.png",
+        "overlay": "boxes/original/55.png",
+        "detections": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6470794081687927,
+            "region": [
+              0.015843212604522705,
+              0.04034686088562012,
+              0.9797524261474609,
+              0.9666716003417969
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6470794081687927,
+            "region": [
+              0.015843212604522705,
+              0.04034686088562012,
+              0.9797524261474609,
+              0.9666716003417969
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6470794081687927,
+            "region": [
+              0.015843212604522705,
+              0.04034686088562012,
+              0.9797524261474609,
+              0.9666716003417969
+            ]
+          },
+          "predictedCategoryID": 2,
+          "isPhone": false,
+          "isCorrect": false,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.2006366000023263
+      },
+      "grayscale": {
+        "image": "images/grayscale/55.png",
+        "overlay": "boxes/grayscale/55.png",
+        "detections": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6072083115577698,
+            "region": [
+              0.019478946924209595,
+              0.04133587837219238,
+              0.9787934112548828,
+              0.9657196044921875
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6072083115577698,
+            "region": [
+              0.019478946924209595,
+              0.04133587837219238,
+              0.9787934112548828,
+              0.9657196044921875
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6072083115577698,
+            "region": [
+              0.019478946924209595,
+              0.04133587837219238,
+              0.9787934112548828,
+              0.9657196044921875
+            ]
+          },
+          "predictedCategoryID": 2,
+          "isPhone": false,
+          "isCorrect": false,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.275871999998344
+      }
+    },
+    {
+      "articleID": 56,
+      "categoryID": 3,
+      "productName": "iPad Air 11 inch M4 Wifi 128GB 2026 | Chính hãng",
+      "imagePath": "data/retailer_catalog/images/9aede35a03614d431fdce4d967c1787703d87ed452a8f0d9416686c1d2884f10.png",
+      "sourceSHA256": "9aede35a03614d431fdce4d967c1787703d87ed452a8f0d9416686c1d2884f10",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/56.png",
+        "overlay": "boxes/original/56.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5147027373313904,
+            "region": [
+              0.08114785194396973,
+              0.044260263442993164,
+              0.8913467407226563,
+              0.9537065887451172
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.1930122971534729,
+            "region": [
+              0.10998605728149415,
+              0.03602734088897705,
+              0.25238428115844724,
+              0.940438232421875
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5147027373313904,
+            "region": [
+              0.08114785194396973,
+              0.044260263442993164,
+              0.8913467407226563,
+              0.9537065887451172
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5147027373313904,
+            "region": [
+              0.08114785194396973,
+              0.044260263442993164,
+              0.8913467407226563,
+              0.9537065887451172
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.3318693000001076
+      },
+      "grayscale": {
+        "image": "images/grayscale/56.png",
+        "overlay": "boxes/grayscale/56.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5830478072166443,
+            "region": [
+              0.12276256561279297,
+              0.0399797248840332,
+              0.9027545166015625,
+              0.9469326782226563
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.17072927951812744,
+            "region": [
+              0.10728750228881836,
+              0.03676906108856201,
+              0.2665287208557129,
+              0.9396282196044922
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5830478072166443,
+            "region": [
+              0.12276256561279297,
+              0.0399797248840332,
+              0.9027545166015625,
+              0.9469326782226563
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5830478072166443,
+            "region": [
+              0.12276256561279297,
+              0.0399797248840332,
+              0.9027545166015625,
+              0.9469326782226563
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.210952700002963
+      }
+    },
+    {
+      "articleID": 57,
+      "categoryID": 3,
+      "productName": "iPad Pro chip M5 11 inch Wifi 256GB | Chính hãng Apple Việt Nam",
+      "imagePath": "data/retailer_catalog/images/ef71b9c4f9b07b0ab369029b41cb57de524475322a6dbdadad20954764f49006.jpg",
+      "sourceSHA256": "ef71b9c4f9b07b0ab369029b41cb57de524475322a6dbdadad20954764f49006",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/57.png",
+        "overlay": "boxes/original/57.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4822274148464203,
+            "region": [
+              0.08540132522583008,
+              0.04961726188659668,
+              0.910885238647461,
+              0.9580645751953125
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4822274148464203,
+            "region": [
+              0.08540132522583008,
+              0.04961726188659668,
+              0.910885238647461,
+              0.9580645751953125
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4822274148464203,
+            "region": [
+              0.08540132522583008,
+              0.04961726188659668,
+              0.910885238647461,
+              0.9580645751953125
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.1523027000002912
+      },
+      "grayscale": {
+        "image": "images/grayscale/57.png",
+        "overlay": "boxes/grayscale/57.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2517627775669098,
+            "region": [
+              0.08657172203063965,
+              0.035967469215393066,
+              0.9080530548095703,
+              0.9501549530029297
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2517627775669098,
+            "region": [
+              0.08657172203063965,
+              0.035967469215393066,
+              0.9080530548095703,
+              0.9501549530029297
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2517627775669098,
+            "region": [
+              0.08657172203063965,
+              0.035967469215393066,
+              0.9080530548095703,
+              0.9501549530029297
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.0694422999986273
+      }
+    },
+    {
+      "articleID": 58,
+      "categoryID": 3,
+      "productName": "Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB",
+      "imagePath": "data/retailer_catalog/images/6b90caf955e70fdf6c187eb3137fdda8ed4c1dd999d0e9acf50fd7367da7b1f6.jpg",
+      "sourceSHA256": "6b90caf955e70fdf6c187eb3137fdda8ed4c1dd999d0e9acf50fd7367da7b1f6",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/58.png",
+        "overlay": "boxes/original/58.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4395436644554138,
+            "region": [
+              0.09417295455932617,
+              0.019132763147354126,
+              0.8760636901855469,
+              0.9629684448242187
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4252150356769562,
+            "region": [
+              0.10990283012390137,
+              0.023681998252868652,
+              0.30225286483764646,
+              0.9607044982910157
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.3140714168548584,
+            "region": [
+              0.26068935394287107,
+              0.04217079162597656,
+              0.8961022186279297,
+              0.9608838653564453
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4395436644554138,
+            "region": [
+              0.09417295455932617,
+              0.019132763147354126,
+              0.8760636901855469,
+              0.9629684448242187
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4395436644554138,
+            "region": [
+              0.09417295455932617,
+              0.019132763147354126,
+              0.8760636901855469,
+              0.9629684448242187
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 3
+        },
+        "error": null,
+        "seconds": 1.3370978000020841
+      },
+      "grayscale": {
+        "image": "images/grayscale/58.png",
+        "overlay": "boxes/grayscale/58.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.40984877943992615,
+            "region": [
+              0.09513690948486328,
+              0.020596027374267578,
+              0.8878675842285156,
+              0.9580690002441407
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.26059794425964355,
+            "region": [
+              0.11032894134521484,
+              0.02511429786682129,
+              0.29200384140014646,
+              0.9521570587158203
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.2193073034286499,
+            "region": [
+              0.10670848846435547,
+              0.029983162879943848,
+              0.3010121536254883,
+              0.9624896240234375
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.19459573924541473,
+            "region": [
+              0.2736481094360352,
+              0.0406046199798584,
+              0.8953147888183594,
+              0.9608518981933594
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.40984877943992615,
+            "region": [
+              0.09513690948486328,
+              0.020596027374267578,
+              0.8878675842285156,
+              0.9580690002441407
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.40984877943992615,
+            "region": [
+              0.09513690948486328,
+              0.020596027374267578,
+              0.8878675842285156,
+              0.9580690002441407
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 4
+        },
+        "error": null,
+        "seconds": 1.2808107000018936
+      }
+    },
+    {
+      "articleID": 59,
+      "categoryID": 3,
+      "productName": "Samsung Galaxy Tab S10 FE Wifi 8GB 128GB",
+      "imagePath": "data/retailer_catalog/images/2acdc00575e7ad07eecae202e7a564f4ea80fb4922ea2732b629cdfb6625e43f.png",
+      "sourceSHA256": "2acdc00575e7ad07eecae202e7a564f4ea80fb4922ea2732b629cdfb6625e43f",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/59.png",
+        "overlay": "boxes/original/59.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.6385756731033325,
+            "region": [
+              0.03332239389419556,
+              0.24029218673706054,
+              0.9330421447753906,
+              0.8557620239257813
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.6385756731033325,
+            "region": [
+              0.03332239389419556,
+              0.24029218673706054,
+              0.9330421447753906,
+              0.8557620239257813
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.6385756731033325,
+            "region": [
+              0.03332239389419556,
+              0.24029218673706054,
+              0.9330421447753906,
+              0.8557620239257813
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.06634089999715798
+      },
+      "grayscale": {
+        "image": "images/grayscale/59.png",
+        "overlay": "boxes/grayscale/59.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.7220852971076965,
+            "region": [
+              0.03518640995025635,
+              0.24471961975097656,
+              0.9384107971191407,
+              0.8542700958251953
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.7220852971076965,
+            "region": [
+              0.03518640995025635,
+              0.24471961975097656,
+              0.9384107971191407,
+              0.8542700958251953
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.7220852971076965,
+            "region": [
+              0.03518640995025635,
+              0.24471961975097656,
+              0.9384107971191407,
+              0.8542700958251953
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.043624699999782024
+      }
+    },
+    {
+      "articleID": 60,
+      "categoryID": 3,
+      "productName": "iPad Air 11 inch M4 Wifi 256GB 2026 | Chính hãng",
+      "imagePath": "data/retailer_catalog/images/9aede35a03614d431fdce4d967c1787703d87ed452a8f0d9416686c1d2884f10.png",
+      "sourceSHA256": "9aede35a03614d431fdce4d967c1787703d87ed452a8f0d9416686c1d2884f10",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/60.png",
+        "overlay": "boxes/original/60.png",
+        "detections": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5147027373313904,
+            "region": [
+              0.08114785194396973,
+              0.044260263442993164,
+              0.8913467407226563,
+              0.9537065887451172
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.1930122971534729,
+            "region": [
+              0.10998605728149415,
+              0.03602734088897705,
+              0.25238428115844724,
+              0.940438232421875
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5147027373313904,
+            "region": [
+              0.08114785194396973,
+              0.044260263442993164,
+              0.8913467407226563,
+              0.9537065887451172
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5147027373313904,
+            "region": [
+              0.08114785194396973,
+              0.044260263442993164,
+              0.8913467407226563,
+              0.9537065887451172
+            ]
+          },
+          "predictedCategoryID": 3,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 0.06802119999701972
+      },
+      "grayscale": {
+        "image": "images/grayscale/60.png",
+        "overlay": "boxes/grayscale/60.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5830478072166443,
+            "region": [
+              0.12276256561279297,
+              0.0399797248840332,
+              0.9027545166015625,
+              0.9469326782226563
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.17072927951812744,
+            "region": [
+              0.10728750228881836,
+              0.03676906108856201,
+              0.2665287208557129,
+              0.9396282196044922
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5830478072166443,
+            "region": [
+              0.12276256561279297,
+              0.0399797248840332,
+              0.9027545166015625,
+              0.9469326782226563
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5830478072166443,
+            "region": [
+              0.12276256561279297,
+              0.0399797248840332,
+              0.9027545166015625,
+              0.9469326782226563
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 0.05256809999991674
+      }
+    },
+    {
+      "articleID": 81,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+      "imagePath": "data/retailer_catalog/images/7b6aafaba63a36c3886f0bbd5d77af60f3e8523bb562bbf1442adcf621bbbd99.png",
+      "sourceSHA256": "7b6aafaba63a36c3886f0bbd5d77af60f3e8523bb562bbf1442adcf621bbbd99",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/81.png",
+        "overlay": "boxes/original/81.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6119831204414368,
+            "region": [
+              0.08245268821716309,
+              0.18676626205444335,
+              0.6983112335205078,
+              0.913364028930664
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6119831204414368,
+            "region": [
+              0.08245268821716309,
+              0.18676626205444335,
+              0.6983112335205078,
+              0.913364028930664
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6119831204414368,
+            "region": [
+              0.08245268821716309,
+              0.18676626205444335,
+              0.6983112335205078,
+              0.913364028930664
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.4675970999996935
+      },
+      "grayscale": {
+        "image": "images/grayscale/81.png",
+        "overlay": "boxes/grayscale/81.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5218775272369385,
+            "region": [
+              0.08271780967712403,
+              0.18557628631591797,
+              0.6946145629882813,
+              0.9112124633789063
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5218775272369385,
+            "region": [
+              0.08271780967712403,
+              0.18557628631591797,
+              0.6946145629882813,
+              0.9112124633789063
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5218775272369385,
+            "region": [
+              0.08271780967712403,
+              0.18557628631591797,
+              0.6946145629882813,
+              0.9112124633789063
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.3293494999998074
+      }
+    },
+    {
+      "articleID": 82,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Huawei Watch GT7 46mm",
+      "imagePath": "data/retailer_catalog/images/394f24adb59aa8b368b3a2867ccc8cdbd1a470098708c60acb60a6873b7a2d3e.png",
+      "sourceSHA256": "394f24adb59aa8b368b3a2867ccc8cdbd1a470098708c60acb60a6873b7a2d3e",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/82.png",
+        "overlay": "boxes/original/82.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5073303580284119,
+            "region": [
+              0.06085166454315186,
+              0.17804834365844727,
+              0.6683830261230469,
+              0.9027651214599609
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5073303580284119,
+            "region": [
+              0.06085166454315186,
+              0.17804834365844727,
+              0.6683830261230469,
+              0.9027651214599609
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5073303580284119,
+            "region": [
+              0.06085166454315186,
+              0.17804834365844727,
+              0.6683830261230469,
+              0.9027651214599609
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.3655334999966726
+      },
+      "grayscale": {
+        "image": "images/grayscale/82.png",
+        "overlay": "boxes/grayscale/82.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5503252148628235,
+            "region": [
+              0.060473146438598635,
+              0.19547557830810547,
+              0.6612144470214844,
+              0.9127217864990235
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5503252148628235,
+            "region": [
+              0.060473146438598635,
+              0.19547557830810547,
+              0.6612144470214844,
+              0.9127217864990235
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5503252148628235,
+            "region": [
+              0.060473146438598635,
+              0.19547557830810547,
+              0.6612144470214844,
+              0.9127217864990235
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.089762999999948
+      }
+    },
+    {
+      "articleID": 83,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Samsung Galaxy Watch9 40mm",
+      "imagePath": "data/retailer_catalog/images/f98b040641526e22cd7738fdddbd7a8bd73c80bb606ac1fa9adf0e0b4f3d0eff.png",
+      "sourceSHA256": "f98b040641526e22cd7738fdddbd7a8bd73c80bb606ac1fa9adf0e0b4f3d0eff",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/83.png",
+        "overlay": "boxes/original/83.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.3904389441013336,
+            "region": [
+              0.05814170837402344,
+              0.18671724319458008,
+              0.6610468292236328,
+              0.8972811889648438
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.3904389441013336,
+            "region": [
+              0.05814170837402344,
+              0.18671724319458008,
+              0.6610468292236328,
+              0.8972811889648438
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.3904389441013336,
+            "region": [
+              0.05814170837402344,
+              0.18671724319458008,
+              0.6610468292236328,
+              0.8972811889648438
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.2175512999965576
+      },
+      "grayscale": {
+        "image": "images/grayscale/83.png",
+        "overlay": "boxes/grayscale/83.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.40956300497055054,
+            "region": [
+              0.0568205738067627,
+              0.1869557762145996,
+              0.6590858459472656,
+              0.8977783966064453
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.40956300497055054,
+            "region": [
+              0.0568205738067627,
+              0.1869557762145996,
+              0.6590858459472656,
+              0.8977783966064453
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.40956300497055054,
+            "region": [
+              0.0568205738067627,
+              0.1869557762145996,
+              0.6590858459472656,
+              0.8977783966064453
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.8222699999969336
+      }
+    },
+    {
+      "articleID": 84,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Garmin Fenix 9 43mm AMOLED viền Titanium",
+      "imagePath": "data/retailer_catalog/images/8de5ff0f90c34b7d58b0fc59993fb06ee32ad3e9846eeb7bb31d5a328c0e2222.png",
+      "sourceSHA256": "8de5ff0f90c34b7d58b0fc59993fb06ee32ad3e9846eeb7bb31d5a328c0e2222",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/84.png",
+        "overlay": "boxes/original/84.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7444020509719849,
+            "region": [
+              0.05265933036804199,
+              0.19220861434936523,
+              0.6656686401367188,
+              0.8988948822021484
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7444020509719849,
+            "region": [
+              0.05265933036804199,
+              0.19220861434936523,
+              0.6656686401367188,
+              0.8988948822021484
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7444020509719849,
+            "region": [
+              0.05265933036804199,
+              0.19220861434936523,
+              0.6656686401367188,
+              0.8988948822021484
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.5491914000012912
+      },
+      "grayscale": {
+        "image": "images/grayscale/84.png",
+        "overlay": "boxes/grayscale/84.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7220644354820251,
+            "region": [
+              0.05184757709503174,
+              0.19026363372802735,
+              0.6646765899658204,
+              0.8970520782470703
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7220644354820251,
+            "region": [
+              0.05184757709503174,
+              0.19026363372802735,
+              0.6646765899658204,
+              0.8970520782470703
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7220644354820251,
+            "region": [
+              0.05184757709503174,
+              0.19026363372802735,
+              0.6646765899658204,
+              0.8970520782470703
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.4580808999999135
+      }
+    },
+    {
+      "articleID": 86,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh COROS PACE 4 PRO dây cao su",
+      "imagePath": "data/retailer_catalog/images/8d3ba40ab82b52ea0865aa7f2cbca9fd8953886333d30bdfe975fa03f1ecb11f.png",
+      "sourceSHA256": "8d3ba40ab82b52ea0865aa7f2cbca9fd8953886333d30bdfe975fa03f1ecb11f",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/86.png",
+        "overlay": "boxes/original/86.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6044294834136963,
+            "region": [
+              0.07402363300323486,
+              0.19977352142333984,
+              0.6119596862792969,
+              0.9053119659423828
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6044294834136963,
+            "region": [
+              0.07402363300323486,
+              0.19977352142333984,
+              0.6119596862792969,
+              0.9053119659423828
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6044294834136963,
+            "region": [
+              0.07402363300323486,
+              0.19977352142333984,
+              0.6119596862792969,
+              0.9053119659423828
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.5899574000031862
+      },
+      "grayscale": {
+        "image": "images/grayscale/86.png",
+        "overlay": "boxes/grayscale/86.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5381293892860413,
+            "region": [
+              0.07310006141662598,
+              0.20186704635620117,
+              0.6088265228271484,
+              0.9055321502685547
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5381293892860413,
+            "region": [
+              0.07310006141662598,
+              0.20186704635620117,
+              0.6088265228271484,
+              0.9055321502685547
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5381293892860413,
+            "region": [
+              0.07310006141662598,
+              0.20186704635620117,
+              0.6088265228271484,
+              0.9055321502685547
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.553099500000826
+      }
+    },
+    {
+      "articleID": 88,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Xiaomi Watch 5",
+      "imagePath": "data/retailer_catalog/images/d94f89a88b44134998f9d164e849c6a9e40c6cb784fc6a72c64407833e134d0f.png",
+      "sourceSHA256": "d94f89a88b44134998f9d164e849c6a9e40c6cb784fc6a72c64407833e134d0f",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/88.png",
+        "overlay": "boxes/original/88.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4181952178478241,
+            "region": [
+              0.027432770729064943,
+              0.2051299285888672,
+              0.6471754455566406,
+              0.8847418212890625
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4181952178478241,
+            "region": [
+              0.027432770729064943,
+              0.2051299285888672,
+              0.6471754455566406,
+              0.8847418212890625
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4181952178478241,
+            "region": [
+              0.027432770729064943,
+              0.2051299285888672,
+              0.6471754455566406,
+              0.8847418212890625
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.3904459000004863
+      },
+      "grayscale": {
+        "image": "images/grayscale/88.png",
+        "overlay": "boxes/grayscale/88.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.3199962377548218,
+            "region": [
+              0.0271315860748291,
+              0.2095070266723633,
+              0.6473344421386719,
+              0.8886551666259765
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.3199962377548218,
+            "region": [
+              0.0271315860748291,
+              0.2095070266723633,
+              0.6473344421386719,
+              0.8886551666259765
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.3199962377548218,
+            "region": [
+              0.0271315860748291,
+              0.2095070266723633,
+              0.6473344421386719,
+              0.8886551666259765
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.3438533000007737
+      }
+    },
+    {
+      "articleID": 89,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Xiaomi Redmi Watch 6 Active",
+      "imagePath": "data/retailer_catalog/images/f7558c4fcc71f1e2759289de7c3527003e7d4d8b2d25e7ad12c0232d4672a43a.webp",
+      "sourceSHA256": "f7558c4fcc71f1e2759289de7c3527003e7d4d8b2d25e7ad12c0232d4672a43a",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/89.png",
+        "overlay": "boxes/original/89.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.40515586733818054,
+            "region": [
+              0.03314051151275635,
+              0.19573244094848632,
+              0.6614079284667969,
+              0.8951405334472656
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.40515586733818054,
+            "region": [
+              0.03314051151275635,
+              0.19573244094848632,
+              0.6614079284667969,
+              0.8951405334472656
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.40515586733818054,
+            "region": [
+              0.03314051151275635,
+              0.19573244094848632,
+              0.6614079284667969,
+              0.8951405334472656
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.384868600001937
+      },
+      "grayscale": {
+        "image": "images/grayscale/89.png",
+        "overlay": "boxes/grayscale/89.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.33875057101249695,
+            "region": [
+              0.03260546922683716,
+              0.19506145477294923,
+              0.6591508483886719,
+              0.89396240234375
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.33875057101249695,
+            "region": [
+              0.03260546922683716,
+              0.19506145477294923,
+              0.6591508483886719,
+              0.89396240234375
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.33875057101249695,
+            "region": [
+              0.03260546922683716,
+              0.19506145477294923,
+              0.6591508483886719,
+              0.89396240234375
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.5366713000003074
+      }
+    },
+    {
+      "articleID": 91,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Amazfit Active 2",
+      "imagePath": "data/retailer_catalog/images/b9b15a23b77052fa2894a7d0c784edf88b2682b619eb3b7106ac320cbac5ef2e.png",
+      "sourceSHA256": "b9b15a23b77052fa2894a7d0c784edf88b2682b619eb3b7106ac320cbac5ef2e",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/91.png",
+        "overlay": "boxes/original/91.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6677252650260925,
+            "region": [
+              0.04648867130279541,
+              0.1940106201171875,
+              0.6720587921142578,
+              0.8998638153076172
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6677252650260925,
+            "region": [
+              0.04648867130279541,
+              0.1940106201171875,
+              0.6720587921142578,
+              0.8998638153076172
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6677252650260925,
+            "region": [
+              0.04648867130279541,
+              0.1940106201171875,
+              0.6720587921142578,
+              0.8998638153076172
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.3630668999976479
+      },
+      "grayscale": {
+        "image": "images/grayscale/91.png",
+        "overlay": "boxes/grayscale/91.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6027954816818237,
+            "region": [
+              0.04824334144592285,
+              0.19354988098144532,
+              0.670219497680664,
+              0.8992154693603516
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6027954816818237,
+            "region": [
+              0.04824334144592285,
+              0.19354988098144532,
+              0.670219497680664,
+              0.8992154693603516
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6027954816818237,
+            "region": [
+              0.04824334144592285,
+              0.19354988098144532,
+              0.670219497680664,
+              0.8992154693603516
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.4198966000003566
+      }
+    },
+    {
+      "articleID": 92,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Amazfit Active Max",
+      "imagePath": "data/retailer_catalog/images/1b50069f8deb4e2e6db608487d8915a33b21a840c745b46e147a1565efa5a674.png",
+      "sourceSHA256": "1b50069f8deb4e2e6db608487d8915a33b21a840c745b46e147a1565efa5a674",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/92.png",
+        "overlay": "boxes/original/92.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6792153120040894,
+            "region": [
+              0.022950589656829834,
+              0.17625465393066406,
+              0.7087782287597656,
+              0.9077677917480469
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6792153120040894,
+            "region": [
+              0.022950589656829834,
+              0.17625465393066406,
+              0.7087782287597656,
+              0.9077677917480469
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6792153120040894,
+            "region": [
+              0.022950589656829834,
+              0.17625465393066406,
+              0.7087782287597656,
+              0.9077677917480469
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.2829227000001993
+      },
+      "grayscale": {
+        "image": "images/grayscale/92.png",
+        "overlay": "boxes/grayscale/92.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4664685130119324,
+            "region": [
+              0.02779853343963623,
+              0.17821905136108399,
+              0.7071485900878907,
+              0.9077391815185547
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4664685130119324,
+            "region": [
+              0.02779853343963623,
+              0.17821905136108399,
+              0.7071485900878907,
+              0.9077391815185547
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4664685130119324,
+            "region": [
+              0.02779853343963623,
+              0.17821905136108399,
+              0.7071485900878907,
+              0.9077391815185547
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.3723200999993423
+      }
+    },
+    {
+      "articleID": 93,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Amazfit Active 2 Premium Sapphire",
+      "imagePath": "data/retailer_catalog/images/4918c6cf8472325dda109ff1b981fd9270527a54d9cfda76494bf44f08292441.png",
+      "sourceSHA256": "4918c6cf8472325dda109ff1b981fd9270527a54d9cfda76494bf44f08292441",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/93.png",
+        "overlay": "boxes/original/93.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6596790552139282,
+            "region": [
+              0.0364648699760437,
+              0.16947195053100586,
+              0.690552978515625,
+              0.9079837799072266
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6596790552139282,
+            "region": [
+              0.0364648699760437,
+              0.16947195053100586,
+              0.690552978515625,
+              0.9079837799072266
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6596790552139282,
+            "region": [
+              0.0364648699760437,
+              0.16947195053100586,
+              0.690552978515625,
+              0.9079837799072266
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.3728576000030444
+      },
+      "grayscale": {
+        "image": "images/grayscale/93.png",
+        "overlay": "boxes/grayscale/93.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6562113165855408,
+            "region": [
+              0.03751799583435059,
+              0.16888055801391602,
+              0.6913443756103516,
+              0.9065386199951172
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6562113165855408,
+            "region": [
+              0.03751799583435059,
+              0.16888055801391602,
+              0.6913443756103516,
+              0.9065386199951172
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6562113165855408,
+            "region": [
+              0.03751799583435059,
+              0.16888055801391602,
+              0.6913443756103516,
+              0.9065386199951172
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.2901588999993692
+      }
+    },
+    {
+      "articleID": 94,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Amazfit Balance 3",
+      "imagePath": "data/retailer_catalog/images/c33678467d0595018eb5efd3fe1db6d1ad52ce8c51217fb9043c0db1e369d112.webp",
+      "sourceSHA256": "c33678467d0595018eb5efd3fe1db6d1ad52ce8c51217fb9043c0db1e369d112",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.13,
+          0.65,
+          0.94
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/94.png",
+        "overlay": "boxes/original/94.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7141584753990173,
+            "region": [
+              0.04342687129974365,
+              0.2701996231079102,
+              0.672169189453125,
+              0.9313002777099609
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7141584753990173,
+            "region": [
+              0.04342687129974365,
+              0.2701996231079102,
+              0.672169189453125,
+              0.9313002777099609
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7141584753990173,
+            "region": [
+              0.04342687129974365,
+              0.2701996231079102,
+              0.672169189453125,
+              0.9313002777099609
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.3139039000016055
+      },
+      "grayscale": {
+        "image": "images/grayscale/94.png",
+        "overlay": "boxes/grayscale/94.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7160113453865051,
+            "region": [
+              0.0442577600479126,
+              0.2699981117248535,
+              0.6734626007080078,
+              0.9317295837402344
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7160113453865051,
+            "region": [
+              0.0442577600479126,
+              0.2699981117248535,
+              0.6734626007080078,
+              0.9317295837402344
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7160113453865051,
+            "region": [
+              0.0442577600479126,
+              0.2699981117248535,
+              0.6734626007080078,
+              0.9317295837402344
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.4680877999999211
+      }
+    },
+    {
+      "articleID": 95,
+      "categoryID": 5,
+      "productName": "Apple Watch SE 3 GPS 40mm Viền nhôm dây cao su",
+      "imagePath": "data/retailer_catalog/images/12a5323f17de84e77d611b6df92c6c2690bda3a2312ce09afb4241d07b431587.png",
+      "sourceSHA256": "12a5323f17de84e77d611b6df92c6c2690bda3a2312ce09afb4241d07b431587",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/95.png",
+        "overlay": "boxes/original/95.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.307465523481369,
+            "region": [
+              0.09854562759399414,
+              0.2084701919555664,
+              0.4942101287841797,
+              0.7922601318359375
+            ]
+          },
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.17654506862163544,
+            "region": [
+              0.09482234954833985,
+              0.023516030311584474,
+              0.8958531188964843,
+              0.9764146423339843
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.307465523481369,
+            "region": [
+              0.09854562759399414,
+              0.2084701919555664,
+              0.4942101287841797,
+              0.7922601318359375
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.307465523481369,
+            "region": [
+              0.09854562759399414,
+              0.2084701919555664,
+              0.4942101287841797,
+              0.7922601318359375
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.6021476999994775
+      },
+      "grayscale": {
+        "image": "images/grayscale/95.png",
+        "overlay": "boxes/grayscale/95.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.32153773307800293,
+            "region": [
+              0.09649327278137207,
+              0.21872905731201173,
+              0.5007695007324219,
+              0.7893331146240234
+            ]
+          },
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.20212116837501526,
+            "region": [
+              0.09604451179504395,
+              0.02472838878631592,
+              0.8956118774414062,
+              0.9769853210449219
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.32153773307800293,
+            "region": [
+              0.09649327278137207,
+              0.21872905731201173,
+              0.5007695007324219,
+              0.7893331146240234
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.32153773307800293,
+            "region": [
+              0.09649327278137207,
+              0.21872905731201173,
+              0.5007695007324219,
+              0.7893331146240234
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.9454289999994216
+      }
+    },
+    {
+      "articleID": 97,
+      "categoryID": 5,
+      "productName": "Huawei Watch GT 7 41mm Silicone",
+      "imagePath": "data/retailer_catalog/images/bd5c5d4bf69ea7307c40a37f548f3576a17eea8c09c884b94ab42f199f03aad8.jpg",
+      "sourceSHA256": "bd5c5d4bf69ea7307c40a37f548f3576a17eea8c09c884b94ab42f199f03aad8",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/97.png",
+        "overlay": "boxes/original/97.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5535373091697693,
+            "region": [
+              0.12343358993530273,
+              0.01828250288963318,
+              0.9035517883300781,
+              0.9691073608398437
+            ]
+          },
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.1563800573348999,
+            "region": [
+              0.10842662811279297,
+              0.04956823348999023,
+              0.6892958068847657,
+              0.9580846405029297
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5535373091697693,
+            "region": [
+              0.12343358993530273,
+              0.01828250288963318,
+              0.9035517883300781,
+              0.9691073608398437
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.5535373091697693,
+            "region": [
+              0.12343358993530273,
+              0.01828250288963318,
+              0.9035517883300781,
+              0.9691073608398437
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.3722157000011066
+      },
+      "grayscale": {
+        "image": "images/grayscale/97.png",
+        "overlay": "boxes/grayscale/97.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6250563859939575,
+            "region": [
+              0.11704897880554199,
+              0.018016308546066284,
+              0.9053441619873047,
+              0.9676662445068359
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6250563859939575,
+            "region": [
+              0.11704897880554199,
+              0.018016308546066284,
+              0.9053441619873047,
+              0.9676662445068359
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6250563859939575,
+            "region": [
+              0.11704897880554199,
+              0.018016308546066284,
+              0.9053441619873047,
+              0.9676662445068359
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 2.170652600001631
+      }
+    },
+    {
+      "articleID": 99,
+      "categoryID": 5,
+      "productName": "Apple Watch Series 11 GPS 46mm Viền nhôm dây cao su",
+      "imagePath": "data/retailer_catalog/images/73c081026835a01e768c65fe17c65f99d2dd9813b5c7b2517a9bce0eb46324c9.png",
+      "sourceSHA256": "73c081026835a01e768c65fe17c65f99d2dd9813b5c7b2517a9bce0eb46324c9",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/99.png",
+        "overlay": "boxes/original/99.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.21355533599853516,
+            "region": [
+              0.09779778480529785,
+              0.022289574146270752,
+              0.9004546356201172,
+              0.9759588623046875
+            ]
+          },
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.20009823143482208,
+            "region": [
+              0.0998356819152832,
+              0.1614689826965332,
+              0.5525714874267578,
+              0.8243531799316406
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.21355533599853516,
+            "region": [
+              0.09779778480529785,
+              0.022289574146270752,
+              0.9004546356201172,
+              0.9759588623046875
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.21355533599853516,
+            "region": [
+              0.09779778480529785,
+              0.022289574146270752,
+              0.9004546356201172,
+              0.9759588623046875
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 2.0809902000000875
+      },
+      "grayscale": {
+        "image": "images/grayscale/99.png",
+        "overlay": "boxes/grayscale/99.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.21917714178562164,
+            "region": [
+              0.09408020973205566,
+              0.020568399429321288,
+              0.8990834045410157,
+              0.9752610015869141
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.21917714178562164,
+            "region": [
+              0.09408020973205566,
+              0.020568399429321288,
+              0.8990834045410157,
+              0.9752610015869141
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.21917714178562164,
+            "region": [
+              0.09408020973205566,
+              0.020568399429321288,
+              0.8990834045410157,
+              0.9752610015869141
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.2559098999990965
+      }
+    },
+    {
+      "articleID": 101,
+      "categoryID": 5,
+      "productName": "Đồng hồ định vị trẻ em Masstel Smart Hero GO",
+      "imagePath": "data/retailer_catalog/images/68fe987207c80548dceb857760fb97ef83130aaeace08163cfd1e059a2fa195d.jpg",
+      "sourceSHA256": "68fe987207c80548dceb857760fb97ef83130aaeace08163cfd1e059a2fa195d",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/101.png",
+        "overlay": "boxes/original/101.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.17174294590950012,
+            "region": [
+              0.05257707913716634,
+              0.0075873438517252605,
+              0.9475961303710938,
+              0.9916991170247396
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.17174294590950012,
+            "region": [
+              0.05257707913716634,
+              0.0075873438517252605,
+              0.9475961303710938,
+              0.9916991170247396
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.17174294590950012,
+            "region": [
+              0.05257707913716634,
+              0.0075873438517252605,
+              0.9475961303710938,
+              0.9916991170247396
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 2.5157315000033122
+      },
+      "grayscale": {
+        "image": "images/grayscale/101.png",
+        "overlay": "boxes/grayscale/101.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.26574838161468506,
+            "region": [
+              0.056197198232014973,
+              0.004521816968917847,
+              0.9456230672200521,
+              0.9887061564127604
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.26574838161468506,
+            "region": [
+              0.056197198232014973,
+              0.004521816968917847,
+              0.9456230672200521,
+              0.9887061564127604
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.26574838161468506,
+            "region": [
+              0.056197198232014973,
+              0.004521816968917847,
+              0.9456230672200521,
+              0.9887061564127604
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.9973246000008658
+      }
+    },
+    {
+      "articleID": 102,
+      "categoryID": 5,
+      "productName": "Đồng hồ định vị trẻ em E-KIDS F1",
+      "imagePath": "data/retailer_catalog/images/a6db7edf179480316aeaf5499fc88ff31d330481fc39749725de7844e66312c3.png",
+      "sourceSHA256": "a6db7edf179480316aeaf5499fc88ff31d330481fc39749725de7844e66312c3",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/102.png",
+        "overlay": "boxes/original/102.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5974100828170776,
+            "region": [
+              0.07767295837402344,
+              0.15017753601074219,
+              0.4973413848876953,
+              0.7381491088867187
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5974100828170776,
+            "region": [
+              0.07767295837402344,
+              0.15017753601074219,
+              0.4973413848876953,
+              0.7381491088867187
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5974100828170776,
+            "region": [
+              0.07767295837402344,
+              0.15017753601074219,
+              0.4973413848876953,
+              0.7381491088867187
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": false,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.2446811999980127
+      },
+      "grayscale": {
+        "image": "images/grayscale/102.png",
+        "overlay": "boxes/grayscale/102.png",
+        "detections": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4532858729362488,
+            "region": [
+              0.082734375,
+              0.1437200927734375,
+              0.4996639251708984,
+              0.7367736053466797
+            ]
+          },
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.19813479483127594,
+            "region": [
+              0.10826581954956055,
+              0.04074975967407227,
+              0.9066959381103515,
+              0.9674848175048828
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4532858729362488,
+            "region": [
+              0.082734375,
+              0.1437200927734375,
+              0.4996639251708984,
+              0.7367736053466797
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4532858729362488,
+            "region": [
+              0.082734375,
+              0.1437200927734375,
+              0.4996639251708984,
+              0.7367736053466797
+            ]
+          },
+          "predictedCategoryID": 1,
+          "isPhone": true,
+          "isCorrect": false,
+          "anyPhoneProductBox": true,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 2
+        },
+        "error": null,
+        "seconds": 1.2864392999981646
+      }
+    },
+    {
+      "articleID": 103,
+      "categoryID": 5,
+      "productName": "Apple Watch Ultra 3 GPS + Cellular 49mm Viền titan Dây Ocean",
+      "imagePath": "data/retailer_catalog/images/a5d44be95f440d632dcaf9a4d051408436443681ddc71538ed30b35d0e7288f7.png",
+      "sourceSHA256": "a5d44be95f440d632dcaf9a4d051408436443681ddc71538ed30b35d0e7288f7",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/103.png",
+        "overlay": "boxes/original/103.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4763689637184143,
+            "region": [
+              0.08259743690490723,
+              0.017050355672836304,
+              0.9177474212646485,
+              0.9812509155273438
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4763689637184143,
+            "region": [
+              0.08259743690490723,
+              0.017050355672836304,
+              0.9177474212646485,
+              0.9812509155273438
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4763689637184143,
+            "region": [
+              0.08259743690490723,
+              0.017050355672836304,
+              0.9177474212646485,
+              0.9812509155273438
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.3557330000003276
+      },
+      "grayscale": {
+        "image": "images/grayscale/103.png",
+        "overlay": "boxes/grayscale/103.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4284617602825165,
+            "region": [
+              0.07540634155273437,
+              0.012582480907440186,
+              0.9142320251464844,
+              0.9793285369873047
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4284617602825165,
+            "region": [
+              0.07540634155273437,
+              0.012582480907440186,
+              0.9142320251464844,
+              0.9793285369873047
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4284617602825165,
+            "region": [
+              0.07540634155273437,
+              0.012582480907440186,
+              0.9142320251464844,
+              0.9793285369873047
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.2503445999973337
+      }
+    },
+    {
+      "articleID": 106,
+      "categoryID": 5,
+      "productName": "Honor Choice Watch 2i",
+      "imagePath": "data/retailer_catalog/images/be5abb2a9262aa9d87bfbb0899d67fc3015de3d7339cbbd7775953ce12ce8a34.jpg",
+      "sourceSHA256": "be5abb2a9262aa9d87bfbb0899d67fc3015de3d7339cbbd7775953ce12ce8a34",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/106.png",
+        "overlay": "boxes/original/106.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.38876932859420776,
+            "region": [
+              0.11104268074035645,
+              0.023058147430419923,
+              0.9096992492675782,
+              0.95918212890625
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.38876932859420776,
+            "region": [
+              0.11104268074035645,
+              0.023058147430419923,
+              0.9096992492675782,
+              0.95918212890625
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.38876932859420776,
+            "region": [
+              0.11104268074035645,
+              0.023058147430419923,
+              0.9096992492675782,
+              0.95918212890625
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 0.9740428000004613
+      },
+      "grayscale": {
+        "image": "images/grayscale/106.png",
+        "overlay": "boxes/grayscale/106.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.3843981921672821,
+            "region": [
+              0.11052700996398926,
+              0.023693294525146485,
+              0.9104048919677734,
+              0.9591984558105469
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.3843981921672821,
+            "region": [
+              0.11052700996398926,
+              0.023693294525146485,
+              0.9104048919677734,
+              0.9591984558105469
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.3843981921672821,
+            "region": [
+              0.11052700996398926,
+              0.023693294525146485,
+              0.9104048919677734,
+              0.9591984558105469
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.4702054000008502
+      }
+    },
+    {
+      "articleID": 107,
+      "categoryID": 5,
+      "productName": "Honor Choice Infowear Watch 2 Pro",
+      "imagePath": "data/retailer_catalog/images/34892d6193c51aed4d484af5841b52cf867aa3ffa986a039f0df1b77247bb10e.png",
+      "sourceSHA256": "34892d6193c51aed4d484af5841b52cf867aa3ffa986a039f0df1b77247bb10e",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "original": {
+        "image": "images/original/107.png",
+        "overlay": "boxes/original/107.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.45957455039024353,
+            "region": [
+              0.08486357688903809,
+              0.02071291208267212,
+              0.9037577819824218,
+              0.9568675231933593
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.45957455039024353,
+            "region": [
+              0.08486357688903809,
+              0.02071291208267212,
+              0.9037577819824218,
+              0.9568675231933593
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.45957455039024353,
+            "region": [
+              0.08486357688903809,
+              0.02071291208267212,
+              0.9037577819824218,
+              0.9568675231933593
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.327122300001065
+      },
+      "grayscale": {
+        "image": "images/grayscale/107.png",
+        "overlay": "boxes/grayscale/107.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.337680459022522,
+            "region": [
+              0.08782190322875977,
+              0.03688853979110718,
+              0.906795654296875,
+              0.9702999114990234
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.337680459022522,
+            "region": [
+              0.08782190322875977,
+              0.03688853979110718,
+              0.906795654296875,
+              0.9702999114990234
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.337680459022522,
+            "region": [
+              0.08782190322875977,
+              0.03688853979110718,
+              0.906795654296875,
+              0.9702999114990234
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.575295599999663
+      }
+    },
+    {
+      "articleID": 108,
+      "categoryID": 5,
+      "productName": "Samsung Galaxy Watch9 40mm Bluetooth",
+      "imagePath": "data/retailer_catalog/images/4e948030e889fea187f1048742ab19c24cc7abbb90faa29e681b7d8ecf111095.png",
+      "sourceSHA256": "4e948030e889fea187f1048742ab19c24cc7abbb90faa29e681b7d8ecf111095",
+      "traits": {
+        "shape": "round",
+        "screenAppearance": "dark_ui_coloured_accents",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": false
+      },
+      "original": {
+        "image": "images/original/108.png",
+        "overlay": "boxes/original/108.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.19453604519367218,
+            "region": [
+              0.0926326847076416,
+              0.025163741111755372,
+              0.8989054107666016,
+              0.9656495666503906
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.19453604519367218,
+            "region": [
+              0.0926326847076416,
+              0.025163741111755372,
+              0.8989054107666016,
+              0.9656495666503906
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.19453604519367218,
+            "region": [
+              0.0926326847076416,
+              0.025163741111755372,
+              0.8989054107666016,
+              0.9656495666503906
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.313136900000245
+      },
+      "grayscale": {
+        "image": "images/grayscale/108.png",
+        "overlay": "boxes/grayscale/108.png",
+        "detections": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.20587578415870667,
+            "region": [
+              0.09385860443115235,
+              0.025992484092712403,
+              0.8986421203613282,
+              0.9665042114257812
+            ]
+          }
+        ],
+        "assessment": {
+          "strongestProductDetection": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.20587578415870667,
+            "region": [
+              0.09385860443115235,
+              0.025992484092712403,
+              0.8986421203613282,
+              0.9665042114257812
+            ],
+            "index": 1
+          },
+          "strongestAnywhere": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.20587578415870667,
+            "region": [
+              0.09385860443115235,
+              0.025992484092712403,
+              0.8986421203613282,
+              0.9665042114257812
+            ]
+          },
+          "predictedCategoryID": 5,
+          "isPhone": false,
+          "isCorrect": true,
+          "anyPhoneProductBox": false,
+          "anyCorrectProductBox": true,
+          "missed": false,
+          "retainedProductBoxes": 1
+        },
+        "error": null,
+        "seconds": 1.6342989000004309
+      }
+    }
+  ],
+  "groups": {
+    "all40": {
+      "original": {
+        "productWeighted": {
+          "images": 40,
+          "phoneTop1": 12,
+          "phoneTop1Rate": 0.3,
+          "phoneAnyBox": 15,
+          "phoneAnyBoxRate": 0.375,
+          "rawPhoneAnyBox": 17,
+          "rawPhoneTop1": 12,
+          "correctTop1": 24,
+          "correctAnyBox": 27,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 12,
+            "3": 6,
+            "2": 4,
+            "5": 18
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 37,
+          "phoneTop1": 12,
+          "phoneTop1Rate": 0.32432432432432434,
+          "phoneAnyBox": 14,
+          "phoneAnyBoxRate": 0.3783783783783784,
+          "rawPhoneAnyBox": 16,
+          "rawPhoneTop1": 12,
+          "correctTop1": 21,
+          "correctAnyBox": 24,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 12,
+            "3": 3,
+            "2": 4,
+            "5": 18
+          }
+        }
+      },
+      "grayscale": {
+        "productWeighted": {
+          "images": 40,
+          "phoneTop1": 13,
+          "phoneTop1Rate": 0.325,
+          "phoneAnyBox": 13,
+          "phoneAnyBoxRate": 0.325,
+          "rawPhoneAnyBox": 15,
+          "rawPhoneTop1": 13,
+          "correctTop1": 23,
+          "correctAnyBox": 28,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 13,
+            "3": 5,
+            "2": 4,
+            "5": 18
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 37,
+          "phoneTop1": 12,
+          "phoneTop1Rate": 0.32432432432432434,
+          "phoneAnyBox": 12,
+          "phoneAnyBoxRate": 0.32432432432432434,
+          "rawPhoneAnyBox": 14,
+          "rawPhoneTop1": 12,
+          "correctTop1": 21,
+          "correctAnyBox": 26,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 12,
+            "3": 3,
+            "2": 4,
+            "5": 18
+          }
+        }
+      }
+    },
+    "tablets": {
+      "original": {
+        "productWeighted": {
+          "images": 20,
+          "phoneTop1": 10,
+          "phoneTop1Rate": 0.5,
+          "phoneAnyBox": 12,
+          "phoneAnyBoxRate": 0.6,
+          "rawPhoneAnyBox": 14,
+          "rawPhoneTop1": 10,
+          "correctTop1": 6,
+          "correctAnyBox": 8,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 10,
+            "3": 6,
+            "2": 4
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 17,
+          "phoneTop1": 10,
+          "phoneTop1Rate": 0.5882352941176471,
+          "phoneAnyBox": 11,
+          "phoneAnyBoxRate": 0.6470588235294118,
+          "rawPhoneAnyBox": 13,
+          "rawPhoneTop1": 10,
+          "correctTop1": 3,
+          "correctAnyBox": 5,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 10,
+            "3": 3,
+            "2": 4
+          }
+        }
+      },
+      "grayscale": {
+        "productWeighted": {
+          "images": 20,
+          "phoneTop1": 11,
+          "phoneTop1Rate": 0.55,
+          "phoneAnyBox": 11,
+          "phoneAnyBoxRate": 0.55,
+          "rawPhoneAnyBox": 13,
+          "rawPhoneTop1": 11,
+          "correctTop1": 5,
+          "correctAnyBox": 8,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 11,
+            "3": 5,
+            "2": 4
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 17,
+          "phoneTop1": 10,
+          "phoneTop1Rate": 0.5882352941176471,
+          "phoneAnyBox": 10,
+          "phoneAnyBoxRate": 0.5882352941176471,
+          "rawPhoneAnyBox": 12,
+          "rawPhoneTop1": 10,
+          "correctTop1": 3,
+          "correctAnyBox": 6,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 10,
+            "3": 3,
+            "2": 4
+          }
+        }
+      }
+    },
+    "watches": {
+      "original": {
+        "productWeighted": {
+          "images": 20,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.1,
+          "phoneAnyBox": 3,
+          "phoneAnyBoxRate": 0.15,
+          "rawPhoneAnyBox": 3,
+          "rawPhoneTop1": 2,
+          "correctTop1": 18,
+          "correctAnyBox": 19,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 18,
+            "1": 2
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 20,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.1,
+          "phoneAnyBox": 3,
+          "phoneAnyBoxRate": 0.15,
+          "rawPhoneAnyBox": 3,
+          "rawPhoneTop1": 2,
+          "correctTop1": 18,
+          "correctAnyBox": 19,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 18,
+            "1": 2
+          }
+        }
+      },
+      "grayscale": {
+        "productWeighted": {
+          "images": 20,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.1,
+          "phoneAnyBox": 2,
+          "phoneAnyBoxRate": 0.1,
+          "rawPhoneAnyBox": 2,
+          "rawPhoneTop1": 2,
+          "correctTop1": 18,
+          "correctAnyBox": 20,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 18,
+            "1": 2
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 20,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.1,
+          "phoneAnyBox": 2,
+          "phoneAnyBoxRate": 0.1,
+          "rawPhoneAnyBox": 2,
+          "rawPhoneTop1": 2,
+          "correctTop1": 18,
+          "correctAnyBox": 20,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 18,
+            "1": 2
+          }
+        }
+      }
+    },
+    "rectangularWatches": {
+      "original": {
+        "productWeighted": {
+          "images": 9,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.2222222222222222,
+          "phoneAnyBox": 3,
+          "phoneAnyBoxRate": 0.3333333333333333,
+          "rawPhoneAnyBox": 3,
+          "rawPhoneTop1": 2,
+          "correctTop1": 7,
+          "correctAnyBox": 8,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 7,
+            "1": 2
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 9,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.2222222222222222,
+          "phoneAnyBox": 3,
+          "phoneAnyBoxRate": 0.3333333333333333,
+          "rawPhoneAnyBox": 3,
+          "rawPhoneTop1": 2,
+          "correctTop1": 7,
+          "correctAnyBox": 8,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 7,
+            "1": 2
+          }
+        }
+      },
+      "grayscale": {
+        "productWeighted": {
+          "images": 9,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.2222222222222222,
+          "phoneAnyBox": 2,
+          "phoneAnyBoxRate": 0.2222222222222222,
+          "rawPhoneAnyBox": 2,
+          "rawPhoneTop1": 2,
+          "correctTop1": 7,
+          "correctAnyBox": 9,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 7,
+            "1": 2
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 9,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.2222222222222222,
+          "phoneAnyBox": 2,
+          "phoneAnyBoxRate": 0.2222222222222222,
+          "rawPhoneAnyBox": 2,
+          "rawPhoneTop1": 2,
+          "correctTop1": 7,
+          "correctAnyBox": 9,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 7,
+            "1": 2
+          }
+        }
+      }
+    },
+    "roundWatches": {
+      "original": {
+        "productWeighted": {
+          "images": 11,
+          "phoneTop1": 0,
+          "phoneTop1Rate": 0.0,
+          "phoneAnyBox": 0,
+          "phoneAnyBoxRate": 0.0,
+          "rawPhoneAnyBox": 0,
+          "rawPhoneTop1": 0,
+          "correctTop1": 11,
+          "correctAnyBox": 11,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 11
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 11,
+          "phoneTop1": 0,
+          "phoneTop1Rate": 0.0,
+          "phoneAnyBox": 0,
+          "phoneAnyBoxRate": 0.0,
+          "rawPhoneAnyBox": 0,
+          "rawPhoneTop1": 0,
+          "correctTop1": 11,
+          "correctAnyBox": 11,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 11
+          }
+        }
+      },
+      "grayscale": {
+        "productWeighted": {
+          "images": 11,
+          "phoneTop1": 0,
+          "phoneTop1Rate": 0.0,
+          "phoneAnyBox": 0,
+          "phoneAnyBoxRate": 0.0,
+          "rawPhoneAnyBox": 0,
+          "rawPhoneTop1": 0,
+          "correctTop1": 11,
+          "correctAnyBox": 11,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 11
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 11,
+          "phoneTop1": 0,
+          "phoneTop1Rate": 0.0,
+          "phoneAnyBox": 0,
+          "phoneAnyBoxRate": 0.0,
+          "rawPhoneAnyBox": 0,
+          "rawPhoneTop1": 0,
+          "correctTop1": 11,
+          "correctAnyBox": 11,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 11
+          }
+        }
+      }
+    },
+    "rectangularColourful": {
+      "original": {
+        "productWeighted": {
+          "images": 27,
+          "phoneTop1": 12,
+          "phoneTop1Rate": 0.4444444444444444,
+          "phoneAnyBox": 15,
+          "phoneAnyBoxRate": 0.5555555555555556,
+          "rawPhoneAnyBox": 17,
+          "rawPhoneTop1": 12,
+          "correctTop1": 11,
+          "correctAnyBox": 14,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 12,
+            "3": 6,
+            "2": 4,
+            "5": 5
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 24,
+          "phoneTop1": 12,
+          "phoneTop1Rate": 0.5,
+          "phoneAnyBox": 14,
+          "phoneAnyBoxRate": 0.5833333333333334,
+          "rawPhoneAnyBox": 16,
+          "rawPhoneTop1": 12,
+          "correctTop1": 8,
+          "correctAnyBox": 11,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 12,
+            "3": 3,
+            "2": 4,
+            "5": 5
+          }
+        }
+      },
+      "grayscale": {
+        "productWeighted": {
+          "images": 27,
+          "phoneTop1": 13,
+          "phoneTop1Rate": 0.48148148148148145,
+          "phoneAnyBox": 13,
+          "phoneAnyBoxRate": 0.48148148148148145,
+          "rawPhoneAnyBox": 15,
+          "rawPhoneTop1": 13,
+          "correctTop1": 10,
+          "correctAnyBox": 15,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 13,
+            "3": 5,
+            "2": 4,
+            "5": 5
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 24,
+          "phoneTop1": 12,
+          "phoneTop1Rate": 0.5,
+          "phoneAnyBox": 12,
+          "phoneAnyBoxRate": 0.5,
+          "rawPhoneAnyBox": 14,
+          "rawPhoneTop1": 12,
+          "correctTop1": 8,
+          "correctAnyBox": 13,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "1": 12,
+            "3": 3,
+            "2": 4,
+            "5": 5
+          }
+        }
+      }
+    },
+    "rectangularColourfulWatches": {
+      "original": {
+        "productWeighted": {
+          "images": 7,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.2857142857142857,
+          "phoneAnyBox": 3,
+          "phoneAnyBoxRate": 0.42857142857142855,
+          "rawPhoneAnyBox": 3,
+          "rawPhoneTop1": 2,
+          "correctTop1": 5,
+          "correctAnyBox": 6,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 5,
+            "1": 2
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 7,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.2857142857142857,
+          "phoneAnyBox": 3,
+          "phoneAnyBoxRate": 0.42857142857142855,
+          "rawPhoneAnyBox": 3,
+          "rawPhoneTop1": 2,
+          "correctTop1": 5,
+          "correctAnyBox": 6,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 5,
+            "1": 2
+          }
+        }
+      },
+      "grayscale": {
+        "productWeighted": {
+          "images": 7,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.2857142857142857,
+          "phoneAnyBox": 2,
+          "phoneAnyBoxRate": 0.2857142857142857,
+          "rawPhoneAnyBox": 2,
+          "rawPhoneTop1": 2,
+          "correctTop1": 5,
+          "correctAnyBox": 7,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 5,
+            "1": 2
+          }
+        },
+        "uniqueSourceImages": {
+          "images": 7,
+          "phoneTop1": 2,
+          "phoneTop1Rate": 0.2857142857142857,
+          "phoneAnyBox": 2,
+          "phoneAnyBoxRate": 0.2857142857142857,
+          "rawPhoneAnyBox": 2,
+          "rawPhoneTop1": 2,
+          "correctTop1": 5,
+          "correctAnyBox": 7,
+          "missed": 0,
+          "predictedCategoryCounts": {
+            "5": 5,
+            "1": 2
+          }
+        }
+      }
+    }
+  },
+  "transitions": {
+    "originalPhoneToGrayCorrect": [
+      49
+    ],
+    "originalPhoneStillGrayPhone": [
+      41,
+      42,
+      43,
+      44,
+      46,
+      50,
+      51,
+      57,
+      58,
+      95,
+      102
+    ]
+  },
+  "seconds": 119.28589569999895,
+  "uniqueInferenceInputs": 74,
+  "status": "completed_observational_experiment"
+}

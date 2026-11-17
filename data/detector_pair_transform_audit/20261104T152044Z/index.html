@@ -1,0 +1,17 @@
+<meta charset="utf-8"><style>body{font:16px system-ui;max-width:1200px;margin:30px auto}img{max-width:100%;max-height:950px}pre{white-space:pre-wrap}article{padding:15px;border:1px solid #ccc;margin:20px 0}</style><pre># Xoay/lật ảnh ghép tablet__watch
+
+| Biến đổi | Tổng box | Box vùng tablet | Có box Tablet đúng | Top vùng tablet | Box vùng watch | Có box Watch đúng | Top vùng watch |
+|---|---:|---:|---|---|---:|---|---|
+| Gốc | 4 | 3 | Không | Phone 0.3129 | 1 | Có | Watch 0.7074 |
+| Xoay 90° | 5 | 3 | Có | Tablet 0.2800 | 2 | Có | Watch 0.6673 |
+| Xoay 180° | 4 | 3 | Không | Phone 0.3339 | 1 | Có | Watch 0.7094 |
+| Xoay 270° | 3 | 2 | Có | Tablet 0.5011 | 1 | Có | Watch 0.7055 |
+| Lật ngang | 4 | 3 | Không | Phone 0.3507 | 1 | Có | Watch 0.6963 |
+| Lật dọc | 5 | 3 | Không | Phone 0.2895 | 2 | Có | Watch 0.7226 |
+
+## Giới hạn
+
+- Single previously observed synthetic pair, not an independent accuracy estimate.
+- Success is any correctly labelled box in the transformed target panel, not exact object IoU.
+- Target panels rotate/flip with the whole image; ground truth never enters model inference.
+- Clockwise rotations; same threshold, queries and top-12 policy. No production changes.</pre><article><h2>Gốc</h2><p>Gốc | 4 | 3 | Không | Phone 0.3129 | 1 | Có | Watch 0.7074</p><img src="boxes/original.png"></article><article><h2>Xoay 90°</h2><p>Xoay 90° | 5 | 3 | Có | Tablet 0.2800 | 2 | Có | Watch 0.6673</p><img src="boxes/rotate90cw.png"></article><article><h2>Xoay 180°</h2><p>Xoay 180° | 4 | 3 | Không | Phone 0.3339 | 1 | Có | Watch 0.7094</p><img src="boxes/rotate180.png"></article><article><h2>Xoay 270°</h2><p>Xoay 270° | 3 | 2 | Có | Tablet 0.5011 | 1 | Có | Watch 0.7055</p><img src="boxes/rotate270cw.png"></article><article><h2>Lật ngang</h2><p>Lật ngang | 4 | 3 | Không | Phone 0.3507 | 1 | Có | Watch 0.6963</p><img src="boxes/flip_horizontal.png"></article><article><h2>Lật dọc</h2><p>Lật dọc | 5 | 3 | Không | Phone 0.2895 | 2 | Có | Watch 0.7226</p><img src="boxes/flip_vertical.png"></article>

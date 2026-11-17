@@ -1,0 +1,33 @@
+{
+  "products": 100,
+  "category_counts": {
+    "Smartphone": 20,
+    "Laptop": 20,
+    "Tablet": 20,
+    "Headphones": 20,
+    "Smartwatch": 20
+  },
+  "shortfalls": {
+    "Smartphone": 0,
+    "Laptop": 0,
+    "Tablet": 0,
+    "Headphones": 0,
+    "Smartwatch": 0
+  },
+  "coverage": {
+    "productName": 100,
+    "brand": 100,
+    "description": 100,
+    "price": 100,
+    "imagePath": 0
+  },
+  "duplicate_ids": 0,
+  "invalid_category_ids": [],
+  "missing_image_files": [],
+  "provenance_matches": true,
+  "image_download_status": "External source images are not downloaded without a reviewed licence manifest",
+  "embeddings": "Not generated; this is catalogue preparation, not an implemented retrieval model",
+  "rejections": {},
+  "repeat_collection_product_bytes_identical": true,
+  "live_mysql_import_tested": false
+}

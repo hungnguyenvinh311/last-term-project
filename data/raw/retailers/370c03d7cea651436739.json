@@ -1,0 +1,31 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-asus-zenbook-14-ux3405ca-st1713w",
+  "source_url": "https://cellphones.com.vn/laptop-asus-zenbook-14-ux3405ca-st1713w.html",
+  "productName": "Laptop ASUS Zenbook 14 UX3405CA-ST1713W",
+  "brand": "ASUS",
+  "description": "Mua ngay Laptop ASUS Zenbook 14 UX3405CA-ST1713W giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Chip AI": "Intel AI Boost NPU up to 13TOPS",
+    "Loại card đồ họa": "Intel Arc Graphics",
+    "Dung lượng RAM": "16GB",
+    "Loại RAM": "LPDDR5X on board",
+    "Ổ cứng": "512GB M.2 NVMe PCIe 4.0 SSD",
+    "Công nghệ màn hình": "Độ sáng 500 nits (tối đa 1000 nits HDR) Thời gian phản hồi 0.2ms Độ phủ màu 100% DCI-P3 1.07 tỷ màu VESA DisplayHDR True Black 1000 Chống chói, giảm phản xạ Giảm 70% ánh sáng xanh Gamut Mapping SGS Eye Care Display",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home",
+    "Loại CPU": "Intel Core Ultra 5 225H 1.7 GHz (18MB Cache, up to 4.9 GHz, 14 lõi, 14 luồng)",
+    "Kích thước màn hình": "14 inches",
+    "Độ phân giải màn hình": "2880 x 1800 pixels",
+    "Pin": "75WHrs, 2S2P, 4-cell Li-ion",
+    "Cổng giao tiếp": "1x USB-A 3.2 Gen 1 (5Gbps) 2x Thunderbolt 4 (DisplayPort, Power Delivery, 40Gbps) 1x HDMI 2.1 TMDS 1x jack tai nghe/micro 3.5mm"
+  },
+  "price": "30990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/t/e/text_d_i_1__4_72.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:42:46.765551+00:00"
+}

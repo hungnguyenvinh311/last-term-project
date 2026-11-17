@@ -1,0 +1,6 @@
+from typing import Protocol
+
+class IEmbedding(Protocol):
+    identity: str
+    def encodeText(self, text: str) -> list[float]: ...
+    def encodeImage(self, image) -> list[float]: ...

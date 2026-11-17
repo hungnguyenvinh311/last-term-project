@@ -1,0 +1,34 @@
+{
+  "provider": "cellphones",
+  "source_id": "ipad-pro-m5-11-inch-256gb",
+  "source_url": "https://cellphones.com.vn/ipad-pro-m5-11-inch-256gb.html",
+  "productName": "iPad Pro chip M5 11 inch Wifi 256GB | Chính hãng Apple Việt Nam",
+  "brand": "Apple",
+  "description": "iPad Pro M5 11 inch 256GB chính hãng, giá tốt tháng 11/2026 ưu đãi trả góp 0% 12 tháng, HSSV giảm thêm 5% tại CellphoneS ngay",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": " iPadOS 26",
+    "Chipset": "Apple M5",
+    "Dung lượng RAM": "12 GB",
+    "Bộ nhớ trong": "256 GB",
+    "Loại CPU": "CPU 9 lõi với 3 lõi hiệu năng và 6 lõi tiết kiệm điện",
+    "GPU": "Apple GPU 10 nhân",
+    "Kích thước màn hình": "11 inches",
+    "Công nghệ màn hình": "Ultra Retina XDR",
+    "Độ phân giải màn hình": "2420x1668 pixel",
+    "Tính năng màn hình": "Công nghệ ProMotion Độ sáng 1000nits, 264 ppi Tần số quét 120Hz True ToneLớp phủ kháng dầu chống in dấu vân tay Công nghệ ép kín Lớp phủ chống phản chiếu",
+    "Camera sau": "Camera 12MP WideKhẩu độ ƒ/1.8",
+    "Camera trước": "Camera 12MP Center Stage trên cạnh ngang Khẩu độ ƒ/2.0",
+    "Pin": "Pin sạc Li-Po 31.29 Wh",
+    "Công nghệ NFC": "Không",
+    "Thời điểm ra mắt": "10/2025"
+  },
+  "price": "33990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/i/p/ipad-pro-m5.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:44:47.141118+00:00"
+}

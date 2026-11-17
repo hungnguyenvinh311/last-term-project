@@ -1,0 +1,150 @@
+[
+  {
+    "articleID": 1,
+    "provider": "bestbuy_open_data",
+    "source_id": "1010401",
+    "source_url": "http://www.bestbuy.com/site/american-audio-headphones-black-silver/1010401.p?id=1218208999696&skuId=1010401CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat144700050004",
+        "name": "All Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1010/1010401_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:18.431908+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 4,
+    "provider": "bestbuy_open_data",
+    "source_id": "1121006",
+    "source_url": "http://www.bestbuy.com/site/lg-g-pad-7-0-7-8gb-wi-fi-4g-lte-at-t-black/1121006.p?id=1219475168867&skuId=1121006&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1121/1121006_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:18.431908+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 8,
+    "provider": "bestbuy_open_data",
+    "source_id": "1126083",
+    "source_url": "http://www.bestbuy.com/site/blu-dash-jr-w-d141w-cell-phone-unlocked-black/1126083.p?id=1219470060430&skuId=1126083&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1126/1126083_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:18.431908+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 9,
+    "provider": "bestbuy_open_data",
+    "source_id": "1191138",
+    "source_url": "http://www.bestbuy.com/site/connecteddevice-cogito-pop-3-0-smartwatch-42mm-polycarbonate-blue-electric-silicone/1191138.p?id=1219478145769&skuId=1191138CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1191/1191138_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:18.431908+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 6,
+    "provider": "bestbuy_open_data",
+    "source_id": "1475099",
+    "source_url": "http://www.bestbuy.com/site/asus-13-3-chromebook-intel-celeron-4gb-memory-16gb-emmc-flash-memory-black/1475099.p?id=1219498405393&skuId=1475099&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat244900050010",
+        "name": "Chromebooks"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1312/1312249668/1312249668_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:18.441521+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  }
+]

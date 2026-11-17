@@ -1,0 +1,31 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-dell-14-dc14250-dc4c5375w1",
+  "source_url": "https://cellphones.com.vn/laptop-dell-14-dc14250-dc4c5375w1.html",
+  "productName": "Laptop Dell 14 DC14250 DC4C5375W1 - Bảo hành 2 năm",
+  "brand": "Dell",
+  "description": "Mua ngay Laptop Dell 14 DC14250 DC4C5375W1 giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Loại card đồ họa": "Intel Graphics",
+    "Dung lượng RAM": "16GB",
+    "Loại RAM": "DDR5 5200 MT/s",
+    "Số khe ram": "2 khe rời (1 x 16 GB, tối đa 16GB)",
+    "Ổ cứng": "512GB M.2 PCIe NVMe (nâng cấp tối đa 1TB)",
+    "Công nghệ màn hình": "Độ phủ màu 45% NTSC Độ sáng 300 nits Màn hình chống chói",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home Single Language, Microsoft Office Home 2024 + Microsoft 365 Basic 1 year",
+    "Loại CPU": "Intel Core 5 120U (10 lõi, up to 5.0 GHz)",
+    "Kích thước màn hình": "14 inches",
+    "Độ phân giải màn hình": "1920 x 1200 pixels (FullHD+)",
+    "Pin": "4-Cell Battery, 54WHr",
+    "Cổng giao tiếp": "1x đầu đọc thẻ SD (SD Card Reader) 1x jack tai nghe/micro toàn cầu 3.5mm (Global Headset Jack) 2x USB-A 3.2 Gen 1 1x USB-C 3.2 Gen 2 1x HDMI 1.4"
+  },
+  "price": "29990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/g/r/group_945_1_21.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:42:32.133809+00:00"
+}

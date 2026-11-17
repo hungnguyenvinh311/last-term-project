@@ -1,0 +1,164 @@
+{
+  "status": "REVIEWED_OFFLINE_EVALUATION",
+  "K": 5,
+  "gridStep": 0.05,
+  "caseFileSHA256": "e392889bd3f3702bca5ff4f010ddaa6a1cbabb41d24839d0353920449bfaa008",
+  "catalogueFingerprint": "5d3c9c2ebd6235a24aae19f89d232d4c9f0aec3d34acc2b021bb0f5e782c848f",
+  "encoder": "open_clip:ViT-B-32:laion2b_s34b_b79k",
+  "cases": 60,
+  "selected": {
+    "image": {
+      "weights": {
+        "cosine": 1.0,
+        "text": 0.0,
+        "keyword": 0.0
+      },
+      "trials": 1,
+      "equallyGoodValidationSettings": 1,
+      "validationCases": 10,
+      "testCases": 10,
+      "baselineValidation": {
+        "ndcgAtK": 1.0,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 1.0,
+        "hitAt1": 1.0,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "selectedValidation": {
+        "ndcgAtK": 1.0,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 1.0,
+        "hitAt1": 1.0,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "baselineTest": {
+        "ndcgAtK": 1.0,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 1.0,
+        "hitAt1": 1.0,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "selectedTest": {
+        "ndcgAtK": 1.0,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 1.0,
+        "hitAt1": 1.0,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "selection": "Validation NDCG@K, Recall@K, MRR@K; ties prefer existing weights. Test labels are never used for selection."
+    },
+    "image_text": {
+      "weights": {
+        "cosine": 0.6,
+        "text": 0.25,
+        "keyword": 0.15
+      },
+      "trials": 231,
+      "equallyGoodValidationSettings": 49,
+      "validationCases": 10,
+      "testCases": 10,
+      "baselineValidation": {
+        "ndcgAtK": 0.9630929753571458,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 0.95,
+        "hitAt1": 0.9,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "selectedValidation": {
+        "ndcgAtK": 1.0,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 1.0,
+        "hitAt1": 1.0,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "baselineTest": {
+        "ndcgAtK": 1.0,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 1.0,
+        "hitAt1": 1.0,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "selectedTest": {
+        "ndcgAtK": 1.0,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 1.0,
+        "hitAt1": 1.0,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "selection": "Validation NDCG@K, Recall@K, MRR@K; ties prefer existing weights. Test labels are never used for selection."
+    },
+    "text": {
+      "weights": {
+        "cosine": 0.55,
+        "text": 0.0,
+        "keyword": 0.45
+      },
+      "trials": 21,
+      "equallyGoodValidationSettings": 12,
+      "validationCases": 10,
+      "testCases": 10,
+      "baselineValidation": {
+        "ndcgAtK": 0.8885910027146753,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 0.85,
+        "hitAt1": 0.7,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "selectedValidation": {
+        "ndcgAtK": 0.9550650542719645,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 0.95,
+        "hitAt1": 0.9,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "baselineTest": {
+        "ndcgAtK": 0.8648712314377457,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 0.82,
+        "hitAt1": 0.7,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "selectedTest": {
+        "ndcgAtK": 1.0,
+        "recallAtK": 1.0,
+        "precisionAtK": 0.22,
+        "mrrAtK": 1.0,
+        "hitAt1": 1.0,
+        "candidateRecall": 1.0,
+        "noAnswerCorrect": null
+      },
+      "selection": "Validation NDCG@K, Recall@K, MRR@K; ties prefer existing weights. Test labels are never used for selection."
+    }
+  },
+  "seconds": 51.471059600000444,
+  "liveConfigurationChanged": false,
+  "limits": [
+    "Catalogue self-images/title queries are optimistic diagnostics, not independent customer queries.",
+    "Binary labels must include all relevant products; suggested labels are not exhaustive ground truth.",
+    "Candidate thresholds/category voting are fixed; weights cannot recover products filtered out earlier.",
+    "Rule parser used consistently; Gemini intent and voice transcription quality are not evaluated.",
+    "No colour quality claim without reviewed colour evidence and colour-specific queries."
+  ]
+}

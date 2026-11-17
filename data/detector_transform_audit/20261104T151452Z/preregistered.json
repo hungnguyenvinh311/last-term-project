@@ -1,0 +1,27 @@
+{
+  "provider": "owlv2",
+  "padding": true,
+  "device": "cuda",
+  "threshold": 0.15,
+  "maxReturnedBoxes": 12,
+  "variants": [
+    "original",
+    "rotate90cw",
+    "rotate180",
+    "rotate270cw",
+    "flip_horizontal",
+    "flip_vertical"
+  ],
+  "rotationConvention": "Clockwise; exact transpose, no interpolation",
+  "sourceAudit": "data\\detector_single_box_audit\\20261104T150354Z\\report.json",
+  "cases": [],
+  "errors": [],
+  "limits": [
+    "Seven previously failed development images, not a random or held-out sample.",
+    "Six fixed views: unchanged decoded pixels, clockwise 90/180/270 degrees, horizontal and vertical reflection. PNG encoding avoids additional JPEG loss.",
+    "Product ROI is transformed together with the image and used only for assessment, never provided to the detector.",
+    "Success means at least one returned correctly labelled box in the product ROI, not exact object IoU/mAP or a correct highest-score box.",
+    "Threshold .15 and top 12 are unchanged; no NMS, per-image prompt changes or production transform aggregation.",
+    "Increased success after trying several views is measured on selected failures and does not establish overall accuracy."
+  ]
+}

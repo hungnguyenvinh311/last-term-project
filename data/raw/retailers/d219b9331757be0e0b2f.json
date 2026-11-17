@@ -1,0 +1,18 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-oppo-find-x10",
+  "source_url": "https://cellphones.com.vn/dien-thoai-oppo-find-x10.html",
+  "productName": "OPPO Find X10 5G 12GB 256GB",
+  "brand": "OPPO",
+  "description": "OPPO Find X10 giá từ 34.990.000đ, ra mắt tại Việt Nam 31/10/2026. Chip Dimensity 9600M, 2 camera 200MP, pin 8.000 mAh. Click xem ngay!",
+  "technicalSpecs": null,
+  "price": "34990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/o/p/oppo-find-x10-glow-01.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:44.434120+00:00"
+}

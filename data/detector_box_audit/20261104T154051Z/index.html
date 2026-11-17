@@ -1,0 +1,38 @@
+<meta charset="utf-8"><title>OWLv2 box audit</title><style>body{font:16px system-ui;max-width:1200px;margin:30px auto}img{width:100%}article{border:1px solid #ccc;padding:15px;margin:20px 0}td,th{border:1px solid #ccc;padding:6px}table{border-collapse:collapse}pre{white-space:pre-wrap}</style><h1>OWLv2 + padding: 10 ảnh ghép</h1><pre># Khảo sát bounding box OWLv2 + padding
+
+| Ảnh ghép | Tổng box | Sản phẩm trái: số box và box điểm cao nhất | Sản phẩm phải: số box và box điểm cao nhất | Box ngoài hai vùng |
+|---|---:|---|---|---:|
+| phone__laptop | 2 | Phone: 1 box; #1 Phone 0.3868; Đúng | Laptop: 1 box; #2 Laptop 0.5601; Đúng | 0 |
+| phone__tablet | 2 | Phone: 1 box; #1 Phone 0.5280; Đúng | Tablet: 1 box; #2 Tablet 0.2271; Đúng | 0 |
+| phone__headphones | 2 | Phone: 1 box; #1 Phone 0.4898; Đúng | Headphones: 1 box; #2 Headphones 0.2557; Đúng | 0 |
+| phone__watch | 2 | Phone: 1 box; #1 Phone 0.4356; Đúng | Watch: 1 box; #2 Watch 0.7029; Đúng | 0 |
+| laptop__tablet | 2 | Laptop: 1 box; #1 Laptop 0.5473; Đúng | Tablet: 1 box; #2 Tablet 0.4124; Đúng | 0 |
+| laptop__headphones | 2 | Laptop: 1 box; #1 Laptop 0.5990; Đúng | Headphones: 1 box; #2 Headphones 0.3227; Đúng | 0 |
+| laptop__watch | 2 | Laptop: 1 box; #1 Laptop 0.5952; Đúng | Watch: 1 box; #2 Watch 0.7214; Đúng | 0 |
+| tablet__headphones | 2 | Tablet: 1 box; #1 Tablet 0.3315; Đúng | Headphones: 1 box; #2 Headphones 0.2536; Đúng | 0 |
+| tablet__watch | 2 | Tablet: 1 box; #1 Tablet 0.5011; Đúng | Watch: 1 box; #2 Watch 0.7074; Đúng | 0 |
+| headphones__watch | 2 | Headphones: 1 box; #1 Headphones 0.2592; Đúng | Watch: 1 box; #2 Watch 0.7406; Đúng | 0 |
+
+## Tổng hợp
+
+{
+  &quot;images&quot;: 10,
+  &quot;totalBoxes&quot;: 20,
+  &quot;targets&quot;: 20,
+  &quot;correctTopPerTarget&quot;: 20,
+  &quot;targetsWithMultipleBoxes&quot;: 0,
+  &quot;targetsWithAnyCorrectBox&quot;: 20,
+  &quot;imagesWithCorrectGlobalTop&quot;: 10,
+  &quot;unassignedBoxes&quot;: 0,
+  &quot;overlappingBoxPairsIoU50&quot;: 0
+}
+
+## Giới hạn
+
+- Counts refer to boxes returned by the active API: confidence &gt; 0.15 and at most 12 per image, before any NMS.
+- Each expected product is identified using its panel: box center inside panel and at least 80% of box area inside panel.
+- Correct means correct category for that panel, not precise IoU against a manually labelled object box.
+- Ten pairs reuse five source products; 20 target occurrences are not 20 distinct products.
+- An overlapping pair with IoU &gt;= 0.5 is a duplicate candidate, not proof: headphones may contain separate earbuds/case.
+- Scores are uncalibrated detector confidence, not probabilities of being correct. No detector settings or ranking changes.
+- If labelPolicy=provided_catalogue, counts refer to label-guided retained boxes with transform recovery, not unfiltered detector output.</pre><article><h2>phone__laptop: 2 boxes</h2><img src="boxes/phone__laptop.png"><h3>Phone: 1 box; #1 Phone 0.3868; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#1</td><td>Phone</td><td>0.386805</td><td>True</td></tr></table><h3>Laptop: 1 box; #2 Laptop 0.5601; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#2</td><td>Laptop</td><td>0.560099</td><td>True</td></tr></table></article><article><h2>phone__tablet: 2 boxes</h2><img src="boxes/phone__tablet.png"><h3>Phone: 1 box; #1 Phone 0.5280; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#1</td><td>Phone</td><td>0.528042</td><td>True</td></tr></table><h3>Tablet: 1 box; #2 Tablet 0.2271; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#2</td><td>Tablet</td><td>0.227108</td><td>True</td></tr></table></article><article><h2>phone__headphones: 2 boxes</h2><img src="boxes/phone__headphones.png"><h3>Phone: 1 box; #1 Phone 0.4898; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#1</td><td>Phone</td><td>0.489799</td><td>True</td></tr></table><h3>Headphones: 1 box; #2 Headphones 0.2557; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#2</td><td>Headphones</td><td>0.255674</td><td>True</td></tr></table></article><article><h2>phone__watch: 2 boxes</h2><img src="boxes/phone__watch.png"><h3>Phone: 1 box; #1 Phone 0.4356; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#1</td><td>Phone</td><td>0.435629</td><td>True</td></tr></table><h3>Watch: 1 box; #2 Watch 0.7029; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#2</td><td>Watch</td><td>0.702865</td><td>True</td></tr></table></article><article><h2>laptop__tablet: 2 boxes</h2><img src="boxes/laptop__tablet.png"><h3>Laptop: 1 box; #1 Laptop 0.5473; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#1</td><td>Laptop</td><td>0.547318</td><td>True</td></tr></table><h3>Tablet: 1 box; #2 Tablet 0.4124; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#2</td><td>Tablet</td><td>0.412371</td><td>True</td></tr></table></article><article><h2>laptop__headphones: 2 boxes</h2><img src="boxes/laptop__headphones.png"><h3>Laptop: 1 box; #1 Laptop 0.5990; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#1</td><td>Laptop</td><td>0.599024</td><td>True</td></tr></table><h3>Headphones: 1 box; #2 Headphones 0.3227; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#2</td><td>Headphones</td><td>0.322671</td><td>True</td></tr></table></article><article><h2>laptop__watch: 2 boxes</h2><img src="boxes/laptop__watch.png"><h3>Laptop: 1 box; #1 Laptop 0.5952; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#1</td><td>Laptop</td><td>0.595161</td><td>True</td></tr></table><h3>Watch: 1 box; #2 Watch 0.7214; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#2</td><td>Watch</td><td>0.721366</td><td>True</td></tr></table></article><article><h2>tablet__headphones: 2 boxes</h2><img src="boxes/tablet__headphones.png"><h3>Tablet: 1 box; #1 Tablet 0.3315; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#1</td><td>Tablet</td><td>0.331457</td><td>True</td></tr></table><h3>Headphones: 1 box; #2 Headphones 0.2536; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#2</td><td>Headphones</td><td>0.253635</td><td>True</td></tr></table></article><article><h2>tablet__watch: 2 boxes</h2><img src="boxes/tablet__watch.png"><h3>Tablet: 1 box; #1 Tablet 0.5011; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#1</td><td>Tablet</td><td>0.501094</td><td>True</td></tr></table><h3>Watch: 1 box; #2 Watch 0.7074; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#2</td><td>Watch</td><td>0.707447</td><td>True</td></tr></table></article><article><h2>headphones__watch: 2 boxes</h2><img src="boxes/headphones__watch.png"><h3>Headphones: 1 box; #1 Headphones 0.2592; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#1</td><td>Headphones</td><td>0.259196</td><td>True</td></tr></table><h3>Watch: 1 box; #2 Watch 0.7406; Đúng</h3><table><tr><th>Box</th><th>Nhãn</th><th>Điểm</th><th>Đúng nhãn</th></tr><tr><td>#2</td><td>Watch</td><td>0.740554</td><td>True</td></tr></table></article>

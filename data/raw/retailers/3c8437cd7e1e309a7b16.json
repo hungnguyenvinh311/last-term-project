@@ -1,0 +1,31 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-hp-victus-15-fa2451tx-d17wppa",
+  "source_url": "https://cellphones.com.vn/laptop-hp-victus-15-fa2451tx-d17wppa.html",
+  "productName": "Laptop HP Victus 15-FA2451TX D17WPPA",
+  "brand": "HP",
+  "description": "Mua ngay Laptop HP Victus 15-FA2451TX D17WPPA giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Loại card đồ họa": "NVIDIA GeForce RTX 4050 (6GB of GDDR6 SDRAM, Bus Width: 96- bit)  Intel UHD  Graphics",
+    "Dung lượng RAM": "16GB",
+    "Loại RAM": "DDR5 5200MHz",
+    "Số khe ram": "2 khe (1 x 16GB)",
+    "Ổ cứng": "512GB SSD1 PCIe (M.2 2280)",
+    "Công nghệ màn hình": "Màn hình chống chóiViền mỏng",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home Single Language 64-bit",
+    "Loại CPU": "Intel Core i5-13420H (8 lõi) - Max Turbo Frequency: 4.60 GHz",
+    "Kích thước màn hình": "15.6 inches",
+    "Độ phân giải màn hình": "1920 x 1080 pixels (FullHD)",
+    "Pin": "4 Cell Int (70.07Wh)",
+    "Cổng giao tiếp": "1 x USB 3.2 Gen 1 Type-C (Power Delivery, DisplayPort, HP Sleep and Charge) 2 x USB 3.2 Gen 1 Type-A (1 cổng hỗ trợ HP Sleep and Charge) 1 x HDMI 1 x RJ45 (LAN) 1 x Jack tai nghe/mic 3.5 mm 1 x khe SSD2 PCIe (M.2 2280)"
+  },
+  "price": "30490000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/t/e/text_d_i_8_50.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:43:08.881874+00:00"
+}

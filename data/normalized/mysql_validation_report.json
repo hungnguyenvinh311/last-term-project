@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-11-03T10:17:09.143098+00:00",
+  "database": "ecommerce_electronics_demo",
+  "server_version": "9.7.0",
+  "validation": {
+    "category_counts": {
+      "Headphones": 20,
+      "Laptop": 20,
+      "Smartphone": 20,
+      "Smartwatch": 20,
+      "Tablet": 20
+    },
+    "orphan_products": 0,
+    "products": 100,
+    "main_images": 0,
+    "image_embeddings": 0,
+    "text_embeddings": 0
+  },
+  "reimport": {
+    "imported": 100,
+    "status": "committed"
+  },
+  "reimport_fingerprint_unchanged": true,
+  "other_databases_changed": false,
+  "foreign_key_definition_present": true,
+  "invalid_fk_test": "Direct SQL insert unexpectedly accepted in an uncommitted transaction, then fully rolled back. Enforcement not certified.",
+  "importer_category_guard": "Rejects categories outside approved catalogue before connecting",
+  "images_and_embeddings": "Not imported; pending licensed image source"
+}

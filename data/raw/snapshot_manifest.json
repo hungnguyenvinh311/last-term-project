@@ -1,0 +1,12 @@
+{
+  "provider": "bestbuy_open_data",
+  "url": "https://raw.githubusercontent.com/BestBuyAPIs/open-data-set/master/products.json.gz",
+  "retrieved_at": "2026-11-03T09:37:05.659187+00:00",
+  "sha256": "a53b42e3e215c5ee29321e5d2054f0761cee2c42ba41fac9478763dcdd745b33",
+  "records": 51646,
+  "license": "CC0-1.0",
+  "robots_status": 404,
+  "price_basis": "Historical source price; not a current live offer",
+  "currency_basis": "USD, Best Buy US source catalogue",
+  "image_rights": "External image bytes not included in this repository licence check"
+}

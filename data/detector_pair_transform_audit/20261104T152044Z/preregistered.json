@@ -1,0 +1,24 @@
+{
+  "pairID": "tablet__watch",
+  "inputSHA256": "98c8c55d77724f49975398b320bd93788173d2de849db64642b6044849bebfc2",
+  "provider": "owlv2",
+  "padding": true,
+  "device": "cuda",
+  "threshold": 0.15,
+  "maxReturnedBoxes": 12,
+  "variants": [],
+  "limits": [
+    "Single previously observed synthetic pair, not an independent accuracy estimate.",
+    "Success is any correctly labelled box in the transformed target panel, not exact object IoU.",
+    "Target panels rotate/flip with the whole image; ground truth never enters model inference.",
+    "Clockwise rotations; same threshold, queries and top-12 policy. No production changes."
+  ],
+  "plannedVariants": [
+    "original",
+    "rotate90cw",
+    "rotate180",
+    "rotate270cw",
+    "flip_horizontal",
+    "flip_vertical"
+  ]
+}

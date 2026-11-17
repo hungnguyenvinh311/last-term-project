@@ -1,0 +1,50 @@
+{
+  "conditions": {
+    "baseline": [
+      false,
+      false
+    ],
+    "padding": [
+      true,
+      false
+    ],
+    "prompts": [
+      false,
+      true
+    ],
+    "combined": [
+      true,
+      true
+    ]
+  },
+  "prompts": {
+    "1": [
+      "a mobile phone",
+      "a smartphone",
+      "a handheld cellular telephone"
+    ],
+    "2": [
+      "a laptop computer",
+      "an open notebook computer with a keyboard",
+      "a portable laptop with a screen and keyboard"
+    ],
+    "3": [
+      "a tablet computer",
+      "a touchscreen tablet device",
+      "an iPad or Android tablet computer"
+    ],
+    "4": [
+      "headphones",
+      "wireless earbuds in a charging case",
+      "a pair of earphones"
+    ],
+    "5": [
+      "a smartwatch",
+      "a wristwatch with a strap",
+      "a digital watch worn on the wrist"
+    ]
+  },
+  "threshold": 0.15,
+  "selection": "Fixed bank, no prompt/threshold grid or changes after observing outcomes",
+  "baselineArtifact": "data/screen_confusion_tests/report.json"
+}

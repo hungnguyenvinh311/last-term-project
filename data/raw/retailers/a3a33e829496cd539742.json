@@ -1,0 +1,31 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-msi-modern-14-h1m-014vn",
+  "source_url": "https://cellphones.com.vn/laptop-msi-modern-14-h1m-014vn.html",
+  "productName": "Laptop MSI Modern 14 H1M-014VN",
+  "brand": "MSI",
+  "description": "Mua ngay Laptop MSI Modern 14 H1M-014VN giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Loại card đồ họa": "Intel Graphics",
+    "Dung lượng RAM": "16GB",
+    "Loại RAM": "LPDDR5 Onboard",
+    "Số khe ram": "Không hỗ trợ nâng cấp",
+    "Ổ cứng": "512GB*1 (1x M.2 SSD slot (NVMe PCIe Gen4) Max 2TB)",
+    "Công nghệ màn hình": "Độ phủ màu: 45% NTSC Màn hình chống chói (Anti-glare) Độ sáng: 350 nits",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home Single Language",
+    "Loại CPU": "Intel Core 7 150U, 10 lõi (2 P-cores + 8 E-cores), 12 luồng, 12 MB Intel Smart Cache, Max Turbo Frequency 5.4 GHz",
+    "Kích thước màn hình": "14 inches",
+    "Độ phân giải màn hình": "1920 x 1200 pixels (FullHD+)",
+    "Pin": "3-cell, 58 Whr",
+    "Cổng giao tiếp": "1 x USB-C (USB4, DisplayPort, Power Delivery 3.0, tương thích Thunderbolt 4) 1 x USB-C (DisplayPort, Power Delivery 3.0) 3 x USB-A 3.2 Gen 1 1 x HDMI 2.1 (4K@60Hz) 1 x Jack tai nghe/mic 3.5 mm 1 x RJ451x Full Size SD Card Reader"
+  },
+  "price": "22990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/g/r/group_945_1_24.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:42:21.734250+00:00"
+}

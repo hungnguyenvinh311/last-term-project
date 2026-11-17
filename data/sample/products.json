@@ -1,0 +1,97 @@
+[
+  {
+    "articleID": 1,
+    "categoryID": 4,
+    "productName": "American Audio - Headphones - Black/Silver",
+    "brand": "American Audio",
+    "description": "From our expanded online assortment; 44mm driver; 32 ohms impedance; 20Hz - 20kHz frequency response; 3.5mm stereo plug",
+    "technicalSpecs": {
+      "model": "HP-200",
+      "upc": "640282021890"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "19.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 4,
+    "categoryID": 3,
+    "productName": "LG - G Pad 7.0 - 7\" - 8GB - Wi-Fi + 4G LTE AT&T - Black",
+    "brand": "LG",
+    "description": "Android 4.4 KitKat operating system7\" LCD touch screen with WXGA (1280 x 800) resolution8GB storage capacityQuad-core processorWi-Fi + 4G LTEKnock Code",
+    "technicalSpecs": {
+      "model": "LGV400.AUSABK",
+      "upc": "652810101547"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "249.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 8,
+    "categoryID": 1,
+    "productName": "BLU - Dash Jr W D141w Cell Phone (Unlocked) - Black",
+    "brand": "BLU",
+    "description": "Android 2.3 Gingerbread operating system2G speedWi-Fi3.5\" TFT capacitive touch screenOnly compatible with GSM carriers, including AT&T and T-Mobile",
+    "technicalSpecs": {
+      "model": "D141W BLACK",
+      "upc": "848958012757"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "34.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 9,
+    "categoryID": 5,
+    "productName": "ConnectedDevice - Cogito Pop 3.0 Smartwatch 42mm Polycarbonate - Blue Electric Silicone",
+    "brand": "ConnectedDevice",
+    "description": "Compatible with select Android and Apple&#174; iOS devices; Bluetooth technology; call, message and event notification; music and camera control; 1.3\" display",
+    "technicalSpecs": {
+      "model": "CW3.0-005-01",
+      "upc": "810984013749"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "99.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  },
+  {
+    "articleID": 6,
+    "categoryID": 2,
+    "productName": "Asus - 13.3\" Chromebook - Intel Celeron - 4GB Memory - 16GB eMMC Flash Memory - Black",
+    "brand": "Asus",
+    "description": "Chrome OSTechnical details: Intel&#174; Celeron&#174; processor; 13.3\" display; 4GB memory; 16GB eMMC flash memorySpecial features: Bluetooth; HDMI outputNote: DVD/CD drive not included",
+    "technicalSpecs": {
+      "model": "C300MADH02",
+      "upc": "886227904297"
+    },
+    "warrantyTerms": null,
+    "imagePath": null,
+    "price": "279.99",
+    "currency": "USD",
+    "isActive": true,
+    "imageEmbedding": null,
+    "textEmbedding": null,
+    "representationUpdateAt": null
+  }
+]

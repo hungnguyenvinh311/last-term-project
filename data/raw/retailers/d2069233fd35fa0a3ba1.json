@@ -1,0 +1,26 @@
+{
+  "provider": "cellphones",
+  "source_id": "vong-deo-tay-thong-minh-xiaomi-miband-10-pro",
+  "source_url": "https://cellphones.com.vn/vong-deo-tay-thong-minh-xiaomi-miband-10-pro.html",
+  "productName": "Vòng đeo tay thông minh Xiaomi Mi Band 10 Pro",
+  "brand": "Xiaomi",
+  "description": "Xiaomi Mi Band 10 Pro màn hình 1.74 inch, thân máy siêu mỏng. Giảm đến 500k khi mua kèm, BH 12 tháng. Mua Xiaomi Smart Band 10 Pro ngay!",
+  "technicalSpecs": {
+    "Công nghệ màn hình": "AMOLED",
+    "Kích thước màn hình": "1.74 inch",
+    "Kích thước cổ tay phù hợp": "Từ 13.5 – 20.5 cm",
+    "Tiện ích sức khoẻ ": "Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đo mức độ stress, Theo dõi chu kỳ",
+    "Tương thích ": "Android, iOS",
+    "Thời lượng pin ": "Thời lượng pin mở rộng lên đến 21 ngày 7 ngày sử dụng trong chế độ AOD (Always-On  Display)",
+    "Hãng sản xuất": "Xiaomi"
+  },
+  "price": "2090000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/g/r/group_534_7.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:47:52.710013+00:00"
+}

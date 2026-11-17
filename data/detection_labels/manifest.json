@@ -1,0 +1,2285 @@
+{
+  "version": 1,
+  "policy": "Explicit supplied catalogue labels; exact decoded RGB pixel match only.",
+  "sources": [
+    "data/retailer_catalog/products.json",
+    "data/pairwise_search_tests/report.json",
+    "data/screen_confusion_tests/report.json (coarse ROIs only)"
+  ],
+  "images": {
+    "29ce19a376db2363b808bc34e905abacb6f265a268437b238f30d0aab658f5d4": {
+      "imagePath": "data/retailer_catalog/images/c75beab7677be9f70da06b66104e9a181d2361913ee644138e9c0a595d1edf68.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            1
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "f93f8a8483a541a95fdeef1fefd49f96c2a4f725210532f0d576408d103757c7": {
+      "imagePath": "data/retailer_catalog/images/f5cee0d47ea2a95b52c21116dadde14845a94e1051c97a609b172608dcd1aa70.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            2
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "b79b239c52ba029df5538c8114a4f80b497df16ad6942ac528e20f0d191de37f": {
+      "imagePath": "data/retailer_catalog/images/6714087bd4d977a13ec5eefcfa6023af175fe567006d6d15be22d1c128351dca.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            3
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "100f6172df1f34fc0b7c2defb4e2079c596c7f6dbaee7e09999c817b2b07e4e0": {
+      "imagePath": "data/retailer_catalog/images/a023c8cce534ae9c10496509d4335bbf3d79d717f7021fff2bdad14a64a03442.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            4
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "df55f945f8b02f8d1f1b54a9d5511e9efe22ec29dd83723e91b8ba57b8d4e0e4": {
+      "imagePath": "data/retailer_catalog/images/38885b5c081f13999f48b2fe3594415b9dd01fe8660b11ac83f0929e4324fc87.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            5
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "427bb06bd8b6993a08198cff7753b9749e0b7c3eaf42c6708247278bfb499bf3": {
+      "imagePath": "data/retailer_catalog/images/0e7c1c0d952fce940253be73197a0e51bc83714ce44f04c653f993984d034b86.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            6
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "920e024d4cec4583cc301a2cd60a6bfa3822406b4ae7f75e5b0fdbb28099832c": {
+      "imagePath": "data/retailer_catalog/images/91c2ab9a4b818ebd4a50c12e0cb1295604f9abab2eed63e65fb076122c0fceb7.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            7
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "67997a4694747514b45f0df8cd67aa8215426b09cbd06d98bef808002da0240f": {
+      "imagePath": "data/retailer_catalog/images/9eabf8036e0357ee5a540bb1522b33d32bbc6ff4aaf631633c03a91717f6ac43.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            8
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "ae19a0cc12ab3dd7d59b4e0bcee9e6116a743c5a8ac6ba539d28bc882a551671": {
+      "imagePath": "data/retailer_catalog/images/d23321969106b338bff8fef83a3df2f4dcbbfcd62cdd1b546ab2c62c08c22041.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            9
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "0073c1abf36ab9ba69ada37cefb63042970dca32a4b038071920b08c2725512c": {
+      "imagePath": "data/retailer_catalog/images/06f57318b7895cca7d3d46d83e62ce86992ff7ce6151dffb0dbf83824b5d6084.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            10
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "28c0a4defd64153ffd7e04c859a2c977f1a806e17533fac6be610ee3b107def9": {
+      "imagePath": "data/retailer_catalog/images/bc2933ab7aa9c751c3a1d4eb212b60cff95fc139db12b0ff640b26659d827a86.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            11
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "83efef2d6821185e715a6b1582c6b3910bc6620a79754475a0337604135b140c": {
+      "imagePath": "data/retailer_catalog/images/5f0067c43c5c11636233195df62c30e358ef84488225f75f50c2cc0e2e25c36e.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            12
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "2f16fd45acbfc1ec35d1e305bfac173b6d1c391892f162891bdaa6aa2e222fcd": {
+      "imagePath": "data/retailer_catalog/images/1b8f412283a0ed110f5ada524872beee027d7075d375e2932cc6814fd6e36237.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            13
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "d078c58b68853416d3810206c951e4dc0b48d68d21179935c593bea70766f74d": {
+      "imagePath": "data/retailer_catalog/images/6efb8b8280b3b8362772783da132e73474f5975cce00ecff520af06792874026.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            14
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "e4b145e4ab1bc4959c388ac87813b7c3078ca98a978695746e70c5fab553df7e": {
+      "imagePath": "data/retailer_catalog/images/072b3991a2a9c6ee9cd594ac031779d7a65d6df2150151eb4851c95dd2f275c2.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            15,
+            18
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "5393434010b22000408d02a284b4fa5f6b12560e0c3a7bc5e49b0853824b6069": {
+      "imagePath": "data/retailer_catalog/images/5fb707ab667aae0669da28f3cccbe56bad3f3d0706a476523b6a2762dc4c79d7.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            16
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "fc608bd6216c8c3c8c67e726b7f0252bac4f9322637da83f7635bb0ffab35721": {
+      "imagePath": "data/retailer_catalog/images/2c0a045a43834bc0fb46cdd261c0a7ec3a8f508e94634ce4521c87664d451073.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            17
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "ad81629e5f440517da76c86127e8a1cfc4bfbed70cb8ef6e015519d75a992970": {
+      "imagePath": "data/retailer_catalog/images/92835762e833acfe84668f1644dc27660f49e657a2e3c8b8da122dc0fc5e5d63.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            19
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "6040971ca09989c9baae354f529d65dc2315d5a451f1168a9a718274b3676ebf": {
+      "imagePath": "data/retailer_catalog/images/435452b9697420df6df03259bcf1cfea19a9928714d613a602c33e7741e8b14d.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            20
+          ],
+          "categoryID": 1,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "2ee1dffc621b6d4147d13cdc8ba1396b653acbc0e99006c12939478c82a81fdd": {
+      "imagePath": "data/retailer_catalog/images/c76875c710c1e2017ac431091ddc68310cf987a095fa6a3519f6c29af631cc4e.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            21
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "8994f1541346510283c1daf2b3e3d6fd55318d39348332effb17a29251996a4c": {
+      "imagePath": "data/retailer_catalog/images/9fb6b04dd9f422ff1f68cd890587a47483412015e329209814166abb8b45bbf9.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            22
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "263e899a21d993939e63e778ef3865024e57f749c464c7c5aeaed2ba548a8ad4": {
+      "imagePath": "data/retailer_catalog/images/55c10817543ae3fb34b01269b1d73a6f701935cd5358b5bf59447ee38244fb13.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            23
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "464808f88a70130a3b6acef266108d0410ac7e37fbb9e56f2d3e53cefbbfe580": {
+      "imagePath": "data/retailer_catalog/images/4add4b3d158fa5d39aa9ae74c276da73ac6c1fc479c62e412266b0710220ab27.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            24
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "86a61ca03694138fdcf09c08476b230a56cbc02083c7453db77ab166f583d26e": {
+      "imagePath": "data/retailer_catalog/images/42fcc7699d40b2a8d732bb55e1ec9abadce9db46cd9d6d169f3d1fe79676d24d.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            25
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "77e892a76ee007db4b6dcbd983770430b1c64e43c6dc4e4c456aa2cface960d1": {
+      "imagePath": "data/retailer_catalog/images/6996cf97f71e3107495fec1f3c0393366cd83de834c2331716a1cab1b8aeaf29.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            26
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "7856f06fa5384c07bc6300be70ec50db9cd00c446e7a19ea58fd7264b4aa56c8": {
+      "imagePath": "data/retailer_catalog/images/7947c4c72768ae4aa88346c7a09bbf750b4b58009003b722c5c2f9feabeebb06.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            27
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "5733d740db4831a29bf4231c0908db04ced7e77ca046c184261744c22d3b9486": {
+      "imagePath": "data/retailer_catalog/images/b0eca4bbf631624f20e82c820c747dfc6eae9966589ef42cb8c52704ce3cc0c2.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            28
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "5ed35ec05ac36f078c3dcde6b2d8669c4d293e0e2eeb6ccaa1cc0a2ad3c09da8": {
+      "imagePath": "data/retailer_catalog/images/01c9de7bf80b668ac4af0a43e412661e4eb07dd84cf63c2ed58d36c802997488.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            29
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "20004f1a65a914284d341e1d3c7fd4bbb45d22f04299cd2bffbb744200372b94": {
+      "imagePath": "data/retailer_catalog/images/34ac891e3456d245d27d7df9d9f4e89501b43a52a923b0e300862e5630b0cb4e.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            30
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "f939cda8ed15d794c3d21a80fe4395e613a619b08b64e78f91754d2dedacfee0": {
+      "imagePath": "data/retailer_catalog/images/b6447ef68331c2fa6a3fa2a5fd5ddbf7ba8b7cfc733bf54ee721491b721cfaf3.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            31
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "1d65e2c6238cd21505100d553f371dc995d698d1a8d0d550ad5152314c42ccc9": {
+      "imagePath": "data/retailer_catalog/images/2b0ed17f20df00247bfdef3c8bc016b1a49d51c1f263908bc8129afd8ff98ef6.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            32
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "f0e177e6267a8a5855dda4e9111978236e259548189135dfe91ac7744498b9dc": {
+      "imagePath": "data/retailer_catalog/images/7f8d4d89ad131370800165b18cbe3fe0611a7b07ab85f3ce8442b9ce1a6a274a.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            33
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "d2f4335aa5a93a50f22955aa9fcc9d09627257c9cb7ddb3a667b75cd66c5c3e0": {
+      "imagePath": "data/retailer_catalog/images/2732204520f9f1e7c760e72502fd257ba0a9dfca2aeb12c3b0249300298aa815.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            34
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "658c85e9ac339caee51193c4eb37ab4cc58f62eff13f019fb61c99a203cacd74": {
+      "imagePath": "data/retailer_catalog/images/43e7c3a1159f4bb29563f2cceb5a4257906de7dc667fe4c6fb42bbffee816cd3.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            35
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "89f5451bc2a530d1a2fbbdbe3e0e47a2d44896245453075c99b1b1595a28c0bb": {
+      "imagePath": "data/retailer_catalog/images/110faa4b485c4f55dc6ed823afc6992b0e96b347337fe6304343f2dacfad89ef.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            36
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "27f1b6837c18a4c7b9aa60f25d9f093db7379c42a4b24ac66bc8c86adc8d47fd": {
+      "imagePath": "data/retailer_catalog/images/eb65500ceaa859051e06a61d4fabb577bbee833d255bbbdb9be9c3c3d7853d99.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            37
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "c91f2d8336cc9c29b97e2879feeb8d5dd031b9dddd74702544aade1546b7b87c": {
+      "imagePath": "data/retailer_catalog/images/617b4d0f7ec9650f56bf2d75b292226d68da0510c24cdb37f33f4cb8d65c9663.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            38
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "03ec01456d35d1f60c0b8dc9c85e6dcad29e9d0b9741baceae5d8a2fc4dd39f6": {
+      "imagePath": "data/retailer_catalog/images/9c27379410fc1bf4a4774dc6e6ce7bf4aa50b0337f7598e1a4372bc0a53bc5aa.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            39
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "b5e4f777f01535e2e7f4e64ec09552494135afd6d13041d0bbffdaccb6245933": {
+      "imagePath": "data/retailer_catalog/images/e5b2e52ec486b41eafe8485d18e2a95fcb76d38468dcf320facae0c7663b810f.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            40
+          ],
+          "categoryID": 2,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "1aa866b376c89086c3795715e60a2e6b69dcc1466ec9a8de69dcf974d12e2af1": {
+      "imagePath": "data/retailer_catalog/images/1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            41
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "de02167bc596131d943ea76d6b412e4d77ac1d41f501cd812923c3963621488b": {
+      "imagePath": "data/retailer_catalog/images/8baa2115c050d1b555a681879cc3d85ce2e5759c58ae9a508e2f180e25d2231c.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            42
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "9443a67ff1b30465ba874748a387fff290434f99eb30e60cb499093b46fede16": {
+      "imagePath": "data/retailer_catalog/images/d76decef03a790c3f92b7abb68b134dd9bd158b303216307e2306647edb33ff9.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            43
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "15e992c4060f6e8a609e286b4e9ab2b02cc105329120aaf93a1a836ca732d325": {
+      "imagePath": "data/retailer_catalog/images/17c2beba51eb239a9138f70e602137c715f41978b67630818d9fcf4b5910b2d0.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            44
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "a751e6fd8e1b76bb9d92be20c4e5977e895b322c7d2ab7294702d927f2374392": {
+      "imagePath": "data/retailer_catalog/images/e6ee5f2e03f3a5b5db9738a4f0da06ea99eafa5cb869a2fb0a3b9aec72f695f1.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            45,
+            54
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "4a8d4ac2567661eaadb461e42962e81ae30c4cb8a02c102aeb6643544a6ae9e6": {
+      "imagePath": "data/retailer_catalog/images/acfdca2b533fade53284b166b9fbc2759648bbd652a773145b7585ea6e600eed.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            46
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "1ab196b32c77d072efdb8deff77c4d8fadda9c9252939f59842ce8fb6ec1d848": {
+      "imagePath": "data/retailer_catalog/images/061ac08d7147cf3c1915c161fac16a1a80620dbdf4c25bf79e65f90ecc91c272.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            47
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "4c655b9065af7f25f425cc3b2c9fbd7a171e8adb3cd3816d3128956ed7544de0": {
+      "imagePath": "data/retailer_catalog/images/2acdc00575e7ad07eecae202e7a564f4ea80fb4922ea2732b629cdfb6625e43f.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            48,
+            59
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "2db7b0f2dfc8830d672873236b4135c5cbcbfda26a3d7ed1ab5bdd5ca2646a4f": {
+      "imagePath": "data/retailer_catalog/images/f10f4d78330915607da6e886d76979cc4bc11d56220427d937c698d5093a6e6b.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            49
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "07b87351c251a3a3cc5bcf8e710bfbdd8dea5ef4ab13efdaf193dcee33c6de31": {
+      "imagePath": "data/retailer_catalog/images/589c40b6c5909750100c61019b5dc1795eab721fa24b84b24db83f2fc64f0ea8.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            50
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "a558e03d32f6dcbadec36abe96462625ad64f1b834a075c8724075311584be5c": {
+      "imagePath": "data/retailer_catalog/images/dbc3b822c8cc839a13b116a01050e22842f2ecf9ae8ac816ce6dae13b270641d.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            51
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "f0d43bdb33516316cc2cb9a1fdd1f50c7c787764c50685312025301fca948c4c": {
+      "imagePath": "data/retailer_catalog/images/e5a405d1ea2bc6bef6f45fceac4722921fb890696e8d7a9168308e5692e360f4.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            52
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "33cc5fdff2fa4b292115ecfc9b4277c65cfbc78419e82f6053a852e1695823c7": {
+      "imagePath": "data/retailer_catalog/images/5596784e4b0eeac0908834a28cfea2f92d403ec3063334df62d73b2caf5c1322.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            53
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "bfe8640cc5936b703da5254af8c9bf0cedeae4d4c212630b8b019e89f5d541dd": {
+      "imagePath": "data/retailer_catalog/images/7ab7785539d8bbec770fbf85b4473d7611082fcc5b81046e296af8ebebae004c.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            55
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "883c1c3d27f965c72bd4537bfde45b907abfdd851d4a333a49eb7c3e2583eeb2": {
+      "imagePath": "data/retailer_catalog/images/9aede35a03614d431fdce4d967c1787703d87ed452a8f0d9416686c1d2884f10.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            56,
+            60
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "120627fb252cc8e53b00f0f8b72fdbc3ee5ff78ae254f61c29129da6cc2580bd": {
+      "imagePath": "data/retailer_catalog/images/ef71b9c4f9b07b0ab369029b41cb57de524475322a6dbdadad20954764f49006.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            57
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "c65e849f27fb6533e643b27e8ae66a02022420b953721af74cd565df7effbb3b": {
+      "imagePath": "data/retailer_catalog/images/6b90caf955e70fdf6c187eb3137fdda8ed4c1dd999d0e9acf50fd7367da7b1f6.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            58
+          ],
+          "categoryID": 3,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "69ddea239e41637fc6e1f0eb7917d8ee3f30e4122b487d0452fe39dc621fe7a1": {
+      "imagePath": "data/retailer_catalog/images/3ab54c494ceb445c646f176910870ad3ce659c87a9010e19e7c2579838243c70.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            61
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "85228e56254ef1460f48985b99a3ea74e2a13afd920a229654398e62ce71f511": {
+      "imagePath": "data/retailer_catalog/images/45a4ff15c91f4222ff4a4f09bc53dd5859022a095205d26a961346e5ebac5f60.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            62
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "a4876e6f42e1502be3796c38fe5e12fceae51f70b1968ae673e9cfabcc4ae7db": {
+      "imagePath": "data/retailer_catalog/images/edc51f5179ab81e86df5d59b2736b569da8ca5960e727a4eee13b6695a277b2f.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            63
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "6b0e4f23ec57795df0c3938ffccd65c94e165f6c77251f3ee6c58c98c768bff7": {
+      "imagePath": "data/retailer_catalog/images/fddf34da300b5bda738ddc6ec49acd365104f2c8053dd970f58c45a05a0a1105.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            64
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "061a818c0568e43800a7e4201b0474dc5bd9457fc47300893784f702d9b1a9c0": {
+      "imagePath": "data/retailer_catalog/images/90aeed1ea2cc17489af1cb5a650459b2598f5c3931f67699d1e010969ff3199e.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            65
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "6cf972b7496bdce17587b00ec77ce8380ce5f48413e86e8fb01ec0c4c2f914c5": {
+      "imagePath": "data/retailer_catalog/images/cab32ed65d7707a4bc6c59d0352c8f56cd3d1ea187c6517c5726f758ecab310b.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            66
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "9e544393bee7b2081cf9c9b80493b6714864854be08e6aeb8704fdd28b696b52": {
+      "imagePath": "data/retailer_catalog/images/10447df3ac1c9c6fd571dca4d5df44ed4271b08a9dd8416f96b7b22622040c0e.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            67
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "e3b59bbd7a9cd3345d8781054e434834d88b3ce6be367c3b95ca7f7b7a2bf53d": {
+      "imagePath": "data/retailer_catalog/images/e3837df0a529a1fc456edd18b962a9f166396503f099292779557448c74571c5.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            68
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "3ccda7ae3e60c255b714fa42df94b40598af6f9938a95b357d4d155495309a38": {
+      "imagePath": "data/retailer_catalog/images/f767357ea3ca4baaac960571a2fc0409197b2b1020250eaf55d544f21dcba813.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            69
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "4c3de8d26ec404e23ca3b863b3775324129b3f3e7e0e660bee2da518bf2f30af": {
+      "imagePath": "data/retailer_catalog/images/1daeb4f6ce3e0e23faca31f4f48972cbcc5e4f651c5c14acfa7144661e4b6dfe.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            70
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "6b358c7be88094eccb9b891d0438c5b1374bcca287acc007c415c1d8755f39b2": {
+      "imagePath": "data/retailer_catalog/images/553c780fd57030d7a819319fc683290f64b004e66983d45ed526818987e0fa9a.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            71
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "7a94f2333965b7a047c3c2cb7259e72cd109760bfe3fc2457e86ec0490878a5e": {
+      "imagePath": "data/retailer_catalog/images/a5ef51526d90f1dae1412ef89036cf44a5e3478beef03e9ea69221bd320e1294.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            72
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "46953195288a346c47fd0f2ca6f7f1df28beb844bcf5da2d0ca31960583aee10": {
+      "imagePath": "data/retailer_catalog/images/cecde60b362e07a787ea2a4e8f433e6b5f1e540699c404991d8f0444ef406f0c.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            73
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "2d2a164dbc5447b4f51d1e2530bd3d70348effb30d8d9a6e7153d5db27379227": {
+      "imagePath": "data/retailer_catalog/images/1a330909209fed0fc823141b224b580e33ae06ca614fa77bb435613184c81602.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            74
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "11aef053ecce156e40c74f11c3eed9095657165ea1f8bf5ebb6712d19fe85130": {
+      "imagePath": "data/retailer_catalog/images/69457b7a7c2e904f578d2b33de0ca01bf511072e23d142dfe2bc405268291c2b.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            75
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "9fd629dad14d2b7e61e8f927d5ba91a6e9f2b789ba2fa6254db5fe81eba8d93f": {
+      "imagePath": "data/retailer_catalog/images/7ed683ff98f45a0d376a31c3713ea86692af7201400c0ed3bec16b7aff61b5fd.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            76
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "804db58dc1e203edfdb6b407172563c97d48bcc0028f67a2434f7386119f7b74": {
+      "imagePath": "data/retailer_catalog/images/04dd7f5330ddf3011fee5d460c7c5104ab91ce6c3446ddcda8338bdb2ee8f800.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            77
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "4749966027154e262a32ba4af8ada94ed535e1d191c5a0d26021797c39a9cc6f": {
+      "imagePath": "data/retailer_catalog/images/ffbf43b13066d57f8f3f9850f070ad60bd451fdd2e16630295a6596afc68e820.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            78
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "e78ab40d4d44bd5667ac229df4f8f16b2c3bb700a615d1e7e11b0794799892e7": {
+      "imagePath": "data/retailer_catalog/images/b5827fff0296deac73041fd6c3516e3dabc24127e65d7e2b7dfb5a3c16855c3f.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            79
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "cca2909dfea06af2ba571d17464ffd7296d204351ccb5be6398f2b592a1d1afa": {
+      "imagePath": "data/retailer_catalog/images/c20e5856a135f7c049244dea711d8ddb7b1a8fac38dde9d78aa0838cc709aca2.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            80
+          ],
+          "categoryID": 4,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "bbba719733d639eef042907c639880b18080cfb2ac0a149e0a268e128dfb86d1": {
+      "imagePath": "data/retailer_catalog/images/7b6aafaba63a36c3886f0bbd5d77af60f3e8523bb562bbf1442adcf621bbbd99.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            81
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "769098a416bf69dcc45f0bf4a0de3318ba263bdd1e9710e5a7aec4a26d7212eb": {
+      "imagePath": "data/retailer_catalog/images/394f24adb59aa8b368b3a2867ccc8cdbd1a470098708c60acb60a6873b7a2d3e.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            82
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "bf6c8dbdddee682250cb0fec01aa02ba5135070170911f18c2a0aba702872af6": {
+      "imagePath": "data/retailer_catalog/images/f98b040641526e22cd7738fdddbd7a8bd73c80bb606ac1fa9adf0e0b4f3d0eff.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            83
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "7d0eabb2e982f8c3271d56c1dce0a23c18e3711b3e5da13fbbbe12ca771a3ee7": {
+      "imagePath": "data/retailer_catalog/images/8de5ff0f90c34b7d58b0fc59993fb06ee32ad3e9846eeb7bb31d5a328c0e2222.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            84
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "5a1407e3ffc5e0428ee978bf2e066be7e3deed9f5bbc8ec3d50114d82bb27bd2": {
+      "imagePath": "data/retailer_catalog/images/8d3ba40ab82b52ea0865aa7f2cbca9fd8953886333d30bdfe975fa03f1ecb11f.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            86
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "2e2ea75e491a25fc6df65c1f0c0b049f8c9a2770fd45516b4ef3d84976965ca8": {
+      "imagePath": "data/retailer_catalog/images/d94f89a88b44134998f9d164e849c6a9e40c6cb784fc6a72c64407833e134d0f.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            88
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "20299a438c182737eecbc9d29745d932396d1803b314e797690b70f1fec88441": {
+      "imagePath": "data/retailer_catalog/images/f7558c4fcc71f1e2759289de7c3527003e7d4d8b2d25e7ad12c0232d4672a43a.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            89
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "3ba48212d2cb373c2175667649c02bd97770d12257c67eeddda1c97f736167a9": {
+      "imagePath": "data/retailer_catalog/images/b9b15a23b77052fa2894a7d0c784edf88b2682b619eb3b7106ac320cbac5ef2e.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            91
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "151390223be9257225c3bbef4fa21ea52be7ea8bff93e80f75c78d92717371c4": {
+      "imagePath": "data/retailer_catalog/images/1b50069f8deb4e2e6db608487d8915a33b21a840c745b46e147a1565efa5a674.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            92
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "32e10fdb179f901d4ec45caec7bfe7de24183a180cb8462fe79efa9bca860cdf": {
+      "imagePath": "data/retailer_catalog/images/4918c6cf8472325dda109ff1b981fd9270527a54d9cfda76494bf44f08292441.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            93
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "15f877352b9b9bd1d7075f6e3ed1a77a26dac3662cd5b7ec39043f63b8e22e00": {
+      "imagePath": "data/retailer_catalog/images/c33678467d0595018eb5efd3fe1db6d1ad52ce8c51217fb9043c0db1e369d112.webp",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            94
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.13,
+            0.65,
+            0.94
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "63d5cbaa908bb5eb6840165715f329e9d7a4f460d260b68cbe527b8cb692ae15": {
+      "imagePath": "data/retailer_catalog/images/12a5323f17de84e77d611b6df92c6c2690bda3a2312ce09afb4241d07b431587.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            95
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "07cb4b593b321876f26bb281de9b1eafb5cae9cf25fd8814ea9945a371698cb3": {
+      "imagePath": "data/retailer_catalog/images/bd5c5d4bf69ea7307c40a37f548f3576a17eea8c09c884b94ab42f199f03aad8.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            97
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "0a67571e1de20e594d09cbc5e2619b712f87e92309076ab36076f3876aa410d7": {
+      "imagePath": "data/retailer_catalog/images/73c081026835a01e768c65fe17c65f99d2dd9813b5c7b2517a9bce0eb46324c9.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            99
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "ead1f4ebc7d8097bc2dae5bf2b9975e8fd54cd2f77f93b0c9a65b8bf4a993437": {
+      "imagePath": "data/retailer_catalog/images/68fe987207c80548dceb857760fb97ef83130aaeace08163cfd1e059a2fa195d.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            101
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "59d92a1a1b2dba19801e039dad8aab361a408865fffc19f89842cc78c0410b3a": {
+      "imagePath": "data/retailer_catalog/images/a6db7edf179480316aeaf5499fc88ff31d330481fc39749725de7844e66312c3.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            102
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "755b8b97b84ef6a5d2f3de6ae883d508b63fe9d8077e5f05d0f6ae9cc039eb5d": {
+      "imagePath": "data/retailer_catalog/images/a5d44be95f440d632dcaf9a4d051408436443681ddc71538ed30b35d0e7288f7.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            103
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "1a761c8735768cd982bfe610db17aa39a7f83fe5233790c3169a0b4772c93624": {
+      "imagePath": "data/retailer_catalog/images/be5abb2a9262aa9d87bfbb0899d67fc3015de3d7339cbbd7775953ce12ce8a34.jpg",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            106
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "7c6623bfa4fa4d932d229d0b5aca3f41dfa6fb42ec3ab15a30218bb9ab1ed357": {
+      "imagePath": "data/retailer_catalog/images/34892d6193c51aed4d484af5841b52cf867aa3ffa986a039f0df1b77247bb10e.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            107
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "ee6ce05928cfd54d1b7b821a3986960bebe07678face2fad684a073189a308c0": {
+      "imagePath": "data/retailer_catalog/images/4e948030e889fea187f1048742ab19c24cc7abbb90faa29e681b7d8ecf111095.png",
+      "kind": "catalogue",
+      "targets": [
+        {
+          "articleIDs": [
+            108
+          ],
+          "categoryID": 5,
+          "region": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "minInsideFraction": 0.7,
+          "minAreaFraction": 0.05
+        }
+      ]
+    },
+    "bb0c84a5a5fbc2a9d9393666012a7f6dce9f8fe8aadb108b3351d1add839dc13": {
+      "imagePath": "data\\pairwise_search_tests\\images\\phone__laptop.png",
+      "kind": "composite",
+      "pairID": "phone__laptop",
+      "targets": [
+        {
+          "articleIDs": [
+            1
+          ],
+          "categoryID": 1,
+          "region": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        },
+        {
+          "articleIDs": [
+            21
+          ],
+          "categoryID": 2,
+          "region": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        }
+      ]
+    },
+    "3b059a86de5be682cdadc31a01f313b8d8abaa75e4f46f68e07aa8718aac90ff": {
+      "imagePath": "data\\pairwise_search_tests\\images\\phone__tablet.png",
+      "kind": "composite",
+      "pairID": "phone__tablet",
+      "targets": [
+        {
+          "articleIDs": [
+            1
+          ],
+          "categoryID": 1,
+          "region": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        },
+        {
+          "articleIDs": [
+            41
+          ],
+          "categoryID": 3,
+          "region": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        }
+      ]
+    },
+    "6bc30c87e08fbf47ace39604f3f5b1d0b1faf75c420385e784a64e3fccda2c0a": {
+      "imagePath": "data\\pairwise_search_tests\\images\\phone__headphones.png",
+      "kind": "composite",
+      "pairID": "phone__headphones",
+      "targets": [
+        {
+          "articleIDs": [
+            1
+          ],
+          "categoryID": 1,
+          "region": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        },
+        {
+          "articleIDs": [
+            61
+          ],
+          "categoryID": 4,
+          "region": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        }
+      ]
+    },
+    "c36589b1d5f335ccc9935a2ed53c3a0138092a71dcb81a514e7f50612f4cab9a": {
+      "imagePath": "data\\pairwise_search_tests\\images\\phone__watch.png",
+      "kind": "composite",
+      "pairID": "phone__watch",
+      "targets": [
+        {
+          "articleIDs": [
+            1
+          ],
+          "categoryID": 1,
+          "region": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        },
+        {
+          "articleIDs": [
+            81
+          ],
+          "categoryID": 5,
+          "region": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        }
+      ]
+    },
+    "7bc9818277a2bc8ddc3b2fd54fd6114a604d6c13a380b4e5b680dd4748ebd81f": {
+      "imagePath": "data\\pairwise_search_tests\\images\\laptop__tablet.png",
+      "kind": "composite",
+      "pairID": "laptop__tablet",
+      "targets": [
+        {
+          "articleIDs": [
+            21
+          ],
+          "categoryID": 2,
+          "region": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        },
+        {
+          "articleIDs": [
+            41
+          ],
+          "categoryID": 3,
+          "region": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        }
+      ]
+    },
+    "ef5cb5ee0a2b330eff301f06e044616d42d9a6037eb8269ab778a081e7f79314": {
+      "imagePath": "data\\pairwise_search_tests\\images\\laptop__headphones.png",
+      "kind": "composite",
+      "pairID": "laptop__headphones",
+      "targets": [
+        {
+          "articleIDs": [
+            21
+          ],
+          "categoryID": 2,
+          "region": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        },
+        {
+          "articleIDs": [
+            61
+          ],
+          "categoryID": 4,
+          "region": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        }
+      ]
+    },
+    "5959c13ec5eae5dac803a6d5a58c847d5d9cf4878d513fc668ddee1e175b9abc": {
+      "imagePath": "data\\pairwise_search_tests\\images\\laptop__watch.png",
+      "kind": "composite",
+      "pairID": "laptop__watch",
+      "targets": [
+        {
+          "articleIDs": [
+            21
+          ],
+          "categoryID": 2,
+          "region": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        },
+        {
+          "articleIDs": [
+            81
+          ],
+          "categoryID": 5,
+          "region": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        }
+      ]
+    },
+    "44b8c1315e5ff816008b80e40c5233388e7a641bbb9baa96045c906997356044": {
+      "imagePath": "data\\pairwise_search_tests\\images\\tablet__headphones.png",
+      "kind": "composite",
+      "pairID": "tablet__headphones",
+      "targets": [
+        {
+          "articleIDs": [
+            41
+          ],
+          "categoryID": 3,
+          "region": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        },
+        {
+          "articleIDs": [
+            61
+          ],
+          "categoryID": 4,
+          "region": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        }
+      ]
+    },
+    "800c544e2c12b12b5f86949b65f7d40a04f4c51bc342d8ce1b60a39824b1edc6": {
+      "imagePath": "data\\pairwise_search_tests\\images\\tablet__watch.png",
+      "kind": "composite",
+      "pairID": "tablet__watch",
+      "targets": [
+        {
+          "articleIDs": [
+            41
+          ],
+          "categoryID": 3,
+          "region": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        },
+        {
+          "articleIDs": [
+            81
+          ],
+          "categoryID": 5,
+          "region": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        }
+      ]
+    },
+    "59216597a977e82fd79400a2414b14f4ad13ea5af509bf8f1edc29a9a04349b5": {
+      "imagePath": "data\\pairwise_search_tests\\images\\headphones__watch.png",
+      "kind": "composite",
+      "pairID": "headphones__watch",
+      "targets": [
+        {
+          "articleIDs": [
+            61
+          ],
+          "categoryID": 4,
+          "region": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        },
+        {
+          "articleIDs": [
+            81
+          ],
+          "categoryID": 5,
+          "region": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "minInsideFraction": 0.8,
+          "minAreaFraction": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "model": "google/owlv2-base-patch16-ensemble",
+  "kind": "owlv2",
+  "padding": true,
+  "threshold": 0.15,
+  "singleCases": [
+    {
+      "articleID": 41,
+      "categoryID": 3,
+      "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+      "imagePath": "data/retailer_catalog/images/1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544.jpg",
+      "sourceSHA256": "1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "baseline": {
+        "strongestProductDetection": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.6505296230316162,
+          "region": [
+            0.04560537815093994,
+            0.06424769878387451,
+            0.39234100341796874,
+            0.9486571502685547
+          ],
+          "index": 1
+        },
+        "strongestAnywhere": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.6505296230316162,
+          "region": [
+            0.04560537815093994,
+            0.06424769878387451,
+            0.39234100341796874,
+            0.9486571502685547
+          ]
+        },
+        "predictedCategoryID": 1,
+        "isPhone": true,
+        "isCorrect": false,
+        "anyPhoneProductBox": true,
+        "anyCorrectProductBox": true,
+        "missed": false,
+        "retainedProductBoxes": 4
+      },
+      "detections": [
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.3320189416408539,
+          "region": [
+            0.045496282577514646,
+            0.046769323348999026,
+            0.9593994140625,
+            0.9402677154541016
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.18066833913326263,
+          "region": [
+            0.05232296943664551,
+            0.05911713600158691,
+            0.3702212142944336,
+            0.9400423431396484
+          ]
+        },
+        {
+          "label": "a tablet computer",
+          "categoryID": 3,
+          "score": 0.15167994797229767,
+          "region": [
+            0.36821563720703127,
+            0.06519424915313721,
+            0.9489867401123047,
+            0.9369924926757812
+          ]
+        }
+      ],
+      "seconds": 17.894553300000553,
+      "assessment": {
+        "strongestProductDetection": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.3320189416408539,
+          "region": [
+            0.045496282577514646,
+            0.046769323348999026,
+            0.9593994140625,
+            0.9402677154541016
+          ],
+          "index": 1
+        },
+        "strongestAnywhere": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.3320189416408539,
+          "region": [
+            0.045496282577514646,
+            0.046769323348999026,
+            0.9593994140625,
+            0.9402677154541016
+          ]
+        },
+        "predictedCategoryID": 1,
+        "isPhone": true,
+        "isCorrect": false,
+        "anyPhoneProductBox": true,
+        "anyCorrectProductBox": true,
+        "missed": false,
+        "retainedProductBoxes": 3
+      },
+      "overlay": "boxes/single_41.png"
+    },
+    {
+      "articleID": 42,
+      "categoryID": 3,
+      "productName": "Xiaomi Poco Pad X1 8GB 512GB",
+      "imagePath": "data/retailer_catalog/images/8baa2115c050d1b555a681879cc3d85ce2e5759c58ae9a508e2f180e25d2231c.jpg",
+      "sourceSHA256": "8baa2115c050d1b555a681879cc3d85ce2e5759c58ae9a508e2f180e25d2231c",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "baseline": {
+        "strongestProductDetection": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.8401087522506714,
+          "region": [
+            0.10997530937194824,
+            0.04504212856292725,
+            0.8797868347167969,
+            0.9501303100585937
+          ],
+          "index": 1
+        },
+        "strongestAnywhere": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.8401087522506714,
+          "region": [
+            0.10997530937194824,
+            0.04504212856292725,
+            0.8797868347167969,
+            0.9501303100585937
+          ]
+        },
+        "predictedCategoryID": 1,
+        "isPhone": true,
+        "isCorrect": false,
+        "anyPhoneProductBox": true,
+        "anyCorrectProductBox": false,
+        "missed": false,
+        "retainedProductBoxes": 2
+      },
+      "detections": [
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.49943333864212036,
+          "region": [
+            0.11568188667297363,
+            0.05026865005493164,
+            0.8772050476074219,
+            0.9314588165283203
+          ]
+        }
+      ],
+      "seconds": 16.44444460000159,
+      "assessment": {
+        "strongestProductDetection": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.49943333864212036,
+          "region": [
+            0.11568188667297363,
+            0.05026865005493164,
+            0.8772050476074219,
+            0.9314588165283203
+          ],
+          "index": 1
+        },
+        "strongestAnywhere": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.49943333864212036,
+          "region": [
+            0.11568188667297363,
+            0.05026865005493164,
+            0.8772050476074219,
+            0.9314588165283203
+          ]
+        },
+        "predictedCategoryID": 1,
+        "isPhone": true,
+        "isCorrect": false,
+        "anyPhoneProductBox": true,
+        "anyCorrectProductBox": false,
+        "missed": false,
+        "retainedProductBoxes": 1
+      },
+      "overlay": "boxes/single_42.png"
+    },
+    {
+      "articleID": 43,
+      "categoryID": 3,
+      "productName": "Xiaomi Pad 8 Pro 8GB 128GB",
+      "imagePath": "data/retailer_catalog/images/d76decef03a790c3f92b7abb68b134dd9bd158b303216307e2306647edb33ff9.jpg",
+      "sourceSHA256": "d76decef03a790c3f92b7abb68b134dd9bd158b303216307e2306647edb33ff9",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "baseline": {
+        "strongestProductDetection": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.5062400102615356,
+          "region": [
+            0.10002213478088379,
+            0.03705322742462158,
+            0.910772705078125,
+            0.9565097045898437
+          ],
+          "index": 1
+        },
+        "strongestAnywhere": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.5062400102615356,
+          "region": [
+            0.10002213478088379,
+            0.03705322742462158,
+            0.910772705078125,
+            0.9565097045898437
+          ]
+        },
+        "predictedCategoryID": 1,
+        "isPhone": true,
+        "isCorrect": false,
+        "anyPhoneProductBox": true,
+        "anyCorrectProductBox": false,
+        "missed": false,
+        "retainedProductBoxes": 2
+      },
+      "detections": [
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4777119755744934,
+          "region": [
+            0.09795707702636719,
+            0.04212808609008789,
+            0.8989947509765625,
+            0.9439482116699218
+          ]
+        }
+      ],
+      "seconds": 17.798717400000896,
+      "assessment": {
+        "strongestProductDetection": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4777119755744934,
+          "region": [
+            0.09795707702636719,
+            0.04212808609008789,
+            0.8989947509765625,
+            0.9439482116699218
+          ],
+          "index": 1
+        },
+        "strongestAnywhere": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4777119755744934,
+          "region": [
+            0.09795707702636719,
+            0.04212808609008789,
+            0.8989947509765625,
+            0.9439482116699218
+          ]
+        },
+        "predictedCategoryID": 1,
+        "isPhone": true,
+        "isCorrect": false,
+        "anyPhoneProductBox": true,
+        "anyCorrectProductBox": false,
+        "missed": false,
+        "retainedProductBoxes": 1
+      },
+      "overlay": "boxes/single_43.png"
+    },
+    {
+      "articleID": 44,
+      "categoryID": 3,
+      "productName": "Xiaomi Poco Pad M1 Wifi 8GB 256GB",
+      "imagePath": "data/retailer_catalog/images/17c2beba51eb239a9138f70e602137c715f41978b67630818d9fcf4b5910b2d0.jpg",
+      "sourceSHA256": "17c2beba51eb239a9138f70e602137c715f41978b67630818d9fcf4b5910b2d0",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "baseline": {
+        "strongestProductDetection": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.6747533679008484,
+          "region": [
+            0.06396652698516846,
+            0.0605928897857666,
+            0.42429893493652343,
+            0.9208557891845703
+          ],
+          "index": 1
+        },
+        "strongestAnywhere": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.6747533679008484,
+          "region": [
+            0.06396652698516846,
+            0.0605928897857666,
+            0.42429893493652343,
+            0.9208557891845703
+          ]
+        },
+        "predictedCategoryID": 1,
+        "isPhone": true,
+        "isCorrect": false,
+        "anyPhoneProductBox": true,
+        "anyCorrectProductBox": true,
+        "missed": false,
+        "retainedProductBoxes": 3
+      },
+      "detections": [
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.46028634905815125,
+          "region": [
+            0.06053650379180908,
+            0.06397679328918457,
+            0.966225357055664,
+            0.9207083892822265
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.22035175561904907,
+          "region": [
+            0.07179983139038086,
+            0.08052867889404297,
+            0.4170771408081055,
+            0.9266312408447266
+          ]
+        },
+        {
+          "label": "a tablet computer",
+          "categoryID": 3,
+          "score": 0.18084797263145447,
+          "region": [
+            0.4169700241088867,
+            0.08291923522949218,
+            0.9562055206298828,
+            0.9156930541992188
+          ]
+        }
+      ],
+      "seconds": 16.238216400000965,
+      "assessment": {
+        "strongestProductDetection": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.46028634905815125,
+          "region": [
+            0.06053650379180908,
+            0.06397679328918457,
+            0.966225357055664,
+            0.9207083892822265
+          ],
+          "index": 1
+        },
+        "strongestAnywhere": {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.46028634905815125,
+          "region": [
+            0.06053650379180908,
+            0.06397679328918457,
+            0.966225357055664,
+            0.9207083892822265
+          ]
+        },
+        "predictedCategoryID": 1,
+        "isPhone": true,
+        "isCorrect": false,
+        "anyPhoneProductBox": true,
+        "anyCorrectProductBox": true,
+        "missed": false,
+        "retainedProductBoxes": 3
+      },
+      "overlay": "boxes/single_44.png"
+    },
+    {
+      "articleID": 45,
+      "categoryID": 3,
+      "productName": "iPad A16 Wifi 128GB 2025 | Chính hãng Apple Việt Nam",
+      "imagePath": "data/retailer_catalog/images/e6ee5f2e03f3a5b5db9738a4f0da06ea99eafa5cb869a2fb0a3b9aec72f695f1.jpg",
+      "sourceSHA256": "e6ee5f2e03f3a5b5db9738a4f0da06ea99eafa5cb869a2fb0a3b9aec72f695f1",
+      "traits": {
+        "shape": "rectangular",
+        "screenAppearance": "colourful_ui",
+        "coarseProductROI": [
+          0.02,
+          0.02,
+          0.98,
+          0.98
+        ],
+        "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+        "hypothesisSubset": true
+      },
+      "baseline": {
+        "strongestProductDetection": {
+          "label": "a tablet computer",
+          "categoryID": 3,
+          "score": 0.5825245976448059,
+          "region": [
+            0.07290342330932617,
+            0.033146440982818604,
+            0.9047702789306641,
+            0.9646860504150391
+          ],
+          "index": 1
+        },
+        "strongestAnywhere": {
+          "label": "a tablet computer",
+          "categoryID": 3,
+          "score": 0.5825245976448059,
+          "region": [
+            0.07290342330932617,
+            0.033146440982818604,
+            0.9047702789306641,
+            0.9646860504150391
+          ]
+        },
+        "predictedCategoryID": 3,
+        "isPhone": false,
+        "isCorrect": true,
+        "anyPhoneProductBox": false,
+        "anyCorrectProductBox": true,
+        "missed": false,
+        "retainedProductBoxes": 1
+      },
+      "detections": [
+        {
+          "label": "a tablet computer",
+          "categoryID": 3,
+          "score": 0.2327161729335785,
+          "region": [
+            0.08625224113464355,
+            0.029930293560028076,
+            0.9127841186523438,
+            0.9442684936523438
+          ]
+        }
+      ],
+      "seconds": 14.130433900001663,
+      "assessment": {
+        "strongestProductDetection": {
+          "label": "a tablet computer",
+          "categoryID": 3,
+          "score": 0.2327161729335785,
+          "region": [
+            0.08625224113464355,
+            0.029930293560028076,
+            0.9127841186523438,
+            0.9442684936523438
+          ],
+          "index": 1
+        },
+        "strongestAnywhere": {
+          "label": "a tablet computer",
+          "categoryID": 3,
+          "score": 0.2327161729335785,
+          "region": [
+            0.08625224113464355,
+            0.029930293560028076,
+            0.9127841186523438,
+            0.9442684936523438
+          ]
+        },
+        "predictedCategoryID": 3,
+        "isPhone": false,
+        "isCorrect": true,
+        "anyPhoneProductBox": false,
+        "anyCorrectProductBox": true,
+        "missed": false,
+        "retainedProductBoxes": 1
+      },
+      "overlay": "boxes/single_45.png"
+    }
+  ],
+  "pairedCases": [],
+  "errors": [],
+  "liveSettingsChanged": false,
+  "qualityGate": {
+    "tabletTop1Minimum": 0.8,
+    "watchTop1Minimum": 0.9,
+    "pairEachClassMinimum": 0.75,
+    "requireNoPairClassRegressionAgainstPadding": true,
+    "requireNoInferenceErrors": true
+  },
+  "limits": [
+    "Product-region label correctness, not precise bounding-box IoU/mAP.",
+    "Previously observed development catalogue; 40 products include only 37 unique photos.",
+    "Pairs reuse one representative per category, not four independent products.",
+    "Different model confidence scales; fixed thresholds, no tuning on benchmark answers.",
+    "Grounding DINO uses phrase-token max confidence with threshold .4; processor preserves aspect ratio.",
+    "Only inference adapters change; no changes to retrieval or Gemini calls."
+  ],
+  "loadSeconds": 12.347855699998036
+}

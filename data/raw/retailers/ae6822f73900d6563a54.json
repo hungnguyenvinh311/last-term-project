@@ -1,0 +1,32 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-lenovo-ideapad-slim-3-14iwc11-83rq002pvn",
+  "source_url": "https://cellphones.com.vn/laptop-lenovo-ideapad-slim-3-14iwc11-83rq002pvn.html",
+  "productName": "Laptop Lenovo IdeaPad Slim 3 14IWC11 83RQ002PVN",
+  "brand": "Lenovo",
+  "description": "Mua ngay Laptop Lenovo IdeaPad Slim 3 14IWC11 83RQ002PVN giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Chip AI": "Up to 16 TOPS",
+    "Loại card đồ họa": "Intel Graphics",
+    "Dung lượng RAM": "8GB",
+    "Loại RAM": "SODIMM DDR5-5600",
+    "Số khe ram": "1 khe (Tối đa 32GB DDR5-5600)",
+    "Ổ cứng": "512GB SSD M.2 2242 PCIe 4.0x4 NVMe (Một ổ đĩa, SSD M.2 2242 dung lượng lên đến 1TB)",
+    "Công nghệ màn hình": "Độ sáng 400 nits Màn hình chống chói  Độ phủ màu 45% NTSC",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home Single Language, English",
+    "Loại CPU": "Intel Core 5 320, 6C (2P + 4LPE) / 6T, Max Turbo up to 4.6Ghz, 6MB Intel Smart Cache",
+    "Kích thước màn hình": "14 inches",
+    "Độ phân giải màn hình": "1920 x 1200 pixels (WUXGA)",
+    "Pin": "50Wh, 65W Round Tip (3-pin)",
+    "Cổng giao tiếp": "2x USB-A (USB 5Gbps) 1x USB-C (USB 5Gbps, hỗ trợ USB Power Delivery 45–65W và DisplayPort 1.2) 1x HDMI 1.4 1x jack tai nghe/micro 3.5mm (combo) 1x đầu đọc thẻ SD 1x cổng nguồn đầu tròn (Round Tip Power Connector)"
+  },
+  "price": "18490000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/g/r/group_945_2__3.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:42:05.161020+00:00"
+}

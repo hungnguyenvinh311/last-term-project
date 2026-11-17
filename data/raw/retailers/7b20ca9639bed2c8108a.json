@@ -1,0 +1,30 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-msi-cyborg-15-a13uc-2082vn",
+  "source_url": "https://cellphones.com.vn/laptop-msi-cyborg-15-a13uc-2082vn.html",
+  "productName": "Laptop MSI Cyborg 15 A13UC-2082VN",
+  "brand": "MSI",
+  "description": "Mua ngay Laptop MSI Cyborg 15 A13UC-2082VN giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Loại card đồ họa": "NVIDIA GeForce RTX 3050 4GB Intel UHD Graphics",
+    "Dung lượng RAM": "16GB",
+    "Loại RAM": "DDR5 5600",
+    "Số khe ram": "2 khe (1 x 16GB, nâng tối đa 64GB)",
+    "Ổ cứng": "512GB NVMe PCIe Gen4 (Max 4TB)",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home",
+    "Loại CPU": "Intel Core i7-13620H Gen 13th (10 lõi / 16 luồng, 24MB Cache)",
+    "Kích thước màn hình": "15.6 inches",
+    "Độ phân giải màn hình": "1920 x 1080 pixels (FullHD)",
+    "Pin": "3 Cells 53.5 Whrs",
+    "Cổng giao tiếp": "Type-C (USB3.2 Gen1 / DisplayPort) 2 x Type-A USB 3.2 Gen 1 1x HDMI 2.1 (4K @ 60Hz) Type-A USB 3.2 Gen 2"
+  },
+  "price": "29990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/t/e/text_d_i_7_126.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:42:50.867288+00:00"
+}

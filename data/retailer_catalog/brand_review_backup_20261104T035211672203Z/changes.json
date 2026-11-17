@@ -1,0 +1,87 @@
+{
+  "reviewedBy": "user confirmation 2026-11-04",
+  "changes": [
+    {
+      "articleID": 64,
+      "before": "Samsung Chính hãng",
+      "after": "Samsung"
+    },
+    {
+      "articleID": 69,
+      "before": "Samsung Chính hãng",
+      "after": "Samsung"
+    },
+    {
+      "articleID": 70,
+      "before": "Samsung Chính hãng",
+      "after": "Samsung"
+    },
+    {
+      "articleID": 71,
+      "before": "Apple Chính hãng",
+      "after": "Apple"
+    },
+    {
+      "articleID": 72,
+      "before": "Apple Chính hãng",
+      "after": "Apple"
+    },
+    {
+      "articleID": 73,
+      "before": "Apple Chính hãng",
+      "after": "Apple"
+    },
+    {
+      "articleID": 74,
+      "before": "Apple Chính hãng",
+      "after": "Apple"
+    },
+    {
+      "articleID": 75,
+      "before": "Apple Chính hãng",
+      "after": "Apple"
+    },
+    {
+      "articleID": 76,
+      "before": "Apple Chính hãng",
+      "after": "Apple"
+    },
+    {
+      "articleID": 77,
+      "before": "Apple Chính hãng",
+      "after": "Apple"
+    },
+    {
+      "articleID": 78,
+      "before": "Apple Chính hãng",
+      "after": "Apple"
+    },
+    {
+      "articleID": 79,
+      "before": "Apple Chính hãng",
+      "after": "Beats"
+    },
+    {
+      "articleID": 80,
+      "before": "Apple Chính hãng",
+      "after": "Apple"
+    },
+    {
+      "articleID": 83,
+      "before": "Samsung Chính hãng",
+      "after": "Samsung"
+    },
+    {
+      "articleID": 106,
+      "before": "Honor",
+      "after": "HONOR"
+    },
+    {
+      "articleID": 107,
+      "before": "Honor",
+      "after": "HONOR"
+    }
+  ],
+  "originalProvenanceUnchanged": true,
+  "embeddingRegenerationRequired": true
+}

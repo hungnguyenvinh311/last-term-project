@@ -1,0 +1,522 @@
+[
+  {
+    "articleID": 41,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 42,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 43,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 44,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 45,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 46,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 47,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 48,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 49,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 50,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 51,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 52,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 53,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 54,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 55,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 56,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 57,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 58,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 59,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 60,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 81,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 82,
+    "shape": "round",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 83,
+    "shape": "round",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 84,
+    "shape": "round",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 86,
+    "shape": "round",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 88,
+    "shape": "round",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 89,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 91,
+    "shape": "round",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 92,
+    "shape": "round",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 93,
+    "shape": "round",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 94,
+    "shape": "round",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.13,
+      0.65,
+      0.94
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 95,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 97,
+    "shape": "round",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 99,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 101,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 102,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 103,
+    "shape": "rectangular",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 106,
+    "shape": "rectangular",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  },
+  {
+    "articleID": 107,
+    "shape": "rectangular",
+    "screenAppearance": "colourful_ui",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": true
+  },
+  {
+    "articleID": 108,
+    "shape": "round",
+    "screenAppearance": "dark_ui_coloured_accents",
+    "coarseProductROI": [
+      0.02,
+      0.02,
+      0.98,
+      0.98
+    ],
+    "annotationMethod": "assistant visual inspection; coarse ROI, not exact object ground-truth box",
+    "hypothesisSubset": false
+  }
+]

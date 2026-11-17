@@ -1,0 +1,145 @@
+[
+  {
+    "articleID": 4,
+    "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+    "imagePath": "data/retailer_catalog/images/a023c8cce534ae9c10496509d4335bbf3d79d717f7021fff2bdad14a64a03442.jpg",
+    "imageSHA256": "a023c8cce534ae9c10496509d4335bbf3d79d717f7021fff2bdad14a64a03442",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible physical body/earpieces",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 6,
+    "productName": "HONOR 600S 5G 6GB 128GB",
+    "imagePath": "data/retailer_catalog/images/0e7c1c0d952fce940253be73197a0e51bc83714ce44f04c653f993984d034b86.webp",
+    "imageSHA256": "0e7c1c0d952fce940253be73197a0e51bc83714ce44f04c653f993984d034b86",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible physical body/earpieces",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 19,
+    "productName": "Xiaomi POCO F9 Ultra 5G 12GB 256GB",
+    "imagePath": "data/retailer_catalog/images/92835762e833acfe84668f1644dc27660f49e657a2e3c8b8da122dc0fc5e5d63.webp",
+    "imageSHA256": "92835762e833acfe84668f1644dc27660f49e657a2e3c8b8da122dc0fc5e5d63",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible physical body/earpieces",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 23,
+    "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+    "imagePath": "data/retailer_catalog/images/55c10817543ae3fb34b01269b1d73a6f701935cd5358b5bf59447ee38244fb13.webp",
+    "imageSHA256": "55c10817543ae3fb34b01269b1d73a6f701935cd5358b5bf59447ee38244fb13",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible physical body/earpieces",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 37,
+    "productName": "MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB | Chính hãng Apple Việt Nam",
+    "imagePath": "data/retailer_catalog/images/eb65500ceaa859051e06a61d4fabb577bbee833d255bbbdb9be9c3c3d7853d99.png",
+    "imageSHA256": "eb65500ceaa859051e06a61d4fabb577bbee833d255bbbdb9be9c3c3d7853d99",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible physical body/earpieces",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 48,
+    "productName": "Samsung Galaxy Tab S10 FE Wifi 12GB 256GB",
+    "imagePath": "data/retailer_catalog/images/2acdc00575e7ad07eecae202e7a564f4ea80fb4922ea2732b629cdfb6625e43f.png",
+    "imageSHA256": "2acdc00575e7ad07eecae202e7a564f4ea80fb4922ea2732b629cdfb6625e43f",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible physical body/earpieces",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 49,
+    "productName": "iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam",
+    "imagePath": "data/retailer_catalog/images/f10f4d78330915607da6e886d76979cc4bc11d56220427d937c698d5093a6e6b.png",
+    "imageSHA256": "f10f4d78330915607da6e886d76979cc4bc11d56220427d937c698d5093a6e6b",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible physical body/earpieces",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 52,
+    "productName": "Huawei MatePad 11.5 S 2026 12GB 256GB - Kèm bàn phím",
+    "imagePath": "data/retailer_catalog/images/e5a405d1ea2bc6bef6f45fceac4722921fb890696e8d7a9168308e5692e360f4.webp",
+    "imageSHA256": "e5a405d1ea2bc6bef6f45fceac4722921fb890696e8d7a9168308e5692e360f4",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible physical body/earpieces",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 53,
+    "productName": "Lenovo Yoga Tab Wifi 12GB 256GB TB710 ZAG60105VN - Kèm bút, bàn phím",
+    "imagePath": "data/retailer_catalog/images/5596784e4b0eeac0908834a28cfea2f92d403ec3063334df62d73b2caf5c1322.jpg",
+    "imageSHA256": "5596784e4b0eeac0908834a28cfea2f92d403ec3063334df62d73b2caf5c1322",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible physical body/earpieces",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 59,
+    "productName": "Samsung Galaxy Tab S10 FE Wifi 8GB 128GB",
+    "imagePath": "data/retailer_catalog/images/2acdc00575e7ad07eecae202e7a564f4ea80fb4922ea2732b629cdfb6625e43f.png",
+    "imageSHA256": "2acdc00575e7ad07eecae202e7a564f4ea80fb4922ea2732b629cdfb6625e43f",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible physical body/earpieces",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 84,
+    "productName": "Đồng hồ thông minh Garmin Fenix 9 43mm AMOLED viền Titanium",
+    "imagePath": "data/retailer_catalog/images/8de5ff0f90c34b7d58b0fc59993fb06ee32ad3e9846eeb7bb31d5a328c0e2222.png",
+    "imageSHA256": "8de5ff0f90c34b7d58b0fc59993fb06ee32ad3e9846eeb7bb31d5a328c0e2222",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible watch strap",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 95,
+    "productName": "Apple Watch SE 3 GPS 40mm Viền nhôm dây cao su",
+    "imagePath": "data/retailer_catalog/images/12a5323f17de84e77d611b6df92c6c2690bda3a2312ce09afb4241d07b431587.png",
+    "imageSHA256": "12a5323f17de84e77d611b6df92c6c2690bda3a2312ce09afb4241d07b431587",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible watch strap",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  },
+  {
+    "articleID": 103,
+    "productName": "Apple Watch Ultra 3 GPS + Cellular 49mm Viền titan Dây Ocean",
+    "imagePath": "data/retailer_catalog/images/a5d44be95f440d632dcaf9a4d051408436443681ddc71538ed30b35d0e7288f7.png",
+    "imageSHA256": "a5d44be95f440d632dcaf9a4d051408436443681ddc71538ed30b35d0e7288f7",
+    "colour": null,
+    "status": "needs_user_review",
+    "scope": "visible watch strap",
+    "basis": "Manual visual inspection by assistant, not user-confirmed ground truth. Ignore screens and colour-option swatches.",
+    "notes": "Uncertain finish, partial body visibility or ambiguous mixed colours; no hard colour label applied."
+  }
+]

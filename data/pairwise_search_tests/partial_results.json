@@ -1,0 +1,6502 @@
+{
+  "database": "ecommerce_test_pair_24d3e1833d",
+  "encoder": "open_clip:ViT-B-32:laion2b_s34b_b79k",
+  "detectorModel": "ObjectDetectorService",
+  "weights": {
+    "text": [
+      0.55,
+      0.0,
+      0.45
+    ],
+    "image": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "image_text": [
+      0.6,
+      0.25,
+      0.15
+    ]
+  },
+  "representatives": [
+    {
+      "articleID": 1,
+      "categoryID": 1,
+      "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+      "imagePath": "data/retailer_catalog/images/c75beab7677be9f70da06b66104e9a181d2361913ee644138e9c0a595d1edf68.jpg"
+    },
+    {
+      "articleID": 21,
+      "categoryID": 2,
+      "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+      "imagePath": "data/retailer_catalog/images/c76875c710c1e2017ac431091ddc68310cf987a095fa6a3519f6c29af631cc4e.png"
+    },
+    {
+      "articleID": 41,
+      "categoryID": 3,
+      "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+      "imagePath": "data/retailer_catalog/images/1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544.jpg"
+    },
+    {
+      "articleID": 61,
+      "categoryID": 4,
+      "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+      "imagePath": "data/retailer_catalog/images/3ab54c494ceb445c646f176910870ad3ce659c87a9010e19e7c2579838243c70.jpg"
+    },
+    {
+      "articleID": 81,
+      "categoryID": 5,
+      "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+      "imagePath": "data/retailer_catalog/images/7b6aafaba63a36c3886f0bbd5d77af60f3e8523bb562bbf1442adcf621bbbd99.png"
+    }
+  ],
+  "pairPolicy": "All 10 unordered category pairs; each category appears four times. One catalogue representative per category.",
+  "localizationPolicy": "Detection centre inside expected panel and >=80% detection area inside panel. This is panel localization, not exact object-box IoU.",
+  "selectionPolicy": "Highest-confidence localized detection, retaining its actual label even when wrong; no ground-truth label substitution.",
+  "pairs": [
+    {
+      "pairID": "phone__laptop",
+      "queryImage": "images/phone__laptop.png",
+      "querySHA256": "97ba0a5cd32dee7c878d0cd01ae40bc7212f6160269e4222a38a87a880455062",
+      "detectionsImage": "detections/phone__laptop.png",
+      "detectionHTTPStatus": 200,
+      "detectorFallback": false,
+      "detectorMessage": null,
+      "detections": [
+        {
+          "label": "a laptop computer",
+          "categoryID": 2,
+          "score": 0.790282130241394,
+          "region": [
+            0.5815754699707031,
+            0.13193496704101562,
+            0.9077201334635416,
+            0.7227241007486979
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.49091675877571106,
+          "region": [
+            0.24345403035481772,
+            0.07649293263753255,
+            0.4581573994954427,
+            0.9242809041341146
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.3963997960090637,
+          "region": [
+            0.0961050287882487,
+            0.07560145696004232,
+            0.2634308115641276,
+            0.9345465087890625
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.33828482031822205,
+          "region": [
+            0.06767144521077474,
+            0.07655641555786133,
+            0.4645819600423177,
+            0.9416123453776042
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.3018309473991394,
+          "region": [
+            0.9371560668945312,
+            0.19684645334879558,
+            0.968739013671875,
+            0.25716036478678383
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.1658506542444229,
+          "region": [
+            0.9367132568359375,
+            0.4859263102213542,
+            0.9682677205403646,
+            0.5505556233723958
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "articleID": 1,
+          "categoryID": 1,
+          "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+          "sourceImage": "data/retailer_catalog/images/c75beab7677be9f70da06b66104e9a181d2361913ee644138e9c0a595d1edf68.jpg",
+          "panelRegion": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "sourceImageRegion": [
+            0.02,
+            0.04,
+            0.48,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.49091675877571106,
+            "region": [
+              0.24345403035481772,
+              0.07649293263753255,
+              0.4581573994954427,
+              0.9242809041341146
+            ],
+            "detectorIndex": 2
+          },
+          "bestCorrectDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.49091675877571106,
+            "region": [
+              0.24345403035481772,
+              0.07649293263753255,
+              0.4581573994954427,
+              0.9242809041341146
+            ],
+            "detectorIndex": 2
+          },
+          "strongestLabelCorrect": true,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              1,
+              6,
+              12,
+              11,
+              4,
+              3,
+              5,
+              20,
+              10,
+              19,
+              15,
+              18
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.5866191940796279,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5866191940796279,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5866191940796279,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.5314240054895065,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5314240054895065,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5314240054895065,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.5311237769438376,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5311237769438376,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5311237769438376,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 11,
+                "categoryID": 1,
+                "productName": "HONOR X9d 5G 12GB 512GB",
+                "score": 0.5060898306094986,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5060898306094986,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5060898306094986,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.495111789526564,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.495111789526564,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.495111789526564,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              1,
+              12,
+              4,
+              20,
+              6,
+              10,
+              11,
+              19,
+              2,
+              7,
+              3,
+              5
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.9813977137323314,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9813977137323314,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9813977137323314,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.7794925186722348,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7794925186722348,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7794925186722348,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.7469033825870971,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7469033825870971,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7469033825870971,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.6849704002383101,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6849704002383101,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6849704002383101,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.6828050932822985,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6828050932822985,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6828050932822985,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        },
+        {
+          "articleID": 21,
+          "categoryID": 2,
+          "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+          "sourceImage": "data/retailer_catalog/images/c76875c710c1e2017ac431091ddc68310cf987a095fa6a3519f6c29af631cc4e.png",
+          "panelRegion": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "sourceImageRegion": [
+            0.52,
+            0.04,
+            0.98,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.790282130241394,
+            "region": [
+              0.5815754699707031,
+              0.13193496704101562,
+              0.9077201334635416,
+              0.7227241007486979
+            ],
+            "detectorIndex": 1
+          },
+          "bestCorrectDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.790282130241394,
+            "region": [
+              0.5815754699707031,
+              0.13193496704101562,
+              0.9077201334635416,
+              0.7227241007486979
+            ],
+            "detectorIndex": 1
+          },
+          "strongestLabelCorrect": true,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              21,
+              32,
+              25,
+              30,
+              23,
+              36,
+              40,
+              39,
+              38,
+              26,
+              34,
+              27
+            ],
+            "returnedCategories": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 2,
+            "topResults": [
+              {
+                "articleID": 21,
+                "categoryID": 2,
+                "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+                "score": 0.705468497348662,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.705468497348662,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.705468497348662,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 32,
+                "categoryID": 2,
+                "productName": "Laptop MSI Cyborg 15 A13UC-2082VN",
+                "score": 0.6406237590413187,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6406237590413187,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6406237590413187,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 25,
+                "categoryID": 2,
+                "productName": "Laptop ASUS Vivobook S16 S3607CA-SH080W",
+                "score": 0.6173016645447085,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6173016645447085,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6173016645447085,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 30,
+                "categoryID": 2,
+                "productName": "Laptop Acer Aspire Lite 14 AL14-57P-59HB",
+                "score": 0.6118036768425095,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6118036768425095,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6118036768425095,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 23,
+                "categoryID": 2,
+                "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+                "score": 0.6108061166451676,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6108061166451676,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6108061166451676,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              21,
+              30,
+              23,
+              34,
+              32,
+              39,
+              22,
+              27,
+              25,
+              40,
+              26,
+              38
+            ],
+            "returnedCategories": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 2,
+            "topResults": [
+              {
+                "articleID": 21,
+                "categoryID": 2,
+                "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+                "score": 0.9677161616043217,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9677161616043217,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9677161616043217,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 30,
+                "categoryID": 2,
+                "productName": "Laptop Acer Aspire Lite 14 AL14-57P-59HB",
+                "score": 0.7956191353681806,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7956191353681806,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7956191353681806,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 23,
+                "categoryID": 2,
+                "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+                "score": 0.774952608203703,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.774952608203703,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.774952608203703,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 34,
+                "categoryID": 2,
+                "productName": "Laptop Acer Gaming Nitro ProPanel ANV15-52-50VA",
+                "score": 0.7673529316498612,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7673529316498612,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7673529316498612,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 32,
+                "categoryID": 2,
+                "productName": "Laptop MSI Cyborg 15 A13UC-2082VN",
+                "score": 0.7616544421319167,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7616544421319167,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7616544421319167,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        }
+      ]
+    },
+    {
+      "pairID": "phone__tablet",
+      "queryImage": "images/phone__tablet.png",
+      "querySHA256": "f9a0e26b7a233764d297959300f3d2a6024b302a25eb49d29d3fe6f514b0511a",
+      "detectionsImage": "detections/phone__tablet.png",
+      "detectionHTTPStatus": 200,
+      "detectorFallback": false,
+      "detectorMessage": null,
+      "detections": [
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.5865941047668457,
+          "region": [
+            0.669407958984375,
+            0.08347878138224284,
+            0.9574778238932292,
+            0.9009793090820313
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.566476047039032,
+          "region": [
+            0.5375653076171875,
+            0.08901995340983072,
+            0.6962543233235677,
+            0.9107266235351562
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4678117334842682,
+          "region": [
+            0.24965370178222657,
+            0.07908695856730143,
+            0.4587083435058594,
+            0.9248811848958334
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4599669277667999,
+          "region": [
+            0.09014126459757486,
+            0.07159167607625326,
+            0.2672950236002604,
+            0.9384624226888021
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.37636929750442505,
+          "region": [
+            0.06073975880940755,
+            0.07280012766520182,
+            0.4737284851074219,
+            0.9424062093098958
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "articleID": 1,
+          "categoryID": 1,
+          "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+          "sourceImage": "data/retailer_catalog/images/c75beab7677be9f70da06b66104e9a181d2361913ee644138e9c0a595d1edf68.jpg",
+          "panelRegion": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "sourceImageRegion": [
+            0.02,
+            0.04,
+            0.48,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4678117334842682,
+            "region": [
+              0.24965370178222657,
+              0.07908695856730143,
+              0.4587083435058594,
+              0.9248811848958334
+            ],
+            "detectorIndex": 3
+          },
+          "bestCorrectDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4678117334842682,
+            "region": [
+              0.24965370178222657,
+              0.07908695856730143,
+              0.4587083435058594,
+              0.9248811848958334
+            ],
+            "detectorIndex": 3
+          },
+          "strongestLabelCorrect": true,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              1,
+              6,
+              12,
+              11,
+              20,
+              4,
+              5,
+              3,
+              10,
+              15,
+              18,
+              7
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.5533289641047789,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5533289641047789,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5533289641047789,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.5399780088992508,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5399780088992508,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5399780088992508,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.5049604478010494,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5049604478010494,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5049604478010494,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 11,
+                "categoryID": 1,
+                "productName": "HONOR X9d 5G 12GB 512GB",
+                "score": 0.4881835847316207,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.4881835847316207,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.4881835847316207,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.47120862415056636,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.47120862415056636,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.47120862415056636,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              1,
+              12,
+              4,
+              20,
+              6,
+              10,
+              11,
+              19,
+              2,
+              7,
+              3,
+              5
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.9813977137323314,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9813977137323314,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9813977137323314,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.7794925186722348,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7794925186722348,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7794925186722348,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.7469033825870971,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7469033825870971,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7469033825870971,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.6849704002383101,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6849704002383101,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6849704002383101,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.6828050932822985,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6828050932822985,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6828050932822985,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        },
+        {
+          "articleID": 41,
+          "categoryID": 3,
+          "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+          "sourceImage": "data/retailer_catalog/images/1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544.jpg",
+          "panelRegion": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "sourceImageRegion": [
+            0.52,
+            0.04,
+            0.98,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5865941047668457,
+            "region": [
+              0.669407958984375,
+              0.08347878138224284,
+              0.9574778238932292,
+              0.9009793090820313
+            ],
+            "detectorIndex": 1
+          },
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              12,
+              11,
+              4,
+              1,
+              6,
+              3,
+              19,
+              2,
+              5,
+              10,
+              7,
+              8
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": null,
+            "sourceInTop5": false,
+            "expectedCategoryOnly": false,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.6140716612775216,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6140716612775216,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6140716612775216,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 11,
+                "categoryID": 1,
+                "productName": "HONOR X9d 5G 12GB 512GB",
+                "score": 0.5900952936562049,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5900952936562049,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5900952936562049,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.5443158933036683,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5443158933036683,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5443158933036683,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.5250578985362918,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5250578985362918,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5250578985362918,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.517438291810669,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.517438291810669,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.517438291810669,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "failed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              41,
+              58,
+              43,
+              42,
+              44,
+              45,
+              54,
+              56,
+              60,
+              53,
+              47,
+              46
+            ],
+            "returnedCategories": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 3,
+            "topResults": [
+              {
+                "articleID": 41,
+                "categoryID": 3,
+                "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+                "score": 0.9794471967755755,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9794471967755755,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9794471967755755,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 58,
+                "categoryID": 3,
+                "productName": "Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB",
+                "score": 0.8116412757968096,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.8116412757968096,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.8116412757968096,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 43,
+                "categoryID": 3,
+                "productName": "Xiaomi Pad 8 Pro 8GB 128GB",
+                "score": 0.7308667516248883,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7308667516248883,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7308667516248883,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 42,
+                "categoryID": 3,
+                "productName": "Xiaomi Poco Pad X1 8GB 512GB",
+                "score": 0.7184852746491697,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7184852746491697,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7184852746491697,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 44,
+                "categoryID": 3,
+                "productName": "Xiaomi Poco Pad M1 Wifi 8GB 256GB",
+                "score": 0.7144949821676401,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7144949821676401,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7144949821676401,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        }
+      ]
+    },
+    {
+      "pairID": "phone__headphones",
+      "queryImage": "images/phone__headphones.png",
+      "querySHA256": "517c3bcf738b372ca31449b91fb391db9f1a544dfb53b0a9ddc1e369de93568b",
+      "detectionsImage": "detections/phone__headphones.png",
+      "detectionHTTPStatus": 200,
+      "detectorFallback": false,
+      "detectorMessage": null,
+      "detections": [
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.44357314705848694,
+          "region": [
+            0.07236397425333659,
+            0.07592842102050781,
+            0.4666258239746094,
+            0.9472457885742187
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.3822021484375,
+          "region": [
+            0.09523686726888021,
+            0.07367050806681315,
+            0.2643986256917318,
+            0.9371415201822917
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.31675562262535095,
+          "region": [
+            0.2485814921061198,
+            0.10775905609130859,
+            0.4544898478190104,
+            0.9171505737304687
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.18031972646713257,
+          "region": [
+            0.2419239552815755,
+            0.0781715202331543,
+            0.46183634440104165,
+            0.9323187255859375
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "articleID": 1,
+          "categoryID": 1,
+          "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+          "sourceImage": "data/retailer_catalog/images/c75beab7677be9f70da06b66104e9a181d2361913ee644138e9c0a595d1edf68.jpg",
+          "panelRegion": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "sourceImageRegion": [
+            0.02,
+            0.04,
+            0.48,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.44357314705848694,
+            "region": [
+              0.07236397425333659,
+              0.07592842102050781,
+              0.4666258239746094,
+              0.9472457885742187
+            ],
+            "detectorIndex": 1
+          },
+          "bestCorrectDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.44357314705848694,
+            "region": [
+              0.07236397425333659,
+              0.07592842102050781,
+              0.4666258239746094,
+              0.9472457885742187
+            ],
+            "detectorIndex": 1
+          },
+          "strongestLabelCorrect": true,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              1,
+              12,
+              4,
+              6,
+              10,
+              3,
+              19,
+              20,
+              2,
+              11,
+              5,
+              7
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.9162041139673419,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9162041139673419,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9162041139673419,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.7499299246711946,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7499299246711946,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7499299246711946,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.7242161782645995,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7242161782645995,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7242161782645995,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.6623700894217277,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6623700894217277,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6623700894217277,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 10,
+                "categoryID": 1,
+                "productName": "Xiaomi 17T Pro 12GB 1TB",
+                "score": 0.657916902367554,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.657916902367554,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.657916902367554,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              1,
+              12,
+              4,
+              20,
+              6,
+              10,
+              11,
+              19,
+              2,
+              7,
+              3,
+              5
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.9813977137323314,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9813977137323314,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9813977137323314,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.7794925186722348,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7794925186722348,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7794925186722348,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.7469033825870971,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7469033825870971,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7469033825870971,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.6849704002383101,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6849704002383101,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6849704002383101,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.6828050932822985,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6828050932822985,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6828050932822985,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        },
+        {
+          "articleID": 61,
+          "categoryID": 4,
+          "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+          "sourceImage": "data/retailer_catalog/images/3ab54c494ceb445c646f176910870ad3ce659c87a9010e19e7c2579838243c70.jpg",
+          "panelRegion": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "sourceImageRegion": [
+            0.52,
+            0.04,
+            0.98,
+            0.96
+          ],
+          "strongestLocatedDetection": null,
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "status": "skipped_no_located_detection"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              61,
+              65,
+              62,
+              71,
+              74,
+              75,
+              78,
+              77,
+              66,
+              63,
+              73,
+              67
+            ],
+            "returnedCategories": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 4,
+            "topResults": [
+              {
+                "articleID": 61,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+                "score": 0.9595638755350477,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9595638755350477,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9595638755350477,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 65,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore Liberty 5 Pro",
+                "score": 0.7875931198883261,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7875931198883261,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7875931198883261,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 62,
+                "categoryID": 4,
+                "productName": "Tai nghe không dây Anker Soundcore Aeroclip 2",
+                "score": 0.7831166984942438,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7831166984942438,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7831166984942438,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 71,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4)",
+                "score": 0.7059221109800562,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7059221109800562,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7059221109800562,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 74,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth Apple AirPods Pro 3 2025 Type-C | Chính hãng (MFHP4ZP/A)",
+                "score": 0.6734473862247113,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6734473862247113,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6734473862247113,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        }
+      ]
+    },
+    {
+      "pairID": "phone__watch",
+      "queryImage": "images/phone__watch.png",
+      "querySHA256": "75f6b35058877df0383c1578c7d9440bcf937c3ac9d9945df41359f3d8a903eb",
+      "detectionsImage": "detections/phone__watch.png",
+      "detectionHTTPStatus": 200,
+      "detectorFallback": false,
+      "detectorMessage": null,
+      "detections": [
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4378381669521332,
+          "region": [
+            0.06487499237060547,
+            0.07490015029907227,
+            0.464041748046875,
+            0.9486263020833333
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4148399531841278,
+          "region": [
+            0.5509676106770833,
+            0.21674748738606772,
+            0.8413606262207032,
+            0.8808163452148438
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.36021414399147034,
+          "region": [
+            0.2469970194498698,
+            0.08505544026692709,
+            0.45781270345052083,
+            0.9237118530273437
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.29540079832077026,
+          "region": [
+            0.094656982421875,
+            0.07262849807739258,
+            0.26552561442057293,
+            0.9394806925455729
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.2156376838684082,
+          "region": [
+            0.23405426025390624,
+            0.07557746887207031,
+            0.46164820353190106,
+            0.9319917805989584
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.16115503013134003,
+          "region": [
+            0.5502074178059896,
+            0.30935765584309893,
+            0.7001386515299479,
+            0.7099876403808594
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "articleID": 1,
+          "categoryID": 1,
+          "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+          "sourceImage": "data/retailer_catalog/images/c75beab7677be9f70da06b66104e9a181d2361913ee644138e9c0a595d1edf68.jpg",
+          "panelRegion": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "sourceImageRegion": [
+            0.02,
+            0.04,
+            0.48,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4378381669521332,
+            "region": [
+              0.06487499237060547,
+              0.07490015029907227,
+              0.464041748046875,
+              0.9486263020833333
+            ],
+            "detectorIndex": 1
+          },
+          "bestCorrectDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4378381669521332,
+            "region": [
+              0.06487499237060547,
+              0.07490015029907227,
+              0.464041748046875,
+              0.9486263020833333
+            ],
+            "detectorIndex": 1
+          },
+          "strongestLabelCorrect": true,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              1,
+              12,
+              4,
+              6,
+              3,
+              19,
+              10,
+              20,
+              5,
+              11,
+              2,
+              7
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.9096145606836,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9096145606836,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9096145606836,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.7491121262550126,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7491121262550126,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7491121262550126,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.7220156957608038,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7220156957608038,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7220156957608038,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.6713797549509576,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6713797549509576,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6713797549509576,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 3,
+                "categoryID": 1,
+                "productName": "Xiaomi POCO F8 Pro 5G 12GB 256GB",
+                "score": 0.6548445319766156,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6548445319766156,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6548445319766156,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              1,
+              12,
+              4,
+              20,
+              6,
+              10,
+              11,
+              19,
+              2,
+              7,
+              3,
+              5
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.9813977137323314,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9813977137323314,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9813977137323314,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.7794925186722348,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7794925186722348,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7794925186722348,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.7469033825870971,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7469033825870971,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7469033825870971,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.6849704002383101,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6849704002383101,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6849704002383101,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.6828050932822985,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6828050932822985,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6828050932822985,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        },
+        {
+          "articleID": 81,
+          "categoryID": 5,
+          "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+          "sourceImage": "data/retailer_catalog/images/7b6aafaba63a36c3886f0bbd5d77af60f3e8523bb562bbf1442adcf621bbbd99.png",
+          "panelRegion": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "sourceImageRegion": [
+            0.52,
+            0.04,
+            0.98,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4148399531841278,
+            "region": [
+              0.5509676106770833,
+              0.21674748738606772,
+              0.8413606262207032,
+              0.8808163452148438
+            ],
+            "detectorIndex": 2
+          },
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              12,
+              3,
+              14,
+              13,
+              20,
+              15,
+              18,
+              6,
+              2,
+              9,
+              4,
+              16
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": null,
+            "sourceInTop5": false,
+            "expectedCategoryOnly": false,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.48710537649848595,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.48710537649848595,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.48710537649848595,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 3,
+                "categoryID": 1,
+                "productName": "Xiaomi POCO F8 Pro 5G 12GB 256GB",
+                "score": 0.4637798355169235,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.4637798355169235,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.4637798355169235,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 14,
+                "categoryID": 1,
+                "productName": "iPhone 17 Pro 256GB | Chính hãng",
+                "score": 0.46049652516650247,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.46049652516650247,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.46049652516650247,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 13,
+                "categoryID": 1,
+                "productName": "iPhone 18 Pro 256GB",
+                "score": 0.4547807402929613,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.4547807402929613,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.4547807402929613,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.454355409181795,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.454355409181795,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.454355409181795,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "failed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              81,
+              89,
+              82,
+              88,
+              91,
+              106,
+              83,
+              92,
+              107,
+              93,
+              102,
+              94
+            ],
+            "returnedCategories": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 5,
+            "topResults": [
+              {
+                "articleID": 81,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+                "score": 0.9794230579524521,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9794230579524521,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9794230579524521,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 89,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Xiaomi Redmi Watch 6 Active",
+                "score": 0.8044954729933355,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.8044954729933355,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.8044954729933355,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 82,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Huawei Watch GT7 46mm",
+                "score": 0.7491586946019496,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7491586946019496,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7491586946019496,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 88,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Xiaomi Watch 5",
+                "score": 0.6883762020450296,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6883762020450296,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6883762020450296,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 91,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Amazfit Active 2",
+                "score": 0.6778611107890895,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6778611107890895,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6778611107890895,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        }
+      ]
+    },
+    {
+      "pairID": "laptop__tablet",
+      "queryImage": "images/laptop__tablet.png",
+      "querySHA256": "8036856e4f38ad0e51ed7eaa63c6c8717ab2e30e62f10e0a85397d6e3fa18a98",
+      "detectionsImage": "detections/laptop__tablet.png",
+      "detectionHTTPStatus": 200,
+      "detectorFallback": false,
+      "detectorMessage": null,
+      "detections": [
+        {
+          "label": "a laptop computer",
+          "categoryID": 2,
+          "score": 0.7520585656166077,
+          "region": [
+            0.07959823608398438,
+            0.1261117426554362,
+            0.40614776611328124,
+            0.720086669921875
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.622338593006134,
+          "region": [
+            0.6702332051595052,
+            0.09251034418741862,
+            0.9573467000325521,
+            0.8976071166992188
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4599105417728424,
+          "region": [
+            0.54444091796875,
+            0.09204822540283203,
+            0.7013526407877604,
+            0.9085579427083333
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.2770317792892456,
+          "region": [
+            0.43617502848307294,
+            0.19617164611816407,
+            0.46906148274739584,
+            0.25710182189941405
+          ]
+        },
+        {
+          "label": "a tablet computer",
+          "categoryID": 3,
+          "score": 0.18799109756946564,
+          "region": [
+            0.5363072713216146,
+            0.08413815816243489,
+            0.9687448120117188,
+            0.9017830403645833
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.16649386286735535,
+          "region": [
+            0.6928136189778645,
+            0.3062881724039714,
+            0.8554453531901042,
+            0.8947605387369791
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "articleID": 21,
+          "categoryID": 2,
+          "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+          "sourceImage": "data/retailer_catalog/images/c76875c710c1e2017ac431091ddc68310cf987a095fa6a3519f6c29af631cc4e.png",
+          "panelRegion": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "sourceImageRegion": [
+            0.02,
+            0.04,
+            0.48,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7520585656166077,
+            "region": [
+              0.07959823608398438,
+              0.1261117426554362,
+              0.40614776611328124,
+              0.720086669921875
+            ],
+            "detectorIndex": 1
+          },
+          "bestCorrectDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7520585656166077,
+            "region": [
+              0.07959823608398438,
+              0.1261117426554362,
+              0.40614776611328124,
+              0.720086669921875
+            ],
+            "detectorIndex": 1
+          },
+          "strongestLabelCorrect": true,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              21,
+              32,
+              30,
+              23,
+              40,
+              36,
+              25,
+              39,
+              38,
+              27,
+              34,
+              26
+            ],
+            "returnedCategories": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 2,
+            "topResults": [
+              {
+                "articleID": 21,
+                "categoryID": 2,
+                "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+                "score": 0.7077794473895698,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7077794473895698,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7077794473895698,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 32,
+                "categoryID": 2,
+                "productName": "Laptop MSI Cyborg 15 A13UC-2082VN",
+                "score": 0.6303814532321221,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6303814532321221,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6303814532321221,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 30,
+                "categoryID": 2,
+                "productName": "Laptop Acer Aspire Lite 14 AL14-57P-59HB",
+                "score": 0.6238543568164909,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6238543568164909,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6238543568164909,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 23,
+                "categoryID": 2,
+                "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+                "score": 0.6228759885555282,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6228759885555282,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6228759885555282,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 40,
+                "categoryID": 2,
+                "productName": "Laptop HP Victus 15-FA2731TX B85LNPA",
+                "score": 0.6208076471253736,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6208076471253736,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6208076471253736,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              21,
+              30,
+              23,
+              34,
+              32,
+              39,
+              22,
+              27,
+              25,
+              40,
+              26,
+              38
+            ],
+            "returnedCategories": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 2,
+            "topResults": [
+              {
+                "articleID": 21,
+                "categoryID": 2,
+                "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+                "score": 0.9677161616043217,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9677161616043217,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9677161616043217,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 30,
+                "categoryID": 2,
+                "productName": "Laptop Acer Aspire Lite 14 AL14-57P-59HB",
+                "score": 0.7956191353681806,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7956191353681806,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7956191353681806,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 23,
+                "categoryID": 2,
+                "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+                "score": 0.774952608203703,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.774952608203703,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.774952608203703,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 34,
+                "categoryID": 2,
+                "productName": "Laptop Acer Gaming Nitro ProPanel ANV15-52-50VA",
+                "score": 0.7673529316498612,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7673529316498612,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7673529316498612,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 32,
+                "categoryID": 2,
+                "productName": "Laptop MSI Cyborg 15 A13UC-2082VN",
+                "score": 0.7616544421319167,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7616544421319167,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7616544421319167,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        },
+        {
+          "articleID": 41,
+          "categoryID": 3,
+          "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+          "sourceImage": "data/retailer_catalog/images/1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544.jpg",
+          "panelRegion": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "sourceImageRegion": [
+            0.52,
+            0.04,
+            0.98,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.622338593006134,
+            "region": [
+              0.6702332051595052,
+              0.09251034418741862,
+              0.9573467000325521,
+              0.8976071166992188
+            ],
+            "detectorIndex": 2
+          },
+          "bestCorrectDetection": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.18799109756946564,
+            "region": [
+              0.5363072713216146,
+              0.08413815816243489,
+              0.9687448120117188,
+              0.9017830403645833
+            ],
+            "detectorIndex": 5
+          },
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              12,
+              11,
+              4,
+              1,
+              6,
+              3,
+              19,
+              2,
+              5,
+              10,
+              8,
+              7
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": null,
+            "sourceInTop5": false,
+            "expectedCategoryOnly": false,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.6204066984192877,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6204066984192877,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6204066984192877,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 11,
+                "categoryID": 1,
+                "productName": "HONOR X9d 5G 12GB 512GB",
+                "score": 0.5979017665350027,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5979017665350027,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5979017665350027,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.5479927182132204,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5479927182132204,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5479927182132204,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.5249873345247491,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5249873345247491,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5249873345247491,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.5189933319532656,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5189933319532656,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5189933319532656,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "failed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              41,
+              58,
+              43,
+              42,
+              44,
+              45,
+              54,
+              56,
+              60,
+              53,
+              47,
+              46
+            ],
+            "returnedCategories": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 3,
+            "topResults": [
+              {
+                "articleID": 41,
+                "categoryID": 3,
+                "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+                "score": 0.9794471967755755,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9794471967755755,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9794471967755755,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 58,
+                "categoryID": 3,
+                "productName": "Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB",
+                "score": 0.8116412757968096,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.8116412757968096,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.8116412757968096,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 43,
+                "categoryID": 3,
+                "productName": "Xiaomi Pad 8 Pro 8GB 128GB",
+                "score": 0.7308667516248883,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7308667516248883,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7308667516248883,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 42,
+                "categoryID": 3,
+                "productName": "Xiaomi Poco Pad X1 8GB 512GB",
+                "score": 0.7184852746491697,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7184852746491697,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7184852746491697,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 44,
+                "categoryID": 3,
+                "productName": "Xiaomi Poco Pad M1 Wifi 8GB 256GB",
+                "score": 0.7144949821676401,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7144949821676401,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7144949821676401,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        }
+      ]
+    },
+    {
+      "pairID": "laptop__headphones",
+      "queryImage": "images/laptop__headphones.png",
+      "querySHA256": "4bd14d95085ed8063169b8863609e1af324185b2f3621ecc67de46c78de932ed",
+      "detectionsImage": "detections/laptop__headphones.png",
+      "detectionHTTPStatus": 200,
+      "detectorFallback": false,
+      "detectorMessage": null,
+      "detections": [
+        {
+          "label": "a laptop computer",
+          "categoryID": 2,
+          "score": 0.7840458154678345,
+          "region": [
+            0.079862060546875,
+            0.12431096394856771,
+            0.40623616536458335,
+            0.7201844278971354
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.22519774734973907,
+          "region": [
+            0.5619608052571614,
+            0.5548390197753906,
+            0.7528033447265625,
+            0.8633811442057292
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.1980365812778473,
+          "region": [
+            0.4364628092447917,
+            0.1967620086669922,
+            0.46931523640950523,
+            0.25727689107259116
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.16531234979629517,
+          "region": [
+            0.5788927205403646,
+            0.16800487518310547,
+            0.6468746439615886,
+            0.42306190490722656
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "articleID": 21,
+          "categoryID": 2,
+          "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+          "sourceImage": "data/retailer_catalog/images/c76875c710c1e2017ac431091ddc68310cf987a095fa6a3519f6c29af631cc4e.png",
+          "panelRegion": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "sourceImageRegion": [
+            0.02,
+            0.04,
+            0.48,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7840458154678345,
+            "region": [
+              0.079862060546875,
+              0.12431096394856771,
+              0.40623616536458335,
+              0.7201844278971354
+            ],
+            "detectorIndex": 1
+          },
+          "bestCorrectDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7840458154678345,
+            "region": [
+              0.079862060546875,
+              0.12431096394856771,
+              0.40623616536458335,
+              0.7201844278971354
+            ],
+            "detectorIndex": 1
+          },
+          "strongestLabelCorrect": true,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              21,
+              32,
+              23,
+              30,
+              40,
+              25,
+              36,
+              39,
+              38,
+              27,
+              34,
+              26
+            ],
+            "returnedCategories": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 2,
+            "topResults": [
+              {
+                "articleID": 21,
+                "categoryID": 2,
+                "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+                "score": 0.7072272784927853,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7072272784927853,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7072272784927853,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 32,
+                "categoryID": 2,
+                "productName": "Laptop MSI Cyborg 15 A13UC-2082VN",
+                "score": 0.630045219906468,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.630045219906468,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.630045219906468,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 23,
+                "categoryID": 2,
+                "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+                "score": 0.6227698957297463,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6227698957297463,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6227698957297463,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 30,
+                "categoryID": 2,
+                "productName": "Laptop Acer Aspire Lite 14 AL14-57P-59HB",
+                "score": 0.6200917340084701,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6200917340084701,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6200917340084701,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 40,
+                "categoryID": 2,
+                "productName": "Laptop HP Victus 15-FA2731TX B85LNPA",
+                "score": 0.6173554565536798,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6173554565536798,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6173554565536798,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              21,
+              30,
+              23,
+              34,
+              32,
+              39,
+              22,
+              27,
+              25,
+              40,
+              26,
+              38
+            ],
+            "returnedCategories": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 2,
+            "topResults": [
+              {
+                "articleID": 21,
+                "categoryID": 2,
+                "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+                "score": 0.9677161616043217,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9677161616043217,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9677161616043217,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 30,
+                "categoryID": 2,
+                "productName": "Laptop Acer Aspire Lite 14 AL14-57P-59HB",
+                "score": 0.7956191353681806,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7956191353681806,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7956191353681806,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 23,
+                "categoryID": 2,
+                "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+                "score": 0.774952608203703,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.774952608203703,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.774952608203703,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 34,
+                "categoryID": 2,
+                "productName": "Laptop Acer Gaming Nitro ProPanel ANV15-52-50VA",
+                "score": 0.7673529316498612,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7673529316498612,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7673529316498612,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 32,
+                "categoryID": 2,
+                "productName": "Laptop MSI Cyborg 15 A13UC-2082VN",
+                "score": 0.7616544421319167,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7616544421319167,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7616544421319167,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        },
+        {
+          "articleID": 61,
+          "categoryID": 4,
+          "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+          "sourceImage": "data/retailer_catalog/images/3ab54c494ceb445c646f176910870ad3ce659c87a9010e19e7c2579838243c70.jpg",
+          "panelRegion": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "sourceImageRegion": [
+            0.52,
+            0.04,
+            0.98,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.22519774734973907,
+            "region": [
+              0.5619608052571614,
+              0.5548390197753906,
+              0.7528033447265625,
+              0.8633811442057292
+            ],
+            "detectorIndex": 2
+          },
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              6,
+              17,
+              20,
+              13,
+              4,
+              11,
+              14,
+              2,
+              19,
+              15,
+              18,
+              16
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": null,
+            "sourceInTop5": false,
+            "expectedCategoryOnly": false,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.30295668985790347,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.30295668985790347,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.30295668985790347,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 17,
+                "categoryID": 1,
+                "productName": "OPPO Find X10 5G 12GB 256GB",
+                "score": 0.2868431330542077,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.2868431330542077,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.2868431330542077,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.2839265853291818,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.2839265853291818,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.2839265853291818,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 13,
+                "categoryID": 1,
+                "productName": "iPhone 18 Pro 256GB",
+                "score": 0.27895434833775323,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.27895434833775323,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.27895434833775323,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.27776611721710565,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.27776611721710565,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.27776611721710565,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "failed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              61,
+              65,
+              62,
+              71,
+              74,
+              75,
+              78,
+              77,
+              66,
+              63,
+              73,
+              67
+            ],
+            "returnedCategories": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 4,
+            "topResults": [
+              {
+                "articleID": 61,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+                "score": 0.9595638755350477,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9595638755350477,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9595638755350477,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 65,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore Liberty 5 Pro",
+                "score": 0.7875931198883261,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7875931198883261,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7875931198883261,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 62,
+                "categoryID": 4,
+                "productName": "Tai nghe không dây Anker Soundcore Aeroclip 2",
+                "score": 0.7831166984942438,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7831166984942438,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7831166984942438,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 71,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4)",
+                "score": 0.7059221109800562,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7059221109800562,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7059221109800562,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 74,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth Apple AirPods Pro 3 2025 Type-C | Chính hãng (MFHP4ZP/A)",
+                "score": 0.6734473862247113,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6734473862247113,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6734473862247113,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        }
+      ]
+    },
+    {
+      "pairID": "laptop__watch",
+      "queryImage": "images/laptop__watch.png",
+      "querySHA256": "7438bb7f5ecdee249978d7ab1a64990d230c1bc8a0f09a31020e409a59d4869b",
+      "detectionsImage": "detections/laptop__watch.png",
+      "detectionHTTPStatus": 200,
+      "detectorFallback": false,
+      "detectorMessage": null,
+      "detections": [
+        {
+          "label": "a laptop computer",
+          "categoryID": 2,
+          "score": 0.7717259526252747,
+          "region": [
+            0.08206024805704752,
+            0.12307537078857422,
+            0.4061586252848307,
+            0.7182496643066406
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.38528186082839966,
+          "region": [
+            0.551195322672526,
+            0.2219433085123698,
+            0.843280995686849,
+            0.8773306274414062
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.20078535377979279,
+          "region": [
+            0.550314432779948,
+            0.30709251403808596,
+            0.7020211283365886,
+            0.7119549560546875
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.1997201144695282,
+          "region": [
+            0.4365360514322917,
+            0.19708388010660807,
+            0.46900400797526043,
+            0.2572283172607422
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "articleID": 21,
+          "categoryID": 2,
+          "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+          "sourceImage": "data/retailer_catalog/images/c76875c710c1e2017ac431091ddc68310cf987a095fa6a3519f6c29af631cc4e.png",
+          "panelRegion": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "sourceImageRegion": [
+            0.02,
+            0.04,
+            0.48,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7717259526252747,
+            "region": [
+              0.08206024805704752,
+              0.12307537078857422,
+              0.4061586252848307,
+              0.7182496643066406
+            ],
+            "detectorIndex": 1
+          },
+          "bestCorrectDetection": {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7717259526252747,
+            "region": [
+              0.08206024805704752,
+              0.12307537078857422,
+              0.4061586252848307,
+              0.7182496643066406
+            ],
+            "detectorIndex": 1
+          },
+          "strongestLabelCorrect": true,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              21,
+              30,
+              23,
+              32,
+              25,
+              40,
+              36,
+              38,
+              39,
+              27,
+              26,
+              34
+            ],
+            "returnedCategories": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 2,
+            "topResults": [
+              {
+                "articleID": 21,
+                "categoryID": 2,
+                "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+                "score": 0.7046720218984817,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7046720218984817,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7046720218984817,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 30,
+                "categoryID": 2,
+                "productName": "Laptop Acer Aspire Lite 14 AL14-57P-59HB",
+                "score": 0.6346233561720689,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6346233561720689,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6346233561720689,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 23,
+                "categoryID": 2,
+                "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+                "score": 0.6310610418256584,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6310610418256584,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6310610418256584,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 32,
+                "categoryID": 2,
+                "productName": "Laptop MSI Cyborg 15 A13UC-2082VN",
+                "score": 0.6293966105447648,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6293966105447648,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6293966105447648,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 25,
+                "categoryID": 2,
+                "productName": "Laptop ASUS Vivobook S16 S3607CA-SH080W",
+                "score": 0.6125797625219579,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6125797625219579,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6125797625219579,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              21,
+              30,
+              23,
+              34,
+              32,
+              39,
+              22,
+              27,
+              25,
+              40,
+              26,
+              38
+            ],
+            "returnedCategories": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 2,
+            "topResults": [
+              {
+                "articleID": 21,
+                "categoryID": 2,
+                "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+                "score": 0.9677161616043217,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9677161616043217,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9677161616043217,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 30,
+                "categoryID": 2,
+                "productName": "Laptop Acer Aspire Lite 14 AL14-57P-59HB",
+                "score": 0.7956191353681806,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7956191353681806,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7956191353681806,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 23,
+                "categoryID": 2,
+                "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+                "score": 0.774952608203703,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.774952608203703,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.774952608203703,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 34,
+                "categoryID": 2,
+                "productName": "Laptop Acer Gaming Nitro ProPanel ANV15-52-50VA",
+                "score": 0.7673529316498612,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7673529316498612,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7673529316498612,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 32,
+                "categoryID": 2,
+                "productName": "Laptop MSI Cyborg 15 A13UC-2082VN",
+                "score": 0.7616544421319167,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7616544421319167,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7616544421319167,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        },
+        {
+          "articleID": 81,
+          "categoryID": 5,
+          "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+          "sourceImage": "data/retailer_catalog/images/7b6aafaba63a36c3886f0bbd5d77af60f3e8523bb562bbf1442adcf621bbbd99.png",
+          "panelRegion": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "sourceImageRegion": [
+            0.52,
+            0.04,
+            0.98,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.38528186082839966,
+            "region": [
+              0.551195322672526,
+              0.2219433085123698,
+              0.843280995686849,
+              0.8773306274414062
+            ],
+            "detectorIndex": 2
+          },
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              12,
+              3,
+              14,
+              20,
+              13,
+              15,
+              18,
+              6,
+              9,
+              4,
+              2,
+              16
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": null,
+            "sourceInTop5": false,
+            "expectedCategoryOnly": false,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.48759465991075635,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.48759465991075635,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.48759465991075635,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 3,
+                "categoryID": 1,
+                "productName": "Xiaomi POCO F8 Pro 5G 12GB 256GB",
+                "score": 0.46389294230478795,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.46389294230478795,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.46389294230478795,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 14,
+                "categoryID": 1,
+                "productName": "iPhone 17 Pro 256GB | Chính hãng",
+                "score": 0.44732132762923527,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.44732132762923527,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.44732132762923527,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.4420264315087132,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.4420264315087132,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.4420264315087132,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 13,
+                "categoryID": 1,
+                "productName": "iPhone 18 Pro 256GB",
+                "score": 0.44195814072175704,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.44195814072175704,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.44195814072175704,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "failed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              81,
+              89,
+              82,
+              88,
+              91,
+              106,
+              83,
+              92,
+              107,
+              93,
+              102,
+              94
+            ],
+            "returnedCategories": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 5,
+            "topResults": [
+              {
+                "articleID": 81,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+                "score": 0.9794230579524521,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9794230579524521,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9794230579524521,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 89,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Xiaomi Redmi Watch 6 Active",
+                "score": 0.8044954729933355,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.8044954729933355,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.8044954729933355,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 82,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Huawei Watch GT7 46mm",
+                "score": 0.7491586946019496,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7491586946019496,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7491586946019496,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 88,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Xiaomi Watch 5",
+                "score": 0.6883762020450296,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6883762020450296,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6883762020450296,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 91,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Amazfit Active 2",
+                "score": 0.6778611107890895,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6778611107890895,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6778611107890895,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        }
+      ]
+    },
+    {
+      "pairID": "tablet__headphones",
+      "queryImage": "images/tablet__headphones.png",
+      "querySHA256": "b5014c3cb5e35df26adc64a647552913a63122cf42f26cc61116f0fe5564ea4f",
+      "detectionsImage": "detections/tablet__headphones.png",
+      "detectionHTTPStatus": 200,
+      "detectorFallback": false,
+      "detectorMessage": null,
+      "detections": [
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.589769184589386,
+          "region": [
+            0.17168741861979167,
+            0.08589106877644857,
+            0.4581800333658854,
+            0.8997007242838542
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.5775822401046753,
+          "region": [
+            0.039248450597127275,
+            0.07295355478922526,
+            0.19255514780680338,
+            0.8903334554036458
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.256915420293808,
+          "region": [
+            0.1853515116373698,
+            0.30654810587565107,
+            0.36108052571614585,
+            0.9096116129557291
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.2433444857597351,
+          "region": [
+            0.04263691584269206,
+            0.09273064295450846,
+            0.4821124267578125,
+            0.9221898396809896
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.15304778516292572,
+          "region": [
+            0.5605154418945313,
+            0.5513730875651042,
+            0.752021738688151,
+            0.8644937133789062
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "articleID": 41,
+          "categoryID": 3,
+          "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+          "sourceImage": "data/retailer_catalog/images/1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544.jpg",
+          "panelRegion": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "sourceImageRegion": [
+            0.02,
+            0.04,
+            0.48,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.589769184589386,
+            "region": [
+              0.17168741861979167,
+              0.08589106877644857,
+              0.4581800333658854,
+              0.8997007242838542
+            ],
+            "detectorIndex": 1
+          },
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              12,
+              11,
+              4,
+              1,
+              6,
+              3,
+              19,
+              2,
+              5,
+              10,
+              8,
+              7
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": null,
+            "sourceInTop5": false,
+            "expectedCategoryOnly": false,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.6191838973726502,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6191838973726502,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6191838973726502,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 11,
+                "categoryID": 1,
+                "productName": "HONOR X9d 5G 12GB 512GB",
+                "score": 0.5971013256804704,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5971013256804704,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5971013256804704,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.5545993277066849,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5545993277066849,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5545993277066849,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.5239517619199543,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5239517619199543,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5239517619199543,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.5220302381339703,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5220302381339703,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5220302381339703,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "failed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              41,
+              58,
+              43,
+              42,
+              44,
+              45,
+              54,
+              56,
+              60,
+              53,
+              47,
+              46
+            ],
+            "returnedCategories": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 3,
+            "topResults": [
+              {
+                "articleID": 41,
+                "categoryID": 3,
+                "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+                "score": 0.9794471967755755,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9794471967755755,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9794471967755755,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 58,
+                "categoryID": 3,
+                "productName": "Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB",
+                "score": 0.8116412757968096,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.8116412757968096,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.8116412757968096,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 43,
+                "categoryID": 3,
+                "productName": "Xiaomi Pad 8 Pro 8GB 128GB",
+                "score": 0.7308667516248883,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7308667516248883,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7308667516248883,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 42,
+                "categoryID": 3,
+                "productName": "Xiaomi Poco Pad X1 8GB 512GB",
+                "score": 0.7184852746491697,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7184852746491697,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7184852746491697,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 44,
+                "categoryID": 3,
+                "productName": "Xiaomi Poco Pad M1 Wifi 8GB 256GB",
+                "score": 0.7144949821676401,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7144949821676401,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7144949821676401,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        },
+        {
+          "articleID": 61,
+          "categoryID": 4,
+          "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+          "sourceImage": "data/retailer_catalog/images/3ab54c494ceb445c646f176910870ad3ce659c87a9010e19e7c2579838243c70.jpg",
+          "panelRegion": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "sourceImageRegion": [
+            0.52,
+            0.04,
+            0.98,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.15304778516292572,
+            "region": [
+              0.5605154418945313,
+              0.5513730875651042,
+              0.752021738688151,
+              0.8644937133789062
+            ],
+            "detectorIndex": 5
+          },
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              6,
+              17,
+              11,
+              2,
+              20,
+              19,
+              4,
+              13,
+              15,
+              18,
+              14,
+              3
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": null,
+            "sourceInTop5": false,
+            "expectedCategoryOnly": false,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.3073465805239918,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.3073465805239918,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.3073465805239918,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 17,
+                "categoryID": 1,
+                "productName": "OPPO Find X10 5G 12GB 256GB",
+                "score": 0.29007789818682056,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.29007789818682056,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.29007789818682056,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 11,
+                "categoryID": 1,
+                "productName": "HONOR X9d 5G 12GB 512GB",
+                "score": 0.28315430055871027,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.28315430055871027,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.28315430055871027,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 2,
+                "categoryID": 1,
+                "productName": "HONOR 600 5G 8GB 256GB",
+                "score": 0.28234390609697213,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.28234390609697213,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.28234390609697213,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.2788974376606546,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.2788974376606546,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.2788974376606546,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "failed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              61,
+              65,
+              62,
+              71,
+              74,
+              75,
+              78,
+              77,
+              66,
+              63,
+              73,
+              67
+            ],
+            "returnedCategories": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 4,
+            "topResults": [
+              {
+                "articleID": 61,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+                "score": 0.9595638755350477,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9595638755350477,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9595638755350477,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 65,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore Liberty 5 Pro",
+                "score": 0.7875931198883261,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7875931198883261,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7875931198883261,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 62,
+                "categoryID": 4,
+                "productName": "Tai nghe không dây Anker Soundcore Aeroclip 2",
+                "score": 0.7831166984942438,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7831166984942438,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7831166984942438,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 71,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4)",
+                "score": 0.7059221109800562,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7059221109800562,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7059221109800562,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 74,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth Apple AirPods Pro 3 2025 Type-C | Chính hãng (MFHP4ZP/A)",
+                "score": 0.6734473862247113,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6734473862247113,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6734473862247113,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        }
+      ]
+    },
+    {
+      "pairID": "tablet__watch",
+      "queryImage": "images/tablet__watch.png",
+      "querySHA256": "98c8c55d77724f49975398b320bd93788173d2de849db64642b6044849bebfc2",
+      "detectionsImage": "detections/tablet__watch.png",
+      "detectionHTTPStatus": 200,
+      "detectorFallback": false,
+      "detectorMessage": null,
+      "detections": [
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.6774336695671082,
+          "region": [
+            0.1681689707438151,
+            0.08418622334798177,
+            0.4596973673502604,
+            0.8991444905598959
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4689455032348633,
+          "region": [
+            0.5513296508789063,
+            0.2153136952718099,
+            0.8416729736328125,
+            0.8784209187825521
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4676966071128845,
+          "region": [
+            0.040874630610148115,
+            0.07248857498168945,
+            0.1935719680786133,
+            0.894153340657552
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.25036537647247314,
+          "region": [
+            0.04157777150472005,
+            0.08940991719563803,
+            0.48163055419921874,
+            0.9211688232421875
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.2425495982170105,
+          "region": [
+            0.18580725351969402,
+            0.2902923583984375,
+            0.35277142842610676,
+            0.9115825398763021
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.17373968660831451,
+          "region": [
+            0.550203857421875,
+            0.31234563191731773,
+            0.7004314168294271,
+            0.7074674479166667
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "articleID": 41,
+          "categoryID": 3,
+          "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+          "sourceImage": "data/retailer_catalog/images/1cc528e265024bca5a06782b1a50bb9c299092f8442a70c5f2b62a67b92c3544.jpg",
+          "panelRegion": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "sourceImageRegion": [
+            0.02,
+            0.04,
+            0.48,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6774336695671082,
+            "region": [
+              0.1681689707438151,
+              0.08418622334798177,
+              0.4596973673502604,
+              0.8991444905598959
+            ],
+            "detectorIndex": 1
+          },
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              12,
+              11,
+              4,
+              6,
+              1,
+              3,
+              19,
+              5,
+              2,
+              10,
+              8,
+              7
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": null,
+            "sourceInTop5": false,
+            "expectedCategoryOnly": false,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.6103598804520145,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6103598804520145,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6103598804520145,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 11,
+                "categoryID": 1,
+                "productName": "HONOR X9d 5G 12GB 512GB",
+                "score": 0.5990881020243229,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5990881020243229,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5990881020243229,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 4,
+                "categoryID": 1,
+                "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+                "score": 0.5373814682068541,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5373814682068541,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5373814682068541,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 6,
+                "categoryID": 1,
+                "productName": "HONOR 600S 5G 6GB 128GB",
+                "score": 0.5169372813773896,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5169372813773896,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5169372813773896,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 1,
+                "categoryID": 1,
+                "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+                "score": 0.5123029669788376,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.5123029669788376,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.5123029669788376,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "failed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              41,
+              58,
+              43,
+              42,
+              44,
+              45,
+              54,
+              56,
+              60,
+              53,
+              47,
+              46
+            ],
+            "returnedCategories": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 3,
+            "topResults": [
+              {
+                "articleID": 41,
+                "categoryID": 3,
+                "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+                "score": 0.9794471967755755,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9794471967755755,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9794471967755755,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 58,
+                "categoryID": 3,
+                "productName": "Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB",
+                "score": 0.8116412757968096,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.8116412757968096,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.8116412757968096,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 43,
+                "categoryID": 3,
+                "productName": "Xiaomi Pad 8 Pro 8GB 128GB",
+                "score": 0.7308667516248883,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7308667516248883,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7308667516248883,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 42,
+                "categoryID": 3,
+                "productName": "Xiaomi Poco Pad X1 8GB 512GB",
+                "score": 0.7184852746491697,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7184852746491697,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7184852746491697,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 44,
+                "categoryID": 3,
+                "productName": "Xiaomi Poco Pad M1 Wifi 8GB 256GB",
+                "score": 0.7144949821676401,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7144949821676401,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7144949821676401,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        },
+        {
+          "articleID": 81,
+          "categoryID": 5,
+          "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+          "sourceImage": "data/retailer_catalog/images/7b6aafaba63a36c3886f0bbd5d77af60f3e8523bb562bbf1442adcf621bbbd99.png",
+          "panelRegion": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "sourceImageRegion": [
+            0.52,
+            0.04,
+            0.98,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4689455032348633,
+            "region": [
+              0.5513296508789063,
+              0.2153136952718099,
+              0.8416729736328125,
+              0.8784209187825521
+            ],
+            "detectorIndex": 2
+          },
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              12,
+              3,
+              14,
+              13,
+              20,
+              15,
+              18,
+              6,
+              2,
+              9,
+              4,
+              16
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": null,
+            "sourceInTop5": false,
+            "expectedCategoryOnly": false,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.48938329746599246,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.48938329746599246,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.48938329746599246,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 3,
+                "categoryID": 1,
+                "productName": "Xiaomi POCO F8 Pro 5G 12GB 256GB",
+                "score": 0.4618119208711658,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.4618119208711658,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.4618119208711658,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 14,
+                "categoryID": 1,
+                "productName": "iPhone 17 Pro 256GB | Chính hãng",
+                "score": 0.45800821909453393,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.45800821909453393,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.45800821909453393,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 13,
+                "categoryID": 1,
+                "productName": "iPhone 18 Pro 256GB",
+                "score": 0.4558827565264239,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.4558827565264239,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.4558827565264239,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.4558563405959083,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.4558563405959083,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.4558563405959083,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "failed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              81,
+              89,
+              82,
+              88,
+              91,
+              106,
+              83,
+              92,
+              107,
+              93,
+              102,
+              94
+            ],
+            "returnedCategories": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 5,
+            "topResults": [
+              {
+                "articleID": 81,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+                "score": 0.9794230579524521,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9794230579524521,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9794230579524521,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 89,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Xiaomi Redmi Watch 6 Active",
+                "score": 0.8044954729933355,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.8044954729933355,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.8044954729933355,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 82,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Huawei Watch GT7 46mm",
+                "score": 0.7491586946019496,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7491586946019496,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7491586946019496,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 88,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Xiaomi Watch 5",
+                "score": 0.6883762020450296,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6883762020450296,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6883762020450296,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 91,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Amazfit Active 2",
+                "score": 0.6778611107890895,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6778611107890895,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6778611107890895,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        }
+      ]
+    },
+    {
+      "pairID": "headphones__watch",
+      "queryImage": "images/headphones__watch.png",
+      "querySHA256": "1ed442b18982e6a3f802abab2feb69ab5aa4d4c1acff6ffe708cfebb17f4a202",
+      "detectionsImage": "detections/headphones__watch.png",
+      "detectionHTTPStatus": 200,
+      "detectorFallback": false,
+      "detectorMessage": null,
+      "detections": [
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.4052388668060303,
+          "region": [
+            0.5495362345377605,
+            0.21673693339029948,
+            0.8422078959147136,
+            0.8790482584635416
+          ]
+        },
+        {
+          "label": "a mobile phone",
+          "categoryID": 1,
+          "score": 0.1700054258108139,
+          "region": [
+            0.5487192789713542,
+            0.3096917470296224,
+            0.7019140625,
+            0.7099853515625
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "articleID": 61,
+          "categoryID": 4,
+          "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+          "sourceImage": "data/retailer_catalog/images/3ab54c494ceb445c646f176910870ad3ce659c87a9010e19e7c2579838243c70.jpg",
+          "panelRegion": [
+            0.0,
+            0,
+            0.5,
+            1
+          ],
+          "sourceImageRegion": [
+            0.02,
+            0.04,
+            0.48,
+            0.96
+          ],
+          "strongestLocatedDetection": null,
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "status": "skipped_no_located_detection"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              61,
+              65,
+              62,
+              71,
+              74,
+              75,
+              78,
+              77,
+              66,
+              63,
+              73,
+              67
+            ],
+            "returnedCategories": [
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 4,
+            "topResults": [
+              {
+                "articleID": 61,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+                "score": 0.9595638755350477,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9595638755350477,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9595638755350477,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 65,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore Liberty 5 Pro",
+                "score": 0.7875931198883261,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7875931198883261,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7875931198883261,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 62,
+                "categoryID": 4,
+                "productName": "Tai nghe không dây Anker Soundcore Aeroclip 2",
+                "score": 0.7831166984942438,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7831166984942438,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7831166984942438,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 71,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4)",
+                "score": 0.7059221109800562,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7059221109800562,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7059221109800562,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 74,
+                "categoryID": 4,
+                "productName": "Tai nghe Bluetooth Apple AirPods Pro 3 2025 Type-C | Chính hãng (MFHP4ZP/A)",
+                "score": 0.6734473862247113,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6734473862247113,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6734473862247113,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        },
+        {
+          "articleID": 81,
+          "categoryID": 5,
+          "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+          "sourceImage": "data/retailer_catalog/images/7b6aafaba63a36c3886f0bbd5d77af60f3e8523bb562bbf1442adcf621bbbd99.png",
+          "panelRegion": [
+            0.5,
+            0,
+            1.0,
+            1
+          ],
+          "sourceImageRegion": [
+            0.52,
+            0.04,
+            0.98,
+            0.96
+          ],
+          "strongestLocatedDetection": {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4052388668060303,
+            "region": [
+              0.5495362345377605,
+              0.21673693339029948,
+              0.8422078959147136,
+              0.8790482584635416
+            ],
+            "detectorIndex": 1
+          },
+          "bestCorrectDetection": null,
+          "strongestLabelCorrect": false,
+          "detectedRegionSearch": {
+            "returnedIDs": [
+              12,
+              3,
+              13,
+              14,
+              20,
+              15,
+              18,
+              2,
+              6,
+              9,
+              4,
+              16
+            ],
+            "returnedCategories": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "sourceRank": null,
+            "sourceInTop5": false,
+            "expectedCategoryOnly": false,
+            "resolvedCategoryID": 1,
+            "topResults": [
+              {
+                "articleID": 12,
+                "categoryID": 1,
+                "productName": "HONOR X8d 8GB 128GB",
+                "score": 0.48965345349612943,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.48965345349612943,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.48965345349612943,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 3,
+                "categoryID": 1,
+                "productName": "Xiaomi POCO F8 Pro 5G 12GB 256GB",
+                "score": 0.4667597033189999,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.4667597033189999,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.4667597033189999,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 13,
+                "categoryID": 1,
+                "productName": "iPhone 18 Pro 256GB",
+                "score": 0.45832444703054825,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.45832444703054825,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.45832444703054825,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 14,
+                "categoryID": 1,
+                "productName": "iPhone 17 Pro 256GB | Chính hãng",
+                "score": 0.45830262648488446,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.45830262648488446,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.45830262648488446,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 20,
+                "categoryID": 1,
+                "productName": "iPhone 17 256GB | Chính hãng",
+                "score": 0.4564062189815567,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.4564062189815567,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.4564062189815567,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "failed"
+          },
+          "knownRegionControl": {
+            "returnedIDs": [
+              81,
+              89,
+              82,
+              88,
+              91,
+              106,
+              83,
+              92,
+              107,
+              93,
+              102,
+              94
+            ],
+            "returnedCategories": [
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "sourceRank": 1,
+            "sourceInTop5": true,
+            "expectedCategoryOnly": true,
+            "resolvedCategoryID": 5,
+            "topResults": [
+              {
+                "articleID": 81,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+                "score": 0.9794230579524521,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.9794230579524521,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.9794230579524521,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 89,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Xiaomi Redmi Watch 6 Active",
+                "score": 0.8044954729933355,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.8044954729933355,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.8044954729933355,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 82,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Huawei Watch GT7 46mm",
+                "score": 0.7491586946019496,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.7491586946019496,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.7491586946019496,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 88,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Xiaomi Watch 5",
+                "score": 0.6883762020450296,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6883762020450296,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6883762020450296,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              {
+                "articleID": 91,
+                "categoryID": 5,
+                "productName": "Đồng hồ thông minh Amazfit Active 2",
+                "score": 0.6778611107890895,
+                "matchDetails": {
+                  "metric": "cosine",
+                  "embedding": 0.6778611107890895,
+                  "text": null,
+                  "keyword": 0.0,
+                  "rankScore": 0.6778611107890895,
+                  "mode": "image",
+                  "weights": [
+                    1.0,
+                    0.0,
+                    0.0
+                  ]
+                }
+              }
+            ],
+            "selectedCategoryBoundaryHeld": true,
+            "status": "passed"
+          }
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "One product per category, one left/right layout; no claim of exhaustive product/angle/background coverage.",
+    "Indexed catalogue images are reused; top-five source recovery is a consistency check, not independent retrieval accuracy.",
+    "Panels and pasted-image rectangles are known; exact physical-object boxes are not manually annotated.",
+    "Correct-label availability is separate from strongest-label correctness; duplicates/extra detections are retained.",
+    "Known-region controls use the expected category explicitly and are reported separately from end-to-end detection.",
+    "No Gemini API calls, live ranking changes, catalogue modifications or demo search-history writes. Test database is retained."
+  ]
+}

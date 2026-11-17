@@ -1,0 +1,2988 @@
+{
+  "policy": "provided_catalogue",
+  "cases": [
+    {
+      "articleID": 1,
+      "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5626892447471619,
+            "region": [
+              0.18183130264282227,
+              0.02945774793624878,
+              0.9522377014160156,
+              0.951311264038086
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              1
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.4185808999973233
+    },
+    {
+      "articleID": 2,
+      "productName": "HONOR 600 5G 8GB 256GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5486648082733154,
+            "region": [
+              0.09910112380981445,
+              0.026880383491516113,
+              0.8710870361328125,
+              0.9590198516845703
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              2
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.1231555999984266
+    },
+    {
+      "articleID": 3,
+      "productName": "Xiaomi POCO F8 Pro 5G 12GB 256GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6865120530128479,
+            "region": [
+              0.11293461799621582,
+              0.026102185249328613,
+              0.8812488555908203,
+              0.9535056304931641
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              3
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.1251995999991777
+    },
+    {
+      "articleID": 4,
+      "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6076070070266724,
+            "region": [
+              0.47895221710205077,
+              0.04259523868560791,
+              0.896487808227539,
+              0.95304931640625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              4
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.1253327000013087
+    },
+    {
+      "articleID": 5,
+      "productName": "Samsung Galaxy A17 5G 8GB 128GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6012547016143799,
+            "region": [
+              0.13693085670471192,
+              0.0217362642288208,
+              0.8598477935791016,
+              0.958985595703125
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              5
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.1330184000034933
+    },
+    {
+      "articleID": 6,
+      "productName": "HONOR 600S 5G 6GB 128GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5949023962020874,
+            "region": [
+              0.0731787109375,
+              0.0,
+              0.9132144165039062,
+              0.9827465057373047
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              6
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.145140699998592
+    },
+    {
+      "articleID": 7,
+      "productName": "Samsung Galaxy A27 5G 6GB 128GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4292323589324951,
+            "region": [
+              0.10014703750610351,
+              0.02126234769821167,
+              0.8976202392578125,
+              0.961822509765625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              7
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.1875436999980593
+    },
+    {
+      "articleID": 8,
+      "productName": "Samsung Galaxy A07 5G 4GB 128GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4950403869152069,
+            "region": [
+              0.119067964553833,
+              0.023255765438079834,
+              0.8797575378417969,
+              0.9545040130615234
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              8
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2121018999969237
+    },
+    {
+      "articleID": 9,
+      "productName": "Nothing Phone 2A Plus 5G 12GB 256GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.48691248893737793,
+            "region": [
+              0.15350791931152344,
+              0.04030170917510986,
+              0.5915268707275391,
+              0.9563085174560547
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              9
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.1695092000009026
+    },
+    {
+      "articleID": 10,
+      "productName": "Xiaomi 17T Pro 12GB 1TB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4647427201271057,
+            "region": [
+              0.44376094818115236,
+              0.04497411727905273,
+              0.8779878234863281,
+              0.9620259857177734
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              10
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.1579391999985091
+    },
+    {
+      "articleID": 11,
+      "productName": "HONOR X9d 5G 12GB 512GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.4888658821582794,
+            "region": [
+              0.4542880630493164,
+              0.05125289916992187,
+              0.877271728515625,
+              0.9615628051757813
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              11
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.169862100003229
+    },
+    {
+      "articleID": 12,
+      "productName": "HONOR X8d 8GB 128GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.6888642311096191,
+            "region": [
+              0.11631017684936523,
+              0.01749160885810852,
+              0.8743030548095703,
+              0.9603646087646485
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              12
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.142715699999826
+    },
+    {
+      "articleID": 13,
+      "productName": "iPhone 18 Pro 256GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.44931524991989136,
+            "region": [
+              0.09679898262023925,
+              0.009997427463531494,
+              0.8978050994873047,
+              0.9735992431640625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              13
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.1841690000001108
+    },
+    {
+      "articleID": 14,
+      "productName": "iPhone 17 Pro 256GB | Chính hãng",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.417622834444046,
+            "region": [
+              0.1231202507019043,
+              0.043592185974121095,
+              0.5738586807250976,
+              0.9682275390625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              14
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2707252999971388
+    },
+    {
+      "articleID": 15,
+      "productName": "iPhone 18 Pro Max 256GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.48333603143692017,
+            "region": [
+              0.10118025779724121,
+              0.009302973747253418,
+              0.8940345764160156,
+              0.9747018432617187
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              15,
+              18
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.3015386999977636
+    },
+    {
+      "articleID": 16,
+      "productName": "iPhone 17 Pro Max 256GB | Chính hãng",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.3803281784057617,
+            "region": [
+              0.13801248550415038,
+              0.04576891899108887,
+              0.5871552276611328,
+              0.9682969665527343
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              16
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2543581999998423
+    },
+    {
+      "articleID": 17,
+      "productName": "OPPO Find X10 5G 12GB 256GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.36978474259376526,
+            "region": [
+              0.058114023208618165,
+              0.01449015736579895,
+              0.4977339935302734,
+              0.9852623748779297
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              17
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.269433300003584
+    },
+    {
+      "articleID": 18,
+      "productName": "iPhone 18 Pro Max 512GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.48333603143692017,
+            "region": [
+              0.10118025779724121,
+              0.009302973747253418,
+              0.8940345764160156,
+              0.9747018432617187
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              15,
+              18
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.005255799995211419
+    },
+    {
+      "articleID": 19,
+      "productName": "Xiaomi POCO F9 Ultra 5G 12GB 256GB",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5921739339828491,
+            "region": [
+              0.0828901195526123,
+              0.008385062217712402,
+              0.9110107421875,
+              0.977255859375
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              19
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2813555999964592
+    },
+    {
+      "articleID": 20,
+      "productName": "iPhone 17 256GB | Chính hãng",
+      "categoryID": 1,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a mobile phone",
+            "categoryID": 1,
+            "score": 0.5622938871383667,
+            "region": [
+              0.11913558959960938,
+              0.03422191619873047,
+              0.8679396820068359,
+              0.9536696624755859
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              20
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2427546999970218
+    },
+    {
+      "articleID": 21,
+      "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6129809617996216,
+            "region": [
+              0.14109283447265625,
+              0.08391314506530761,
+              0.8559776306152344,
+              0.7381680297851563
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              21
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2690112999989651
+    },
+    {
+      "articleID": 22,
+      "productName": "Laptop Lenovo IdeaPad Slim 3 14IWC11 83RQ002PVN",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.561978816986084,
+            "region": [
+              0.0982414436340332,
+              0.09335767745971679,
+              0.89365234375,
+              0.7441255187988282
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              22
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.8424698999951943
+    },
+    {
+      "articleID": 23,
+      "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6082392334938049,
+            "region": [
+              0.08887561798095703,
+              0.1098150634765625,
+              0.9078733825683594,
+              0.730024185180664
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              23
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.4780244000066887
+    },
+    {
+      "articleID": 24,
+      "productName": "Laptop ASUS Vivobook S16 S5608QA-MB354W",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5303611159324646,
+            "region": [
+              0.05777618408203125,
+              0.11961990356445312,
+              0.9334687042236328,
+              0.7266133117675782
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              24
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.3341056000062963
+    },
+    {
+      "articleID": 25,
+      "productName": "Laptop ASUS Vivobook S16 S3607CA-SH080W",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.701562225818634,
+            "region": [
+              0.049332351684570314,
+              0.11422294616699219,
+              0.9488294982910156,
+              0.7233929443359375
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              25
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.3868527000013273
+    },
+    {
+      "articleID": 26,
+      "productName": "Laptop MSI Modern 14 H1M-014VN",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5690626502037048,
+            "region": [
+              0.04464390754699707,
+              0.14225107192993164,
+              0.957894058227539,
+              0.7001699829101562
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              26
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.369681900003343
+    },
+    {
+      "articleID": 27,
+      "productName": "Laptop ASUS Vivobook 16 X1607CA-MB399W",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6002217531204224,
+            "region": [
+              0.04448404788970947,
+              0.13021718978881835,
+              0.9450216674804688,
+              0.7095188140869141
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              27
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.31204340000113
+    },
+    {
+      "articleID": 28,
+      "productName": "Laptop Dell 14 DC14250 DC4C5375W1 - Bảo hành 2 năm",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6952998042106628,
+            "region": [
+              0.10269543647766113,
+              0.08813884735107422,
+              0.9055174255371093,
+              0.7266549682617187
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              28
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.378336899993883
+    },
+    {
+      "articleID": 29,
+      "productName": "Laptop ASUS Vivobook Go 14 E1404FA-EB1941W",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.498109370470047,
+            "region": [
+              0.06132989883422851,
+              0.2051035690307617,
+              0.9370726013183593,
+              0.6778511047363281
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              29
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.3771872999932384
+    },
+    {
+      "articleID": 30,
+      "productName": "Laptop Acer Aspire Lite 14 AL14-57P-59HB",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.7066903710365295,
+            "region": [
+              0.060164451599121094,
+              0.10798460006713867,
+              0.9390543365478515,
+              0.7370809936523437
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              30
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2982310999941546
+    },
+    {
+      "articleID": 31,
+      "productName": "Laptop ASUS Zenbook 14 UX3405CA-ST1713W",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5985215902328491,
+            "region": [
+              0.052187113761901854,
+              0.14051302909851074,
+              0.9445619201660156,
+              0.7128007507324219
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              31
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.299716499997885
+    },
+    {
+      "articleID": 32,
+      "productName": "Laptop MSI Cyborg 15 A13UC-2082VN",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6304966807365417,
+            "region": [
+              0.057541399002075194,
+              0.14367616653442383,
+              0.9524485015869141,
+              0.6917290496826172
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              32
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2972269999954733
+    },
+    {
+      "articleID": 33,
+      "productName": "Laptop MSI Modern 15 F1MG-1225VN",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5047241449356079,
+            "region": [
+              0.04399824142456055,
+              0.16667669296264648,
+              0.95543701171875,
+              0.677680435180664
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              33
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.291853099995933
+    },
+    {
+      "articleID": 34,
+      "productName": "Laptop Acer Gaming Nitro ProPanel ANV15-52-50VA",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6250022649765015,
+            "region": [
+              0.07589739799499512,
+              0.12048137664794922,
+              0.910177001953125,
+              0.7139498901367187
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              34
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2806869999985793
+    },
+    {
+      "articleID": 35,
+      "productName": "Laptop Lenovo IdeaPad Slim 3 14AHP10 83K9004RVN",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6475145220756531,
+            "region": [
+              0.15091723442077637,
+              0.18458948135375977,
+              0.8457649993896484,
+              0.7542042541503906
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              35
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2854772999999113
+    },
+    {
+      "articleID": 36,
+      "productName": "Laptop HP Victus 15-FA2451TX D17WPPA",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.569034993648529,
+            "region": [
+              0.14037269592285156,
+              0.11262327194213867,
+              0.8543924713134765,
+              0.7257350158691406
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              36
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.288739200004784
+    },
+    {
+      "articleID": 37,
+      "productName": "MacBook Neo 13 inch A18 Pro 2026 6CPU 5GPU 8GB 256GB | Chính hãng Apple Việt Nam",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.4100589156150818,
+            "region": [
+              0.07022643089294434,
+              0.15412870407104493,
+              0.943167953491211,
+              0.6987482452392578
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              37
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2868530000050669
+    },
+    {
+      "articleID": 38,
+      "productName": "Laptop Lenovo IdeaPad Slim 3 14IPH11 83UQ003NVN",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.6191138029098511,
+            "region": [
+              0.11543768882751465,
+              0.11050334930419922,
+              0.8784219360351563,
+              0.7352920532226562
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              38
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2866677999991225
+    },
+    {
+      "articleID": 39,
+      "productName": "Laptop Acer Gaming Aspire 7 A715-59G-59RD",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5900703072547913,
+            "region": [
+              0.08267930030822754,
+              0.105173978805542,
+              0.9125225830078125,
+              0.7188528442382812
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              39
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2925768999994034
+    },
+    {
+      "articleID": 40,
+      "productName": "Laptop HP Victus 15-FA2731TX B85LNPA",
+      "categoryID": 2,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a laptop computer",
+            "categoryID": 2,
+            "score": 0.5931485295295715,
+            "region": [
+              0.11411547660827637,
+              0.08762252807617188,
+              0.8808042144775391,
+              0.7408670043945312
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              40
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2859316999965813
+    },
+    {
+      "articleID": 41,
+      "productName": "HONOR Pad X8b Wifi 6GB 128GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.1516771912574768,
+            "region": [
+              0.36821575164794923,
+              0.06519410133361817,
+              0.9489863586425781,
+              0.9369924926757812
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              41
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.011659700001473539
+    },
+    {
+      "articleID": 42,
+      "productName": "Xiaomi Poco Pad X1 8GB 512GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.4612029194831848,
+            "region": [
+              0.12764442443847657,
+              0.04844024658203125,
+              0.8784720039367676,
+              0.9534432983398438
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              42
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.004674700001487508
+    },
+    {
+      "articleID": 43,
+      "productName": "Xiaomi Pad 8 Pro 8GB 128GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.43932634592056274,
+            "region": [
+              0.10816535949707029,
+              0.03933241844177246,
+              0.8968596744537354,
+              0.9595578002929688
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              43
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.004798200003278907
+    },
+    {
+      "articleID": 44,
+      "productName": "Xiaomi Poco Pad M1 Wifi 8GB 256GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.18084517121315002,
+            "region": [
+              0.41697025299072266,
+              0.08291930198669434,
+              0.9562053680419922,
+              0.915693130493164
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              44
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.00456069999927422
+    },
+    {
+      "articleID": 45,
+      "productName": "iPad A16 Wifi 128GB 2025 | Chính hãng Apple Việt Nam",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.2327093482017517,
+            "region": [
+              0.08625250816345215,
+              0.029930620193481444,
+              0.9127838134765625,
+              0.944268569946289
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              45,
+              54
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.007418999994115438
+    },
+    {
+      "articleID": 46,
+      "productName": "Samsung Galaxy Tab S11 Wifi 12GB 128GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.31403881311416626,
+            "region": [
+              0.2488787841796875,
+              0.14045819282531738,
+              0.6912753295898437,
+              0.8041312408447265
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              46
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.0054348999983631074
+    },
+    {
+      "articleID": 47,
+      "productName": "Lenovo Idea Tab Pro Gen 2 Matte Edition 8GB 256GB ZAHD0452VN - Kèm bút, bàn phím",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.47132688760757446,
+            "region": [
+              0.4124005126953125,
+              0.26197927474975585,
+              0.9440631866455078,
+              0.6466548919677735
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              47
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.005017899995436892
+    },
+    {
+      "articleID": 48,
+      "productName": "Samsung Galaxy Tab S10 FE Wifi 12GB 256GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.48527005314826965,
+            "region": [
+              0.11324063301086426,
+              0.23581521987915038,
+              0.9387541961669922,
+              0.7544355010986328
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              48,
+              59
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.007620099997438956
+    },
+    {
+      "articleID": 49,
+      "productName": "iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam",
+      "categoryID": 3,
+      "resolved": false,
+      "response": {
+        "regions": [],
+        "fallback": false,
+        "missingCategoryIDs": [
+          3
+        ],
+        "message": "Chưa nhận diện được vùng phù hợp cho: Máy tính bảng. Bạn có thể tìm bằng toàn ảnh."
+      },
+      "seconds": 0.005541799997445196
+    },
+    {
+      "articleID": 50,
+      "productName": "Lenovo Legion Tab Gen 5 12GB 256GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.3809947669506073,
+            "region": [
+              0.13905990600585938,
+              0.027420668601989745,
+              0.8764603424072266,
+              0.9682131958007812
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              50
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.004887600000074599
+    },
+    {
+      "articleID": 51,
+      "productName": "Samsung Galaxy Tab S10 Lite Wifi 6GB 128GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.31145375967025757,
+            "region": [
+              0.23507026672363282,
+              0.13990497589111328,
+              0.6821633911132813,
+              0.8165725708007813
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              51
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.004812899998796638
+    },
+    {
+      "articleID": 52,
+      "productName": "Huawei MatePad 11.5 S 2026 12GB 256GB - Kèm bàn phím",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.4711483418941498,
+            "region": [
+              0.016010582447052002,
+              0.1926352310180664,
+              0.5816469955444336,
+              0.5968264389038086
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              52
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.00514860000112094
+    },
+    {
+      "articleID": 53,
+      "productName": "Lenovo Yoga Tab Wifi 12GB 256GB TB710 ZAG60105VN - Kèm bút, bàn phím",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.5384671092033386,
+            "region": [
+              0.445881233215332,
+              0.24894945144653322,
+              0.9843144226074219,
+              0.6514964294433594
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              53
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.004554600003757514
+    },
+    {
+      "articleID": 54,
+      "productName": "iPad A16 Wifi 256GB 2025 | Chính hãng Apple Việt Nam",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.2327093482017517,
+            "region": [
+              0.08625250816345215,
+              0.029930620193481444,
+              0.9127838134765625,
+              0.944268569946289
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              45,
+              54
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.006746999999450054
+    },
+    {
+      "articleID": 55,
+      "productName": "HONOR Pad 10 Wifi 8GB 256GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.522238552570343,
+            "region": [
+              0.04324507713317871,
+              0.05149698257446289,
+              0.9671363830566406,
+              0.9599423217773437
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              55
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.0055055000048014335
+    },
+    {
+      "articleID": 56,
+      "productName": "iPad Air 11 inch M4 Wifi 128GB 2026 | Chính hãng",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.15351471304893494,
+            "region": [
+              0.2593589401245117,
+              0.0661335563659668,
+              0.8912267303466797,
+              0.9360172271728515
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              56,
+              60
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.005350499995984137
+    },
+    {
+      "articleID": 57,
+      "productName": "iPad Pro chip M5 11 inch Wifi 256GB | Chính hãng Apple Việt Nam",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.32450371980667114,
+            "region": [
+              0.10960433959960936,
+              0.04286795616149902,
+              0.897441234588623,
+              0.9548834228515625
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              57
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.005568599997786805
+    },
+    {
+      "articleID": 58,
+      "productName": "Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.39507028460502625,
+            "region": [
+              0.10961196899414061,
+              0.031960904598236084,
+              0.8962350177764893,
+              0.9700013732910157
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              58
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.006871400000818539
+    },
+    {
+      "articleID": 59,
+      "productName": "Samsung Galaxy Tab S10 FE Wifi 8GB 128GB",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.48527005314826965,
+            "region": [
+              0.11324063301086426,
+              0.23581521987915038,
+              0.9387541961669922,
+              0.7544355010986328
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              48,
+              59
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.0049384999947506
+    },
+    {
+      "articleID": 60,
+      "productName": "iPad Air 11 inch M4 Wifi 256GB 2026 | Chính hãng",
+      "categoryID": 3,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.15351471304893494,
+            "region": [
+              0.2593589401245117,
+              0.0661335563659668,
+              0.8912267303466797,
+              0.9360172271728515
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              56,
+              60
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.0052177000034134835
+    },
+    {
+      "articleID": 61,
+      "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore R60i NC",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.221657857298851,
+            "region": [
+              0.316275634765625,
+              0.258515567779541,
+              0.5044453048706055,
+              0.537456169128418
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              61
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2680258999971556
+    },
+    {
+      "articleID": 62,
+      "productName": "Tai nghe không dây Anker Soundcore Aeroclip 2",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.33878135681152344,
+            "region": [
+              0.24704166412353515,
+              0.1870793342590332,
+              0.46341522216796877,
+              0.40486190795898436
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              62
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.3312976000015624
+    },
+    {
+      "articleID": 63,
+      "productName": "Tai nghe không dây thể thao Shokz OpenDots 2 (E320)",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.22690197825431824,
+            "region": [
+              0.0531243371963501,
+              0.4656499481201172,
+              0.5559309768676758,
+              0.5632059478759766
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              63
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2790681999977096
+    },
+    {
+      "articleID": 64,
+      "productName": "Tai nghe Bluetooth Samsung Galaxy Buds Core (ANC) - Đã kích hoạt",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.15259237587451935,
+            "region": [
+              0.08476753234863277,
+              0.541257095336914,
+              0.48689323425292974,
+              0.795652084350586
+            ],
+            "sourceTransform": "flip_horizontal",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              64
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 6.43603720000101
+    },
+    {
+      "articleID": 65,
+      "productName": "Tai nghe Bluetooth True Wireless Anker Soundcore Liberty 5 Pro",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.33946356177330017,
+            "region": [
+              0.2444310188293457,
+              0.18608409881591798,
+              0.6218846893310547,
+              0.4961112594604492
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              65
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.3068461000002571
+    },
+    {
+      "articleID": 66,
+      "productName": "Tai nghe Bluetooth không dây Xiaomi Buds 6 (ANC)",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2139555662870407,
+            "region": [
+              0.03467413902282715,
+              0.33793643951416014,
+              0.5723031616210937,
+              0.6210067367553711
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              66
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2912145000009332
+    },
+    {
+      "articleID": 67,
+      "productName": "Tai nghe Sennheiser MOMENTUM True Wireless 5",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.2890215516090393,
+            "region": [
+              0.10944199562072754,
+              0.25886997222900393,
+              0.5795198822021485,
+              0.557499885559082
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              67
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.3062607000028947
+    },
+    {
+      "articleID": 68,
+      "productName": "Tai nghe chụp tai không dây chống ồn Xiaomi Redmi Neo",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.8225722312927246,
+            "region": [
+              0.001418381929397583,
+              0.18318548202514648,
+              0.6190222549438477,
+              0.8402137756347656
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              68
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2883182000005036
+    },
+    {
+      "articleID": 69,
+      "productName": "Tai nghe Bluetooth True Wireless Samsung Galaxy Buds 3 Pro",
+      "categoryID": 4,
+      "resolved": false,
+      "response": {
+        "regions": [],
+        "fallback": false,
+        "missingCategoryIDs": [
+          4
+        ],
+        "message": "Chưa nhận diện được vùng phù hợp cho: Tai nghe. Bạn có thể tìm bằng toàn ảnh."
+      },
+      "seconds": 7.705430699999852
+    },
+    {
+      "articleID": 70,
+      "productName": "Tai nghe Samsung Galaxy Buds 4 Pro",
+      "categoryID": 4,
+      "resolved": false,
+      "response": {
+        "regions": [],
+        "fallback": false,
+        "missingCategoryIDs": [
+          4
+        ],
+        "message": "Chưa nhận diện được vùng phù hợp cho: Tai nghe. Bạn có thể tìm bằng toàn ảnh."
+      },
+      "seconds": 7.702501300002041
+    },
+    {
+      "articleID": 71,
+      "productName": "Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Có Dây (MKFW4)",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.16137659549713135,
+            "region": [
+              0.07539764404296878,
+              0.1250305938720703,
+              0.541430778503418,
+              0.4615139389038086
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              71
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 2.5745031999977073
+    },
+    {
+      "articleID": 72,
+      "productName": "Tai nghe Apple EarPods Lightning MWTY3ZA/A | Chính hãng Apple Việt Nam",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.16378040611743927,
+            "region": [
+              0.2678574562072754,
+              0.48830978393554686,
+              0.4138354873657227,
+              1.0
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              72
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.2976075000042329
+    },
+    {
+      "articleID": 73,
+      "productName": "Tai nghe Bluetooth Apple AirPods 4 | Chính hãng Apple Việt Nam",
+      "categoryID": 4,
+      "resolved": false,
+      "response": {
+        "regions": [],
+        "fallback": false,
+        "missingCategoryIDs": [
+          4
+        ],
+        "message": "Chưa nhận diện được vùng phù hợp cho: Tai nghe. Bạn có thể tìm bằng toàn ảnh."
+      },
+      "seconds": 7.771584300004179
+    },
+    {
+      "articleID": 74,
+      "productName": "Tai nghe Bluetooth Apple AirPods Pro 3 2025 Type-C | Chính hãng (MFHP4ZP/A)",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.1738303005695343,
+            "region": [
+              0.12168255805969239,
+              0.22706148147583008,
+              0.513525619506836,
+              0.863687744140625
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              74
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.308417100000952
+    },
+    {
+      "articleID": 75,
+      "productName": "Tai nghe Bluetooth Apple AirPods 5 2026 Sạc Không Dây (MKFT4)",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.1785084307193756,
+            "region": [
+              0.07190574645996095,
+              0.12229880332946777,
+              0.5438876342773438,
+              0.4647661209106445
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              75
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 3.052351300000737
+    },
+    {
+      "articleID": 76,
+      "productName": "Tai nghe Apple EarPods USB-C MYQY3ZA/A | Chính hãng Apple Việt Nam",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.16401909291744232,
+            "region": [
+              0.24828920364379883,
+              0.5030505752563477,
+              0.3793765640258789,
+              1.0
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              76
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.4999529999986407
+    },
+    {
+      "articleID": 77,
+      "productName": "Tai nghe Bluetooth Apple AirPods Pro 2 2023 USB-C | Chính hãng Apple Việt Nam",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.17509004473686218,
+            "region": [
+              0.057701616287231444,
+              0.19950777053833008,
+              0.2675317764282227,
+              0.4871186065673828
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              77
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.3612444000027608
+    },
+    {
+      "articleID": 78,
+      "productName": "Tai nghe Bluetooth Apple AirPods 4 chống ồn chủ động | Chính hãng Apple Việt Nam",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.15137937664985657,
+            "region": [
+              0.012368828058242798,
+              0.23213470458984375,
+              0.6100765609741211,
+              0.4730558395385742
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              78
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.547790199998417
+    },
+    {
+      "articleID": 79,
+      "productName": "Tai nghe Bluetooth True Wireless Beats Solo Buds",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.19409048557281494,
+            "region": [
+              0.06807634353637695,
+              0.25927263259887695,
+              0.5478252029418945,
+              0.5239134979248047
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              79
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.3457685999965179
+    },
+    {
+      "articleID": 80,
+      "productName": "Tai nghe chụp tai chống ồn Apple AirPods Max 2024 | Chính hãng Apple Việt Nam",
+      "categoryID": 4,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "headphones",
+            "categoryID": 4,
+            "score": 0.9103320837020874,
+            "region": [
+              0.09584668159484863,
+              0.05722156047821045,
+              0.9031376647949219,
+              0.9427532196044922
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              80
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 1.298055100000056
+    },
+    {
+      "articleID": 81,
+      "productName": "Đồng hồ thông minh Huawei Watch Fit 5 Dây Cao Su",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7352684140205383,
+            "region": [
+              0.06777876853942871,
+              0.18684854507446289,
+              0.7042935180664063,
+              0.9159991455078125
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              81
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.01549929999600863
+    },
+    {
+      "articleID": 82,
+      "productName": "Đồng hồ thông minh Huawei Watch GT7 46mm",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7123014330863953,
+            "region": [
+              0.04947054386138916,
+              0.19169654846191406,
+              0.6673141479492187,
+              0.9110779571533203
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              82
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.007200299995020032
+    },
+    {
+      "articleID": 83,
+      "productName": "Đồng hồ thông minh Samsung Galaxy Watch9 40mm",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7096467614173889,
+            "region": [
+              0.04918494701385498,
+              0.1876005744934082,
+              0.6653364562988281,
+              0.9031584167480469
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              83
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.009795799996936694
+    },
+    {
+      "articleID": 84,
+      "productName": "Đồng hồ thông minh Garmin Fenix 9 43mm AMOLED viền Titanium",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7479671835899353,
+            "region": [
+              0.04397162914276123,
+              0.19398345947265624,
+              0.6716251373291016,
+              0.9072573089599609
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              84
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.009442800001124851
+    },
+    {
+      "articleID": 86,
+      "productName": "Đồng hồ thông minh COROS PACE 4 PRO dây cao su",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7384504079818726,
+            "region": [
+              0.06982186317443848,
+              0.20061895370483399,
+              0.6180151748657227,
+              0.9076023101806641
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              86
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.007942099997308105
+    },
+    {
+      "articleID": 88,
+      "productName": "Đồng hồ thông minh Xiaomi Watch 5",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7042335271835327,
+            "region": [
+              0.020812420845031737,
+              0.20503982543945312,
+              0.6626564025878906,
+              0.8883023071289062
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              88
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.011861400002089795
+    },
+    {
+      "articleID": 89,
+      "productName": "Đồng hồ thông minh Xiaomi Redmi Watch 6 Active",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7049387693405151,
+            "region": [
+              0.03162616491317749,
+              0.20233600616455077,
+              0.6635491180419922,
+              0.9068388366699218
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              89
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.010837100002390798
+    },
+    {
+      "articleID": 91,
+      "productName": "Đồng hồ thông minh Amazfit Active 2",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6794970035552979,
+            "region": [
+              0.033684701919555665,
+              0.20249452590942382,
+              0.6698416137695312,
+              0.9074043273925781
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              91
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.007205299996712711
+    },
+    {
+      "articleID": 92,
+      "productName": "Đồng hồ thông minh Amazfit Active Max",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7471081614494324,
+            "region": [
+              0.019786030054092407,
+              0.1932145118713379,
+              0.7025199127197266,
+              0.9159171295166015
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              92
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.011046700004953891
+    },
+    {
+      "articleID": 93,
+      "productName": "Đồng hồ thông minh Amazfit Active 2 Premium Sapphire",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6848583817481995,
+            "region": [
+              0.025072841644287108,
+              0.17350982666015624,
+              0.6807026672363281,
+              0.9148180389404297
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              93
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.007542999999714084
+    },
+    {
+      "articleID": 94,
+      "productName": "Đồng hồ thông minh Amazfit Balance 3",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7361027002334595,
+            "region": [
+              0.031950860023498534,
+              0.27454849243164064,
+              0.67644287109375,
+              0.9318589782714843
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              94
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.011196400002518203
+    },
+    {
+      "articleID": 95,
+      "productName": "Apple Watch SE 3 GPS 40mm Viền nhôm dây cao su",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.36761459708213806,
+            "region": [
+              0.1227628326416016,
+              0.02720191955566406,
+              0.9029065322875977,
+              0.9004683685302735
+            ],
+            "sourceTransform": "rotate270cw",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              95
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.034802700000000186
+    },
+    {
+      "articleID": 97,
+      "productName": "Huawei Watch GT 7 41mm Silicone",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.8098069429397583,
+            "region": [
+              0.10098269462585449,
+              0.03943294286727905,
+              0.8888510131835937,
+              0.9798385620117187
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              97
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.03369139999995241
+    },
+    {
+      "articleID": 99,
+      "productName": "Apple Watch Series 11 GPS 46mm Viền nhôm dây cao su",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4537566304206848,
+            "region": [
+              0.10455575942993164,
+              0.03463757038116455,
+              0.8957420349121094,
+              0.9814578247070312
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              99
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.027174399998330045
+    },
+    {
+      "articleID": 101,
+      "productName": "Đồng hồ định vị trẻ em Masstel Smart Hero GO",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4050714373588562,
+            "region": [
+              0.05626925786336263,
+              0.012724488576253256,
+              0.9354427083333333,
+              0.9886631266276041
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              101
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.0190435000040452
+    },
+    {
+      "articleID": 102,
+      "productName": "Đồng hồ định vị trẻ em E-KIDS F1",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6192088723182678,
+            "region": [
+              0.0985877513885498,
+              0.03940773010253906,
+              0.8945880889892578,
+              0.9781948089599609
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              102
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.03196489999390906
+    },
+    {
+      "articleID": 103,
+      "productName": "Apple Watch Ultra 3 GPS + Cellular 49mm Viền titan Dây Ocean",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.4865192770957947,
+            "region": [
+              0.08135899543762207,
+              0.04445085048675537,
+              0.8601069641113281,
+              0.9899016571044922
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              103
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.046795900001598056
+    },
+    {
+      "articleID": 106,
+      "productName": "Honor Choice Watch 2i",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.8177257776260376,
+            "region": [
+              0.10165077209472656,
+              0.0354471492767334,
+              0.8963212585449218,
+              0.9693465423583985
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              106
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.032804200003738515
+    },
+    {
+      "articleID": 107,
+      "productName": "Honor Choice Infowear Watch 2 Pro",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.7717674970626831,
+            "region": [
+              0.09712112426757813,
+              0.0383211088180542,
+              0.9035722351074219,
+              0.9767037963867188
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              107
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.03464879999955883
+    },
+    {
+      "articleID": 108,
+      "productName": "Samsung Galaxy Watch9 40mm Bluetooth",
+      "categoryID": 5,
+      "resolved": true,
+      "response": {
+        "regions": [
+          {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.6192374229431152,
+            "region": [
+              0.09359598159790039,
+              0.030724406242370605,
+              0.9038950347900391,
+              0.9741991424560547
+            ],
+            "sourceTransform": "original",
+            "labelSource": "provided_catalogue",
+            "targetIndex": 0,
+            "articleIDs": [
+              108
+            ]
+          }
+        ],
+        "fallback": false,
+        "missingCategoryIDs": []
+      },
+      "seconds": 0.051470999998855405
+    }
+  ],
+  "errors": [],
+  "limits": "Assisted label selection on supplied photos, not raw detector accuracy.",
+  "summary": {
+    "1": {
+      "total": 20,
+      "resolved": 20,
+      "missingIDs": []
+    },
+    "2": {
+      "total": 20,
+      "resolved": 20,
+      "missingIDs": []
+    },
+    "3": {
+      "total": 20,
+      "resolved": 19,
+      "missingIDs": [
+        49
+      ]
+    },
+    "4": {
+      "total": 20,
+      "resolved": 17,
+      "missingIDs": [
+        69,
+        70,
+        73
+      ]
+    },
+    "5": {
+      "total": 20,
+      "resolved": 20,
+      "missingIDs": []
+    }
+  }
+}

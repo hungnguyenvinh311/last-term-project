@@ -1,0 +1,29 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-xiaomi-17t-pro-12gb-1tb",
+  "source_url": "https://cellphones.com.vn/dien-thoai-xiaomi-17t-pro-12gb-1tb.html",
+  "productName": "Xiaomi 17T Pro 12GB 1TB",
+  "brand": "Xiaomi",
+  "description": "Điện thoại Xiaomi 17T Pro 12GB 1TB mới ra mắt giá chỉ từ 21.49Tr, ưu đãi 20Tr, Bảo hành 24 tháng tặng thêm 6 tháng rơi vỡ màn. Đặt trước 17T 1TB ngay.",
+  "technicalSpecs": {
+    "Chipset": "MediaTek Dimensity 9500",
+    "Dung lượng RAM": "12 GB",
+    "Bộ nhớ trong": "1 TB",
+    "Kích thước màn hình": "6.83 inches",
+    "Công nghệ màn hình": "AMOLED",
+    "Tính năng màn hình": "Độ sáng tối đa 3500 nits, tối thiểu 1 nit; 68 tỷ màu; dải màu điện ảnh DCI-P3; DC dimming; HDR10+; Dolby Vision; chứng nhận TÜV Rheinland Low Blue Light (Hardware Solution), Flicker Free, Circadian Friendly, Intelligent Eye Care",
+    "Camera sau": "Camera chính Leica 50MP f/1.67 OIS, Camera tele Leica 5X 50MP f/3.0 OIS, Camera góc siêu rộng Leica 12MP f/2.2",
+    "Camera trước": "32MP f/2.2, 90°, tiêu cự 21mm",
+    "Pin": "7000mAh",
+    "Hỗ trợ mạng": "5G"
+  },
+  "price": "23490000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/x/i/xiaomi-17t-pro-2_3.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:13.691042+00:00"
+}

@@ -1,0 +1,5 @@
+open_clip_torch>=2.24,<4
+transformers>=4.40,<5
+torch>=2.2,<3
+torchvision>=0.17,<1
+

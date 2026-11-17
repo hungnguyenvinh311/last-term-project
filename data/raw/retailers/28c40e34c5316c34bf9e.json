@@ -1,0 +1,36 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-honor-600",
+  "source_url": "https://cellphones.com.vn/dien-thoai-honor-600.html",
+  "productName": "HONOR 600 5G 8GB 256GB",
+  "brand": "HONOR",
+  "description": "HONOR 600 5G hỗ trợ eSIM, kháng nước bụi IP69K, camera 200MP. Giảm 8.15tr, có thu cũ, trả góp 0%, đổi mới 100 ngày, BH 24 tháng. Mua ngay!",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "MagicOS 10, dựa trên Android 16",
+    "Chipset": "Snapdragon 7 Gen 4",
+    "Dung lượng RAM": "8 GB",
+    "Bộ nhớ trong": "256 GB",
+    "Loại CPU": "8 nhân",
+    "GPU": "Adreno 722",
+    "Kích thước màn hình": "6.57 inches",
+    "Công nghệ màn hình": "AMOLED",
+    "Độ phân giải màn hình": "2728 x 1264 pixels",
+    "Tính năng màn hình": "Tần số quét 120Hz1,07 tỷ màuĐộ sáng 8000 nitsAI HDR 2.0458 PPIDải màu rộng DCI-P3",
+    "Camera sau": "200 MP, f/1.9",
+    "Camera trước": "50 MP, f/2.0",
+    "Pin": "7000 mAh",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "2 Nano SIM hoặc 1 Nano + 1 eSIM",
+    "Công nghệ NFC": "Có",
+    "Thời điểm ra mắt": "06/2026"
+  },
+  "price": "16790000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/d/i/dien-thoai-honor-600-cam.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:40:37.635583+00:00"
+}

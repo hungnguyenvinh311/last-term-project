@@ -1,0 +1,30 @@
+{
+  "products": 100,
+  "category_counts": {
+    "Smartphone": 20,
+    "Laptop": 20,
+    "Tablet": 20,
+    "Headphones": 20,
+    "Smartwatch": 20
+  },
+  "shortfalls": {
+    "Smartphone": 0,
+    "Laptop": 0,
+    "Tablet": 0,
+    "Headphones": 0,
+    "Smartwatch": 0
+  },
+  "products_with_main_image": 100,
+  "products_with_source_price": 100,
+  "downloaded_images": 100,
+  "unique_image_bytes": 96,
+  "duplicate_product_ids": 0,
+  "orphan_images": [],
+  "invalid_images": [],
+  "main_image_ownership_mismatches": [],
+  "provenance_matches": true,
+  "missing_brands": 2,
+  "missing_specs": 1,
+  "embeddings_generated": false,
+  "source_prices": "Product-page JSON-LD snapshots; not guaranteed future checkout prices"
+}

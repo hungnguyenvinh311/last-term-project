@@ -1,0 +1,31 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-acer-swift-air-14-sfa14-i31-55nr",
+  "source_url": "https://cellphones.com.vn/laptop-acer-swift-air-14-sfa14-i31-55nr.html",
+  "productName": "Laptop Acer Swift Air 14 SFA14-I31-55NR",
+  "brand": "Acer",
+  "description": "Mua ngay Laptop Acer Swift Air 14 SFA14-I31-55NR giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Loại card đồ họa": "Intel Graphics",
+    "Dung lượng RAM": "12GB",
+    "Loại RAM": "LPDDR5X 7467 MT/s Onboard",
+    "Số khe ram": "Không nâng cấp",
+    "Ổ cứng": "512GB PCIe NVMe SSD (Nâng cấp tối đa 2TB)",
+    "Công nghệ màn hình": "Độ sáng 350 nits Tỉ lệ màn hình 16:10 Độ phủ màu 100% sRGB Góc nhìn 170° Màn hình LED-backlit TFT LCD",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home",
+    "Loại CPU": "Intel Core 5 320 (6 lõi / 6 luồng, Tần số cơ bản của nhân hiệu năng cao 1.5 GHz, 3.0 up to 4.6 GHz, 6 MB Smart Cache)",
+    "Kích thước màn hình": "14 inches",
+    "Độ phân giải màn hình": "1920 x 1200 pixels (WUXGA)",
+    "Pin": "70 Wh 3-cell Li-ion battery  3-pin 100 W PD PCR 50%, TCO 9.0 AC adapter",
+    "Cổng giao tiếp": "2x USB-C (USB4 40Gbps, Thunderbolt 4, sạc 5V/3A) 1x USB-C (DC-in 20V/100W) 1x USB-A 3.2 Gen 1"
+  },
+  "price": "24990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/g/r/group_945_2_8.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:42:09.268630+00:00"
+}

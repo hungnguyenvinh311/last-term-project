@@ -1,0 +1,35 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-xiaomi-redmi-note-14-pro-plus",
+  "source_url": "https://cellphones.com.vn/dien-thoai-xiaomi-redmi-note-14-pro-plus.html",
+  "productName": "Xiaomi Redmi Note 14 Pro Plus 5G 8GB 256GB",
+  "brand": "Xiaomi",
+  "description": "Xiaomi Redmi Note 14 Pro+ 5G màn 6.67 inch 120Hz, camera 200MP, pin 5110mAh, sạc 120W. Mua Note 14 Pro Plus 5G giảm 26% tại CellphoneS.",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "Android 14",
+    "Chipset": "Snapdragon® 7s Gen 3",
+    "Dung lượng RAM": "8 GB",
+    "Bộ nhớ trong": "256 GB",
+    "Loại CPU": "8 nhân, xung nhịp 2.5Ghz",
+    "GPU": "Qualcomm® Adreno™ GPU",
+    "Kích thước màn hình": "6.67 inches",
+    "Công nghệ màn hình": "AMOLED",
+    "Độ phân giải màn hình": "2712 x 1220 pixels",
+    "Tính năng màn hình": "Tần số quét: Lên đến 120Hz  Độ sáng: 3000 nits   Độ sâu màu: 12-bit  Tỷ lệ tương phản: 5,000,000:1",
+    "Camera sau": "Chính 200MP, OIS - f/1.65  Góc siêu rộng 8MP - f/2.2 Macro 2MP - f/2.4 ",
+    "Camera trước": "Camera trước - f/2.2",
+    "Pin": " 5110 mAh",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "2 Nano-SIM",
+    "Công nghệ NFC": "Có"
+  },
+  "price": "8490000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/x/i/xiaomi-redmi-note-14-pro-plus.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:40:46.005050+00:00"
+}

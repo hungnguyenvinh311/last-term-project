@@ -1,0 +1,31 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-hp-victus-15-fa2731tx-b85lnpa",
+  "source_url": "https://cellphones.com.vn/laptop-hp-victus-15-fa2731tx-b85lnpa.html",
+  "productName": "Laptop HP Victus 15-FA2731TX B85LNPA",
+  "brand": "HP",
+  "description": "Mua ngay Laptop HP Victus 15-FA2731TX B85LNPA giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Loại card đồ họa": "NVIDIA GeForce RTX 3050 (6GB of GDDR6 SDRAM, Bus Width: 96- bit)  Intel UHD Graphics",
+    "Dung lượng RAM": "16GB",
+    "Loại RAM": "DDR4 3200MHz",
+    "Số khe ram": "2 khe (1 x 16GB)",
+    "Ổ cứng": "512GB SSD1 PCIe (M.2 2280)",
+    "Công nghệ màn hình": "Màn hình chống chói",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home Single Language 64-bit",
+    "Loại CPU": "Intel Core i5-13420H (8 lõi) - Max Turbo Frequency: 4.60 GHz",
+    "Kích thước màn hình": "15.6 inches",
+    "Độ phân giải màn hình": "1920 x 1080 pixels (FullHD)",
+    "Pin": "3 Cell Int (52.5Wh)",
+    "Cổng giao tiếp": "1 x USB 3.2 Gen 1 Type-C (hỗ trợ DisplayPort, HP Sleep and Charge) 2 x USB 3.2 Gen 1 Type-A (một cổng hỗ trợ HP Sleep and Charge) 1 x HDMI 1 x RJ45 (LAN) 1 x Giắc cắm âm thanh kết hợp tai nghe/micrô 1 x SSD2 PCIe (M.2 2280)"
+  },
+  "price": "27990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/t/e/text_d_i_7_78.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:43:25.463163+00:00"
+}

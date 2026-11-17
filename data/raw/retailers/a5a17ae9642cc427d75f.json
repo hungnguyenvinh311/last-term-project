@@ -1,0 +1,29 @@
+{
+  "provider": "cellphones",
+  "source_id": "may-tinh-bang-huawei-matepad-11-5-s-2026",
+  "source_url": "https://cellphones.com.vn/may-tinh-bang-huawei-matepad-11-5-s-2026.html",
+  "productName": "Huawei MatePad 11.5 S 2026 12GB 256GB - Kèm bàn phím",
+  "brand": "Huawei",
+  "description": "Mua máy tính bảng Huawei Matepad 11.5 S 2026 chip mạnh, pin trâu, màn hình 144Hz - Chính hãng, giá rẻ, thu cũ đổi mới, đổi trả 30 ngày, trả góp 0%",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "HarmonyOS 4.3",
+    "Dung lượng RAM": "12 GB",
+    "Bộ nhớ trong": "256 GB",
+    "Kích thước màn hình": "11.5 inches",
+    "Công nghệ màn hình": "LCD",
+    "Độ phân giải màn hình": "2800 x 1840  pixels",
+    "Tính năng màn hình": "Tần số quét 144 Hz291 PPIĐộ sáng tối đa 500 nits16.7 triệu màuGam màu rộng P3Tốc độ làm mới thích ứng 30~144 HzTỷ lệ tương phản 1500:1Chống lóa, chống phản chiếu",
+    "Camera sau": "13 MP, f/1.8",
+    "Camera trước": "8 MP, f/2.0",
+    "Pin": "8800 mAh"
+  },
+  "price": "11990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/h/u/huawei-matepad-11-5-s-2026_1.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:44:21.658082+00:00"
+}

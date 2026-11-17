@@ -1,0 +1,2950 @@
+[
+  {
+    "articleID": 1,
+    "provider": "bestbuy_open_data",
+    "source_id": "1010401",
+    "source_url": "http://www.bestbuy.com/site/american-audio-headphones-black-silver/1010401.p?id=1218208999696&skuId=1010401CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat144700050004",
+        "name": "All Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1010/1010401_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.869636+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 2,
+    "provider": "bestbuy_open_data",
+    "source_id": "1019184",
+    "source_url": "http://www.bestbuy.com/site/stanton-dj-pro-60-over-the-ear-stereo-headphones-white/1019184.p?id=1218209649850&skuId=1019184CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      },
+      {
+        "id": "pcmcat331200050001",
+        "name": "Over-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1019/1019184_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.869636+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 3,
+    "provider": "bestbuy_open_data",
+    "source_id": "1095039",
+    "source_url": "http://www.bestbuy.com/site/blue-microphones-mo-fi-over-the-ear-headphones-gray/1095039.p?id=1219469043846&skuId=1095039&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1095/1095039_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 4,
+    "provider": "bestbuy_open_data",
+    "source_id": "1121006",
+    "source_url": "http://www.bestbuy.com/site/lg-g-pad-7-0-7-8gb-wi-fi-4g-lte-at-t-black/1121006.p?id=1219475168867&skuId=1121006&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1121/1121006_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 8,
+    "provider": "bestbuy_open_data",
+    "source_id": "1126083",
+    "source_url": "http://www.bestbuy.com/site/blu-dash-jr-w-d141w-cell-phone-unlocked-black/1126083.p?id=1219470060430&skuId=1126083&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1126/1126083_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 5,
+    "provider": "bestbuy_open_data",
+    "source_id": "1152086",
+    "source_url": "http://www.bestbuy.com/site/klipsch-reference-r6m-earbud-headphones-black/1152086.p?id=1219473306986&skuId=1152086&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050007",
+        "name": "Earbud & In-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1152/1152086_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 10,
+    "provider": "bestbuy_open_data",
+    "source_id": "1152119",
+    "source_url": "http://www.bestbuy.com/site/klipsch-x4i-earbud-headphones-black/1152119.p?id=1219473302124&skuId=1152119&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050007",
+        "name": "Earbud & In-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1308/1308825821/1308825821_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 11,
+    "provider": "bestbuy_open_data",
+    "source_id": "1154093",
+    "source_url": "http://www.bestbuy.com/site/life-n-soul-bluetooth-over-the-ear-headphones-white/1154093.p?id=1219473307688&skuId=1154093CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      },
+      {
+        "id": "pcmcat331200050001",
+        "name": "Over-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1154/1154093_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 12,
+    "provider": "bestbuy_open_data",
+    "source_id": "1154126",
+    "source_url": "http://www.bestbuy.com/site/life-n-soul-bluetooth-designer-over-the-ear-headphones-white/1154126.p?id=1219473303571&skuId=1154126&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      },
+      {
+        "id": "pcmcat331200050001",
+        "name": "Over-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1154/1154126_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 13,
+    "provider": "bestbuy_open_data",
+    "source_id": "1154135",
+    "source_url": "http://www.bestbuy.com/site/life-n-soul-bluetooth-over-the-ear-headphones-pink-black/1154135.p?id=1219473307554&skuId=1154135CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      },
+      {
+        "id": "pcmcat331200050001",
+        "name": "Over-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1154/1154135_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 14,
+    "provider": "bestbuy_open_data",
+    "source_id": "1154162",
+    "source_url": "http://www.bestbuy.com/site/life-n-soul-bluetooth-sports-earbud-headphones-orange/1154162.p?id=1219473304651&skuId=1154162&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat306200050003",
+        "name": "Sports Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1154/1154162_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 15,
+    "provider": "bestbuy_open_data",
+    "source_id": "1154204",
+    "source_url": "http://www.bestbuy.com/site/life-n-soul-earbud-headphones-with-bluetooth-adapter-black/1154204.p?id=1219473300659&skuId=1154204&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050007",
+        "name": "Earbud & In-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1154/1154204_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 16,
+    "provider": "bestbuy_open_data",
+    "source_id": "1154231",
+    "source_url": "http://www.bestbuy.com/site/life-n-soul-wireless-bluetooth-over-the-ear-headphones-blue-red/1154231.p?id=1219473304517&skuId=1154231&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat331200050015",
+        "name": "Wireless Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1154/1154231_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 17,
+    "provider": "bestbuy_open_data",
+    "source_id": "1154354",
+    "source_url": "http://www.bestbuy.com/site/life-n-soul-bluetooth-designer-over-the-ear-headphones-purple/1154354.p?id=1219473300669&skuId=1154354CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      },
+      {
+        "id": "pcmcat331200050001",
+        "name": "Over-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1154/1154354_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 18,
+    "provider": "bestbuy_open_data",
+    "source_id": "1154363",
+    "source_url": "http://www.bestbuy.com/site/life-n-soul-bluetooth-sports-earbud-headphones-green/1154363.p?id=1219473307187&skuId=1154363&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat306200050003",
+        "name": "Sports Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1154/1154363_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 19,
+    "provider": "bestbuy_open_data",
+    "source_id": "1154405",
+    "source_url": "http://www.bestbuy.com/site/life-n-soul-bluetooth-over-the-ear-headphones-chrome-black/1154405.p?id=1219473305145&skuId=1154405CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      },
+      {
+        "id": "pcmcat331200050001",
+        "name": "Over-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1154/1154405_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 20,
+    "provider": "bestbuy_open_data",
+    "source_id": "1154423",
+    "source_url": "http://www.bestbuy.com/site/life-n-soul-bluetooth-over-the-ear-headphones-white-red/1154423.p?id=1219473306302&skuId=1154423&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      },
+      {
+        "id": "pcmcat331200050001",
+        "name": "Over-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1154/1154423_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.871642+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 9,
+    "provider": "bestbuy_open_data",
+    "source_id": "1191138",
+    "source_url": "http://www.bestbuy.com/site/connecteddevice-cogito-pop-3-0-smartwatch-42mm-polycarbonate-blue-electric-silicone/1191138.p?id=1219478145769&skuId=1191138CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1191/1191138_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.873148+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 21,
+    "provider": "bestbuy_open_data",
+    "source_id": "1191147",
+    "source_url": "http://www.bestbuy.com/site/connecteddevice-cookoo-2-0-smart-watch-for-select-android-and-apple-ios-devices-purple/1191147.p?id=1219478146774&skuId=1191147CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1191/1191147_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.873148+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 22,
+    "provider": "bestbuy_open_data",
+    "source_id": "1239501",
+    "source_url": "http://www.bestbuy.com/site/sennheiser-earbud-headphones-black/1239501.p?id=1219047431341&skuId=1239501&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050007",
+        "name": "Earbud & In-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1239/1239501_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.873148+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 23,
+    "provider": "bestbuy_open_data",
+    "source_id": "1293261",
+    "source_url": "http://www.bestbuy.com/site/toshiba-excite-write-10-1-32gb-silver/1293261.p?id=1219047792693&skuId=1293261&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1293/1293261_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.873148+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 24,
+    "provider": "bestbuy_open_data",
+    "source_id": "1367446",
+    "source_url": "http://www.bestbuy.com/site/kyocera-duraforce-4g-cell-phone-black-at-t/1367446.p?id=1219489109613&skuId=1367446&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat209400050001",
+        "name": "All Cell Phones with Plans"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1367/1367446_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.873148+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 25,
+    "provider": "bestbuy_open_data",
+    "source_id": "1370032",
+    "source_url": "http://www.bestbuy.com/site/motorola-moto-x-cell-phone-black-sprint/1370032.p?id=1219051910091&skuId=1370032&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat209400050001",
+        "name": "All Cell Phones with Plans"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1370/1370032_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.873148+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 26,
+    "provider": "bestbuy_open_data",
+    "source_id": "1383001",
+    "source_url": "http://www.bestbuy.com/site/boost-mobile-apple-iphone-6-16gb-no-contract-cell-phone-space-gray/1383001.p?id=1219491363150&skuId=1383001&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0801002",
+        "name": "No-Contract Phones"
+      },
+      {
+        "id": "pcmcat158500050014",
+        "name": "All No-Contract Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1383/1383001_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.873148+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 27,
+    "provider": "bestbuy_open_data",
+    "source_id": "1432849",
+    "source_url": "http://www.bestbuy.com/site/sennheiser-over-the-ear-headphones-black/1432849.p?id=1218258637184&skuId=1432849&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat144700050004",
+        "name": "All Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1432/1432849_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.875221+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 28,
+    "provider": "bestbuy_open_data",
+    "source_id": "1433042",
+    "source_url": "http://www.bestbuy.com/site/urbanears-plattan-on-ear-headphones-true-white/1433042.p?id=1219492693298&skuId=1433042CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      },
+      {
+        "id": "pcmcat331200050000",
+        "name": "On-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1433/1433042_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.875221+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 29,
+    "provider": "bestbuy_open_data",
+    "source_id": "1433139",
+    "source_url": "http://www.bestbuy.com/site/urbanears-plattan-on-ear-headphones-moss/1433139.p?id=1219492693565&skuId=1433139&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      },
+      {
+        "id": "pcmcat331200050000",
+        "name": "On-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1433/1433139_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.875221+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 30,
+    "provider": "bestbuy_open_data",
+    "source_id": "1433175",
+    "source_url": "http://www.bestbuy.com/site/urbanears-plattan-on-ear-headphones-dark-gray/1433175.p?id=1219492684822&skuId=1433175&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0200000",
+        "name": "Audio"
+      },
+      {
+        "id": "abcat0204000",
+        "name": "Headphones"
+      },
+      {
+        "id": "pcmcat143000050011",
+        "name": "Over-Ear & On-Ear Headphones"
+      },
+      {
+        "id": "pcmcat331200050000",
+        "name": "On-Ear Headphones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1433/1433175_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.875221+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 31,
+    "provider": "bestbuy_open_data",
+    "source_id": "1435004",
+    "source_url": "http://www.bestbuy.com/site/zte-nubia-z5s-mini-4g-cell-phone-unlocked-white-black/1435004.p?id=1219494264219&skuId=1435004&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1435/1435004_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.875221+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 32,
+    "provider": "bestbuy_open_data",
+    "source_id": "1463144",
+    "source_url": "http://www.bestbuy.com/site/microsoft-lumia-920-cell-phone-unlocked-red/1463144.p?id=1219052009002&skuId=1463144&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1463/1463144_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.875221+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 33,
+    "provider": "bestbuy_open_data",
+    "source_id": "1463241",
+    "source_url": "http://www.bestbuy.com/site/microsoft-lumia-920-cell-phone-unlocked-white/1463241.p?id=1219052010713&skuId=1463241&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1463/1463241_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.875221+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 6,
+    "provider": "bestbuy_open_data",
+    "source_id": "1475099",
+    "source_url": "http://www.bestbuy.com/site/asus-13-3-chromebook-intel-celeron-4gb-memory-16gb-emmc-flash-memory-black/1475099.p?id=1219498405393&skuId=1475099&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat244900050010",
+        "name": "Chromebooks"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1312/1312249668/1312249668_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.875221+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 7,
+    "provider": "bestbuy_open_data",
+    "source_id": "1680367",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-express-4g-cell-phone-unlocked-black/1680367.p?id=1219059830638&skuId=1680367&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1680/1680367_500x500_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.879456+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 34,
+    "provider": "bestbuy_open_data",
+    "source_id": "1721037",
+    "source_url": "http://www.bestbuy.com/site/gameband-minecraft-wearable-small-black-tpu/1721037.p?id=1219509180033&skuId=1721037&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1721/1721037_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.879456+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 35,
+    "provider": "bestbuy_open_data",
+    "source_id": "1721046",
+    "source_url": "http://www.bestbuy.com/site/gameband-minecraft-wearable-large-black-tpu/1721046.p?id=1219522901637&skuId=1721046&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1721/1721046_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.879456+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 36,
+    "provider": "bestbuy_open_data",
+    "source_id": "1741029",
+    "source_url": "http://www.bestbuy.com/site/apple-iphone-5s-16gb-space-gray-at-t/1741029.p?id=1219063239865&skuId=1741029&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat209400050001",
+        "name": "All Cell Phones with Plans"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1741/1741029_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.879456+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 37,
+    "provider": "bestbuy_open_data",
+    "source_id": "1747797",
+    "source_url": "http://www.bestbuy.com/site/blackberry-passport-4g-cell-phone-unlocked-black/1747797.p?id=1219509172065&skuId=1747797&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1747/1747797_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.879456+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 38,
+    "provider": "bestbuy_open_data",
+    "source_id": "1758381",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-s-5-4g-cell-phone-unlocked-shimmery-white/1758381.p?id=1219509172130&skuId=1758381&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1758/1758381_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.879456+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 39,
+    "provider": "bestbuy_open_data",
+    "source_id": "1758487",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-s-5-4g-cell-phone-unlocked-charcoal-black/1758487.p?id=1219509175610&skuId=1758487&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1758/1758487_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.879456+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 40,
+    "provider": "bestbuy_open_data",
+    "source_id": "1758621",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-s-5-4g-cell-phone-unlocked-copper-gold/1758621.p?id=1219509171935&skuId=1758621&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/1758/1758621_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.879456+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 41,
+    "provider": "bestbuy_open_data",
+    "source_id": "1789065",
+    "source_url": "http://www.bestbuy.com/site/motorola-moto-x-4g-cell-phone-unlocked-bamboo/1789065.p?id=1219511054133&skuId=1789065&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313734378/1313734378_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.879456+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 42,
+    "provider": "bestbuy_open_data",
+    "source_id": "2108021",
+    "source_url": "http://www.bestbuy.com/site/toshiba-satellite-15-6-laptop-intel-core-i3-4gb-memory-500gb-hard-drive-jet-black/2108021.p?id=1219528553337&skuId=2108021&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/2108/2108021_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.883479+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 43,
+    "provider": "bestbuy_open_data",
+    "source_id": "2178004",
+    "source_url": "http://www.bestbuy.com/site/boost-mobile-zte-speed-4g-no-contract-cell-phone-black/2178004.p?id=1219531560050&skuId=2178004&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0801002",
+        "name": "No-Contract Phones"
+      },
+      {
+        "id": "pcmcat158500050014",
+        "name": "All No-Contract Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/2178/2178004_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.883479+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 44,
+    "provider": "bestbuy_open_data",
+    "source_id": "2359029",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-note-3-4g-with-32gb-memory-cell-phone-unlocked-white/2359029.p?id=1219539712311&skuId=2359029&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/2359/2359029_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.883479+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 45,
+    "provider": "bestbuy_open_data",
+    "source_id": "2386095",
+    "source_url": "http://www.bestbuy.com/site/boost-mobile-samsung-galaxy-prevail-lte-with-8gb-memory-no-contract-cell-phone-white/2386095.p?id=1219573004120&skuId=2386095&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0801002",
+        "name": "No-Contract Phones"
+      },
+      {
+        "id": "pcmcat158500050014",
+        "name": "All No-Contract Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/2386/2386095_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.883479+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 46,
+    "provider": "bestbuy_open_data",
+    "source_id": "2497039",
+    "source_url": "http://www.bestbuy.com/site/verizon-wireless-prepaid-htc-desire-612-4g-lte-with-8gb-memory-no-contract-cell-phone-black-red/2497039.p?id=1219543510021&skuId=2497039&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0801002",
+        "name": "No-Contract Phones"
+      },
+      {
+        "id": "pcmcat158500050014",
+        "name": "All No-Contract Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/2497/2497039_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.883479+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 47,
+    "provider": "bestbuy_open_data",
+    "source_id": "2661102",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-s-4-mini-cell-phone-unlocked-black/2661102.p?id=1219095539838&skuId=2661102&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "pcmcat156400050037",
+        "name": "Unlocked Cell Phones"
+      },
+      {
+        "id": "pcmcat311200050005",
+        "name": "All Unlocked Cell Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/2661/2661102_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.883479+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 48,
+    "provider": "bestbuy_open_data",
+    "source_id": "2664118",
+    "source_url": "http://www.bestbuy.com/site/acer-travelmate-15-6-laptop-intel-core-i5-4gb-memory-500gb-hard-drive-black/2664118.p?id=1219551827374&skuId=2664118&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/2664/2664118_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.883479+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 49,
+    "provider": "bestbuy_open_data",
+    "source_id": "2678045",
+    "source_url": "http://www.bestbuy.com/site/asus-zenbook-13-3-touch-screen-laptop-intel-core-i5-8gb-memory-128gb-ssd-128gb-ssd-dark-blue/2678045.p?id=1219075619364&skuId=2678045CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/2678/2678045_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.883479+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 50,
+    "provider": "bestbuy_open_data",
+    "source_id": "2730039",
+    "source_url": "http://www.bestbuy.com/site/boost-mobile-motorola-moto-e-4g-with-8gb-memory-no-contract-cell-phone-white/2730039.p?id=1219573004130&skuId=2730039&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0801002",
+        "name": "No-Contract Phones"
+      },
+      {
+        "id": "pcmcat158500050014",
+        "name": "All No-Contract Phones"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/2730/2730039_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.883479+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 51,
+    "provider": "bestbuy_open_data",
+    "source_id": "2805009",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-tab-3-7-16gb-wi-fi-4g-lte-sprint-white/2805009.p?id=1219077819359&skuId=2805009&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/2805/2805009_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.883479+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 52,
+    "provider": "bestbuy_open_data",
+    "source_id": "3008072",
+    "source_url": "http://www.bestbuy.com/site/hp-envy-2-in-1-15-6-touch-screen-laptop-intel-core-m-8gb-memory-500gb-hard-drive-natural-silver/3008072.p?id=1219567193112&skuId=3008072&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/3008/3008072_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.893671+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 53,
+    "provider": "bestbuy_open_data",
+    "source_id": "3108026",
+    "source_url": "http://www.bestbuy.com/site/toshiba-satellite-14-laptop-intel-core-i5-8gb-memory-750gb-hard-drive-satin-gold/3108026.p?id=1219570207962&skuId=3108026&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/3108/3108026_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.893671+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 54,
+    "provider": "bestbuy_open_data",
+    "source_id": "3114035",
+    "source_url": "http://www.bestbuy.com/site/samsung-11-6-chromebook-2-intel-celeron-4gb-memory-16gb-emmc-flash-memory-metallic-silver/3114035.p?id=1219570209295&skuId=3114035&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat244900050010",
+        "name": "Chromebooks"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/3114/3114035_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.894756+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 55,
+    "provider": "bestbuy_open_data",
+    "source_id": "3261023",
+    "source_url": "http://www.bestbuy.com/site/acer-iconia-tab-8-8-intel-atom-16gb-silver/3261023.p?id=1219575793840&skuId=3261023&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/3261/3261023_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.895352+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 56,
+    "provider": "bestbuy_open_data",
+    "source_id": "3363093",
+    "source_url": "http://www.bestbuy.com/site/garmin-vivoactive-smartwatch-28-6mm-plastic-black-silicone/3363093.p?id=1219579640800&skuId=3363093&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/3363/3363093_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.897369+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 57,
+    "provider": "bestbuy_open_data",
+    "source_id": "3538056",
+    "source_url": "http://www.bestbuy.com/site/hp-elitebook-850-g1-15-6-laptop-intel-core-i5-4gb-memory-500gb-hard-drive-black/3538056.p?id=1219092112410&skuId=3538056CC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/3538/3538056_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.897369+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 58,
+    "provider": "bestbuy_open_data",
+    "source_id": "3713012",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-tab-3-lite-7-8gb-dark-gray/3713012.p?id=1219093181537&skuId=3713012&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/3713/3713012_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.899376+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 59,
+    "provider": "bestbuy_open_data",
+    "source_id": "3888011",
+    "source_url": "http://www.bestbuy.com/site/surface-refurbished-pro-3-12-intel-core-i5-128gb-silver/3888011.p?id=1219606158116&skuId=3888011&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/3888/3888011_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.899376+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 60,
+    "provider": "bestbuy_open_data",
+    "source_id": "3953816",
+    "source_url": "http://www.bestbuy.com/site/toshiba-15-6-touch-screen-laptop-amd-a8-series-6gb-memory-750gb-hard-drive-jet-black/3953816.p?id=1219610984980&skuId=3953816&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/3953/3953816_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.901386+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 61,
+    "provider": "bestbuy_open_data",
+    "source_id": "4020462",
+    "source_url": "http://www.bestbuy.com/site/acer-11-6-chromebook-intel-celeron-4gb-memory-16gb-solid-state-drive-gray/4020462.p?id=1219616451773&skuId=4020462&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat244900050010",
+        "name": "Chromebooks"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1312/1312249743/1312249743_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.901386+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 62,
+    "provider": "bestbuy_open_data",
+    "source_id": "4079087",
+    "source_url": "http://www.bestbuy.com/site/acer-iconia-8-intel-atom-32gb-slate/4079087.p?id=1219618214120&skuId=4079087&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4079/4079087_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.901386+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 63,
+    "provider": "bestbuy_open_data",
+    "source_id": "4201600",
+    "source_url": "http://www.bestbuy.com/site/asus-2-in-1-13-3-touch-screen-laptop-intel-core-i3-6gb-memory-500gb-hard-drive-black-hairline/4201600.p?id=1219706550246&skuId=4201600&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4201/4201600_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903394+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 64,
+    "provider": "bestbuy_open_data",
+    "source_id": "4203204",
+    "source_url": "http://www.bestbuy.com/site/toshiba-satellite-radius-2-in-1-14-touch-screen-laptop-amd-fx-series-8gb-memory-750gb-hard-drive-brushed-black-brushed-metal/4203204.p?id=1219706550112&skuId=4203204&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313487557/1313487557_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 65,
+    "provider": "bestbuy_open_data",
+    "source_id": "4203302",
+    "source_url": "http://www.bestbuy.com/site/toshiba-satellite-radius-2-in-1-15-6-touch-screen-laptop-intel-core-i7-8gb-memory-1tb-hard-drive-brushed-metal/4203302.p?id=1219706548818&skuId=4203302&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313487700/1313487700_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 66,
+    "provider": "bestbuy_open_data",
+    "source_id": "4203400",
+    "source_url": "http://www.bestbuy.com/site/toshiba-satellite-radius-15-6-4k-ultra-hd-touch-screen-laptop-intel-core-i7-8gb-memory-256gb-solid-state-drive-carbon-gray/4203400.p?id=1219706548543&skuId=4203400&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313487540/1313487540_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 67,
+    "provider": "bestbuy_open_data",
+    "source_id": "4203500",
+    "source_url": "http://www.bestbuy.com/site/toshiba-satellite-radius-2-in-1-15-6-touch-screen-laptop-intel-core-i5-8gb-memory-750gb-hard-drive-brushed-metal/4203500.p?id=1219706548682&skuId=4203500&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313487489/1313487489_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 68,
+    "provider": "bestbuy_open_data",
+    "source_id": "4203501",
+    "source_url": "http://www.bestbuy.com/site/toshiba-satellite-radius-14-touch-screen-laptop-intel-core-i3-6gb-memory-500gb-hard-drive-brushed-black-brushed-metal/4203501.p?id=1219706549718&skuId=4203501&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313487632/1313487632_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 69,
+    "provider": "bestbuy_open_data",
+    "source_id": "4217800",
+    "source_url": "http://www.bestbuy.com/site/microsoft-surface-pro-3-12-intel-core-i7-512gb-silver/4217800.p?id=1219708495686&skuId=4217800&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313490717/1313490717_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 70,
+    "provider": "bestbuy_open_data",
+    "source_id": "4217901",
+    "source_url": "http://www.bestbuy.com/site/microsoft-surface-3-10-8-intel-atom-128gb-silver/4217901.p?id=1219708495682&skuId=4217901&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4217/4217901_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 71,
+    "provider": "bestbuy_open_data",
+    "source_id": "4218100",
+    "source_url": "http://www.bestbuy.com/site/microsoft-surface-3-10-8-intel-atom-64gb-silver/4218100.p?id=1219708495684&skuId=4218100&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313489940/1313489940_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 72,
+    "provider": "bestbuy_open_data",
+    "source_id": "4221600",
+    "source_url": "http://www.bestbuy.com/site/hp-15-6-touch-screen-laptop-intel-core-i3-6gb-memory-1tb-hard-drive-black/4221600.p?id=1219708598794&skuId=4221600&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313490021/1313490021_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 73,
+    "provider": "bestbuy_open_data",
+    "source_id": "4226016",
+    "source_url": "http://www.bestbuy.com/site/acer-travelmate-14-laptop-intel-pentium-4gb-memory-500gb-hard-drive-black/4226016.p?id=1219621582542&skuId=4226016&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4226/4226016_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 74,
+    "provider": "bestbuy_open_data",
+    "source_id": "4226025",
+    "source_url": "http://www.bestbuy.com/site/acer-travelmate-15-6-laptop-intel-pentium-4gb-memory-500gb-hard-drive-black/4226025.p?id=1219621582540&skuId=4226025&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4226/4226025_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 75,
+    "provider": "bestbuy_open_data",
+    "source_id": "4227015",
+    "source_url": "http://www.bestbuy.com/site/acer-travelmate-14-laptop-intel-core-i3-4gb-memory-500gb-hard-drive-black/4227015.p?id=1219621582539&skuId=4227015&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "abcat0502000",
+        "name": "Laptops"
+      },
+      {
+        "id": "pcmcat138500050001",
+        "name": "All Laptops"
+      },
+      {
+        "id": "pcmcat247400050000",
+        "name": "PC Laptops"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4227/4227015_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 76,
+    "provider": "bestbuy_open_data",
+    "source_id": "4230800",
+    "source_url": "http://www.bestbuy.com/site/samsung-geek-squad-certified-refurbished-galaxy-tab-a-8-16gb-smoky-titanium/4230800.p?id=1219710938305&skuId=4230800&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4230/4230800_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 77,
+    "provider": "bestbuy_open_data",
+    "source_id": "4231800",
+    "source_url": "http://www.bestbuy.com/site/samsung-geek-squad-certified-refurbished-galaxy-tab-a-9-7-16gb-smoky-titanium/4231800.p?id=1219710941257&skuId=4231800&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4231/4231800_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 78,
+    "provider": "bestbuy_open_data",
+    "source_id": "4232200",
+    "source_url": "http://www.bestbuy.com/site/samsung-geek-squad-certified-refurbished-galaxy-tab-a-8-16gb-white/4232200.p?id=1219710940815&skuId=4232200&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4232/4232200_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 79,
+    "provider": "bestbuy_open_data",
+    "source_id": "4232300",
+    "source_url": "http://www.bestbuy.com/site/samsung-geek-squad-certified-refurbished-galaxy-tab-a-9-7-16gb-smoky-titanium/4232300.p?id=1219711486379&skuId=4232300&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4232/4232300_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 80,
+    "provider": "bestbuy_open_data",
+    "source_id": "4232402",
+    "source_url": "http://www.bestbuy.com/site/samsung-geek-squad-certified-refurbished-galaxy-tab-a-9-7-16gb-white/4232402.p?id=1219710942720&skuId=4232402&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4232/4232402_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.903900+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 81,
+    "provider": "bestbuy_open_data",
+    "source_id": "4251100",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-tab-s2-8-0-8-32gb-white/4251100.p?id=1219713372915&skuId=4251100&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4251/4251100_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 82,
+    "provider": "bestbuy_open_data",
+    "source_id": "4251201",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-tab-s2-8-0-8-32gb-gold/4251201.p?id=1219713372399&skuId=4251201&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313488639/1313488639_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 83,
+    "provider": "bestbuy_open_data",
+    "source_id": "4251206",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-tab-s2-9-7-9-7-32gb-gold/4251206.p?id=1219713369946&skuId=4251206&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4251/4251206_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 84,
+    "provider": "bestbuy_open_data",
+    "source_id": "4251300",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-tab-s2-9-7-9-7-32gb-black/4251300.p?id=1219713368301&skuId=4251300&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1313/1313488608/1313488608_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 85,
+    "provider": "bestbuy_open_data",
+    "source_id": "4251400",
+    "source_url": "http://www.bestbuy.com/site/samsung-galaxy-tab-s2-9-7-9-7-32gb-white/4251400.p?id=1219713368299&skuId=4251400&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0500000",
+        "name": "Computers & Tablets"
+      },
+      {
+        "id": "pcmcat209000050006",
+        "name": "Tablets"
+      },
+      {
+        "id": "pcmcat209000050008",
+        "name": "All Tablets"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4251/4251400_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 86,
+    "provider": "bestbuy_open_data",
+    "source_id": "4273801",
+    "source_url": "http://www.bestbuy.com/site/apple-apple-watch-sport-38mm-silver-aluminum-case-white-sports-band/4273801.p?id=1219730560515&skuId=4273801&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "pcmcat332000050000",
+        "name": "Wearable Technology"
+      },
+      {
+        "id": "pcmcat748300489081",
+        "name": "Apple Watch"
+      },
+      {
+        "id": "pcmcat748300489188",
+        "name": "Apple Watch Sport"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4273/4273801_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 87,
+    "provider": "bestbuy_open_data",
+    "source_id": "4274600",
+    "source_url": "http://www.bestbuy.com/site/apple-apple-watch-sport-38mm-space-gray-aluminum-case-space-gray-sports-band/4274600.p?id=1219733910649&skuId=4274600&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "pcmcat332000050000",
+        "name": "Wearable Technology"
+      },
+      {
+        "id": "pcmcat748300489081",
+        "name": "Apple Watch"
+      },
+      {
+        "id": "pcmcat748300489188",
+        "name": "Apple Watch Sport"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4274/4274600_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 88,
+    "provider": "bestbuy_open_data",
+    "source_id": "4274601",
+    "source_url": "http://www.bestbuy.com/site/apple-apple-watch-sport-42mm-silver-aluminum-case-white-sports-band/4274601.p?id=1219733908074&skuId=4274601&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "pcmcat332000050000",
+        "name": "Wearable Technology"
+      },
+      {
+        "id": "pcmcat748300489081",
+        "name": "Apple Watch"
+      },
+      {
+        "id": "pcmcat748300489188",
+        "name": "Apple Watch Sport"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4274/4274601_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 89,
+    "provider": "bestbuy_open_data",
+    "source_id": "4274802",
+    "source_url": "http://www.bestbuy.com/site/apple-apple-watch-sport-42mm-space-gray-aluminum-case-space-gray-sports-band/4274802.p?id=1219733906250&skuId=4274802&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "pcmcat332000050000",
+        "name": "Wearable Technology"
+      },
+      {
+        "id": "pcmcat748300489081",
+        "name": "Apple Watch"
+      },
+      {
+        "id": "pcmcat748300489188",
+        "name": "Apple Watch Sport"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4274/4274802_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 90,
+    "provider": "bestbuy_open_data",
+    "source_id": "4274900",
+    "source_url": "http://www.bestbuy.com/site/apple-apple-watch-38mm-stainless-steel-case-black-sports-band/4274900.p?id=1219733904142&skuId=4274900&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "pcmcat332000050000",
+        "name": "Wearable Technology"
+      },
+      {
+        "id": "pcmcat748300489081",
+        "name": "Apple Watch"
+      },
+      {
+        "id": "pcmcat748300489175",
+        "name": "Apple Watch"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4274/4274900_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 91,
+    "provider": "bestbuy_open_data",
+    "source_id": "4274901",
+    "source_url": "http://www.bestbuy.com/site/apple-apple-watch-38mm-stainless-steel-case-white-sports-band/4274901.p?id=1219733906068&skuId=4274901&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "pcmcat332000050000",
+        "name": "Wearable Technology"
+      },
+      {
+        "id": "pcmcat748300489081",
+        "name": "Apple Watch"
+      },
+      {
+        "id": "pcmcat748300489175",
+        "name": "Apple Watch"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4274/4274901_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 92,
+    "provider": "bestbuy_open_data",
+    "source_id": "4275000",
+    "source_url": "http://www.bestbuy.com/site/apple-apple-watch-38mm-stainless-steel-case-milanese-loop/4275000.p?id=1219733908770&skuId=4275000&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "pcmcat332000050000",
+        "name": "Wearable Technology"
+      },
+      {
+        "id": "pcmcat748300489081",
+        "name": "Apple Watch"
+      },
+      {
+        "id": "pcmcat748300489175",
+        "name": "Apple Watch"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4275/4275000_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 93,
+    "provider": "bestbuy_open_data",
+    "source_id": "4275003",
+    "source_url": "http://www.bestbuy.com/site/apple-apple-watch-42mm-stainless-steel-case-white-sports-band/4275003.p?id=1219733912906&skuId=4275003&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "pcmcat332000050000",
+        "name": "Wearable Technology"
+      },
+      {
+        "id": "pcmcat748300489081",
+        "name": "Apple Watch"
+      },
+      {
+        "id": "pcmcat748300489175",
+        "name": "Apple Watch"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4275/4275003_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 94,
+    "provider": "bestbuy_open_data",
+    "source_id": "4275200",
+    "source_url": "http://www.bestbuy.com/site/apple-apple-watch-42mm-stainless-steel-case-milanese-loop/4275200.p?id=1219732457051&skuId=4275200&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "pcmcat332000050000",
+        "name": "Wearable Technology"
+      },
+      {
+        "id": "pcmcat748300489081",
+        "name": "Apple Watch"
+      },
+      {
+        "id": "pcmcat748300489175",
+        "name": "Apple Watch"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4275/4275200_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.905959+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 95,
+    "provider": "bestbuy_open_data",
+    "source_id": "4355300",
+    "source_url": "http://www.bestbuy.com/site/asus-zenwatch-2-smartwatch-49mm-stainless-steel-silver-taupe-rubber/4355300.p?id=1219736064649&skuId=4355300&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4355/4355300_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.911570+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 96,
+    "provider": "bestbuy_open_data",
+    "source_id": "4355301",
+    "source_url": "http://www.bestbuy.com/site/asus-zenwatch-2-smartwatch-45mm-stainless-steel-silver-khaki-leather/4355301.p?id=1219736066465&skuId=4355301&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4355/4355301_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.911570+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 97,
+    "provider": "bestbuy_open_data",
+    "source_id": "4355302",
+    "source_url": "http://www.bestbuy.com/site/asus-zenwatch-2-smartwatch-49mm-stainless-steel-gunmetal-brown-leather/4355302.p?id=1219736070284&skuId=4355302&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4355/4355302_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.911570+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 98,
+    "provider": "bestbuy_open_data",
+    "source_id": "4363425",
+    "source_url": "http://www.bestbuy.com/site/motorola-moto-360-2nd-generation-mens-smartwatch-42mm-stainless-steel-silver-stainless-steel/4363425.p?id=1219736631577&skuId=4363425&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4363/4363425_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.911570+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 99,
+    "provider": "bestbuy_open_data",
+    "source_id": "4363426",
+    "source_url": "http://www.bestbuy.com/site/motorola-moto-360-2nd-generation-womens-smartwatch-42mm-stainless-steel-gold-stainless-steel/4363426.p?id=1219736621701&skuId=4363426&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4363/4363426_sa.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.911570+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  },
+  {
+    "articleID": 100,
+    "provider": "bestbuy_open_data",
+    "source_id": "4363427",
+    "source_url": "http://www.bestbuy.com/site/motorola-moto-360-2nd-generation-womens-smartwatch-42mm-stainless-steel-rose-gold-blush-leather/4363427.p?id=1219736625794&skuId=4363427&cmp=RMXCC",
+    "source_dataset_url": "https://github.com/BestBuyAPIs/open-data-set",
+    "license": "CC0-1.0",
+    "source_category": [
+      {
+        "id": "abcat0800000",
+        "name": "Cell Phones"
+      },
+      {
+        "id": "abcat0811002",
+        "name": "Cell Phone Accessories"
+      },
+      {
+        "id": "pcmcat321000050003",
+        "name": "Smartwatches & Accessories"
+      },
+      {
+        "id": "pcmcat321000050004",
+        "name": "Smartwatches"
+      }
+    ],
+    "source_image_url": "http://img.bbystatic.com/BestBuy_US/images/products/4363/4363427_rc.jpg",
+    "image_status": "not_downloaded_rights_unconfirmed",
+    "collected_at": "2026-11-03T09:39:19.911570+00:00",
+    "price_observation_date": null,
+    "price_basis": "Historical source snapshot, not current live price",
+    "currency": "USD"
+  }
+]

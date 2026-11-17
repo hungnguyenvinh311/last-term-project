@@ -1,0 +1,29 @@
+{
+  "provider": "cellphones",
+  "source_id": "dong-ho-thong-minh-huawei-watch-gt7",
+  "source_url": "https://cellphones.com.vn/dong-ho-thong-minh-huawei-watch-gt7.html",
+  "productName": "Đồng hồ thông minh Huawei Watch GT7 46mm",
+  "brand": "Huawei",
+  "description": "Huawei Watch GT 7 46mm màn hình 1.47 inch, độ sáng 3.000 nits, pin 21 ngày. Giảm 2tr, trả góp 0%, thu cũ trợ giá 2tr, tặng gói BH. Mua ngay! ",
+  "technicalSpecs": {
+    "Công nghệ màn hình": "AMOLED Độ sáng 3000 nits",
+    "Kích thước màn hình": "1.47 inch",
+    "Đường kính mặt": "46 mm",
+    "Kích thước cổ tay phù hợp": "Từ 14 - 21 cm",
+    "Nghe,gọi ": "Nghe gọi qua Bluetooth",
+    "Tiện ích sức khoẻ ": "Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Theo dõi chu kỳ, Tình trạng HRV (Heart Rate Variability), Nhắc nhở ít vận động, Bài tập thư giãn",
+    "GPS tích hợp": "GPS tích hợp sẵn trên đồng hồ",
+    "Tương thích ": "Android 9.0 trở lên iOS 13.0 trở lên",
+    "Thời lượng pin ": "Thời lượng pin: Tối đa 21 ngày Sử dụng thường xuyên: Tối đa 12 ngày Khi bật AOD: Tối đa 7 ngày Chế độ chạy bộ địa hình: Tối đa 51 giờ",
+    "Hãng sản xuất": "Huawei"
+  },
+  "price": "4790000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/a/p/apple_lte_3_71.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:47:01.061393+00:00"
+}

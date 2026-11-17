@@ -1,0 +1,19 @@
+{
+  "imported": 100,
+  "status": "committed",
+  "database": "ecommerce_vn_retailer_demo",
+  "validation": {
+    "category_counts": {
+      "Headphones": 20,
+      "Laptop": 20,
+      "Smartphone": 20,
+      "Smartwatch": 20,
+      "Tablet": 20
+    },
+    "orphan_products": 0,
+    "products": 100,
+    "main_images": 100,
+    "image_embeddings": 0,
+    "text_embeddings": 0
+  }
+}

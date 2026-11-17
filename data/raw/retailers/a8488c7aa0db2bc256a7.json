@@ -1,0 +1,31 @@
+{
+  "provider": "cellphones",
+  "source_id": "may-tinh-bang-honor-pad-10",
+  "source_url": "https://cellphones.com.vn/may-tinh-bang-honor-pad-10.html",
+  "productName": "HONOR Pad 10 Wifi 8GB 256GB",
+  "brand": "HONOR",
+  "description": "Máy tính bảng HONOR Pad 10 chất lượng tốt, dùng bền. Bảo hành 12 tháng, đổi mới 30 ngày. Trả góp 0%. Mua tablet Honor Pad 10 giao nhanh miễn phí.",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "MagicOS 9.0 (Android 15)",
+    "Chipset": "Snapdragon® 7 Gen 3",
+    "Dung lượng RAM": "8 GB",
+    "Bộ nhớ trong": "256 GB",
+    "Loại CPU": "Octa-core, 1×Cortex-A715 2,63GHz +3×Cortex-A715 2,4GHz +4×Cortex-A510 1.8GHz",
+    "Kích thước màn hình": "12.1 inches",
+    "Công nghệ màn hình": "TFT LCD",
+    "Độ phân giải màn hình": "2560 x 1600 pixels (2.5K)",
+    "Tính năng màn hình": "Tần số quét 120HzHiển thị 1,07 tỷ màu, gam màu rộng DCI-P3500nitsTỷ lệ tương phản: 1500:1249 PPI",
+    "Camera sau": "8MP",
+    "Camera trước": "8MP",
+    "Pin": "10100 mAh"
+  },
+  "price": "10990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/h/o/honnor-pad-10.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:44:37.686842+00:00"
+}

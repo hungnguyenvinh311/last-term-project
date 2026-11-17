@@ -1,0 +1,32 @@
+{
+  "provider": "cellphones",
+  "source_id": "may-tinh-bang-samsung-galaxy-tab-s10-fe-wifi",
+  "source_url": "https://cellphones.com.vn/may-tinh-bang-samsung-galaxy-tab-s10-fe-wifi.html",
+  "productName": "Samsung Galaxy Tab S10 FE Wifi 8GB 128GB",
+  "brand": "Samsung",
+  "description": "Mua máy tính bảng Galaxy Tab S10 FE Wifi chính hãng giá rẻ. Bảo hành 12 tháng, đổi mới 30 ngày. Trả góp 0%. Thu cũ đổi mới trợ giá cao. Giao hỏa tốc",
+  "technicalSpecs": {
+    "Kích thước màn hình": "10.9 inches",
+    "Công nghệ màn hình": "TFT LCD",
+    "Camera sau": "13.0 MP",
+    "Camera trước": "12.0 MP",
+    "Chipset": "Exynos 1580 (4 nm)",
+    "Dung lượng RAM": "8 GB",
+    "Bộ nhớ trong": "128 GB",
+    "Pin": "8,000 mAh",
+    "Hệ điều hành": "Android 15",
+    "Độ phân giải màn hình": "2304 x 1440 pixels",
+    "Tính năng màn hình": "Tần số 90Hz, Độ sáng màn hình 800 nits, 16 triệu màu",
+    "Loại CPU": "2.9GHz,2.6GHz,1.9GHz",
+    "Tương thích": "Bút S Pen"
+  },
+  "price": "11290000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/m/a/may-tinh-bang-samsung-galaxy-tab-s10-fe.1_1.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:44:55.473827+00:00"
+}

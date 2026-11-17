@@ -1,0 +1,28 @@
+{
+  "provider": "cellphones",
+  "source_id": "dong-ho-thong-minh-samsung-galaxy-watch-9",
+  "source_url": "https://cellphones.com.vn/dong-ho-thong-minh-samsung-galaxy-watch-9.html",
+  "productName": "Đồng hồ thông minh Samsung Galaxy Watch9 40mm",
+  "brand": "Samsung Chính hãng",
+  "description": "Samsung Galaxy Watch 9 40mm giá từ 6.905.000đ, giảm 1.5tr,  thu cũ trợ giá 1.5tr, tặng BH toàn diện Care+ 24 tháng. Mua ngay tại CellphoneS!",
+  "technicalSpecs": {
+    "Công nghệ màn hình": "Super AMOLED",
+    "Kích thước màn hình": "1.3 inch",
+    "Đường kính mặt": "40 mm",
+    "Kích thước cổ tay phù hợp": "Không công bố",
+    "Nghe,gọi ": "Nghe gọi qua Bluetooth",
+    "Tiện ích sức khoẻ ": "Chế độ luyện tập, Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đếm bước chân, Tính calo tiêu thụ, Tính quãng đường chạy, Đo mức độ stress, Cảm biến nhiệt độ, Phát hiện té ngã, Cảnh báo nhịp tim bất thường, Đo chỉ số năng lượng cơ thể, Đo điện tâm đồ, Đo VO2 max (Đo lượng tiêu thụ oxy tối đa), Đo huyết áp, Theo dõi chu kỳ, Nhắc nhở uống nước, Phát hiện chứng ngưng thở khi ngủ, Phân tích thành phần cơ thể, Theo dõi chỉ số AGEs, Đo tải trọng mạch máu, Đo chất chống oxi hóa",
+    "GPS tích hợp": "GPS tích hợp sẵn trên đồng hồ",
+    "Thời lượng pin ": "Tối đa 40 giờ (chế độ AOD tắt)",
+    "Hãng sản xuất": "Samsung Chính hãng"
+  },
+  "price": "8590000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/s/a/sansung_lte_3_.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:47:05.192418+00:00"
+}

@@ -1,0 +1,31 @@
+{
+  "provider": "cellphones",
+  "source_id": "laptop-lenovo-loq-15irh11e-83y9003vvn",
+  "source_url": "https://cellphones.com.vn/laptop-lenovo-loq-15irh11e-83y9003vvn.html",
+  "productName": "Laptop Lenovo LOQ 15IRH11E 83Y9003VVN",
+  "brand": "Lenovo",
+  "description": "Mua ngay Laptop Lenovo LOQ 15IRH11E 83Y9003VVN giá rẻ - Hỗ trợ trả góp 0%, đổi mới 30 ngày, bảo hành chính hãng, giao hàng tận nơi miễn phí.",
+  "technicalSpecs": {
+    "Loại card đồ họa": "NVIDIA GeForce RTX 3050 6GB GDDR6, Boost Clock 1732MHz, TGP 75W, 142 AI TOPS",
+    "Dung lượng RAM": "8GB",
+    "Loại RAM": "SODIMM DDR5-5200",
+    "Số khe ram": "2 khe (1 x 8GB, nâng cấp tối đa 32GB DDR5-5200)",
+    "Ổ cứng": "512GB SSD M.2 2242 PCIe 4.0x4 NVMe (Hỗ trợ tối đa hai ổ đĩa, 2x SSD M.2, dung lượng lên đến 1TB)",
+    "Công nghệ màn hình": "Độ sáng 300 nits Màn hình chống chói  Độ phủ màu 100% sRGB Giảm ánh sáng xanh",
+    "Hệ điều hành khi ra mắt": "Windows 11 Home Single Language, English",
+    "Loại CPU": "Intel Core 5 205H, 8 lõi (4P + 4E) / 12 luồng, P-core 2.2 / 4.8GHz, E-core 1.6 / 3.6GHz, 12MB Intel Smart Cache",
+    "Kích thước màn hình": "15.3 inches",
+    "Độ phân giải màn hình": "1920 x 1200 pixels (WUXGA)",
+    "Pin": "60Wh, 135W Slim Tip (3-pin)",
+    "Cổng giao tiếp": "1 x Cổng nguồn Slim Tip (hình chữ nhật) 1 x USB-A 10Gbps (công suất 4.5W) 1 x USB-C 5Gbps (USB PD 65–100W đầu vào / 15W đầu ra) 2 x USB-A 5Gbps (công suất 4.5W) 1 x HDMI 2.1 (tối đa 4K@60Hz) 1 x Jack tai nghe/mic 3.5 mm 1 x RJ-45"
+  },
+  "price": "26990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/t/e/text_d_i_1__4_87.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:42:00.999876+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "provider": "cellphones",
+  "source_id": "ipad-mini-7",
+  "source_url": "https://cellphones.com.vn/ipad-mini-7.html",
+  "productName": "iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam",
+  "brand": "Apple",
+  "description": "Apple iPad mini 7 giá rẻ, cấu hình mạnh, thiết kế sang trọng, bảo hành 12 tháng, trả góp 0% - 12T, ưu đãi HSSV 5% tại CellphoneS - Mua ngay iPad mini 7",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "iPadOS 18",
+    "Chipset": "Chip A17 Pro",
+    "Bộ nhớ trong": "128 GB",
+    "Loại CPU": "CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+    "GPU": "GPU 5 lõi Neural Engine 16 lõi",
+    "Kích thước màn hình": "8.3 inches",
+    "Công nghệ màn hình": "Liquid Retina",
+    "Độ phân giải màn hình": "2266 x 1488 pixels",
+    "Tính năng màn hình": "Màn hình Multi-TouchDải màu rộng (P3)True ToneLớp phủ kháng dầu chống in dấu vân tayCông nghệ ép kínĐộ sáng 500 nitLớp phủ chống phản chiếu",
+    "Camera sau": "Camera Wide 12MP, khẩu độ ƒ/1.8",
+    "Camera trước": "Camera trước Ultra Wide 12MP, Khẩu độ ƒ/2.4",
+    "Pin": "Tích hợp pin sạc Li-Po 19,3 watt‑giờ",
+    "Thời điểm ra mắt": "10/2024"
+  },
+  "price": "15990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/t/e/text_ng_n_13_7.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:44:08.028198+00:00"
+}

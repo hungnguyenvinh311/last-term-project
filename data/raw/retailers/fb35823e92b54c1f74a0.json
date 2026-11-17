@@ -1,0 +1,34 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-xiaomi-poco-f9-ultra",
+  "source_url": "https://cellphones.com.vn/dien-thoai-xiaomi-poco-f9-ultra.html",
+  "productName": "Xiaomi POCO F9 Ultra 5G 12GB 256GB",
+  "brand": "Xiaomi",
+  "description": "Xiaomi POCO F9 Ultra 5G sở hữu Pin 8050mAh, chip Snapdragon 8 Elite Gen 5 manh mẽ - Tặng 2 năm bảo hành và 6Th rơi vỡ màn, trợ giá lên đời hấp dẫn.",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "Xiaomi HyperOS 3",
+    "Chipset": "Snapdragon 8 Elite Gen 5",
+    "Dung lượng RAM": "12 GB",
+    "Bộ nhớ trong": "256 GB",
+    "Loại CPU": "8 nhân",
+    "GPU": "Adreno",
+    "Kích thước màn hình": "6.9 inches",
+    "Công nghệ màn hình": "AMOLED",
+    "Tính năng màn hình": "Tần số quét 185 HzTỷ lệ tương phản 5.000.000:168 tỷ màuDC dimmingHDR10+Dolby Vision",
+    "Camera sau": "Chính 200 MP, f/1.68, OISTele tiềm vọng 50 MP, f/3.0Góc siêu rộng 50 MP, f/2.4",
+    "Camera trước": "32 MP",
+    "Pin": "8050 mAh",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "Nano SIM hoặc eSIM",
+    "Thời điểm ra mắt": "8/2026"
+  },
+  "price": "25680000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/x/i/xiaomi-poco-f9-ultra-red.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:52.661714+00:00"
+}

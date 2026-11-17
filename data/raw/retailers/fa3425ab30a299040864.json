@@ -1,0 +1,28 @@
+{
+  "provider": "cellphones",
+  "source_id": "vong-deo-tay-thong-minh-xiaomi-mi-band-11",
+  "source_url": "https://cellphones.com.vn/vong-deo-tay-thong-minh-xiaomi-mi-band-11.html",
+  "productName": "Vòng đeo tay thông minh Xiaomi Mi Band 11",
+  "brand": "Xiaomi",
+  "description": "Vòng đeo tay thông minh Xiaomi Smart Band 11 thiết kế mỏng nhẹ 9.99mm, màn hình 1.72 inch, pin 10 ngày. Mua Xiaomi Band giảm ngay 200k!",
+  "technicalSpecs": {
+    "Công nghệ màn hình": "AMOLED   Màn hình luôn hiển thị màu AOD Độ sáng cực đại 2000 nits Tần số quét 60Hz ",
+    "Kích thước màn hình": "1.72 inch",
+    "Kích thước cổ tay phù hợp": "Từ 13.5 - 21 cm",
+    "Nghe,gọi ": "Không",
+    "Tiện ích sức khoẻ ": "Theo dõi giấc ngủ, Đo nhịp tim, Đo lượng oxy trong máu, Đo mức độ stress, Theo dõi chu kỳ, Tình trạng HRV (Heart Rate Variability), Bài tập thở",
+    "GPS tích hợp": "GPS không tích hợp độc lập",
+    "Tương thích ": "Android 8.0 hoặc iOS 14.0 trở lên",
+    "Thời lượng pin ": "Thời lượng pin kéo dài lên đến 21 ngày",
+    "Hãng sản xuất": "Xiaomi"
+  },
+  "price": "1490000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/g/r/group_655_5.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:47:18.002869+00:00"
+}

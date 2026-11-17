@@ -1,0 +1,32 @@
+{
+  "provider": "cellphones",
+  "source_id": "dien-thoai-samsung-galaxy-a27",
+  "source_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-a27.html",
+  "productName": "Samsung Galaxy A27 5G 6GB 128GB",
+  "brand": "Samsung",
+  "description": "Mua điện thoại Samsung Galaxy A27 5G chính hãng giá rẻ - Thu cũ đổi mới, bảo hành 12 tháng, đổi mới 30 ngày, trả góp 0%. Mua ngay Samsung Galaxy A27 5G tại đây.",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "Android 16",
+    "Chipset": "Snapdragon 6 Gen 3",
+    "Dung lượng RAM": "6 GB",
+    "Bộ nhớ trong": "128 GB",
+    "Kích thước màn hình": "6.7 inches",
+    "Công nghệ màn hình": "Super AMOLED",
+    "Tính năng màn hình": "Tần số quét 120 HzĐộ sáng tối đa 800 nits",
+    "Camera sau": "Chính 50 MPGóc siêu rộng 5 MPMacro 2 MP",
+    "Camera trước": "12 MP",
+    "Pin": "5000 mAh",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "2 Nano-SIM",
+    "Thời điểm ra mắt": "06/2026"
+  },
+  "price": "8790000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/s/a/samsung-galaxy-a27-1_2.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:01.320221+00:00"
+}

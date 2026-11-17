@@ -1,0 +1,32 @@
+{
+  "provider": "cellphones",
+  "source_id": "apple-ipad-air-m4-11-inch-256gb-wifi",
+  "source_url": "https://cellphones.com.vn/apple-ipad-air-m4-11-inch-256gb-wifi.html",
+  "productName": "iPad Air 11 inch M4 Wifi 256GB 2026 | Chính hãng ",
+  "brand": "Apple",
+  "description": "Mua iPad Air 11 inch M4 Wifi 256GB 2026 chính hãng giá rẻ - Thu cũ đổi mới, bảo hành 12 tháng, đổi mới 30 ngày, trả góp 0%. Mua ngay iPad Air 11 inch M4 Wifi 256GB 2026 tại đây.",
+  "technicalSpecs": {
+    "Kích thước màn hình": "11 inches",
+    "Công nghệ màn hình": "Liquid Retina",
+    "Camera sau": "12MP, f/1.8, Độ thu phóng kỹ thuật số lên đến 5xChụp ảnh toàn cảnh Panorama (lên đến 63MP)",
+    "Camera trước": "12MP Center Stage, ƒ/2.0",
+    "Chipset": "Chip Apple M4",
+    "Dung lượng RAM": "12 GB",
+    "Bộ nhớ trong": "256 GB",
+    "Pin": "Tích hợp pin sạc Li-Po 28.93 watt-giờ",
+    "Hệ điều hành": "iPadOS 26",
+    "Độ phân giải màn hình": "2360 x 1640  pixel",
+    "Tính năng màn hình": "Màn hình Multi-Touch với công nghệ LED nền và IPSĐộ sáng 500 nit264 ppiDải màu rộng (P3)True ToneLớp phủ chống phản chiếuCông nghệ ép kín",
+    "Loại CPU": "8 lõi với 3 lõi hiệu năng và 5 lõi tiết kiệm điện",
+    "Tương thích": "Hỗ trợ Apple Pencil ProHỗ trợ Apple Pencil (USB-C)Hỗ trợ Magic Keyboard cho iPad Air"
+  },
+  "price": "23190000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/1/_/1_1__1_1_2.png"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:44:59.624599+00:00"
+}

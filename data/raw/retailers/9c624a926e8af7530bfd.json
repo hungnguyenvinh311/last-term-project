@@ -1,0 +1,34 @@
+{
+  "provider": "cellphones",
+  "source_id": "iphone-17-pro-max",
+  "source_url": "https://cellphones.com.vn/iphone-17-pro-max.html",
+  "productName": "iPhone 17 Pro Max 256GB | Chính hãng",
+  "brand": "Apple",
+  "description": "iPhone 17 Pro Max chính hãng đủ dung lượng từ 256GB - 2TB, giá tốt tháng 11/2026 - mua Apple iP 17 Promax trả góp 0% 12 tháng tại CellphoneS",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "iOS 26",
+    "Chipset": "Chip A19 Pro",
+    "Bộ nhớ trong": "256 GB",
+    "Loại CPU": "CPU 6 lõi với 2 lõi hiệu năng và 4 lõi tiết kiệm điện",
+    "GPU": "GPU 6 lõi với Neural Accelerator",
+    "Kích thước màn hình": "6.9 inches",
+    "Công nghệ màn hình": "Super Retina XDR",
+    "Độ phân giải màn hình": "2868 x 1320 pixels",
+    "Tính năng màn hình": "Màn hình Luôn Bật, ProMotion 120Hz, HDR, True Tone, Dải màu rộng (P3), Haptic Touch, Tỷ lệ tương phản 2.000.000:1, Độ sáng 1000 nit (tiêu chuẩn), 1600 nit (HDR), 3000 nit (ngoài trời) / tối thiểu 1 nit, Lớp phủ kháng dầu, Chống phản chiếu, Hỗ trợ đa ngôn ",
+    "Camera sau": "Chính: 48MP khẩu độ ƒ/1.6 OIS hỗ trợ chụp 24MP hoặc 48MPGóc Siêu Rộng: 48MP khẩu độ ƒ/2.2 góc nhìn 120°Telephoto: 48MP khẩu độ ƒ/2.8 OIS zoom quang học lên đến 8x",
+    "Camera trước": "Camera 18MP Center Stage Khẩu độ ƒ/1.9",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "Sim kép (nano-Sim và e-Sim) - Hỗ trợ 2 e-Sim",
+    "Công nghệ NFC": "Có",
+    "Thời điểm ra mắt": "09/2025"
+  },
+  "price": "34990000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/i/p/iphone-17-pro-max_3.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:40.296500+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "provider": "cellphones",
+  "source_id": "iphone-18-pro-max-512gb",
+  "source_url": "https://cellphones.com.vn/iphone-18-pro-max-512gb.html",
+  "productName": "iPhone 18 Pro Max 512GB",
+  "brand": "Apple",
+  "description": "Giá iPhone 18 Pro Max 512GB chính hãng tại CellphoneS là 48,49tr, đủ màu đỏ Burgundy mới, thu cũ giảm đến 5tr, S-buy-back cam kết thu lại đến 65% giá trị máy",
+  "technicalSpecs": {
+    "Hệ điều hành khi ra mắt": "iOS 27",
+    "Chipset": "Chip A20 Pro",
+    "Bộ nhớ trong": "512 GB",
+    "Loại CPU": "CPU 6 lõi với 2 siêu lõi và 4 lõi hiệu suất",
+    "GPU": "GPU 7 lõi",
+    "Kích thước màn hình": "6.9 inches",
+    "Công nghệ màn hình": "Super Retina XDR",
+    "Độ phân giải màn hình": "2868 x 1320 pixels",
+    "Tính năng màn hình": "Tần số quét 120 HzĐộ sáng tối đa 3000 nits ngoài trờiĐộ sáng 1000 nit tiêu chuẩnĐộ sáng đỉnh 1600 nit HDRĐộ sáng tối thiểu 1 nitDynamic IslandMàn hình Luôn BậtProMotionHDRTrue ToneDải màu rộng P3Haptic Touch",
+    "Camera sau": "48 MP Fusion Main, f/1,48 / f/1,8 / f/2,8 / f/4,048 MP Fusion Ultra Wide, f/2,248 MP Fusion Telephoto, f/2,8Telephoto 2x chất lượng quang học 12 MPTelephoto 8x chất lượng quang học 12 MP, f/2,8",
+    "Camera trước": "18 MP Center Stage, f/1,9Tự động lấy nét theo pha Focus Pixels  ",
+    "Pin": "Pin lithium-ion tích hợp",
+    "Hỗ trợ mạng": "5G",
+    "Thẻ SIM": "2 Nano-SIM + eSIM",
+    "Công nghệ NFC": "Có",
+    "Thời điểm ra mắt": "09/2026"
+  },
+  "price": "48490000.00",
+  "currency": "VND",
+  "image_urls": [
+    "https://cdn2.cellphones.com.vn/200x/media/catalog/product/i/p/iphone-18-pro-max-01_1.jpg"
+  ],
+  "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+  "rights_status": "Retailer-owned content; no open licence asserted",
+  "use_scope": "Local coursework requested by user",
+  "collected_at": "2026-11-03T10:41:48.542229+00:00"
+}

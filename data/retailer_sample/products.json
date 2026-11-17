@@ -1,0 +1,142 @@
+[
+  {
+    "provider": "cellphones",
+    "source_id": "dien-thoai-samsung-galaxy-s26-ultra",
+    "source_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-ultra.html",
+    "productName": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+    "brand": "Samsung",
+    "description": "Samsung Galaxy S26 Ultra pin 5000mAh, hỗ trợ S Pen và màn hình chống nhìn trộm, lên đời trợ giá đến 5tr. Mua S26 Ultra góp 0% tại CellphoneS.",
+    "technicalSpecs": {
+      "Hệ điều hành khi ra mắt": "Android 16",
+      "Chipset": "Snapdragon 8 Elite Gen 5",
+      "Dung lượng RAM": "12 GB",
+      "Bộ nhớ trong": "256 GB",
+      "Loại CPU": "8 nhân",
+      "GPU": "Adreno 840",
+      "Kích thước màn hình": "6.9 inches",
+      "Công nghệ màn hình": "Dynamic AMOLED 2X",
+      "Độ phân giải màn hình": "3120 x 1440 pixels (Quad HD+)",
+      "Tính năng màn hình": "Độ sáng tối đa 2600 nits",
+      "Camera sau": "Góc rộng 200 MP, f/1.4Góc siêu rộng 50 MP, f/1.9Tele 50 MP, f/2.9Tele 10 MP, f/2.4",
+      "Camera trước": "12 MP, f/2.2",
+      "Pin": "5000 mAh",
+      "Hỗ trợ mạng": "5G",
+      "Thẻ SIM": "2 Nano SIM hoặc 2 eSIM hoặc 1 Nano SIM + 1 eSIM",
+      "Công nghệ NFC": "Có",
+      "Thời điểm ra mắt": "02/2026"
+    },
+    "price": "33990000.00",
+    "currency": "VND",
+    "image_urls": [
+      "https://cdn2.cellphones.com.vn/200x/media/catalog/product/s/a/samsung-galaxy-s26-ultra-1.jpg"
+    ],
+    "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+    "rights_status": "Retailer-owned content; no open licence asserted",
+    "use_scope": "Local coursework requested by user",
+    "collected_at": "2026-11-03T10:29:29.579116+00:00",
+    "local_images": [
+      "data/retailer_sample/images/c75beab7677be9f70da06b66104e9a181d2361913ee644138e9c0a595d1edf68.jpg"
+    ]
+  },
+  {
+    "provider": "fptshop",
+    "source_id": "00919676",
+    "source_url": "https://fptshop.com.vn/dien-thoai/nubia-a76",
+    "productName": "Nubia A76 4GB (NFC)",
+    "brand": "Nubia",
+    "description": "\"Mua online điện thoại Nubia A76 4GB 128GB (NFC) độc quyền, chính hãng, giá rẻ, quà tặng hấp dẫn. Bảo hành lên đến 18 tháng, giao hàng toàn quốc. Mua ngay!\"",
+    "technicalSpecs": {
+      "Kích thước màn hình": "6.75 inch",
+      "Camera": "50.0 MP",
+      "RAM": "4 GB",
+      "Kết nối NFC": "NFC"
+    },
+    "price": "2990000.00",
+    "currency": "VND",
+    "image_urls": [
+      "https://cdn2.fptshop.com.vn/unsafe/nubia_a76_xam_5_87aade2a96.jpg"
+    ],
+    "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+    "rights_status": "Retailer-owned content; no open licence asserted",
+    "use_scope": "Local coursework requested by user",
+    "collected_at": "2026-11-03T10:29:39.622697+00:00",
+    "local_images": [
+      "data/retailer_sample/images/d36cbd55a1a7fd07ca919673a7beac890fd18ef953a56ce23c643d833805da31.jpg"
+    ]
+  },
+  {
+    "provider": "cellphones",
+    "source_id": "dien-thoai-honor-600",
+    "source_url": "https://cellphones.com.vn/dien-thoai-honor-600.html",
+    "productName": "HONOR 600 5G 8GB 256GB",
+    "brand": "HONOR",
+    "description": "HONOR 600 5G hỗ trợ eSIM, kháng nước bụi IP69K, camera 200MP. Giảm 8.15tr, có thu cũ, trả góp 0%, đổi mới 100 ngày, BH 24 tháng. Mua ngay!",
+    "technicalSpecs": {
+      "Hệ điều hành khi ra mắt": "MagicOS 10, dựa trên Android 16",
+      "Chipset": "Snapdragon 7 Gen 4",
+      "Dung lượng RAM": "8 GB",
+      "Bộ nhớ trong": "256 GB",
+      "Loại CPU": "8 nhân",
+      "GPU": "Adreno 722",
+      "Kích thước màn hình": "6.57 inches",
+      "Công nghệ màn hình": "AMOLED",
+      "Độ phân giải màn hình": "2728 x 1264 pixels",
+      "Tính năng màn hình": "Tần số quét 120Hz1,07 tỷ màuĐộ sáng 8000 nitsAI HDR 2.0458 PPIDải màu rộng DCI-P3",
+      "Camera sau": "200 MP, f/1.9",
+      "Camera trước": "50 MP, f/2.0",
+      "Pin": "7000 mAh",
+      "Hỗ trợ mạng": "5G",
+      "Thẻ SIM": "2 Nano SIM hoặc 1 Nano + 1 eSIM",
+      "Công nghệ NFC": "Có",
+      "Thời điểm ra mắt": "06/2026"
+    },
+    "price": "16790000.00",
+    "currency": "VND",
+    "image_urls": [
+      "https://cdn2.cellphones.com.vn/200x/media/catalog/product/d/i/dien-thoai-honor-600-cam.jpg"
+    ],
+    "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+    "rights_status": "Retailer-owned content; no open licence asserted",
+    "use_scope": "Local coursework requested by user",
+    "collected_at": "2026-11-03T10:29:46.560508+00:00",
+    "local_images": [
+      "data/retailer_sample/images/f5cee0d47ea2a95b52c21116dadde14845a94e1051c97a609b172608dcd1aa70.jpg"
+    ]
+  },
+  {
+    "provider": "cellphones",
+    "source_id": "dien-thoai-honor-600s",
+    "source_url": "https://cellphones.com.vn/dien-thoai-honor-600s.html",
+    "productName": "HONOR 600S 5G 6GB 128GB",
+    "brand": "HONOR",
+    "description": "HONOR 600S 5G 6GB 128GB màn hình lớn 120Hz, pin 8.100mAh, chip Snapdragon 4 Gen 4. Giảm 1tr, thu cũ giảm 4tr, đổi mới 30 ngày. Mua ngay!",
+    "technicalSpecs": {
+      "Hệ điều hành khi ra mắt": "MagicOS 10 (Dựa trên Android 16)",
+      "Chipset": "Qualcomm Snapdragon 4 Gen4",
+      "Dung lượng RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB",
+      "Loại CPU": "Adreno 613",
+      "Công nghệ màn hình": "TFT LCD",
+      "Tính năng màn hình": "Tần số quét 120 HzĐộ sáng điển hình 860 nitsĐộ sáng tối đa HBM 1020 nits",
+      "Camera sau": "50 MP, f/1.8Ống kính phụ, f/3.0",
+      "Camera trước": "5 MP, f/2.2",
+      "Pin": "8100 mAh",
+      "Hỗ trợ mạng": "5G",
+      "Thẻ SIM": "2 Nano-SIM",
+      "Công nghệ NFC": "Có",
+      "Thời điểm ra mắt": "10/2026"
+    },
+    "price": "9490000.00",
+    "currency": "VND",
+    "image_urls": [
+      "https://cdn2.cellphones.com.vn/200x/media/catalog/product/h/o/honor-600s-gold.jpg"
+    ],
+    "price_basis": "Public product-page JSON-LD offer at collection time; promotions may differ",
+    "rights_status": "Retailer-owned content; no open licence asserted",
+    "use_scope": "Local coursework requested by user",
+    "collected_at": "2026-11-03T10:29:50.704191+00:00",
+    "local_images": [
+      "data/retailer_sample/images/0e7c1c0d952fce940253be73197a0e51bc83714ce44f04c653f993984d034b86.webp"
+    ]
+  }
+]

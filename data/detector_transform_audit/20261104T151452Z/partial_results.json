@@ -1,0 +1,2997 @@
+{
+  "provider": "owlv2",
+  "padding": true,
+  "device": "cuda",
+  "threshold": 0.15,
+  "maxReturnedBoxes": 12,
+  "variants": [
+    "original",
+    "rotate90cw",
+    "rotate180",
+    "rotate270cw",
+    "flip_horizontal",
+    "flip_vertical"
+  ],
+  "rotationConvention": "Clockwise; exact transpose, no interpolation",
+  "sourceAudit": "data\\detector_single_box_audit\\20261104T150354Z\\report.json",
+  "cases": [
+    {
+      "articleID": 42,
+      "categoryID": 3,
+      "productName": "Xiaomi Poco Pad X1 8GB 512GB",
+      "imagePath": "data/retailer_catalog/images/8baa2115c050d1b555a681879cc3d85ce2e5759c58ae9a508e2f180e25d2231c.jpg",
+      "sourceSHA256": "8baa2115c050d1b555a681879cc3d85ce2e5759c58ae9a508e2f180e25d2231c",
+      "variants": {
+        "original": {
+          "image": "images/42_original.png",
+          "inputSHA256": "ebfb42cbbf4cc09a674f374de791363690908438c8f2dda4d5a7c2bdd1422c3b",
+          "roi": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.49943381547927856,
+                "region": [
+                  0.11568194389343261,
+                  0.050268945693969724,
+                  0.8772051239013672,
+                  0.9314591217041016
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.49943381547927856,
+              "region": [
+                0.11568194389343261,
+                0.050268945693969724,
+                0.8772051239013672,
+                0.9314591217041016
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.49943381547927856,
+              "region": [
+                0.11568194389343261,
+                0.050268945693969724,
+                0.8772051239013672,
+                0.9314591217041016
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/42_original.png",
+          "seconds": 1.6679155000019819
+        },
+        "rotate90cw": {
+          "image": "images/42_rotate90cw.png",
+          "inputSHA256": "e2d9eb18865f432c7667354e82e63a8960480eb03289a9c885807531598e1cfd",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a tablet computer",
+                "categoryID": 3,
+                "score": 0.38188794255256653,
+                "region": [
+                  0.04544401168823242,
+                  0.11865674972534179,
+                  0.9527508544921875,
+                  0.8725126647949218
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.38188794255256653,
+              "region": [
+                0.04544401168823242,
+                0.11865674972534179,
+                0.9527508544921875,
+                0.8725126647949218
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.38188794255256653,
+              "region": [
+                0.04544401168823242,
+                0.11865674972534179,
+                0.9527508544921875,
+                0.8725126647949218
+              ]
+            },
+            "predictedCategoryID": 3,
+            "isPhone": false,
+            "isCorrect": true,
+            "anyPhoneProductBox": false,
+            "anyCorrectProductBox": true,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.38188794255256653,
+            "region": [
+              0.04544401168823242,
+              0.11865674972534179,
+              0.9527508544921875,
+              0.8725126647949218
+            ],
+            "index": 1
+          },
+          "correctBoxCount": 1,
+          "correctLabelAnywhere": true,
+          "boxCount": 1,
+          "overlay": "boxes/42_rotate90cw.png",
+          "seconds": 1.2699776999943424
+        },
+        "rotate180": {
+          "image": "images/42_rotate180.png",
+          "inputSHA256": "ecf9741aadb76856d2d4947231e09075b128e9230ffd919963b5716a12d76213",
+          "roi": [
+            0.020000000000000018,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.4415806531906128,
+                "region": [
+                  0.12259650230407715,
+                  0.04652410507202148,
+                  0.8780864715576172,
+                  0.9316237640380859
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4415806531906128,
+              "region": [
+                0.12259650230407715,
+                0.04652410507202148,
+                0.8780864715576172,
+                0.9316237640380859
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4415806531906128,
+              "region": [
+                0.12259650230407715,
+                0.04652410507202148,
+                0.8780864715576172,
+                0.9316237640380859
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/42_rotate180.png",
+          "seconds": 1.2645678999979282
+        },
+        "rotate270cw": {
+          "image": "images/42_rotate270cw.png",
+          "inputSHA256": "6e0e9a70d0c0dd493703290c826dd50a54b66cf6867d227cfccea5f2f0b81b60",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a tablet computer",
+                "categoryID": 3,
+                "score": 0.4612029194831848,
+                "region": [
+                  0.04844024658203125,
+                  0.12152799606323242,
+                  0.9534432983398438,
+                  0.8723555755615234
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.4612029194831848,
+              "region": [
+                0.04844024658203125,
+                0.12152799606323242,
+                0.9534432983398438,
+                0.8723555755615234
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.4612029194831848,
+              "region": [
+                0.04844024658203125,
+                0.12152799606323242,
+                0.9534432983398438,
+                0.8723555755615234
+              ]
+            },
+            "predictedCategoryID": 3,
+            "isPhone": false,
+            "isCorrect": true,
+            "anyPhoneProductBox": false,
+            "anyCorrectProductBox": true,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.4612029194831848,
+            "region": [
+              0.04844024658203125,
+              0.12152799606323242,
+              0.9534432983398438,
+              0.8723555755615234
+            ],
+            "index": 1
+          },
+          "correctBoxCount": 1,
+          "correctLabelAnywhere": true,
+          "boxCount": 1,
+          "overlay": "boxes/42_rotate270cw.png",
+          "seconds": 1.264047800003027
+        },
+        "flip_horizontal": {
+          "image": "images/42_flip_horizontal.png",
+          "inputSHA256": "8c2090c0d7b0c7aa694716df8da8872506c31fb692d867cd1e715d09b3a2bd20",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.482831209897995,
+                "region": [
+                  0.12081241607666016,
+                  0.05093047142028809,
+                  0.877631607055664,
+                  0.9337982177734375
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.482831209897995,
+              "region": [
+                0.12081241607666016,
+                0.05093047142028809,
+                0.877631607055664,
+                0.9337982177734375
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.482831209897995,
+              "region": [
+                0.12081241607666016,
+                0.05093047142028809,
+                0.877631607055664,
+                0.9337982177734375
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/42_flip_horizontal.png",
+          "seconds": 1.3058419000008143
+        },
+        "flip_vertical": {
+          "image": "images/42_flip_vertical.png",
+          "inputSHA256": "0dd8989088be1913b2b383a4358e1f45699ae0cfad5c39c650e74dd6168c30e2",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.45051416754722595,
+                "region": [
+                  0.11603557586669921,
+                  0.048678102493286135,
+                  0.8733546447753906,
+                  0.9377262878417969
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.45051416754722595,
+              "region": [
+                0.11603557586669921,
+                0.048678102493286135,
+                0.8733546447753906,
+                0.9377262878417969
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.45051416754722595,
+              "region": [
+                0.11603557586669921,
+                0.048678102493286135,
+                0.8733546447753906,
+                0.9377262878417969
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/42_flip_vertical.png",
+          "seconds": 1.2391799000033643
+        }
+      }
+    },
+    {
+      "articleID": 43,
+      "categoryID": 3,
+      "productName": "Xiaomi Pad 8 Pro 8GB 128GB",
+      "imagePath": "data/retailer_catalog/images/d76decef03a790c3f92b7abb68b134dd9bd158b303216307e2306647edb33ff9.jpg",
+      "sourceSHA256": "d76decef03a790c3f92b7abb68b134dd9bd158b303216307e2306647edb33ff9",
+      "variants": {
+        "original": {
+          "image": "images/43_original.png",
+          "inputSHA256": "6bedb3fd981fd3891e51506df0097247445030a35fb66c145d14643973dc2732",
+          "roi": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.47771936655044556,
+                "region": [
+                  0.09795716285705566,
+                  0.0421282958984375,
+                  0.8989946746826172,
+                  0.9439483642578125
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.47771936655044556,
+              "region": [
+                0.09795716285705566,
+                0.0421282958984375,
+                0.8989946746826172,
+                0.9439483642578125
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.47771936655044556,
+              "region": [
+                0.09795716285705566,
+                0.0421282958984375,
+                0.8989946746826172,
+                0.9439483642578125
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/43_original.png",
+          "seconds": 1.4293333000023267
+        },
+        "rotate90cw": {
+          "image": "images/43_rotate90cw.png",
+          "inputSHA256": "df1d741187910845175cfd0779330e592e6470bf27121f3e20f346bdd295e222",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.44786086678504944,
+                "region": [
+                  0.03266638517379761,
+                  0.10674005508422851,
+                  0.9608303833007813,
+                  0.8935772705078125
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.44786086678504944,
+              "region": [
+                0.03266638517379761,
+                0.10674005508422851,
+                0.9608303833007813,
+                0.8935772705078125
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.44786086678504944,
+              "region": [
+                0.03266638517379761,
+                0.10674005508422851,
+                0.9608303833007813,
+                0.8935772705078125
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/43_rotate90cw.png",
+          "seconds": 1.263648000000103
+        },
+        "rotate180": {
+          "image": "images/43_rotate180.png",
+          "inputSHA256": "763c4474decce8d1018a7e22dc2cdf7ed35ac4090397aa560c0130ed82c4a6f0",
+          "roi": [
+            0.020000000000000018,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.4150433838367462,
+                "region": [
+                  0.09671825408935547,
+                  0.039567084312438966,
+                  0.892357406616211,
+                  0.9453911590576172
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4150433838367462,
+              "region": [
+                0.09671825408935547,
+                0.039567084312438966,
+                0.892357406616211,
+                0.9453911590576172
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4150433838367462,
+              "region": [
+                0.09671825408935547,
+                0.039567084312438966,
+                0.892357406616211,
+                0.9453911590576172
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/43_rotate180.png",
+          "seconds": 1.2246669000014663
+        },
+        "rotate270cw": {
+          "image": "images/43_rotate270cw.png",
+          "inputSHA256": "c8c6b570762f29a29ba52d54923e637ac48cda9b586d01a21cb0d70b1926188c",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a tablet computer",
+                "categoryID": 3,
+                "score": 0.43932634592056274,
+                "region": [
+                  0.03933241844177246,
+                  0.10314032554626465,
+                  0.9595578002929688,
+                  0.8918346405029297
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.43932634592056274,
+              "region": [
+                0.03933241844177246,
+                0.10314032554626465,
+                0.9595578002929688,
+                0.8918346405029297
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.43932634592056274,
+              "region": [
+                0.03933241844177246,
+                0.10314032554626465,
+                0.9595578002929688,
+                0.8918346405029297
+              ]
+            },
+            "predictedCategoryID": 3,
+            "isPhone": false,
+            "isCorrect": true,
+            "anyPhoneProductBox": false,
+            "anyCorrectProductBox": true,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.43932634592056274,
+            "region": [
+              0.03933241844177246,
+              0.10314032554626465,
+              0.9595578002929688,
+              0.8918346405029297
+            ],
+            "index": 1
+          },
+          "correctBoxCount": 1,
+          "correctLabelAnywhere": true,
+          "boxCount": 1,
+          "overlay": "boxes/43_rotate270cw.png",
+          "seconds": 1.2101679000043077
+        },
+        "flip_horizontal": {
+          "image": "images/43_flip_horizontal.png",
+          "inputSHA256": "8252d78d90d56ae3e5f411dbaba096aa875bd2f3878ea48056876d1b9bfa4e90",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.3879547119140625,
+                "region": [
+                  0.09531724929809571,
+                  0.045310287475585936,
+                  0.8905634307861328,
+                  0.9501592254638672
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.3879547119140625,
+              "region": [
+                0.09531724929809571,
+                0.045310287475585936,
+                0.8905634307861328,
+                0.9501592254638672
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.3879547119140625,
+              "region": [
+                0.09531724929809571,
+                0.045310287475585936,
+                0.8905634307861328,
+                0.9501592254638672
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/43_flip_horizontal.png",
+          "seconds": 1.2126382999995258
+        },
+        "flip_vertical": {
+          "image": "images/43_flip_vertical.png",
+          "inputSHA256": "4a2936b30dc1e187afc4ae6396f4064f56a6c546f918e51ac48eb6efd8cd7102",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.37462863326072693,
+                "region": [
+                  0.09541275978088379,
+                  0.043795018196105956,
+                  0.8995054626464843,
+                  0.9480363464355469
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.37462863326072693,
+              "region": [
+                0.09541275978088379,
+                0.043795018196105956,
+                0.8995054626464843,
+                0.9480363464355469
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.37462863326072693,
+              "region": [
+                0.09541275978088379,
+                0.043795018196105956,
+                0.8995054626464843,
+                0.9480363464355469
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/43_flip_vertical.png",
+          "seconds": 1.2388369000036619
+        }
+      }
+    },
+    {
+      "articleID": 49,
+      "categoryID": 3,
+      "productName": "iPad mini 7 2024 Wifi 128GB | Chính hãng Apple Việt Nam",
+      "imagePath": "data/retailer_catalog/images/f10f4d78330915607da6e886d76979cc4bc11d56220427d937c698d5093a6e6b.png",
+      "sourceSHA256": "f10f4d78330915607da6e886d76979cc4bc11d56220427d937c698d5093a6e6b",
+      "variants": {
+        "original": {
+          "image": "images/49_original.png",
+          "inputSHA256": "91be8c1bd18e75c131e412685e35b4a5dec71b5891572f9614983bb71aafe31f",
+          "roi": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.7670313119888306,
+                "region": [
+                  0.1950417709350586,
+                  0.05958768844604492,
+                  0.8099269866943359,
+                  0.9344013977050781
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.7670313119888306,
+              "region": [
+                0.1950417709350586,
+                0.05958768844604492,
+                0.8099269866943359,
+                0.9344013977050781
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.7670313119888306,
+              "region": [
+                0.1950417709350586,
+                0.05958768844604492,
+                0.8099269866943359,
+                0.9344013977050781
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/49_original.png",
+          "seconds": 1.2153183999980683
+        },
+        "rotate90cw": {
+          "image": "images/49_rotate90cw.png",
+          "inputSHA256": "4eea00a8b88abdef70fe4173264031a2f4debdb7a206880f1be1bef55f6cd860",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.47978395223617554,
+                "region": [
+                  0.05573117733001709,
+                  0.18983768463134765,
+                  0.9503913879394531,
+                  0.8037767028808593
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.47978395223617554,
+              "region": [
+                0.05573117733001709,
+                0.18983768463134765,
+                0.9503913879394531,
+                0.8037767028808593
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.47978395223617554,
+              "region": [
+                0.05573117733001709,
+                0.18983768463134765,
+                0.9503913879394531,
+                0.8037767028808593
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/49_rotate90cw.png",
+          "seconds": 1.2217615000045043
+        },
+        "rotate180": {
+          "image": "images/49_rotate180.png",
+          "inputSHA256": "d537bc8d6ac8da75b5d394f05b53fcb24cec4662994f7d3ea408d900f6d49cb8",
+          "roi": [
+            0.020000000000000018,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.744016706943512,
+                "region": [
+                  0.19588937759399414,
+                  0.060071616172790526,
+                  0.8108312225341797,
+                  0.9359584808349609
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.744016706943512,
+              "region": [
+                0.19588937759399414,
+                0.060071616172790526,
+                0.8108312225341797,
+                0.9359584808349609
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.744016706943512,
+              "region": [
+                0.19588937759399414,
+                0.060071616172790526,
+                0.8108312225341797,
+                0.9359584808349609
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/49_rotate180.png",
+          "seconds": 1.2832980000021053
+        },
+        "rotate270cw": {
+          "image": "images/49_rotate270cw.png",
+          "inputSHA256": "9df3a1974a46982e7a3890943a1a6450251307a83621771086616a01e3633a73",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.46587249636650085,
+                "region": [
+                  0.0539388370513916,
+                  0.1920415687561035,
+                  0.9476657104492188,
+                  0.8077494049072266
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.46587249636650085,
+              "region": [
+                0.0539388370513916,
+                0.1920415687561035,
+                0.9476657104492188,
+                0.8077494049072266
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.46587249636650085,
+              "region": [
+                0.0539388370513916,
+                0.1920415687561035,
+                0.9476657104492188,
+                0.8077494049072266
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/49_rotate270cw.png",
+          "seconds": 1.2112860999986879
+        },
+        "flip_horizontal": {
+          "image": "images/49_flip_horizontal.png",
+          "inputSHA256": "55a3268604270616bbcd2b4c9005f030eca43706e1199c7de3202ac9b3a43fd9",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.7706273794174194,
+                "region": [
+                  0.1951662254333496,
+                  0.05983129024505615,
+                  0.810716781616211,
+                  0.9346077728271485
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.7706273794174194,
+              "region": [
+                0.1951662254333496,
+                0.05983129024505615,
+                0.810716781616211,
+                0.9346077728271485
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.7706273794174194,
+              "region": [
+                0.1951662254333496,
+                0.05983129024505615,
+                0.810716781616211,
+                0.9346077728271485
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/49_flip_horizontal.png",
+          "seconds": 1.2138581000035629
+        },
+        "flip_vertical": {
+          "image": "images/49_flip_vertical.png",
+          "inputSHA256": "6be5d2e9995047f86b5a2562703f6822b5067523d47d25df8407a559e2f37c34",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.7312195301055908,
+                "region": [
+                  0.1948789596557617,
+                  0.06022662162780762,
+                  0.8110845184326172,
+                  0.9355971527099609
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.7312195301055908,
+              "region": [
+                0.1948789596557617,
+                0.06022662162780762,
+                0.8110845184326172,
+                0.9355971527099609
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.7312195301055908,
+              "region": [
+                0.1948789596557617,
+                0.06022662162780762,
+                0.8110845184326172,
+                0.9355971527099609
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/49_flip_vertical.png",
+          "seconds": 1.2315127000038046
+        }
+      }
+    },
+    {
+      "articleID": 50,
+      "categoryID": 3,
+      "productName": "Lenovo Legion Tab Gen 5 12GB 256GB",
+      "imagePath": "data/retailer_catalog/images/589c40b6c5909750100c61019b5dc1795eab721fa24b84b24db83f2fc64f0ea8.jpg",
+      "sourceSHA256": "589c40b6c5909750100c61019b5dc1795eab721fa24b84b24db83f2fc64f0ea8",
+      "variants": {
+        "original": {
+          "image": "images/50_original.png",
+          "inputSHA256": "de026b6d7e15550e281a852a1a0e88b42c491dc7a0e901d66e41806ad0761130",
+          "roi": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.31040728092193604,
+                "region": [
+                  0.12990310668945312,
+                  0.029793949127197267,
+                  0.8786029815673828,
+                  0.9569699859619141
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.31040728092193604,
+              "region": [
+                0.12990310668945312,
+                0.029793949127197267,
+                0.8786029815673828,
+                0.9569699859619141
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.31040728092193604,
+              "region": [
+                0.12990310668945312,
+                0.029793949127197267,
+                0.8786029815673828,
+                0.9569699859619141
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/50_original.png",
+          "seconds": 1.2428014000033727
+        },
+        "rotate90cw": {
+          "image": "images/50_rotate90cw.png",
+          "inputSHA256": "e60e41fe903896010633ebd41a6d51da1cabba9d54164495f3b21abc2f03fae8",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a tablet computer",
+                "categoryID": 3,
+                "score": 0.2791880667209625,
+                "region": [
+                  0.024696826934814453,
+                  0.13889184951782227,
+                  0.9734717559814453,
+                  0.8707940673828125
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.2791880667209625,
+              "region": [
+                0.024696826934814453,
+                0.13889184951782227,
+                0.9734717559814453,
+                0.8707940673828125
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.2791880667209625,
+              "region": [
+                0.024696826934814453,
+                0.13889184951782227,
+                0.9734717559814453,
+                0.8707940673828125
+              ]
+            },
+            "predictedCategoryID": 3,
+            "isPhone": false,
+            "isCorrect": true,
+            "anyPhoneProductBox": false,
+            "anyCorrectProductBox": true,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.2791880667209625,
+            "region": [
+              0.024696826934814453,
+              0.13889184951782227,
+              0.9734717559814453,
+              0.8707940673828125
+            ],
+            "index": 1
+          },
+          "correctBoxCount": 1,
+          "correctLabelAnywhere": true,
+          "boxCount": 1,
+          "overlay": "boxes/50_rotate90cw.png",
+          "seconds": 1.2428959000026225
+        },
+        "rotate180": {
+          "image": "images/50_rotate180.png",
+          "inputSHA256": "eb63a5e6ac82cea803c604dad23f1fb93e2c0482840d62303d86fc9cbd456894",
+          "roi": [
+            0.020000000000000018,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.3111779987812042,
+                "region": [
+                  0.12343338012695312,
+                  0.027427494525909424,
+                  0.8662176513671875,
+                  0.9610455322265625
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.3111779987812042,
+              "region": [
+                0.12343338012695312,
+                0.027427494525909424,
+                0.8662176513671875,
+                0.9610455322265625
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.3111779987812042,
+              "region": [
+                0.12343338012695312,
+                0.027427494525909424,
+                0.8662176513671875,
+                0.9610455322265625
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/50_rotate180.png",
+          "seconds": 1.26088410000375
+        },
+        "rotate270cw": {
+          "image": "images/50_rotate270cw.png",
+          "inputSHA256": "1ede13a0e3014341efefc03baed0f9d68b06b4356c95effdc8050df303f96791",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a tablet computer",
+                "categoryID": 3,
+                "score": 0.3809947669506073,
+                "region": [
+                  0.027420668601989745,
+                  0.12353965759277344,
+                  0.9682131958007812,
+                  0.8609400939941406
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.3809947669506073,
+              "region": [
+                0.027420668601989745,
+                0.12353965759277344,
+                0.9682131958007812,
+                0.8609400939941406
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.3809947669506073,
+              "region": [
+                0.027420668601989745,
+                0.12353965759277344,
+                0.9682131958007812,
+                0.8609400939941406
+              ]
+            },
+            "predictedCategoryID": 3,
+            "isPhone": false,
+            "isCorrect": true,
+            "anyPhoneProductBox": false,
+            "anyCorrectProductBox": true,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.3809947669506073,
+            "region": [
+              0.027420668601989745,
+              0.12353965759277344,
+              0.9682131958007812,
+              0.8609400939941406
+            ],
+            "index": 1
+          },
+          "correctBoxCount": 1,
+          "correctLabelAnywhere": true,
+          "boxCount": 1,
+          "overlay": "boxes/50_rotate270cw.png",
+          "seconds": 1.2283282999997027
+        },
+        "flip_horizontal": {
+          "image": "images/50_flip_horizontal.png",
+          "inputSHA256": "72ed6a480cd425b6f44b7a948b22fd17b963166f12b6c232bc158bf2a39e5db5",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.28880131244659424,
+                "region": [
+                  0.12567845344543457,
+                  0.0295318078994751,
+                  0.8667530822753906,
+                  0.9596822357177734
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.28880131244659424,
+              "region": [
+                0.12567845344543457,
+                0.0295318078994751,
+                0.8667530822753906,
+                0.9596822357177734
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.28880131244659424,
+              "region": [
+                0.12567845344543457,
+                0.0295318078994751,
+                0.8667530822753906,
+                0.9596822357177734
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/50_flip_horizontal.png",
+          "seconds": 1.2601777999952901
+        },
+        "flip_vertical": {
+          "image": "images/50_flip_vertical.png",
+          "inputSHA256": "36404d5cd1abe8413b6760b1996c5b401e6f5435fc08a40fdf1c9ce96327d77a",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.3017345666885376,
+                "region": [
+                  0.13134821891784668,
+                  0.02801603078842163,
+                  0.8814853668212891,
+                  0.9592453765869141
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.3017345666885376,
+              "region": [
+                0.13134821891784668,
+                0.02801603078842163,
+                0.8814853668212891,
+                0.9592453765869141
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.3017345666885376,
+              "region": [
+                0.13134821891784668,
+                0.02801603078842163,
+                0.8814853668212891,
+                0.9592453765869141
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/50_flip_vertical.png",
+          "seconds": 1.2494237999999314
+        }
+      }
+    },
+    {
+      "articleID": 57,
+      "categoryID": 3,
+      "productName": "iPad Pro chip M5 11 inch Wifi 256GB | Chính hãng Apple Việt Nam",
+      "imagePath": "data/retailer_catalog/images/ef71b9c4f9b07b0ab369029b41cb57de524475322a6dbdadad20954764f49006.jpg",
+      "sourceSHA256": "ef71b9c4f9b07b0ab369029b41cb57de524475322a6dbdadad20954764f49006",
+      "variants": {
+        "original": {
+          "image": "images/57_original.png",
+          "inputSHA256": "d07af4b7d608421bac50d2cce59d6886303a6843942f023b35f645f626811fc4",
+          "roi": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.5384320616722107,
+                "region": [
+                  0.09947172164916993,
+                  0.040427207946777344,
+                  0.9039102935791016,
+                  0.9436371612548828
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.5384320616722107,
+              "region": [
+                0.09947172164916993,
+                0.040427207946777344,
+                0.9039102935791016,
+                0.9436371612548828
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.5384320616722107,
+              "region": [
+                0.09947172164916993,
+                0.040427207946777344,
+                0.9039102935791016,
+                0.9436371612548828
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/57_original.png",
+          "seconds": 1.225701700001082
+        },
+        "rotate90cw": {
+          "image": "images/57_rotate90cw.png",
+          "inputSHA256": "0575b55412cda81646aed95d60be76d8ee6793d435feabf657669da11ffdf09f",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.36102041602134705,
+                "region": [
+                  0.040278167724609376,
+                  0.11036163330078125,
+                  0.9606244659423828,
+                  0.8986921691894532
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.36102041602134705,
+              "region": [
+                0.040278167724609376,
+                0.11036163330078125,
+                0.9606244659423828,
+                0.8986921691894532
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.36102041602134705,
+              "region": [
+                0.040278167724609376,
+                0.11036163330078125,
+                0.9606244659423828,
+                0.8986921691894532
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/57_rotate90cw.png",
+          "seconds": 1.228859700000612
+        },
+        "rotate180": {
+          "image": "images/57_rotate180.png",
+          "inputSHA256": "55407e8b4c0471e4841e26970138cdd6efa2a6f5f65e206d8018be11814a2464",
+          "roi": [
+            0.020000000000000018,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.42979711294174194,
+                "region": [
+                  0.0958675479888916,
+                  0.0490507173538208,
+                  0.8895365142822266,
+                  0.9479353332519531
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.42979711294174194,
+              "region": [
+                0.0958675479888916,
+                0.0490507173538208,
+                0.8895365142822266,
+                0.9479353332519531
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.42979711294174194,
+              "region": [
+                0.0958675479888916,
+                0.0490507173538208,
+                0.8895365142822266,
+                0.9479353332519531
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/57_rotate180.png",
+          "seconds": 1.2391726999994717
+        },
+        "rotate270cw": {
+          "image": "images/57_rotate270cw.png",
+          "inputSHA256": "24627752e23b09f2f9297ffd5a2d14aac5e91c38c46a864c73f7dbb71c15eb0d",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a tablet computer",
+                "categoryID": 3,
+                "score": 0.32450371980667114,
+                "region": [
+                  0.04286795616149902,
+                  0.10255876541137696,
+                  0.9548834228515625,
+                  0.8903956604003906
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.32450371980667114,
+              "region": [
+                0.04286795616149902,
+                0.10255876541137696,
+                0.9548834228515625,
+                0.8903956604003906
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.32450371980667114,
+              "region": [
+                0.04286795616149902,
+                0.10255876541137696,
+                0.9548834228515625,
+                0.8903956604003906
+              ]
+            },
+            "predictedCategoryID": 3,
+            "isPhone": false,
+            "isCorrect": true,
+            "anyPhoneProductBox": false,
+            "anyCorrectProductBox": true,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.32450371980667114,
+            "region": [
+              0.04286795616149902,
+              0.10255876541137696,
+              0.9548834228515625,
+              0.8903956604003906
+            ],
+            "index": 1
+          },
+          "correctBoxCount": 1,
+          "correctLabelAnywhere": true,
+          "boxCount": 1,
+          "overlay": "boxes/57_rotate270cw.png",
+          "seconds": 1.260571800004982
+        },
+        "flip_horizontal": {
+          "image": "images/57_flip_horizontal.png",
+          "inputSHA256": "ee48ae6097deb84eb988e569a9ecbb43b9a5ef2ef3557dd790de0fb45429b08b",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.4285946190357208,
+                "region": [
+                  0.09632598876953125,
+                  0.040184645652770995,
+                  0.8939871978759766,
+                  0.9441689300537109
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4285946190357208,
+              "region": [
+                0.09632598876953125,
+                0.040184645652770995,
+                0.8939871978759766,
+                0.9441689300537109
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4285946190357208,
+              "region": [
+                0.09632598876953125,
+                0.040184645652770995,
+                0.8939871978759766,
+                0.9441689300537109
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/57_flip_horizontal.png",
+          "seconds": 1.233041499996034
+        },
+        "flip_vertical": {
+          "image": "images/57_flip_vertical.png",
+          "inputSHA256": "3d325294f5a320ae991442eaa54cc97bcfcc3f218cd86a7fed41935eb7961245",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.48776257038116455,
+                "region": [
+                  0.10122513771057129,
+                  0.046025543212890624,
+                  0.9038359069824219,
+                  0.9467619323730468
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.48776257038116455,
+              "region": [
+                0.10122513771057129,
+                0.046025543212890624,
+                0.9038359069824219,
+                0.9467619323730468
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.48776257038116455,
+              "region": [
+                0.10122513771057129,
+                0.046025543212890624,
+                0.9038359069824219,
+                0.9467619323730468
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/57_flip_vertical.png",
+          "seconds": 1.2423271000006935
+        }
+      }
+    },
+    {
+      "articleID": 58,
+      "categoryID": 3,
+      "productName": "Xiaomi Redmi Pad 2 9.7 inch Wifi 4GB 64GB",
+      "imagePath": "data/retailer_catalog/images/6b90caf955e70fdf6c187eb3137fdda8ed4c1dd999d0e9acf50fd7367da7b1f6.jpg",
+      "sourceSHA256": "6b90caf955e70fdf6c187eb3137fdda8ed4c1dd999d0e9acf50fd7367da7b1f6",
+      "variants": {
+        "original": {
+          "image": "images/58_original.png",
+          "inputSHA256": "110ebc3a2f55c01f7197ab59d34ea9e4ca7c73728712f6147fa2d362f1943017",
+          "roi": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.4434533417224884,
+                "region": [
+                  0.10149833679199219,
+                  0.02614882469177246,
+                  0.8973886108398438,
+                  0.9499019622802735
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4434533417224884,
+              "region": [
+                0.10149833679199219,
+                0.02614882469177246,
+                0.8973886108398438,
+                0.9499019622802735
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4434533417224884,
+              "region": [
+                0.10149833679199219,
+                0.02614882469177246,
+                0.8973886108398438,
+                0.9499019622802735
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/58_original.png",
+          "seconds": 1.2503120999972452
+        },
+        "rotate90cw": {
+          "image": "images/58_rotate90cw.png",
+          "inputSHA256": "a40d6f65edd027337719514e4e5bc3d90364d1c705be565d708191d29920194d",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.30542150139808655,
+                "region": [
+                  0.029009790420532228,
+                  0.10792091369628906,
+                  0.9762484741210937,
+                  0.89333740234375
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.30542150139808655,
+              "region": [
+                0.029009790420532228,
+                0.10792091369628906,
+                0.9762484741210937,
+                0.89333740234375
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.30542150139808655,
+              "region": [
+                0.029009790420532228,
+                0.10792091369628906,
+                0.9762484741210937,
+                0.89333740234375
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/58_rotate90cw.png",
+          "seconds": 1.250970100001723
+        },
+        "rotate180": {
+          "image": "images/58_rotate180.png",
+          "inputSHA256": "3605c3325c7a263162a4cfd228c99d222efa92a5343427cd8088771f7f5874cc",
+          "roi": [
+            0.020000000000000018,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.3778294622898102,
+                "region": [
+                  0.10459545135498047,
+                  0.03139364719390869,
+                  0.8909390258789063,
+                  0.9556166076660156
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.3778294622898102,
+              "region": [
+                0.10459545135498047,
+                0.03139364719390869,
+                0.8909390258789063,
+                0.9556166076660156
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.3778294622898102,
+              "region": [
+                0.10459545135498047,
+                0.03139364719390869,
+                0.8909390258789063,
+                0.9556166076660156
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/58_rotate180.png",
+          "seconds": 1.248978800002078
+        },
+        "rotate270cw": {
+          "image": "images/58_rotate270cw.png",
+          "inputSHA256": "2b8b4e81dd9335487465fdcc897cbbc257f8a276e0186688778c0e38fc3b3d8d",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a tablet computer",
+                "categoryID": 3,
+                "score": 0.39507028460502625,
+                "region": [
+                  0.031960904598236084,
+                  0.10376498222351074,
+                  0.9700013732910157,
+                  0.8903880310058594
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.39507028460502625,
+              "region": [
+                0.031960904598236084,
+                0.10376498222351074,
+                0.9700013732910157,
+                0.8903880310058594
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a tablet computer",
+              "categoryID": 3,
+              "score": 0.39507028460502625,
+              "region": [
+                0.031960904598236084,
+                0.10376498222351074,
+                0.9700013732910157,
+                0.8903880310058594
+              ]
+            },
+            "predictedCategoryID": 3,
+            "isPhone": false,
+            "isCorrect": true,
+            "anyPhoneProductBox": false,
+            "anyCorrectProductBox": true,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": {
+            "label": "a tablet computer",
+            "categoryID": 3,
+            "score": 0.39507028460502625,
+            "region": [
+              0.031960904598236084,
+              0.10376498222351074,
+              0.9700013732910157,
+              0.8903880310058594
+            ],
+            "index": 1
+          },
+          "correctBoxCount": 1,
+          "correctLabelAnywhere": true,
+          "boxCount": 1,
+          "overlay": "boxes/58_rotate270cw.png",
+          "seconds": 1.2635826999976416
+        },
+        "flip_horizontal": {
+          "image": "images/58_flip_horizontal.png",
+          "inputSHA256": "f989a054b515b0a02141027a572295bd0e0973826055a6c1bd2919e660290024",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.4364635646343231,
+                "region": [
+                  0.10244366645812988,
+                  0.03187429904937744,
+                  0.8882236480712891,
+                  0.9543962097167968
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4364635646343231,
+              "region": [
+                0.10244366645812988,
+                0.03187429904937744,
+                0.8882236480712891,
+                0.9543962097167968
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4364635646343231,
+              "region": [
+                0.10244366645812988,
+                0.03187429904937744,
+                0.8882236480712891,
+                0.9543962097167968
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/58_flip_horizontal.png",
+          "seconds": 1.2501240999990841
+        },
+        "flip_vertical": {
+          "image": "images/58_flip_vertical.png",
+          "inputSHA256": "75ec9b66fe1a950ec4b16df676d649913036091a064246c983f66bbb762e332d",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.4060730040073395,
+                "region": [
+                  0.10249927520751953,
+                  0.027896432876586913,
+                  0.8975313568115234,
+                  0.955705795288086
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4060730040073395,
+              "region": [
+                0.10249927520751953,
+                0.027896432876586913,
+                0.8975313568115234,
+                0.955705795288086
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.4060730040073395,
+              "region": [
+                0.10249927520751953,
+                0.027896432876586913,
+                0.8975313568115234,
+                0.955705795288086
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 1
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 1,
+          "overlay": "boxes/58_flip_vertical.png",
+          "seconds": 1.2528947000027983
+        }
+      }
+    },
+    {
+      "articleID": 95,
+      "categoryID": 5,
+      "productName": "Apple Watch SE 3 GPS 40mm Viền nhôm dây cao su",
+      "imagePath": "data/retailer_catalog/images/12a5323f17de84e77d611b6df92c6c2690bda3a2312ce09afb4241d07b431587.png",
+      "sourceSHA256": "12a5323f17de84e77d611b6df92c6c2690bda3a2312ce09afb4241d07b431587",
+      "variants": {
+        "original": {
+          "image": "images/95_original.png",
+          "inputSHA256": "2ae581d9fbfb50b1ae7051aed9b91caa02145f70c551911ec341fbe25952fa9c",
+          "roi": [
+            0.02,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "headphones",
+                "categoryID": 4,
+                "score": 0.3759794235229492,
+                "region": [
+                  0.10428494453430176,
+                  0.02905869483947754,
+                  0.8731429290771484,
+                  0.9717588806152344
+                ]
+              },
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.365347295999527,
+                "region": [
+                  0.09644256591796875,
+                  0.2129311180114746,
+                  0.47495418548583984,
+                  0.7786433410644531
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "headphones",
+              "categoryID": 4,
+              "score": 0.3759794235229492,
+              "region": [
+                0.10428494453430176,
+                0.02905869483947754,
+                0.8731429290771484,
+                0.9717588806152344
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "headphones",
+              "categoryID": 4,
+              "score": 0.3759794235229492,
+              "region": [
+                0.10428494453430176,
+                0.02905869483947754,
+                0.8731429290771484,
+                0.9717588806152344
+              ]
+            },
+            "predictedCategoryID": 4,
+            "isPhone": false,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 2
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 2,
+          "overlay": "boxes/95_original.png",
+          "seconds": 1.3299046000029193
+        },
+        "rotate90cw": {
+          "image": "images/95_rotate90cw.png",
+          "inputSHA256": "2c7354c5d024134e3185915e0f36ba30358e5f21f9517c1ec873808c6de7514b",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.2442520558834076,
+                "region": [
+                  0.2124117660522461,
+                  0.09779791831970215,
+                  0.7526324462890625,
+                  0.47425567626953125
+                ]
+              },
+              {
+                "label": "a smartwatch",
+                "categoryID": 5,
+                "score": 0.22257375717163086,
+                "region": [
+                  0.028084425926208495,
+                  0.10644304275512695,
+                  0.9607094573974609,
+                  0.8633992004394532
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.2442520558834076,
+              "region": [
+                0.2124117660522461,
+                0.09779791831970215,
+                0.7526324462890625,
+                0.47425567626953125
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.2442520558834076,
+              "region": [
+                0.2124117660522461,
+                0.09779791831970215,
+                0.7526324462890625,
+                0.47425567626953125
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": true,
+            "missed": false,
+            "retainedProductBoxes": 2
+          },
+          "bestCorrect": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.22257375717163086,
+            "region": [
+              0.028084425926208495,
+              0.10644304275512695,
+              0.9607094573974609,
+              0.8633992004394532
+            ],
+            "index": 2
+          },
+          "correctBoxCount": 1,
+          "correctLabelAnywhere": true,
+          "boxCount": 2,
+          "overlay": "boxes/95_rotate90cw.png",
+          "seconds": 1.3042100000020582
+        },
+        "rotate180": {
+          "image": "images/95_rotate180.png",
+          "inputSHA256": "f599fbc7d196f5fb493251d2a57bf588f3e3816ffa14242a08add460d6ff181c",
+          "roi": [
+            0.020000000000000018,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.33288565278053284,
+                "region": [
+                  0.5418719482421875,
+                  0.21733745574951172,
+                  0.9056053924560546,
+                  0.7636943817138672
+                ]
+              },
+              {
+                "label": "headphones",
+                "categoryID": 4,
+                "score": 0.3028622269630432,
+                "region": [
+                  0.10083455085754395,
+                  0.024792938232421874,
+                  0.8486515045166015,
+                  0.9786997985839844
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.33288565278053284,
+              "region": [
+                0.5418719482421875,
+                0.21733745574951172,
+                0.9056053924560546,
+                0.7636943817138672
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.33288565278053284,
+              "region": [
+                0.5418719482421875,
+                0.21733745574951172,
+                0.9056053924560546,
+                0.7636943817138672
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 2
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 2,
+          "overlay": "boxes/95_rotate180.png",
+          "seconds": 1.3233359000005294
+        },
+        "rotate270cw": {
+          "image": "images/95_rotate270cw.png",
+          "inputSHA256": "975fa3ed2a7b1e1f52deba3e7a1fbdf20846061fcab6603ae4e506b59b7943f9",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a smartwatch",
+                "categoryID": 5,
+                "score": 0.36761459708213806,
+                "region": [
+                  0.02720191955566406,
+                  0.09709346771240235,
+                  0.9004683685302735,
+                  0.8772371673583984
+                ]
+              },
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.23089392483234406,
+                "region": [
+                  0.20144990921020509,
+                  0.48958080291748046,
+                  0.6856884002685547,
+                  0.9174943542480469
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a smartwatch",
+              "categoryID": 5,
+              "score": 0.36761459708213806,
+              "region": [
+                0.02720191955566406,
+                0.09709346771240235,
+                0.9004683685302735,
+                0.8772371673583984
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a smartwatch",
+              "categoryID": 5,
+              "score": 0.36761459708213806,
+              "region": [
+                0.02720191955566406,
+                0.09709346771240235,
+                0.9004683685302735,
+                0.8772371673583984
+              ]
+            },
+            "predictedCategoryID": 5,
+            "isPhone": false,
+            "isCorrect": true,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": true,
+            "missed": false,
+            "retainedProductBoxes": 2
+          },
+          "bestCorrect": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.36761459708213806,
+            "region": [
+              0.02720191955566406,
+              0.09709346771240235,
+              0.9004683685302735,
+              0.8772371673583984
+            ],
+            "index": 1
+          },
+          "correctBoxCount": 1,
+          "correctLabelAnywhere": true,
+          "boxCount": 2,
+          "overlay": "boxes/95_rotate270cw.png",
+          "seconds": 1.3933628000013414
+        },
+        "flip_horizontal": {
+          "image": "images/95_flip_horizontal.png",
+          "inputSHA256": "10a3043545ba13c80857fd484841b906753c139b6d3d7e2e249a4efb214960d5",
+          "roi": [
+            0.020000000000000018,
+            0.02,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "headphones",
+                "categoryID": 4,
+                "score": 0.34860554337501526,
+                "region": [
+                  0.10363197326660156,
+                  0.025829644203186036,
+                  0.8624749755859376,
+                  0.9741219329833984
+                ]
+              },
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.3251585364341736,
+                "region": [
+                  0.5368945693969727,
+                  0.22090456008911133,
+                  0.9041018676757813,
+                  0.7684599304199219
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "headphones",
+              "categoryID": 4,
+              "score": 0.34860554337501526,
+              "region": [
+                0.10363197326660156,
+                0.025829644203186036,
+                0.8624749755859376,
+                0.9741219329833984
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "headphones",
+              "categoryID": 4,
+              "score": 0.34860554337501526,
+              "region": [
+                0.10363197326660156,
+                0.025829644203186036,
+                0.8624749755859376,
+                0.9741219329833984
+              ]
+            },
+            "predictedCategoryID": 4,
+            "isPhone": false,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": false,
+            "missed": false,
+            "retainedProductBoxes": 2
+          },
+          "bestCorrect": null,
+          "correctBoxCount": 0,
+          "correctLabelAnywhere": false,
+          "boxCount": 2,
+          "overlay": "boxes/95_flip_horizontal.png",
+          "seconds": 1.6484525999985635
+        },
+        "flip_vertical": {
+          "image": "images/95_flip_vertical.png",
+          "inputSHA256": "8967a93eaaf992e2dd868952881a47a6d5ff9a4fd892f8dc93b57aa049393669",
+          "roi": [
+            0.02,
+            0.020000000000000018,
+            0.98,
+            0.98
+          ],
+          "status": "completed",
+          "rawResponse": {
+            "regions": [
+              {
+                "label": "a mobile phone",
+                "categoryID": 1,
+                "score": 0.40158388018608093,
+                "region": [
+                  0.09600581169128418,
+                  0.21737598419189452,
+                  0.47414623260498046,
+                  0.7920689392089844
+                ]
+              },
+              {
+                "label": "a smartwatch",
+                "categoryID": 5,
+                "score": 0.3179432451725006,
+                "region": [
+                  0.1014384651184082,
+                  0.03432509422302246,
+                  0.8855599212646484,
+                  0.9843820190429687
+                ]
+              }
+            ],
+            "fallback": false
+          },
+          "assessment": {
+            "strongestProductDetection": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.40158388018608093,
+              "region": [
+                0.09600581169128418,
+                0.21737598419189452,
+                0.47414623260498046,
+                0.7920689392089844
+              ],
+              "index": 1
+            },
+            "strongestAnywhere": {
+              "label": "a mobile phone",
+              "categoryID": 1,
+              "score": 0.40158388018608093,
+              "region": [
+                0.09600581169128418,
+                0.21737598419189452,
+                0.47414623260498046,
+                0.7920689392089844
+              ]
+            },
+            "predictedCategoryID": 1,
+            "isPhone": true,
+            "isCorrect": false,
+            "anyPhoneProductBox": true,
+            "anyCorrectProductBox": true,
+            "missed": false,
+            "retainedProductBoxes": 2
+          },
+          "bestCorrect": {
+            "label": "a smartwatch",
+            "categoryID": 5,
+            "score": 0.3179432451725006,
+            "region": [
+              0.1014384651184082,
+              0.03432509422302246,
+              0.8855599212646484,
+              0.9843820190429687
+            ],
+            "index": 2
+          },
+          "correctBoxCount": 1,
+          "correctLabelAnywhere": true,
+          "boxCount": 2,
+          "overlay": "boxes/95_flip_vertical.png",
+          "seconds": 1.3671006000004127
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Seven previously failed development images, not a random or held-out sample.",
+    "Six fixed views: unchanged decoded pixels, clockwise 90/180/270 degrees, horizontal and vertical reflection. PNG encoding avoids additional JPEG loss.",
+    "Product ROI is transformed together with the image and used only for assessment, never provided to the detector.",
+    "Success means at least one returned correctly labelled box in the product ROI, not exact object IoU/mAP or a correct highest-score box.",
+    "Threshold .15 and top 12 are unchanged; no NMS, per-image prompt changes or production transform aggregation.",
+    "Increased success after trying several views is measured on selected failures and does not establish overall accuracy."
+  ]
+}

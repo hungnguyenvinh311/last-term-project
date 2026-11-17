@@ -1,0 +1,4 @@
+[
+  {"caseID":"text-001","kind":"text","text":"điện thoại Samsung dưới 10 triệu","relevantArticleIDs":[],"reviewed":false},
+  {"caseID":"recommendation-001","kind":"recommendation","sourceArticleID":1,"relevantArticleIDs":[],"reviewed":false}
+]
