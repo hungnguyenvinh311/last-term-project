@@ -29,7 +29,7 @@ CREATE TABLE SearchQuery (queryId int(11) NOT NULL AUTO_INCREMENT, customerId in
 CREATE TABLE TextQuery (queryId int(11) NOT NULL, queryText text NOT NULL, PRIMARY KEY (queryId));
 CREATE TABLE VoiceQuery (queryId int(11) NOT NULL, audioReference varchar(255) NOT NULL, transcribedText text NOT NULL, PRIMARY KEY (queryId));
 CREATE TABLE ImageQuery (queryId int(11) NOT NULL, imageReference varchar(255) NOT NULL, selectedRegion varchar(255) NOT NULL, PRIMARY KEY (queryId));
-CREATE TABLE SearchResult (queryId int(11) NOT NULL, articleId int(11) NOT NULL, rank int(11) NOT NULL, score double NOT NULL, PRIMARY KEY (queryId, articleId));
+CREATE TABLE SearchResult (queryId int(11) NOT NULL, articleId int(11) NOT NULL, `rank` int(11) NOT NULL, score double NOT NULL, PRIMARY KEY (queryId, articleId));
 CREATE UNIQUE INDEX uq_Employee_employeeCode ON Employee (employeeCode);
 CREATE UNIQUE INDEX uq_Account_userId ON Account (userId);
 CREATE UNIQUE INDEX uq_Account_email ON Account (email);
@@ -43,7 +43,7 @@ CREATE UNIQUE INDEX uq_Invoice_invoiceNumber ON Invoice (invoiceNumber);
 CREATE UNIQUE INDEX uq_Shipment_orderId ON Shipment (orderId);
 CREATE UNIQUE INDEX uq_Shipment_trackingNumber ON Shipment (trackingNumber);
 CREATE UNIQUE INDEX uq_StockReceipt_receiptNumber ON StockReceipt (receiptNumber);
-CREATE UNIQUE INDEX uq_SearchResult_queryId_rank ON SearchResult (queryId, rank);
+CREATE UNIQUE INDEX uq_SearchResult_queryId_rank ON SearchResult (queryId, `rank`);
 ALTER TABLE Customer ADD CONSTRAINT fk_Customer_userId FOREIGN KEY (userId) REFERENCES `User` (userId) ON UPDATE Restrict ON DELETE Restrict;
 ALTER TABLE Employee ADD CONSTRAINT fk_Employee_userId FOREIGN KEY (userId) REFERENCES `User` (userId) ON UPDATE Restrict ON DELETE Restrict;
 ALTER TABLE MobilePhone ADD CONSTRAINT fk_MobilePhone_articleId FOREIGN KEY (articleId) REFERENCES Product (articleId) ON UPDATE Restrict ON DELETE Restrict;

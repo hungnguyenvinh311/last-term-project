@@ -27,7 +27,7 @@ class SearchQueryDAOImpl:
                 self.db.query('INSERT INTO ImageQuery(queryId,imageReference,selectedRegion) VALUES(%s,%s,%s)',
                               (queryID, query['imageReference'], json.dumps(query.get('region'), ensure_ascii=False)), c)
             for rank, product in enumerate(results, 1):
-                self.db.query('INSERT INTO SearchResult(queryId,articleId,rank,score) VALUES(%s,%s,%s,%s)',
+                self.db.query('INSERT INTO SearchResult(queryId,articleId,`rank`,score) VALUES(%s,%s,%s,%s)',
                               (queryID, product['articleID'], rank, float(product.get('score', 0))), c)
         return queryID
 
