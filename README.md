@@ -29,7 +29,7 @@ Nếu `.venv-ai` và `View\node_modules` đã có sẵn, bỏ qua bước này. 
 APP_DATABASE=electronics_ecommerce
 ```
 
-Voice search và trích xuất điều kiện bằng Gemini cần `APP_GEMINI_API_KEY` được điền riêng trong `.env.app`. Text search có thể dùng bộ phân tích theo quy tắc khi chưa cấu hình Gemini; voice search cần Gemini hoạt động. Không chép mật khẩu/API key vào README hoặc Git, và không gửi key qua chat.
+Voice search ưu tiên Gemini để phiên âm; nếu Gemini lỗi thì hệ thống dùng faster-whisper chạy cục bộ. Cài `requirements-ai.txt` để có fallback; lần đầu có thể cần Internet để tải model vào `data/model_cache/faster-whisper`. `APP_GEMINI_API_KEY` vẫn cần nếu muốn dùng Gemini cho phiên âm và trích xuất điều kiện. Text search có thể dùng bộ phân tích theo quy tắc khi Gemini không khả dụng. Không chép mật khẩu/API key vào README hoặc Git, và không gửi key qua chat.
 
 ### 3. Chuẩn bị sản phẩm (nếu schema mới chưa có dữ liệu)
 

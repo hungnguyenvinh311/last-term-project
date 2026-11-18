@@ -43,6 +43,8 @@ from Model.application.config.detector import create_detector
 from Model.application.ai.SpeechTranscriberService import SpeechTranscriberService
 from Model.application.ai.GeminiClient import GeminiClient
 from Model.application.ai.GeminiSpeechTranscriberService import GeminiSpeechTranscriberService
+from Model.application.ai.FasterWhisperTranscriberService import FasterWhisperTranscriberService
+from Model.application.ai.FallbackSpeechTranscriberService import FallbackSpeechTranscriberService
 from Model.application.ai.GeminiIntentExtractorService import GeminiIntentExtractorService
 from Model.application.context.SearchSessionService import SearchSessionService
 from Model.application.retrieval.CandidateRetriever import CandidateRetriever
@@ -69,9 +71,12 @@ def create_app(database=None,overrides=None):
     gemini=overrides.get('gemini') or GeminiClient()
     speech_provider=os.getenv('APP_TRANSCRIBE_PROVIDER','gemini').lower()
     intent_provider=os.getenv('APP_INTENT_PROVIDER','gemini').lower()
-    if speech_provider not in {'gemini','openai'} or intent_provider not in {'gemini','rules'}:
-        raise RuntimeError('Unknown AI provider; check APP_TRANSCRIBE_PROVIDER / APP_INTENT_PROVIDER')
+    speech_fallback=os.getenv('APP_TRANSCRIBE_FALLBACK','faster-whisper').lower()
+    if speech_provider not in {'gemini','openai'} or intent_provider not in {'gemini','rules'} or speech_fallback not in {'faster-whisper','none'}:
+        raise RuntimeError('Unknown AI provider; check APP_TRANSCRIBE_PROVIDER / APP_TRANSCRIBE_FALLBACK / APP_INTENT_PROVIDER')
     transcriber=overrides.get('transcriber') or (GeminiSpeechTranscriberService(gemini) if speech_provider=='gemini' else SpeechTranscriberService())
+    if not overrides.get('transcriber') and speech_fallback=='faster-whisper':
+        transcriber=FallbackSpeechTranscriberService(transcriber,FasterWhisperTranscriberService())
     intent=overrides.get('intent') or (GeminiIntentExtractorService(gemini,IntentExtractorService()) if intent_provider=='gemini' else IntentExtractorService())
     from Model.application.config.ranking import load_search_weights
     retriever=CandidateRetriever(products,embedder);ranking=SoftReranker(embedder.identity,load_search_weights())

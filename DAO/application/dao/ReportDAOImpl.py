@@ -32,6 +32,9 @@ class ReportDAOImpl:
             where.append('p.brand=%s')
             params.append(brand)
         with self.db.transaction() as c:
+            # Reconstruct opening stock by reversing every signed movement from
+            # the period start through now. A receipt in the selected period
+            # increases on-hand and Received equally, so it does not inflate Opening.
             rows = self.db.query(
                 """SELECT p.articleId AS articleID,p.productName,p.brand,p.categoryId AS categoryID,
                           cat.groupName,cat.subCategory,i.onHandQuantity,
@@ -51,7 +54,7 @@ class ReportDAOImpl:
                    FROM Product p JOIN Category cat ON cat.categoryId=p.categoryId
                    JOIN Inventory i ON i.articleId=p.articleId
                    WHERE """ + ' AND '.join(where) + ' ORDER BY cat.groupName,cat.subCategory,p.brand,p.productName',
-                (start, end, start, end, start, end, end, *params), c)
+                (start, end, start, end, start, end, start, *params), c)
             movements = self.db.query(
                 """SELECT sm.movementId AS movementID,sm.inventoryArticleId AS articleID,
                           p.productName,p.brand,cat.subCategory,sm.quantity,sm.type,sm.reason,sm.occurredAt

@@ -58,6 +58,8 @@ class ReportingService:
         movements = [m for m in movements if m['articleID'] in article_ids]
         for row in rows:
             row['brand'] = canonical_brand(row['brand'])
+            # Opening is the period-start balance; movements during the period
+            # affect Closing, never Opening.
             row['closingQuantity'] = (row['openingQuantity'] + row['receivedInPeriod']
                                       + row['adjustmentsInPeriod'] - row['dispatchedInPeriod'])
             row['currentAvailableQuantity'] = max(0, row['onHandQuantity'] - row['committedQuantity'])
@@ -66,4 +68,4 @@ class ReportingService:
                    'closingQuantity','onHandQuantity','committedQuantity','currentAvailableQuantity')}
         return dict(start=start,end=end,timezone='Asia/Ho_Chi_Minh (UTC+07:00)',
                     productCount=len(rows),totals=totals,products=rows,movements=movements,
-                    scope='Closing stock is calculated from the movement ledger for the selected period; current available quantity subtracts active holds and allocations.')
+                    scope='Opening is reconstructed from the stock movement ledger at the start of the selected period. Closing = Opening + Received - Dispatched +/- Adjustments. Available now is current physical stock less active holds and allocations.')
